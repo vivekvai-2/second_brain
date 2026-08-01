@@ -37,7 +37,8 @@ The Reserve Bank of India is the most consequential regulatory actor in the PRIS
 |FREE-AI (Framework for Responsible Ethical Enablement of AI)|August 2025|Primary P3 corpus member; fsQCA case; defines the RBI pole of Regulatory Parallelism|
 |Draft Circular on Model Risk Management in Credit|August 2024|Secondary P3 corpus; model lifecycle governance; validation independence|
 |Material Outsourcing Directions for AIFIs|November 2025|Companion instrument; material outsourcing definition for AI-as-outsourced-function|
-|IT Risk and Cybersecurity Framework|Ongoing|AI system infrastructure obligations|
+|**Cybersecurity, Technology: Risk, Resilience and Assurance Framework Directions, 2026** — [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]]|**31 July 2026**|**Repeals** prior Cybersecurity Framework + IT Governance directions for Commercial Banks. Corpus's most evidentially specified instrument (non-repudiation, NIST-sourced forensic definition, CSOC attribution requirement). **Zero AI provisions** — the intra-regulator parallelism anchor.|
+|IT Risk and Cybersecurity Framework|Superseded 31 Jul 2026 for Commercial Banks|AI system infrastructure obligations — see RBI_8|
 
 ## Institutional Logic (P3/P4 Analytical Relevance)
 

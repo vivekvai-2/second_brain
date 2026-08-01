@@ -1,16 +1,29 @@
 ---
 type: Corpus Node
-status: active
-last_updated: 2026-07-21
+status: superseded-in-part
+last_updated: 2026-08-02
 tags:
   - type/corpus-node
-  - status/active
+  - status/superseded-in-part
   - engine/phd
   - jurisdiction/india
   - institution/rbi
 ---
 
 # RBI_1 — Master Direction on Information Technology Governance, Risk, Controls and Assurance Practices (2023)
+
+> ## ⚠ SUPERSESSION NOTICE — 2026-08-02
+>
+> **This instrument has been repealed as regards Commercial Banks.** [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] (RBI/DoS/2026-27/410, 31 July 2026) para 230 repeals "the existing Directions, instructions, and guidelines relating to Cybersecurity Framework and IT Governance as applicable to Commercial Banks," per companion circular DoS.CO.PPG.66/11.01.005/2026-27 of the same date.
+>
+> **⚠ V-RBI8-1 (HIGH, blocking).** The companion circular listing the repealed instruments is **not in the vault**. Whether RBI_1 is repealed in full or in part, and its exact continuing scope, cannot be confirmed until it is obtained. **This node has therefore been flagged, not rewritten.** Its analytical content below is preserved verbatim.
+>
+> **RBI_1 remains applicable** to entities outside the Commercial Banks definition at RBI_8 para 3 — Small Finance Banks, Payments Banks, Local Area Banks, NBFCs and co-operative banks (⚠ V-RBI8-3, scope to be confirmed with V-RBI8-1).
+>
+> **Effect on existing claims:**
+> - **§15 audit trails** — superseded for Commercial Banks by RBI_8 para 95, which is materially *stronger* (adds "regulatory and legal requirements," audit sufficiency, and non-repudiation). RBI_8 para 95 replaces §15 as the canonical instance in [[05_Concepts/05_Concepts_Signature/Evidentiary_Governance]]; §15 is retained as the 2023 antecedent in the evidentiary time series.
+> - **§27(d) dual CERT-In/RBI incident reporting** — superseded for Commercial Banks by RBI_8 para 182, which hardens the M1 pattern with a six-hour clock and names the DAKSH platform. See [[06_Frameworks/Manifestation_Evidence_Layer]].
+> - **P3 null finding (0 AI-specific RUs)** — **not weakened; strengthened.** RBI_8 reproduces total AI silence in 2026, extending the null finding three years and converting it into intra-regulator parallelism. See RBI_8 §S5.1.
 
 **Type:** Corpus Node  
 **Vault path:** `07_Institutions/Corpus/RBI/RBI_1.md`  

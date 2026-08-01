@@ -46,6 +46,22 @@ India's BFSI-adjacent AI/IT governance is produced by at least four regulators (
 
 ---
 
+## Intra-Regulator Parallelism — new pattern class (2026-08-02)
+
+The matrix above codes parallelism **between** regulators. [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] (31 July 2026) requires a new row type, because it exhibits the same pattern **inside a single regulator**.
+
+| Instrument pair | Coordination Mechanism | Evidence | Pattern Type |
+|---|---|---|---|
+| **RBI_8 ↔ RBI_FREE_AI_2025 / RBI_7** | None found | RBI_8 is RBI's flagship 2026 technology-risk, resilience and assurance framework for commercial banks — 56 pages, 233 paragraphs, in force on issuance — containing **zero AI provisions** (full-text sweep: *artificial intelligence* 0, *machine learning* 0, *model risk* 0, *generative* 0, *automated decision* 0, bare token `AI` 0). RBI had already issued the FREE-AI Seven Sutras framework and the AI-explicit Digital Lending Directions. Neither track cites the other. | **Intra-regulator parallelism** — the same regulator running an AI-governance track and a technology-risk track that do not intersect. |
+
+**Why this matters for the matrix's central claim.** The existing finding is that *RBI is the silent party in every cross-regulator pairing*. RBI_8 shows the silence is not directed outward at peer regulators — it is a general property of RBI's technology-risk drafting, which stays technology-neutral even when the same institution has published AI-specific principles elsewhere. This reframes the RBI↔SEBI null-vs-explicit divergence: it is less a failure to coordinate with SEBI than an internal architectural separation between RBI's principle layer and its operative layer, of which the SEBI divergence is a downstream consequence.
+
+The separation is a choice, not an omission. RBI_8 specifies six-hour incident reporting, six-monthly VA, twelve-monthly PT, and imports a NIST-sourced forensic definition — granularity inconsistent with inadvertent silence.
+
+**M1 re-enacted and hardened.** RBI_8 para 182 restates the M1 dual-channel pattern with two additions over the RBI_1 §27(d) formulation: a **six-hour clock from detection** and a **named platform** (DAKSH). The CERT-In leg remains loosely framed ("pro-actively notify"), preserving the asymmetry already recorded — RBI specifies its own channel precisely and its peer's loosely. See [[06_Frameworks/Manifestation_Evidence_Layer]].
+
+---
+
 ## Key Tensions & Gaps
 
 The matrix shows a consistent asymmetry: **RBI is the "silent" party in every cross-regulator pairing** where it appears (vs. SEBI, vs. CERT-In-adjacent AIBOM territory, vs. MeitY) — it issues technology-neutral instruments and does not cross-reference sector peers who have gone AI-explicit, even when the underlying entities and risks substantially overlap. The sole exception is the RBI↔CERT-In incident-reporting channel, which is **mandated by regulation** (§27d), not voluntarily coordinated — meaning India's only confirmed formal cross-regulator coordination mechanism for AI/IT-adjacent governance in this matrix is a downstream *reporting obligation*, not an upstream *rule-design* collaboration. No joint circular, MOU, or formally negotiated cross-regulator AI standard appears anywhere across the six populating nodes plus MeitY_4.

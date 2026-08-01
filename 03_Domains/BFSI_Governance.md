@@ -70,6 +70,8 @@ IRDAI has increasingly emphasized data governance, digital transformation, and r
 
 A notable characteristic of the landscape is the absence of formal cross-regulator coordination mechanisms specifically addressing AI governance obligations. As a result, regulated entities frequently navigate overlapping requirements without a unified governance framework.
 
+**Update, 2026-08-02 — the coordination problem is also internal.** [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] (31 July 2026, in force on issuance) repeals and replaces RBI's Cybersecurity Framework and IT Governance directions for Commercial Banks. Across 56 pages and 233 paragraphs it contains **no AI provision of any kind**, despite RBI having already issued the FREE-AI Seven Sutras framework and the AI-explicit Digital Lending Directions. The absence of coordination therefore operates not only *between* regulators but *within* RBI, between its AI-principle track and its operative technology-risk track. For a commercial bank running AI systems, the binding technology-risk instrument is technology-neutral and the AI-specific instrument is principles-based — neither cites the other. See [[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]] §Intra-Regulator Parallelism and [[05_Concepts/05_Concepts_Signature/Governance_Debt]] §Intra-Regulator Parallelism Debt.
+
 ## **Dominant Theoretical Frames**
 
 **Enterprise Information Management (EIM):** Provides the parent theoretical lens through which mandate architecture is conceptualised as an independent source of enterprise information burden.

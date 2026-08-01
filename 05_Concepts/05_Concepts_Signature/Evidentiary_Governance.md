@@ -75,7 +75,8 @@ Per [[00_MOC/Workflow_Discipline_Protocol]] CDW-1, entry requires three distinct
 
 | # | Corpus node | Evidentiary provision (verified in node text) |
 |---|---|---|
-| 1 | [[07_Institutions/Corpus/RBI/RBI_1]] | §15 — every IT application accessing critical/sensitive information must have audit/logging capability; audit trails must **support forensic evidence and dispute resolution**. The corpus's single most explicit statement that regulatory logging exists for evidentiary, not merely supervisory, purposes. |
+| 0 | **[[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]]** | **Canonical instance (added 2026-08-02).** Para 95 — audit trails shall satisfy "regulatory and legal requirements," be sufficient "to facilitate the conduct of audits, serve as forensic evidence... and assist in dispute resolution, including for **non-repudiation** purposes." Definition 14 defines *digital forensics* as "the process used to acquire, preserve, analyse, and report on evidence using scientific methods that are demonstrably reliable, accurate, and repeatable," attributed to NIST. Para 220(5) requires CSOC capability for "clear attribution of actions including who did what, when and how, along with preservation of evidence." The most evidentially specified instrument in the corpus. |
+| 1 | [[07_Institutions/Corpus/RBI/RBI_1]] | §15 — every IT application accessing critical/sensitive information must have audit/logging capability; audit trails must **support forensic evidence and dispute resolution**. ⚠ **Superseded for Commercial Banks** by RBI_8 para 95 (31 July 2026) — retained as the 2023 antecedent in the evidentiary time series, which now runs 2023 → 2026 with strengthening language at each step. |
 | 2 | [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] | §16.6 — audit data India-resident, encrypted in transit/at rest, forensically wiped with irretrievability certification post-engagement, retained one year by default. A full custody regime for audit artefacts. |
 | 3 | [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] | Rule 6 — minimum one-year retention of logs and personal data **specifically for breach investigation**; Seventh Schedule log-retention obligation. Evidentiary purpose stated on the face of the instrument. |
 | 4 | [[07_Institutions/Corpus/International/International_22_EU_AI_Act_Conformity_Assessment_Notified_Bodies]] | Art. 33 (five-year subcontracting documentation) and Art. 47 + Annex V (ten-year machine-readable Declaration of Conformity retention). The comparative benchmark for specified artefact classes with stated horizons. |
@@ -101,6 +102,8 @@ Per [[00_MOC/Workflow_Discipline_Protocol]] CDW-1, entry requires three distinct
 The Indian corpus displays a consistent asymmetry: **evidentiary obligations are specified with far greater precision in cybersecurity instruments than in AI-specific instruments.** CERT-In's audit-policy guidelines specify custody, localisation, encryption and destruction; [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] mandates data-lifecycle governance covering retention and deletion without specifying artefact classes, formats, or horizons for AI-specific records. [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]] advances furthest at the principle level, naming "immutable audit trails" under Security by Design and "named ownership, immutable logging" under Accountability and Traceability — but as a non-binding framework it specifies no horizon and no custody regime.
 
 The result is that India's most AI-explicit instruments are its least evidentially specified, while its most evidentially specified instruments are technology-neutral. This inverts the intuitive expectation and is a directly publishable finding.
+
+**RBI_8 (31 July 2026) confirms the asymmetry at its sharpest.** The instrument that most fully specifies evidentiary obligations anywhere in the corpus — non-repudiation, NIST-sourced forensic definition, four-part attribution requirement — contains **zero** AI provisions across 56 pages (verified by full-text sweep: *artificial intelligence* 0, *machine learning* 0, *model risk* 0, *generative* 0, *automated decision* 0, bare token `AI` 0). The asymmetry is therefore not a lag that later instruments close; it is reproduced in the newest instrument available, by a regulator that had already published its own AI framework. This substantially strengthens the finding.
 
 ---
 
@@ -136,6 +139,12 @@ The *Aim* dimension is the novel coding contribution: existing ADICO application
 
 The construct originated in practitioner content drafted 2026-08-01 and was verified against external Deep Research on 2026-08-02. **One material correction was applied at intake:** the originating draft attributed a "Digital Forensics Artifact Catalog" to NIST. No such NIST publication exists. NIST's actual outputs in this space are CFTT (forensic *tool* reliability testing), CFReDS (reference test datasets), and SP 800-86 (2006, unsuperseded — a four-phase forensic *process* guide: collection, examination, analysis, reporting). The community-maintained ForensicArtifacts/Artifact Definitions repository is the nearest artefact catalogue and has no institutional relationship to NIST. **The forensics-to-AI-oversight structural analogy does not depend on the NIST attribution and survives its removal.** Any downstream content reusing this construct must not repeat the original attribution.
 
+### **Replacement NIST anchor — verified 2026-08-02**
+
+A genuine, citable NIST-to-India evidentiary transmission exists and should be used in place of the withdrawn attribution. [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] Definition 14 imports a digital-forensics definition into binding Indian banking regulation, expressly attributed to *NIST Cloud Computing Forensic Science Challenges*. This is stronger than the original claim in every respect that matters: it is an actual instrument, actually citing NIST, actually binding, actually Indian, and dated 31 July 2026.
+
+⚠ Confirm the underlying source is NISTIR 8006 before publication-track citation — RBI names the report title without a NISTIR number and says "adapted from," not "reproduced" (⚠ V-RBI8-2).
+
 ---
 
 ## **Reuse Across the Five Output Pockets**
@@ -155,7 +164,8 @@ The construct originated in practitioner content drafted 2026-08-01 and was veri
 
 ## **Instances in Corpus**
 
-- [[07_Institutions/Corpus/RBI/RBI_1]] — §15 audit trails for forensic evidence and dispute resolution (canonical instance)
+- [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] — **canonical instance**; paras 93/95/97, Definition 14, para 220(5)
+- [[07_Institutions/Corpus/RBI/RBI_1]] — §15 audit trails for forensic evidence and dispute resolution (2023 antecedent; superseded for Commercial Banks)
 - [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] — §16.6 audit-data custody regime
 - [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] — Rule 6 breach-investigation retention
 - [[07_Institutions/Corpus/International/International_22_EU_AI_Act_Conformity_Assessment_Notified_Bodies]] — Arts. 33, 47 + Annex V retention horizons
@@ -167,6 +177,7 @@ The construct originated in practitioner content drafted 2026-08-01 and was veri
 ## **Log**
 
 - 2026-08-02: Concept created at candidate class. Three-Instance Gate passed against four verified corpus nodes. NIST attribution error corrected at intake (see Provenance). BSA corpus-node gap flagged as blocking for OQ-EG-01. Naming collision with the existing *evidentiary debt* variant in [[05_Concepts/05_Concepts_Signature/Governance_Debt]] flagged for resolution at next indexing pass.
+- 2026-08-02 (later, ad-hoc intake): [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] intake on day of issuance materially strengthens the construct. Para 95 replaces RBI_1 §15 as canonical instance; Definition 14 supplies a verified NIST anchor replacing the withdrawn attribution; para 220(5) supplies a binding four-part reconstruction requirement; para 97 supplies the retention-abdication case. Empirical Manifestation section updated — the AI/evidentiary asymmetry is reproduced, not closed, by the newest instrument. **Gate now stands at five verified corpus nodes.**
 
 ---
 

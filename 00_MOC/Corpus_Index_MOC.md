@@ -128,6 +128,20 @@ Batch 6 sourced documents directly from the raw 187-PDF corpus at `/Users/vivek/
 
 ---
 
+## Ad-hoc intake 2026-08-02 — RBI_8 (1 node), Format A
+
+Single-node ad-hoc intake, two days after issuance. **Highest-impact intake in the corpus to date** because it repeals rather than supplements.
+
+| Node | Title | Institution | Format | Wiki Section | Tier | Key Concepts | ⚠VERIFY |
+|---|---|---|---|---|---|---|---|
+| [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] | Cybersecurity, Technology: Risk, Resilience and Assurance Framework Directions, 2026 (31 Jul 2026) | RBI | A | S2 | A | [[Evidentiary_Governance]], [[Retention_Horizon_Divergence]], [[Regulatory_Parallelism]], [[Governance_Debt]], [[Institutional_Coherence]], [[Accountability]] | 5 open (V-RBI8-1 HIGH blocking) |
+
+**Why this node matters disproportionately.** (1) It **repeals** the Cybersecurity Framework and IT Governance directions for Commercial Banks (para 230), making [[07_Institutions/Corpus/RBI/RBI_1]] superseded-in-part — flagged, not rewritten, pending the companion circular DoS.CO.PPG.66/11.01.005/2026-27 which is **not in the vault** (⚠ V-RBI8-1, blocking). (2) Para 95 becomes the canonical instance of [[Evidentiary_Governance]], adding non-repudiation language absent from RBI_1 §15. (3) Definition 14 imports a NIST digital-forensics definition into binding Indian regulation — the corpus's first verified NIST-to-India evidentiary transmission. (4) **Zero AI provisions in 56 pages** (six-term full-text sweep, all zero) establishes intra-regulator parallelism as a new pattern class. (5) Para 97 mandates evidentiary sufficiency without any retention period — the abdication variant of [[Retention_Horizon_Divergence]].
+
+**Numbering state:** next RBI ID = RBI_9.
+
+---
+
 ## Batch 7 — Posted Policies/Regulations Selection (9 nodes), Format A/B
 
 Batch 7 sourced 9 documents from `/Users/vivek/Documents/LinkedIn/Policy Dump Posted/Posted Policies/Regulations/`. Opens three new institutional tracks (IRDAI, NCAIC, CERT-In's AI-audit corpus) and the corpus's first judiciary-issued instrument (SCI_1).

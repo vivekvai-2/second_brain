@@ -91,7 +91,15 @@ MeitY
 RBI ←——— zero cross-reference ———→ SEBI
   │                                    │
   └── CERT-In (0 cross-ref)            └── CERT-In (0 cross-ref)
+
+RBI (internal, added 2026-08-02)
+  ├── AI track ......... FREE-AI Seven Sutras (2025) + Digital Lending Dirs (2025)
+  │                                ↕ zero cross-reference
+  └── Tech-risk track .. RBI_8 Cybersecurity/Tech Risk Dirs (31 Jul 2026)
+                                   └── 0 AI provisions in 56 pages
 ```
+
+**Intra-regulator parallelism (2026-08-02).** [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] shows the zero-cross-reference pattern operating *inside* RBI, not only between RBI and peer regulators. This reframes the RBI↔SEBI divergence as a downstream consequence of RBI's internal separation between its principle layer and its operative layer, rather than as an inter-agency coordination failure. See [[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]] §Intra-Regulator Parallelism.
 
 ---
 
@@ -99,7 +107,7 @@ RBI ←——— zero cross-reference ———→ SEBI
 
 | **Institution** | **Folder** | **Primary Instruments (Nodes)** | **Secondary Commentary / Strategy** | **Key Research Contribution** |
 |---|---|---|---|---|
-| RBI | `RBI/` | RBI_1, RBI_2, RBI_3, RBI_6, RBI_7 | RBI_FREE_AI_2025, RBI_5, RBI_4 | P3 core timeline; model risk & outsourcing; Digital Lending |
+| RBI | `RBI/` | RBI_1 ⚠superseded-in-part, RBI_2, RBI_3, RBI_6, RBI_7, **RBI_8** | RBI_FREE_AI_2025, RBI_5, RBI_4 | P3 core timeline; model risk & outsourcing; Digital Lending; **RBI_8 (31 Jul 2026) repeals Cyber/IT Governance for Commercial Banks — next ID RBI_9** |
 | SEBI | `SEBI/` | SEBI_9, SEBI_10, SEBI_11, SEBI_14, SEBI_15, SEBI_17 | SEBI_12, SEBI_13; ~~SEBI_16~~ (duplicate of SEBI_14, redirect stub) | P3 core timeline; capital markets AI reporting; CSCRF cyber+AI stack (SEBI_15 + SEBI_14 = complete cybersecurity + AI accountability layer) |
 | CERT-In | `CERT_In/` | CERT_1, CERT_2, CERT_4, CERT_In_1, CERT_In_2 | — | P3 security track; SBOM guidelines; SatCom security |
 | MeitY | `MeitY/` | MeitY_1, MeitY_4, MeitY_5, MeitY_6, MeitY_7 | MeitY_2, MeitY_3 | P2 DPI core; DPDP Rules; deepfake takedown; IT Intermediary Guidelines/Digital Media Ethics Code 2021 (parent instrument for MeitY_5/MeitY_6) |

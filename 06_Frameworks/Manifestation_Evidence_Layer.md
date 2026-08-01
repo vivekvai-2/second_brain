@@ -32,7 +32,7 @@ Confirmed from the two citing nodes:
 
 | Pattern | Definition | Evidence in vault |
 |---|---|---|
-| **M1** | Separate regulatory reporting channels for one event | [[07_Institutions/Corpus/RBI/RBI_1]] §27(d) — RE shall notify both CERT-In and RBI for the same cyber incident. [[07_Institutions/Corpus/RBI/RBI_2]] §17(h) — three-level chain: service provider → RE → RBI within 6 hours → RBI/CERT-In. Together these are the corpus's canonical M1 instance. |
+| **M1** | Separate regulatory reporting channels for one event | **Current (2026):** [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] para 182 — "report cyber incidents within six hours of detection on DAKSH platform... shall also pro-actively notify CERT-In." Hardens the pattern with an explicit six-hour clock and a named platform; CERT-In leg remains loosely framed, preserving the specification asymmetry. **Antecedents (2023, superseded for Commercial Banks):** [[07_Institutions/Corpus/RBI/RBI_1]] §27(d) — RE shall notify both CERT-In and RBI for the same cyber incident; [[07_Institutions/Corpus/RBI/RBI_2]] §17(h) — three-level chain: service provider → RE → RBI within 6 hours → RBI/CERT-In. The three together give M1 a **2023 → 2026 time series with hardening at each step**, which is stronger evidence than any single instance. |
 | **M2–M5** | ⚠ **Not recorded anywhere in the vault** | — |
 
 ⚠ **VERIFY / GAP.** Only M1 is defined in any vault note. The M2–M5 definitions exist, if at all, in `fsqca_SOM_V2.docx` Tables S17–S21 outside the vault. **They have not been reconstructed or inferred here.** Do not populate M2–M5 from memory or plausible guesswork — read them from the SOM and transcribe. Until then this framework supports M1 claims only.
@@ -51,7 +51,7 @@ Confirmed from the two citing nodes:
 
 ## Linked Corpus Nodes
 
-[[07_Institutions/Corpus/RBI/RBI_1]] | [[07_Institutions/Corpus/RBI/RBI_2]]
+[[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] (current M1 instance) | [[07_Institutions/Corpus/RBI/RBI_1]] | [[07_Institutions/Corpus/RBI/RBI_2]]
 
 ## Linked Frameworks
 

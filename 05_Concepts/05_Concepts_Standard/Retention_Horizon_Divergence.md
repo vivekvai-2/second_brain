@@ -61,6 +61,14 @@ Every figure below was read directly from the cited vault node on 2026-08-02. Fi
 
 **Spread: 1 to 10 years across six record classes, four issuing authorities, two jurisdictions — with no instrument citing any other instrument's period.**
 
+### **The abdication variant — RBI_8, added 2026-08-02**
+
+[[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] (31 July 2026, in force on issuance) presents a distinct and arguably more consequential case. It mandates evidentiary *sufficiency* in strong terms — para 95 requires audit trails detailed enough to "serve as forensic evidence... and assist in dispute resolution, including for non-repudiation purposes" — while specifying **no retention period anywhere in 56 pages**. Para 97 delegates the question entirely: "The bank shall consult all the stakeholders before finalising the scope, frequency, and storage of log collection."
+
+This is not divergence *between* regulators but **abdication by one**. It is analytically distinct and in one respect worse: divergence at least gives the regulated entity a determinate longest-horizon default to comply with, whereas abdication paired with a strong sufficiency mandate gives it an obligation whose satisfaction cannot be assessed ex ante. A bank that destroys logs at twelve months and is later asked to prove non-repudiation over a three-year-old transaction has breached para 95 without ever having breached a stated period.
+
+**The contrast within a single regulator is stark.** RBI_8 specifies six-hour incident reporting, six-monthly vulnerability assessment, and twelve-monthly penetration testing. The same instrument, drafted to that granularity, declines to state a log-retention period. The omission is therefore a design choice, not a drafting gap.
+
 ### ⚠ VERIFY — figures held secondhand, excluded from the gate
 
 - **CERT-In Directions, 28 April 2022 — 180-day rolling log retention.** This figure appears in the vault **only** as a cross-reference inside [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]], not as a primary-source corpus node. **No CERT-In 2022 Directions node exists in the vault.** This is a material corpus gap: the 2022 Directions are the single most-cited log-retention obligation in Indian practice and their absence is conspicuous. **Action: create a CERT-In corpus node for the 28 April 2022 Directions before this figure is used in any publication-track output.**
@@ -125,6 +133,7 @@ For a BFSI entity simultaneously an SDF under DPDP, a regulated entity under RBI
 
 ## **Instances in Corpus**
 
+- [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] — **abdication variant**: para 95 sufficiency mandate, para 97 no stated period
 - [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] — §16.6, 1-year default for audit data
 - [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] — Rule 6 / Third Schedule / Seventh Schedule, 1-year and 3-year regimes
 - [[07_Institutions/Corpus/SEBI/SEBI_13_Regulatory_Sandbox_Framework_2021]] — 3 years post-exit
@@ -136,6 +145,7 @@ For a BFSI entity simultaneously an SDF under DPDP, a regulated entity under RBI
 ## **Log**
 
 - 2026-08-02: Concept created as a Governance_Debt sub-pattern. Three-Instance Gate passed against four verified corpus nodes with directly readable figures. CERT-In 2022 Directions corpus-node gap flagged as blocking for the 180-day figure. SEBI and RBI draft retention figures excluded from empirical base as non-binding and non-vault.
+- 2026-08-02 (later, ad-hoc intake): **Abdication variant added** from [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] — a binding instrument mandating evidentiary sufficiency (para 95) with no stated retention period (para 97). Extends the construct beyond inter-regulator divergence to intra-instrument sufficiency-without-horizon. Note the irony worth recording: the RBI draft Model Risk Management guidance surfaced in Deep Research proposes a **10-year** decommissioned-model retention, while RBI's binding cybersecurity Direction issued the same season states **none** — if the draft is finalised, RBI will hold both the corpus's longest stated horizon and its only outright abdication.
 
 ---
 
