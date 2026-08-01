@@ -28,6 +28,15 @@ tags:
 | RBI FREE-AI | [[RBI_Free_AI]] | RBI | Binding (sectoral) | P3 corpus; fsQCA case; Parallelism anchor | ✅ |
 | SEBI AI Circular | [[SEBI_AI_Circular]] | SEBI | Binding (sectoral) | P3 corpus; fsQCA case; Parallelism anchor | ✅ |
 
+### **Analytical Frameworks (non-instrument)**
+
+These are PRIS-internal analytical structures, not issued instruments, and are not fsQCA cases.
+
+| **Framework** | **File** | **Function** | **Status** |
+|---|---|---|---|
+| Cross-Regulator Coordination Pattern Matrix | [[Cross_Regulator_Coordination_Pattern_Matrix]] | Identifies and characterises coordination/parallelism patterns across regulator pairs | ✅ Populated 2026-07-31 |
+| Manifestation Evidence Layer | [[Manifestation_Evidence_Layer]] | P3 empirical evidence layer (SOM Tables S17–S21) substantiating coordination-pattern claims M1–M5 | 🟡 **Partial (2026-08-02)** — intent confirmed; M1 populated; **M2–M5 not recorded anywhere in vault**, must be transcribed from SOM. ⚠ Do not confuse with [[Evidentiary_Governance]] — different sense of "evidence". |
+
 ---
 
 ## **Framework Typology**

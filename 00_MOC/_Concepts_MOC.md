@@ -26,6 +26,7 @@ Original constructs developed within the PRIS research programme. Each represent
 | Governance Debt | [[Governance_Debt]] | P3, P4 | ✅ Fully populated |
 | Institutional Coherence | [[Institutional_Coherence]] | P2, P4, fsQCA | ✅ Fully populated |
 | Records-Rules Asymmetry | [[Records_Rules_Asymmetry]] | P2 (primary), P4, fsQCA | ⚠ **CANDIDATE (2026-07-14 downgrade)** — Three-Instance Gate not yet honestly passed; two originally-cited corpus nodes (UIDAI Face Auth Circular; MeitY PM-KISAN Guidelines) do not exist in vault; theoretical architecture strong; empirical grounding requires either corpus expansion or three existing-corpus instances exhibiting all four dimensions. Requires further evidence before elevation to signature class. |
+| Evidentiary Governance | [[Evidentiary_Governance]] | P4 (primary), P3, fsQCA | 🟡 **CANDIDATE (created 2026-08-02)** — Three-Instance Gate **passed** against four verified corpus nodes (RBI_1 §15; CERT_In_1 §16.6; MeitY_4 Rule 6; International_22 Arts. 33/47). Elevation to signature class pending P4 execution. ⚠ Blocking gap: no Bharatiya Sakshya Adhiniyam corpus node exists — required before OQ-EG-01 is used in publication-track output. Not to be confused with [[Manifestation_Evidence_Layer]]. |
 
 ---
 
@@ -40,6 +41,8 @@ Established theoretical constructs drawn from the governance, institutional, and
 | Transparency | [[Transparency]] | IS governance; regulatory governance; AI governance frameworks | ✅ Fully populated |
 | Governance Capacity | [[Governance_Capacity]] | Regulatory governance; institutional theory; public administration | ✅ Fully populated |
 | Agentic AI Governance | [[Agentic_AI_Governance]] | AI governance; agency theory / autonomous-systems oversight | ✅ Fully populated — registered per [[PRIS_Master_Ontology_v2]] / DJ-06 |
+| Assurance Reuse Gap | [[Assurance_Reuse_Gap]] | Audit/assurance scholarship; institutional decoupling; management-based regulation | ✅ Populated — sub-pattern of [[Governance_Debt]] |
+| Retention Horizon Divergence | [[Retention_Horizon_Divergence]] | Regulatory governance / regime complexity; records-management theory; institutional decoupling | ✅ **Created 2026-08-02** — sub-pattern of [[Governance_Debt]]; Three-Instance Gate passed against four verified corpus nodes with directly readable figures (1yr–10yr spread). ⚠ CERT-In 2022 Directions 180-day figure held secondhand only; corpus node required. |
 
 ---
 

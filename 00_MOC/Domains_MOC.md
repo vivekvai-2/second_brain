@@ -24,6 +24,12 @@ tags:
 |BFSI Governance|[[BFSI_Governance]]|P3, P4|[[BFSI_AI_Governance_Handbook]]|
 |Privacy & Data Protection|[[Privacy_DataProtection]]|P2, P4|[[DPDP_Playbook]]|
 |Cybersecurity Governance|[[Cybersecurity_Governance]]|P3, P4|[[BFSI_AI_Governance_Handbook]]|
+|Systemic Regulatory Governance|[[Systemic_Regulatory_Governance]]|P3, P4|[[Regulatory_Complexity_Handbook]]|
+|International Comparators|[[International_Comparators]]|P1, P4, fsQCA|[[AI_Governance_Wiki]], [[Cross_Institutional_Mandate_Comparison]]|
+|Judicial Governance|[[Judicial_Governance]]|P4, P1, P5|[[AI_Governance_Wiki]]|
+|Healthcare Governance|[[Healthcare_Governance]]|—|—|
+
+**Status key (2026-08-02):** International Comparators promoted stub → **active**; Judicial Governance promoted stub → **seeded** (organising axis established; full synthesis gated on intake queue, BSA node blocking). Healthcare Governance remains a stub with insufficient corpus to promote — 2–3 usable nodes, fails the Three-Instance Gate.
 
 ---
 

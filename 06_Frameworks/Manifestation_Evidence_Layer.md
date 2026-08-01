@@ -1,28 +1,77 @@
 ---
 type: Framework
+status: partial
+last_updated: 2026-08-02
 tags:
   - type/framework
-  - status/stub
+  - status/partial
   - project/p3
   - engine/phd
 ---
 
 # Manifestation Evidence Layer
 
-**Type:** Framework **Status:** Stub — created 2026-07-31 during link-hygiene audit **Last Updated:** 2026-07-31
+**Type:** Framework **Status:** Partial — intent confirmed 2026-08-02, taxonomy still incomplete **Last Updated:** 2026-08-02
 
 ---
 
-## Purpose (per existing forward-references)
+## Intent — CONFIRMED 2026-08-02
 
-Referenced alongside [[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]] as a "Related framework" from [[07_Institutions/Corpus/RBI/RBI_2]] and [[07_Institutions/Corpus/RBI/RBI_1]]. The name and pairing suggest a framework for classifying **how a regulatory obligation "manifests" as evidence** (e.g. audit trail, disclosure, attestation, technical log) — a likely companion to Institutional_Grammar/ADICO coding work, though this is inferred from context, not confirmed.
+The 2026-07-31 stub inferred that this framework classified "how a regulatory obligation manifests as evidence" and explicitly warned against assuming that framing without checking RBI_1/RBI_2 usage context. **That check has now been done, and the inference was wrong.**
 
-This is a **stub** — the link was broken prior to 2026-07-31. No evidence-layer taxonomy has been fabricated here.
+The actual usage is narrower and different. "Manifestation" here refers to the empirical manifestation of a **cross-regulator coordination pattern**, not to an obligation manifesting as an evidentiary artefact. The Manifestation Evidence Layer is the **P3 empirical evidence layer, held at SOM Tables S17–S21**, that documents where each coordination pattern is observed in the corpus. "Evidence" in this name means *research evidence for a coordination claim* — not evidence in the regulatory or forensic sense.
 
-## Relationship to Existing Infrastructure
+Confirmed from the two citing nodes:
 
-Only two citing nodes (both RBI). Before building this out, worth confirming with Vivek whether this is still an active concept or was superseded by other Institutional Grammar / ADICO coding infrastructure in [[08_Methods/Institutional_Grammar_IG2]].
+- [[07_Institutions/Corpus/RBI/RBI_1]] — "§27(d) dual CERT-In + RBI incident reporting = M1 evidence"; and: "a concrete manifestation of Coordination Pattern M1 (Separate regulatory reporting channels for one event). This is a core evidence element in the Manifestation Evidence Layer (Tables S17–S21 of SOM)."
+- [[07_Institutions/Corpus/RBI/RBI_2]] — "§17(h) three-level reporting chain... This is a concrete M1 pattern manifestation: same incident reported through multiple parallel channels to multiple regulators. Strong Manifestation Evidence Layer evidence."
 
-## Scope (to be developed)
+---
 
-Left deliberately undefined pending confirmation of intent — do not assume the "evidence layer" framing without checking against RBI_1/RBI_2's actual usage context first.
+## Pattern Taxonomy — INCOMPLETE
+
+| Pattern | Definition | Evidence in vault |
+|---|---|---|
+| **M1** | Separate regulatory reporting channels for one event | [[07_Institutions/Corpus/RBI/RBI_1]] §27(d) — RE shall notify both CERT-In and RBI for the same cyber incident. [[07_Institutions/Corpus/RBI/RBI_2]] §17(h) — three-level chain: service provider → RE → RBI within 6 hours → RBI/CERT-In. Together these are the corpus's canonical M1 instance. |
+| **M2–M5** | ⚠ **Not recorded anywhere in the vault** | — |
+
+⚠ **VERIFY / GAP.** Only M1 is defined in any vault note. The M2–M5 definitions exist, if at all, in `fsqca_SOM_V2.docx` Tables S17–S21 outside the vault. **They have not been reconstructed or inferred here.** Do not populate M2–M5 from memory or plausible guesswork — read them from the SOM and transcribe. Until then this framework supports M1 claims only.
+
+---
+
+## Relationship to Adjacent Infrastructure
+
+**[[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]]** — the analytical companion. That matrix identifies and characterises coordination patterns across regulator pairs; this layer holds the corpus evidence substantiating each pattern claim. The matrix already cites this framework specifically for "RBI↔CERT-In M1 evidence." Matrix = claim; this note = evidence for the claim.
+
+**[[05_Concepts/05_Concepts_Signature/Evidentiary_Governance]]** — **no relationship despite the similar name, and the two must not be conflated in drafting.** That concept treats evidence as a *regulated artefact class* subject to specification, retention and custody obligations. This framework treats evidence as *research support for a coordination-pattern claim*. The name collision is unfortunate and pre-existing; both notes now carry a reciprocal disambiguation warning.
+
+**[[08_Methods/Institutional_Grammar_IG2]]** — the stub asked whether this framework had been superseded by ADICO coding infrastructure. It has not. ADICO codes the internal grammar of individual institutional statements; this layer records cross-instrument coordination observations. Different units of analysis, both live.
+
+---
+
+## Linked Corpus Nodes
+
+[[07_Institutions/Corpus/RBI/RBI_1]] | [[07_Institutions/Corpus/RBI/RBI_2]]
+
+## Linked Frameworks
+
+[[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]]
+
+## Linked Concepts
+
+[[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] — the M-patterns are the empirical manifestations of this construct at the BFSI-instrument level
+[[05_Concepts/05_Concepts_Signature/Governance_Debt]] — dual-channel reporting is a cost borne by the regulated entity
+
+## Linked Projects
+
+[[02_Projects/P3_BFSI_JEIM]] (primary)
+
+---
+
+## Log
+
+- 2026-08-02: Intent confirmed against RBI_1/RBI_2 usage context; the 2026-07-31 inferred framing ("obligation manifesting as evidentiary artefact") was **incorrect** and has been replaced. M1 populated from verified node text. M2–M5 left empty pending SOM transcription. Reciprocal disambiguation added against the newly created [[05_Concepts/05_Concepts_Signature/Evidentiary_Governance]], which the incorrect inferred framing closely resembled — had the stub been built out on that inference, the two would have silently merged.
+
+---
+
+*Back to [[_Frameworks_MOC]]*
