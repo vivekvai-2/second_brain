@@ -46,6 +46,29 @@ India's BFSI-adjacent AI/IT governance is produced by at least four regulators (
 
 ---
 
+## The Seven-Week Convergence, 5 May – 18 June 2026 (added 2026-08-02)
+
+Four Indian regulators moved on AI-cyber governance within a seven-week window, independently and without cross-citation. This is the densest regulatory cluster in the corpus.
+
+| Date | Regulator | Instrument | Binding? | Cross-references any peer? |
+|---|---|---|---|---|
+| 5 May 2026 | SEBI | [[07_Institutions/Corpus/SEBI/SEBI_18_AI_Vulnerability_Detection_Advisory_2026]] — Advisory on AI Tools for Vulnerability Detection; `cyber-suraksha.ai` task force | Ambiguous — circular under s.11(1) using "shall" | No |
+| 25 May 2026 | CERT-In | [[07_Institutions/Corpus/CERT_In/CERT_In_3_Blueprint_AI_Assisted_Exploitation_2026]] — Blueprint, 38pp, cross-sectoral, incl. 16-area AI governance chapter | No | Only its own prior instruments |
+| ~June 2026 | RBI | [[07_Institutions/Corpus/RBI/RBI_9_AI_Accelerated_Cyber_Threats_Advisory_2026]] — AI-ACT&RS advisories; board-approved gap assessment by 30 Jun | No (advisory) ⚠ Tier C | Unknown — primary text not obtained |
+| 18 June 2026 | IRDAI | [[07_Institutions/Corpus/IRDAI/IRDAI_2_Working_Group_AI_Governance_2026]] — WG-AI constituted, recommendations due ~18 Sep | N/A (working group) | **Yes — by composition, not citation** |
+
+**Three findings, in ascending order of novelty.**
+
+**1. Convergence on AI inventory as the foundational primitive.** All four require or propose an AI system inventory — SEBI via its 2019 reporting lineage, CERT-In at §12.2 (including shadow-AI detection), RBI via "classification, ownership and lifecycle management", IRDAI via mandate item 4. Four regulators, one primitive, zero citations. Cleaner than the 2025 accountability convergence at [[07_Institutions/Corpus/International/International_19_IOSCO_AI_Capital_Markets_CR_2025]] because an inventory is a more concrete object than a principle.
+
+**2. Coordination by common shock, not by design.** SEBI names "Claude Mythos" in its circular text; RBI's advisory is Mythos-triggered; the Finance Minister raised Mythos with bank heads in April 2026 and MeitY was engaging internationally in parallel. **The apparent convergence may reflect a shared exogenous trigger rather than institutional learning or isomorphism.** This materially weakens any reading of the cluster as evidence of coherence, and it is a mechanism the corpus has not previously had to distinguish. See [[07_Institutions/Corpus/RBI/RBI_9_AI_Accelerated_Cyber_Threats_Advisory_2026]] §S5.2.
+
+**3. The first positive upstream coordination instance — from the smallest regulator.** IRDAI's WG-AI seats a serving **CERT-In scientist** and the **former CEO of ReBIT** (RBI's technology subsidiary) on the body that will draft insurance-sector AI governance. Every other coordination finding in this matrix is negative, and the sole prior positive (RBI→CERT-In incident reporting) was a mandated downstream reporting duty, not upstream rule-design collaboration. ⚠ Coordination here exists **in body composition, not yet in regulatory output** — individual participation is not institutional commitment, and a working group is not an instrument.
+
+**Possible substantive divergence — flagged as a research question, not a finding.** CERT_In_3 §12.10 directs organisations to "restrict fully autonomous critical actions"; SEBI_18 Annexure-A.10 requires REs to prepare a "long-term plan for usage of AI in detection and autonomous/agentic mitigation." Nine weeks apart, pointing in apparently opposite directions on autonomous action. The two may be reconcilable — CERT-In's restriction concerns autonomous *business* actions, SEBI's concerns autonomous *security mitigation*. **Do not assert as contradiction without close reading of both** (⚠ V-SEBI18-3).
+
+---
+
 ## Intra-Regulator Parallelism — new pattern class (2026-08-02)
 
 The matrix above codes parallelism **between** regulators. [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] (31 July 2026) requires a new row type, because it exhibits the same pattern **inside a single regulator**.
@@ -53,6 +76,7 @@ The matrix above codes parallelism **between** regulators. [[07_Institutions/Cor
 | Instrument pair | Coordination Mechanism | Evidence | Pattern Type |
 |---|---|---|---|
 | **RBI_8 ↔ RBI_FREE_AI_2025 / RBI_7** | None found | RBI_8 is RBI's flagship 2026 technology-risk, resilience and assurance framework for commercial banks — 56 pages, 233 paragraphs, in force on issuance — containing **zero AI provisions** (full-text sweep: *artificial intelligence* 0, *machine learning* 0, *model risk* 0, *generative* 0, *automated decision* 0, bare token `AI` 0). RBI had already issued the FREE-AI Seven Sutras framework and the AI-explicit Digital Lending Directions. Neither track cites the other. | **Intra-regulator parallelism** — the same regulator running an AI-governance track and a technology-risk track that do not intersect. |
+| **RBI_8 ↔ RBI_9 (AI-ACT&RS)** | None found — **six weeks apart** | [[07_Institutions/Corpus/RBI/RBI_9_AI_Accelerated_Cyber_Threats_Advisory_2026]] (June 2026) is an AI-specific cyber advisory reportedly covering AI governance, AI agents and privileged access, and **"logging, traceability and forensic readiness."** [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] (31 July 2026) is the binding, published, repealing cyber framework — and is AI-silent. | **Deontic split** — the strongest form of the pattern. AI content placed in a hortatory, apparently unpublished advisory; the binding instrument six weeks later kept technology-neutral. Not a lag: RBI had the AI vocabulary and the evidentiary vocabulary and did not combine them in binding text. ⚠ Contingent on Tier C content for RBI_9. |
 
 **Why this matters for the matrix's central claim.** The existing finding is that *RBI is the silent party in every cross-regulator pairing*. RBI_8 shows the silence is not directed outward at peer regulators — it is a general property of RBI's technology-risk drafting, which stays technology-neutral even when the same institution has published AI-specific principles elsewhere. This reframes the RBI↔SEBI null-vs-explicit divergence: it is less a failure to coordinate with SEBI than an internal architectural separation between RBI's principle layer and its operative layer, of which the SEBI divergence is a downstream consequence.
 

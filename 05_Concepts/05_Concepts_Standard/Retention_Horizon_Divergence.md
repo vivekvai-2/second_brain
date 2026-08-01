@@ -69,6 +69,20 @@ This is not divergence *between* regulators but **abdication by one**. It is ana
 
 **The contrast within a single regulator is stark.** RBI_8 specifies six-hour incident reporting, six-monthly vulnerability assessment, and twelve-monthly penetration testing. The same instrument, drafted to that granularity, declines to state a log-retention period. The omission is therefore a design choice, not a drafting gap.
 
+**Confirmed across three regulators in a single quarter (2026-08-02).** The abdication variant is not an RBI idiosyncrasy. Three Indian instruments issued between May and July 2026 each specify operational clocks precisely and retention not at all:
+
+| Instrument | Clocks it *does* specify | Retention period |
+|---|---|---|
+| [[07_Institutions/Corpus/SEBI/SEBI_18_AI_Vulnerability_Detection_Advisory_2026]] (5 May) | Immediate patching; continuous VA/audit per CSCRF | **None stated** |
+| [[07_Institutions/Corpus/CERT_In/CERT_In_3_Blueprint_AI_Assisted_Exploitation_2026]] (25 May) | **12 hours** (KEV, internet-facing/crown-jewel); 1 day; 3 days; 5 days; 6-hour incident reporting | **None stated** — §5.9 and §7.8 say "secure retention"; §12.7 says "define retention and deletion policies" |
+| [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] (31 Jul) | 6-hour incident reporting; 6-monthly VA; 12-monthly PT | **None stated** — para 97 delegates to stakeholder consultation |
+
+CERT_In_3 is the sharpest case: an instrument willing to specify a **twelve-hour** containment expectation, and simultaneously requiring "evidence preservation" (§6.10, §10.1) and audit logging for agentic AI (§12.14), states no period for which any of it must be kept.
+
+**Reframing.** The construct was originally built around *divergence* between regulators (1 year to 10 years). The 2026 Indian evidence suggests divergence may be the milder pathology. Where retention is stated, an entity can comply with the longest horizon. Where it is universally unstated while evidentiary sufficiency is mandated, there is no horizon to comply with at all — and the obligation becomes unfalsifiable until tested adversarially. **Consider whether the concept should be renamed to cover both limbs**, e.g. *Retention Horizon Indeterminacy*, with divergence and abdication as its two variants. Flagged for decision at the next indexing pass; not renamed unilaterally.
+
+**Watch item.** [[07_Institutions/Corpus/IRDAI/IRDAI_2_Working_Group_AI_Governance_2026]] mandate item 9 requires an AI audit framework covering **pre- and post-deployment** requirements, due ~18 September 2026. Post-deployment audit is impossible without retained inference-time records. This is the most likely place a retention horizon finally appears in an Indian AI instrument.
+
 ### ⚠ VERIFY — figures held secondhand, excluded from the gate
 
 - **CERT-In Directions, 28 April 2022 — 180-day rolling log retention.** This figure appears in the vault **only** as a cross-reference inside [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]], not as a primary-source corpus node. **No CERT-In 2022 Directions node exists in the vault.** This is a material corpus gap: the 2022 Directions are the single most-cited log-retention obligation in Indian practice and their absence is conspicuous. **Action: create a CERT-In corpus node for the 28 April 2022 Directions before this figure is used in any publication-track output.**
@@ -134,6 +148,8 @@ For a BFSI entity simultaneously an SDF under DPDP, a regulated entity under RBI
 ## **Instances in Corpus**
 
 - [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] — **abdication variant**: para 95 sufficiency mandate, para 97 no stated period
+- [[07_Institutions/Corpus/CERT_In/CERT_In_3_Blueprint_AI_Assisted_Exploitation_2026]] — **abdication variant, sharpest case**: 12-hour remediation clock specified, evidence preservation required, retention period stated nowhere in 38pp
+- [[07_Institutions/Corpus/SEBI/SEBI_18_AI_Vulnerability_Detection_Advisory_2026]] — **abdication variant**: SOC monitoring and audit mandated, no retention period, no evidentiary provision
 - [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] — §16.6, 1-year default for audit data
 - [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] — Rule 6 / Third Schedule / Seventh Schedule, 1-year and 3-year regimes
 - [[07_Institutions/Corpus/SEBI/SEBI_13_Regulatory_Sandbox_Framework_2021]] — 3 years post-exit

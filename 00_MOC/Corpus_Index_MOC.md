@@ -128,6 +128,23 @@ Batch 6 sourced documents directly from the raw 187-PDF corpus at `/Users/vivek/
 
 ---
 
+## Ad-hoc intake 2026-08-02 (second pass) — CERT_In_3, SEBI_18, RBI_9, IRDAI_2 (4 nodes), Format A
+
+Four nodes closing a **May–June 2026 corpus gap** discovered via a lead in an AI-generated practitioner deck. All four instruments were verified independently before intake; the deck is not cited as a source for any node.
+
+| Node | Title | Institution | Date | Tier | Primary text? | ⚠VERIFY |
+|---|---|---|---|---|---|---|
+| [[07_Institutions/Corpus/CERT_In/CERT_In_3_Blueprint_AI_Assisted_Exploitation_2026]] | Blueprint for Reducing Exposure and Defending against AI-Assisted Vulnerabilities Exploitation, V1.0 | CERT-In | 25 May 2026 | **A** | ✅ Full PDF (38pp) | 3 (all LOW) |
+| [[07_Institutions/Corpus/SEBI/SEBI_18_AI_Vulnerability_Detection_Advisory_2026]] | Advisory on Emerging Advanced AI Tools for Vulnerability Detection (like Mythos) | SEBI | 5 May 2026 | **A** | ✅ Full circular (7pp) | 4 |
+| [[07_Institutions/Corpus/RBI/RBI_9_AI_Accelerated_Cyber_Threats_Advisory_2026]] | Advisories on AI-Accelerated Cyber Threats and Related Safeguards (AI-ACT&RS) | RBI | ~June 2026 | **C** | ❌ **Not obtained** | 5 (2 HIGH) |
+| [[07_Institutions/Corpus/IRDAI/IRDAI_2_Working_Group_AI_Governance_2026]] | Working Group on AI (WG-AI) for the insurance sector | IRDAI | 18 June 2026 | **B** | ❌ Order not obtained | 5 |
+
+**Cluster findings.** (1) **Seven-week convergence, 5 May – 18 June 2026** — four regulators, all converging on AI system inventory as the foundational primitive, none citing another. (2) **Coordination by common shock** — SEBI names "Claude Mythos" in circular text, RBI's advisory is Mythos-triggered, FM raised it with bank heads in April; apparent convergence may reflect a shared exogenous trigger rather than institutional learning, a mechanism the corpus has not previously had to distinguish. (3) **First positive upstream coordination instance** — IRDAI's WG-AI seats a serving CERT-In scientist and the former CEO of ReBIT; coordination in body composition, not yet in output. (4) **Abdication confirmed across three regulators** — SEBI, CERT-In and RBI each specify operational clocks precisely (CERT-In: 12 hours) and retention not at all. (5) **Deontic-placement debt** — RBI's AI cyber content sits in a June non-binding advisory; its July binding Directions are AI-silent.
+
+**Numbering state:** next IDs — CERT_In_4, SEBI_19, RBI_10, IRDAI_3.
+
+---
+
 ## Ad-hoc intake 2026-08-02 — RBI_8 (1 node), Format A
 
 Single-node ad-hoc intake, two days after issuance. **Highest-impact intake in the corpus to date** because it repeals rather than supplements.

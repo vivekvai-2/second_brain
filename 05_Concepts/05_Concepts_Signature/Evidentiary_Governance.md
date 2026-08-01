@@ -105,6 +105,14 @@ The result is that India's most AI-explicit instruments are its least evidential
 
 **RBI_8 (31 July 2026) confirms the asymmetry at its sharpest.** The instrument that most fully specifies evidentiary obligations anywhere in the corpus — non-repudiation, NIST-sourced forensic definition, four-part attribution requirement — contains **zero** AI provisions across 56 pages (verified by full-text sweep: *artificial intelligence* 0, *machine learning* 0, *model risk* 0, *generative* 0, *automated decision* 0, bare token `AI` 0). The asymmetry is therefore not a lag that later instruments close; it is reproduced in the newest instrument available, by a regulator that had already published its own AI framework. This substantially strengthens the finding.
 
+**But the asymmetry is a deontic artefact, not an absence — RBI_9 (2026-08-02 intake).** [[07_Institutions/Corpus/RBI/RBI_9_AI_Accelerated_Cyber_Threats_Advisory_2026]], issued ~June 2026, reportedly covers **"logging, traceability and forensic readiness"** as a named AI control domain — the construct's own theoretical core, in an Indian financial regulator's own words, six weeks before RBI_8 omitted AI entirely.
+
+The corrected finding is therefore not that Indian AI instruments lack evidentiary specification and Indian evidentiary instruments lack AI. It is that **RBI possesses both vocabularies and has not combined them in binding text**: AI-with-forensic-readiness sits in a non-binding, apparently unpublished advisory; forensic-evidence-with-non-repudiation sits in the binding Directions, AI-free. This is [[05_Concepts/05_Concepts_Signature/Deontic_Bifurcation]] operating on the evidentiary axis, and it is a more precise and more publishable claim than the original asymmetry statement.
+
+⚠ RBI_9 is Tier C — primary text not obtained, and the "forensic readiness" formulation is KPMG's characterisation rather than RBI's own heading (⚠ V-RBI9-3). **Confirm before building an argument on it.**
+
+**CERT_In_3 (25 May 2026) supplies the same pattern from a different regulator.** It requires "evidence preservation" twice (§6.10, §10.1), audit logging for agentic AI (§12.14), and auditability for AI-assisted decisions (§12.10) — but is non-binding throughout, specifies no custody standard, no artefact format and no retention horizon. Artefact specification without evidentiary destination, precisely the fourth-dimension gap this construct predicts.
+
 ---
 
 ## **Operationalisation (IG 2.0 / ADICO)**
@@ -169,6 +177,9 @@ A genuine, citable NIST-to-India evidentiary transmission exists and should be u
 - [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] — §16.6 audit-data custody regime
 - [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] — Rule 6 breach-investigation retention
 - [[07_Institutions/Corpus/International/International_22_EU_AI_Act_Conformity_Assessment_Notified_Bodies]] — Arts. 33, 47 + Annex V retention horizons
+- [[07_Institutions/Corpus/CERT_In/CERT_In_3_Blueprint_AI_Assisted_Exploitation_2026]] — evidence preservation (§6.10, §10.1); agentic audit logging (§12.14); auditability (§12.10); **no custody standard, no horizon**
+- [[07_Institutions/Corpus/RBI/RBI_9_AI_Accelerated_Cyber_Threats_Advisory_2026]] — "logging, traceability and forensic readiness" as a named domain ⚠ Tier C
+- [[07_Institutions/Corpus/IRDAI/IRDAI_2_Working_Group_AI_Governance_2026]] — pre- and post-deployment AI audit framework mandated, due ~18 Sep 2026 (watch item)
 - [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]] — immutable audit trails at principle level, unspecified at operational level
 - [[04_Knowledge_Products/Wiki_Intake/SCI_1_White_Paper_AI_and_Judiciary_2025]] — Ch. 4.C evidence tampering and deepfakes; the corpus's only judicial-side evidentiary treatment
 
