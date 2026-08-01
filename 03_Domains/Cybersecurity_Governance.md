@@ -1,0 +1,181 @@
+---
+type: Domain
+tags:
+  - type/domain
+  - status/active
+  - paper/p3
+  - paper/p4
+  - gate/open
+  - engine/phd
+  - engine/linkedin
+  - engine/consulting
+  - engine/knowledge-product
+  - content/carousel-ready
+  - content/case-study
+  - content/checklist
+---
+
+# **Cybersecurity Governance**
+
+**Type:** Domain  
+**Status:** Active  
+**Last Updated:** 2026-06-12
+
+---
+
+## **Core Synthesis**
+
+Cybersecurity Governance is examined in this research as the set of regulatory obligations, enterprise controls, accountability structures, and incident response frameworks through which AI-enabled systems are secured, monitored, and made resilient across India's financial and digital infrastructure. The domain is not treated as a purely technical discipline — it is examined as a governance problem in which authority is allocated, accountability is assigned, and compliance obligations are generated across multiple regulatory pathways. Within PRIS, cybersecurity governance enters the research programme primarily through its intersection with AI governance in the BFSI sector: CERT-In's incident reporting obligations, SEBI's cybersecurity framework, and RBI's IT risk and operational resilience requirements each impose AI-relevant cyber governance obligations on regulated entities without coordinating with one another. The result is a governance environment in which cybersecurity and AI governance obligations are layered, partially overlapping, and independently enforced — extending the Regulatory Parallelism construct beyond AI-specific instruments into the broader cyber-regulatory architecture.
+
+---
+
+## **Scope and Boundary**
+
+This domain covers the regulatory frameworks, enterprise governance processes, accountability mechanisms, and operational controls governing the cybersecurity of AI-enabled systems in India. The analytical focus is on how cybersecurity obligations intersect with and amplify AI governance requirements in BFSI and DPI environments. The domain includes CERT-In incident reporting, RBI IT risk and operational resilience requirements, SEBI cybersecurity frameworks, and the DPDP Act's breach notification obligations. It excludes offensive cyber operations, national intelligence frameworks, and technical security engineering as disciplines. The boundary between cybersecurity governance and AI governance is treated as analytically permeable — the domain is examined precisely because the two governance regimes increasingly co-apply to the same systems.
+
+---
+
+## **Key Debates**
+
+### **Cybersecurity as AI Governance Pathway**
+
+A significant share of AI governance obligations in India are delivered not through dedicated AI regulation but through cybersecurity instruments. CERT-In's 2022 Directions impose six-hour incident reporting requirements that explicitly cover AI system failures with cybersecurity dimensions. SEBI's October 2025 Cybersecurity Framework requires 24/7 SOC coverage and quarterly board-level cyber reviews that encompass algorithmic trading systems. RBI's IT Risk and Cybersecurity Framework governs the infrastructure on which AI-enabled banking services operate. The cumulative effect is that cybersecurity regulation functions as a de facto AI governance mechanism — one that is risk-reactive rather than risk-preventive and that generates compliance obligations independently of any AI-specific regulatory instrument.
+
+### **Incident Response vs Pre-Deployment Governance**
+
+Cybersecurity governance frameworks are structurally oriented toward incident response — they specify what must happen after a failure rather than what must be assessed before deployment. This creates a structural asymmetry with emerging AI governance expectations, which increasingly emphasise pre-deployment risk assessment, conformity testing, and ongoing monitoring. The gap between incident-response logic (CERT-In, SEBI SOC requirements) and pre-deployment governance logic (RBI FREE-AI's six-pillar architecture, IndiaAI's risk-assessment principles) is a structural tension that P3 and P4 diagnose but neither fully resolves. Bridging this gap is one of the institutional design challenges addressed by the proposed Three-Level Governance Alignment Model in P4.
+
+### **Multi-Regulator Cyber Obligation Overlap**
+
+Regulated BFSI entities simultaneously face cybersecurity obligations from CERT-In (mandatory incident notification), RBI (IT risk framework, operational resilience), and SEBI (cybersecurity framework, SOC requirements). These obligations partially overlap in scope — a major AI system failure in a bank that operates as both an RBI-regulated entity and a SEBI-regulated intermediary may simultaneously trigger CERT-In notification, RBI incident escalation, and SEBI breach reporting under different timelines, formats, and escalation pathways. This produces a cybersecurity-specific instance of Regulatory Parallelism: equivalent or overlapping incident response obligations generated by independent regulators without cross-referencing coordination mechanisms.
+
+### **Board-Level Cyber Accountability**
+
+SEBI's quarterly board-level cyber review requirement and RBI's board oversight expectations for IT risk create a convergence point between cybersecurity governance and enterprise AI accountability. Board members are increasingly expected to exercise meaningful oversight of both cyber risk and AI risk — yet the governance architecture presents these as distinct regulatory obligations rather than as a unified board-level risk responsibility. The practical consequence is that board cyber reviews and board AI risk reviews are conducted as separate exercises against separate regulatory frameworks, generating duplicated governance effort and potentially inconsistent risk narratives at the board level.
+
+---
+
+## **Indian Regulatory Landscape**
+
+CERT-In's 2022 Directions established mandatory six-hour incident reporting for a broad category of cybersecurity incidents affecting IT infrastructure, financial systems, and government networks. The Directions apply to any organisation operating within their scope regardless of sector — creating a cross-cutting cyber governance obligation that intersects with AI system deployments across BFSI, DPI, and government digital infrastructure. CERT-In is the only actor in the P3 corpus that receives cross-references from another regulator: three SEBI→CERT-In references appear in the corpus, confirming that SEBI treats CERT-In as an authoritative reference for cybersecurity incident governance.
+
+RBI's IT Risk and Cybersecurity Framework governs the technology infrastructure of banks, NBFCs, and payment system operators. The framework specifies controls for network security, data protection, access management, and incident response — all of which apply directly to AI systems operating within RBI-regulated entities. The framework is particularly significant for AI deployments because it treats AI-enabled decision systems as part of the operational infrastructure subject to cyber governance controls rather than as a separate category requiring dedicated regulatory treatment.
+
+SEBI's October 2025 Cybersecurity Framework extends cyber governance expectations into capital markets through 24/7 SOC requirements, quarterly board cyber reviews, Zero Trust architecture adoption, and harmonised reporting across exchanges. The framework's application to algorithmic trading systems — which are AI-enabled in most major SEBI-regulated intermediaries — makes it a de facto AI cyber governance instrument for the capital markets sector.
+
+The DPDP Act 2023 adds a breach notification dimension: personal data breaches involving AI systems must be reported to the Data Protection Board within prescribed timelines. This creates a fourth regulatory pathway for AI system cybersecurity governance, operating independently of CERT-In, RBI, and SEBI incident reporting requirements.
+
+| **Instrument** | **Issuing Body** | **Type** | **Key AI Cyber Governance Hook** |
+|---|---|---|---|
+| CERT-In Directions 2022 | CERT-In / MeitY | Cross-sector mandatory directions | Six-hour incident notification; AI system failures in scope |
+| IT Risk and Cybersecurity Framework | RBI | Sectoral regulatory framework | Infrastructure controls for AI-enabled banking systems |
+| Cybersecurity Framework (Oct 2025) | SEBI | Sectoral regulatory framework | 24/7 SOC; board cyber reviews; algorithmic system coverage |
+| DPDP Act 2023 — Breach Notification | Data Protection Board / MeitY | Horizontal privacy law | Personal data breach reporting for AI system failures |
+
+---
+
+## **Dominant Theoretical Frames**
+
+**Regulatory Governance Theory** — Explains how cybersecurity obligations are allocated across multiple regulatory authorities and how coordination failures generate overlapping enterprise compliance burdens.
+
+**Institutional Theory** — Accounts for divergent institutional logics between CERT-In's incident-response orientation, RBI's prudential risk-management orientation, and SEBI's market-conduct orientation — each producing different cybersecurity governance expectations.
+
+**Sociotechnical Systems Theory** — Frames cybersecurity governance as an emergent property of the interaction between technical security controls, organisational processes, and regulatory obligations rather than as a purely technical or purely legal problem.
+
+**Enterprise Information Management (EIM)** — Provides the lens through which overlapping cyber governance obligations are treated as independent sources of enterprise information burden, connecting cybersecurity governance to the Governance Debt construct.
+
+---
+
+## **Open Research Questions**
+
+**OQ-CG-01:** Does the multi-regulator cyber incident reporting requirement (CERT-In + RBI + SEBI + DPDP) constitute a measurable instance of Regulatory Parallelism distinct from the AI-specific parallelism identified in P3?
+
+**OQ-CG-02:** How should board-level cyber risk governance and board-level AI risk governance be integrated within a unified enterprise risk committee architecture that satisfies RBI, SEBI, and DPDP accountability expectations simultaneously?
+
+**OQ-CG-03:** What institutional design interventions — unified cyber-AI incident reporting protocols, joint CERT-In/RBI/SEBI coordination mechanisms — could reduce multi-regulator reporting burden without requiring legislative reform?
+
+**OQ-CG-04:** How does India's multi-regulator cyber governance architecture compare with the EU's NIS2 Directive approach to cyber resilience across critical infrastructure sectors?
+
+---
+
+## **Linked Projects**
+
+[[P3_BFSI_JEIM]]
+
+[[P4_Doctrinal_IJLIT]]
+
+---
+
+## **Linked Knowledge Products**
+
+[[BFSI_AI_Governance_Handbook]]
+
+[[Regulatory_Complexity_Handbook]]
+
+[[AI_Governance_Wiki]]
+
+---
+
+## **Linked Signature Concepts**
+
+[[Regulatory_Parallelism]]
+
+[[Governance_Debt]]
+
+[[Institutional_Coherence]]
+
+---
+
+## **Linked Standard Concepts**
+
+[[Accountability]]
+
+[[Governance_Capacity]]
+
+[[Transparency]]
+
+---
+
+## **Linked Frameworks**
+
+[[RBI_Free_AI]]
+
+[[SEBI_AI_Circular]]
+
+[[IndiaAI_Framework]]
+
+[[EU_AI_Act]]
+
+---
+
+## **Linked Institutions**
+
+[[CERT_IN]]
+
+[[RBI]]
+
+[[SEBI]]
+
+[[MEITY]]
+
+---
+
+## **Linked Methods**
+
+[[Institutional_Grammar_IG2]]
+
+[[Doctrinal_Analysis]]
+
+---
+
+## **Future Reuse Opportunities**
+
+- Extend the Regulatory Parallelism construct into the cyber-governance layer as a post-P3 research contribution, testing whether multi-regulator incident reporting requirements constitute a measurable and independently significant governance burden.
+- Develop a unified board-level cyber-AI risk governance framework for the BFSI AI Governance Handbook, integrating SEBI's quarterly cyber review requirement with RBI's board AI oversight expectations.
+- Use the CERT-In/RBI/SEBI multi-regulator incident reporting overlap as a practitioner-facing teaching case in executive education programmes on AI governance and enterprise risk management.
+- Build a consulting diagnostic assessing enterprise readiness to satisfy simultaneous CERT-In, RBI, SEBI, and DPDP incident reporting obligations for AI system failures — a direct advisory product emerging from P3 and P4 findings.
+- Develop comparative research examining whether India's layered cyber-AI governance architecture produces different enterprise compliance burden patterns than the EU's unified NIS2/AI Act approach.
+
+---
+
+_Back to [[Domains_MOC]]_

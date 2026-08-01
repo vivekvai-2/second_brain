@@ -1,0 +1,111 @@
+---
+type: Corpus Node
+status: active
+last_updated: 2026-07-21
+tags:
+  - type/corpus-node
+  - status/active
+  - engine/phd
+  - jurisdiction/india
+  - institution/cert-in
+---
+
+# CERT_1 — CERT-In Advisory CIAD-2023-0015: Security Implications of AI Language-Based Applications
+
+**Type:** Corpus Node  
+**Vault path:** `07_Institutions/Corpus/CERT_In/CERT_1.md`  
+**Institution:** [[07_Institutions/CERT_IN]]  
+**Issuing body:** Indian Computer Emergency Response Team (CERT-In), MeitY  
+**Document date:** May 09, 2023  
+**Pages:** 2  
+**Domain:** [[03_Domains/AI_Governance]]  
+
+---
+
+## Instrument Identity
+
+**Full title:** CERT-In Advisory CIAD-2023-0015: Security implications of AI language based applications  
+**Type:** Advisory Note  
+**Target scope:** General — organisations and individuals using AI language-based applications  
+**AI systems in scope:** ChatGPT, Bing AI, Jasper AI, Bard AI (explicitly named); GPT-architecture LLMs generally
+
+---
+
+## Analytical Classification
+
+**P3 corpus role:** Screening corpus — CERT-In null finding for AI-relevant RUs in the P3 context (this document is advisory, not a mandate on regulated financial entities). Confirmed in SOM Table S2.  
+**AI Governance Wiki relevance:** MEDIUM — First CERT-In advisory explicitly addressing LLM security risks; useful for historical chronology of Indian AI governance  
+**Tier classification:** Tier C (AI-adjacent governance — advisory, no binding requirements on regulated entities)
+
+---
+
+## Substantive Content
+
+### Threat Classification (Adversarial AI)
+
+**Offensive AI use by threat actors:**
+- Malicious code generation (exploits, scanning, privilege escalation, malware/ransomware)
+- Disinformation and social engineering (fake news, phishing messages, deep fake texts)
+- Multilingual phishing campaigns (native language input → polished English output)
+- Fake websites and applications impersonating AI platforms
+- PII scraping from internet for corpus-building without consent
+
+**AI security vulnerabilities (2023 framing):**
+- Prompt injection / jailbreaking not yet named explicitly but implied in "bypass detection" concern
+- AI systems learning from internet data including sensitive information — data exfiltration risk
+- Malicious code bypassing existing detection mechanisms — enhanced evasion capability
+
+### Recommended Controls (CERT-In)
+1. Developer/user education on AI application risks
+2. Domain/URL verification before accessing AI applications
+3. No submission of sensitive information (credentials, financial data, IP) to public AI applications
+4. Content filtering and moderation within organisations
+5. Enhanced monitoring and security measures for AI-generated threat activity
+6. Regular security audits of systems interacting with AI applications
+7. Multi-factor authentication (MFA) for AI application accounts
+8. Continuous monitoring of user interactions with AI applications
+9. Incident response plan for AI-related security incidents
+10. Stay current on AI security threats and vulnerabilities
+
+---
+
+## Analytical Significance for PRIS Research
+
+### Regulatory Chronology (AI Governance Wiki)
+- CERT-In CIAD-2023-0015 (May 2023) is the first explicit Indian government advisory on LLM/GenAI security risks
+- Issued 6 months after ChatGPT launch (November 2022) — relatively rapid regulatory response
+- Advisory-only nature reflects CERT-In's advisory role at this stage; no binding mandate on regulated entities
+- Precursor to CIAD-2025-0013 (CERT_2) which extends to GenAI best practices
+
+### Regulatory Parallelism Evidence
+- CERT-In issued AI security guidance (advisory) without reference to SEBI's 2019 AI/ML reporting circulars
+- No cross-reference to RBI's IT governance framework
+- Pattern: Parallel issuance in separate governance silos — CERT-In addressing AI security threats while SEBI/RBI addressing AI operational governance
+
+### Governance Debt Indicator
+- Advisory-only instrument in 2023 for rapidly scaling LLM technology = governance lag
+- Contrast: EU AI Act risk classification (2021), NIST AI RMF (2023) — India operating via advisory, not mandate, at same time
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/CERT_In/CERT_2]] | [[07_Institutions/Corpus/CERT_In/CERT_4]] | [[07_Institutions/Corpus/SEBI/SEBI_9]] | [[07_Institutions/Corpus/SEBI/SEBI_10]]  
+**Related concepts:** [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] | [[05_Concepts/05_Concepts_Signature/Governance_Debt]]  
+**Related projects:** [[02_Projects/P3_BFSI_JEIM]] | [[02_Projects/P4_Doctrinal_IJLIT]]  
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]  
+**Zotero key:** CERT-In_CIAD-2023-0015
+
+---
+
+## Coding Status
+
+- **P3 NVivo coding:** Not in canonical corpus — CERT-In null finding
+- **Saturation corpus:** Included in screening pass; contributes 0 analytical RUs
+- **AI Governance Wiki:** Flag for regulatory chronology section — first Indian LLM advisory
+
+---
+
+## Log
+
+- 2026-06-13: Corpus node created from source extraction. S5 session.

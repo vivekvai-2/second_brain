@@ -1,0 +1,127 @@
+---
+type: Framework
+tags:
+  - type/framework
+  - status/active
+  - paper/p3-primary
+  - paper/p4-primary
+  - paper/fsqca
+  - gate/open
+  - engine/phd
+  - engine/linkedin
+  - engine/consulting
+  - content/carousel-ready
+  - content/wiki-entry
+  - content/checklist
+---
+
+# RBI FREE-AI
+
+**Type:** Framework **Status:** Active **Last Updated:** 2026-06-12
+
+---
+
+## Core Synthesis
+
+The RBI Framework for Responsible Ethical Enablement of AI (FREE-AI, August 2025) is the Reserve Bank of India's comprehensive cross-domain AI governance instrument for the Indian banking and financial sector — the most architecturally developed AI governance document issued by any Indian financial regulator to date. Within PRIS, it serves three simultaneous functions: as an fsQCA case representing India's sectoral binding-instrument archetype (higher RL than IndiaAI, but sector-constrained); as a primary P3 corpus member (one of 18 binding instruments analysed for coordination-pair classification); and as a P4 doctrinal reference for the fragmentation diagnosis (its zero cross-references to SEBI instruments being the empirical anchor for the Regulatory Parallelism construct). FREE-AI is the instrument through which Regulatory Parallelism, Governance Debt, and Institutional Coherence are most directly operationalisable in the empirical corpus.
+
+## Framework Identity
+
+- **Issuing body:** Reserve Bank of India (RBI)
+- **Instrument type:** Framework circular / supervisory guidance — binding within RBI's jurisdictional mandate (banking, NBFCs, payment systems)
+- **Jurisdiction:** India — banking sector, non-banking financial companies, payment system operators under RBI regulation
+- **Binding status:** Binding within RBI's jurisdiction; supervisory expectations with examination consequences; does not extend to capital markets (SEBI) or insurance (IRDAI)
+- **Key dates:**
+    - August 2025: FREE-AI framework issued (Parts 1 and 2) _(verify exact circular number and date via Perplexity)_
+    - 2026: RBI supervisory examinations incorporating FREE-AI expectations
+    - November 2025: RBI AIFI Outsourcing Directions issued (companion instrument) — compliance deadline April 10, 2026
+
+## Structural Overview
+
+FREE-AI is organised around two interlocking architectures: a **normative layer** (Seven Sutras) and an **operational layer** (six pillars, eight-category risk taxonomy).
+
+The **Seven Sutras** — Trust, Innovation, Accountability, People First, Fairness, Understandable by Design, Safety/Resilience/Sustainability — are RBI's translation of international ethical AI principles into banking-sector vocabulary. They function as a values architecture analogous to, but more operationally grounded than, IndiaAI's Seven Sutras or the OECD's five principles.
+
+The **six pillars** — Infrastructure, Policy, Capacity, Governance, Protection, Assurance — provide the structural scaffold for enterprise implementation. Each pillar specifies expected capabilities, controls, and governance mechanisms at the regulated-entity level.
+
+The **eight-category AI risk taxonomy** — Model Risk, Operational Risk, Third-Party Risk, Liability Risk, Collusion Risk, Financial Stability Risk, Cybersecurity Risk, Data Privacy Risk — is the framework's most analytically distinctive contribution. It is the only Indian AI governance instrument as of mid-2026 to specify a structured risk category taxonomy mapped to AI-specific failure modes rather than generic operational risk categories. This taxonomy is what makes FREE-AI qualitatively higher in RL than IndiaAI and the SEBI AI Circular, even though all three are issued within a single jurisdiction.
+
+## Regulatory Position & Comparative Significance
+
+Within the PRIS framework set, FREE-AI occupies the **Indian sectoral binding instrument** position alongside SEBI AI Circular — the two instruments that generate the Regulatory Parallelism finding in P3. Against IndiaAI, FREE-AI shows what happens when a sectoral regulator translates national advisory principles into binding operational requirements: the translation is architecturally coherent within RBI's domain but produces no cross-referencing with SEBI's parallel translation. Against the EU AI Act, FREE-AI illustrates the difference between sectoral-binding and cross-sectoral-binding: FREE-AI is enforceable but sector-constrained; the EU Act is enforceable and cross-sectoral. The combination of binding status, sector constraint, and zero cross-reference to SEBI is the empirical foundation of the Regulatory Parallelism construct.
+
+## IG 2.0 Coding Summary
+
+Full ADICO-level coding is in NVivo. At the construct level, FREE-AI is expected to generate higher **Deontic** density than IndiaAI or international principles-based instruments, with more **must/shall** formulations reflecting RBI's supervisory authority. **Attribute** specification is clearer — regulated entities, boards, risk management functions, and audit functions are specified as accountability holders. **Or-else** components are implicit (examination consequences, enforcement actions) rather than explicit statutory penalties. **Condition** specification is present through the risk taxonomy: obligations are conditioned on AI risk category, system type, and materiality thresholds. This ADICO profile places FREE-AI at a higher RL and SR position than any non-binding instrument in the PRIS set.
+
+## fsQCA Calibration
+
+This framework is a candidate case in the 10-case fsQCA model. Case-level calibration is pending NVivo IG 2.0 coding (Q3 2026). Anchors: 0.00 / 0.33 / 0.67 / 1.00.
+
+|Condition|Score|Status|
+|---|---|---|
+|EA — Ethical Alignment|⏳|Pending Q3 2026|
+|SR — Stakeholder Role Clarity|⏳|Pending Q3 2026|
+|RL — Regulatory Logic|⏳|Pending Q3 2026|
+|SI — Stakeholder Inclusion|⏳|Pending Q3 2026|
+
+_Prior (to be confirmed against coded data, not a result):_ Expected high RL (binding, structured risk taxonomy, supervisory consequences), high SR (six-pillar architecture with role attribution), moderate EA (Seven Sutras are aspirational; translation into measurable ethical outcomes is implicit), low SI (no institutionalised external stakeholder participation mechanism documented). The expected RL-high/SR-high profile, if confirmed, will make FREE-AI the highest-performing Indian instrument in the fsQCA truth table — and will sharpen the interpretive question of why Regulatory Parallelism persists despite this architectural quality.*
+
+## Coordination Pair Classification
+
+FREE-AI is a **P3 corpus member** — one of 18 binding instruments in the RBI/SEBI/CERT-In corpus (2012–2024). Its classification in the coordination-pair matrix (Table S13) is central to the Regulatory Parallelism construct.
+
+**Key empirical finding (from P3 corpus, not repeated here in full — see [[P3_BFSI_JEIM]]):**
+
+- FREE-AI participates in multiple coordination pairs with SEBI instruments governing equivalent AI functions (model risk, algorithmic trading surveillance, third-party AI governance)
+- Across all identified coordination pairs involving FREE-AI, **zero cross-references** to SEBI instruments are documented
+- This zero cross-reference pattern across functionally equivalent mandates is the empirical definition of Regulatory Parallelism as observed in the P3 corpus
+- Classification: Parallelism (not convergence, not contradiction)
+
+## Key Tensions & Gaps
+
+FREE-AI's risk taxonomy is architecturally strong but the operationalisation gap is significant: the eight risk categories are named but calibration thresholds, measurement methodologies, and remediation timelines are not specified within the framework itself. Regulated entities face the burden of operationalising "Collusion Risk" or "Financial Stability Risk" from AI systems without RBI having specified what evidence, metrics, or controls satisfy supervisory expectations. This operationalisation gap — high architectural ambition, low implementation prescription — is analytically important for the Governance Debt construct: it means compliance costs are front-loaded onto regulated entities even before the coordination-duplication burden from SEBI's parallel requirements is added. A second gap is the scope boundary: FREE-AI's jurisdiction ends where SEBI's begins, and entities operating across both (most major Indian banks and NBFCs) face the full Governance Debt burden.
+
+## Linked Projects
+
+- [[P3_BFSI_JEIM]]
+- [[P4_Doctrinal_IJLIT]]
+- [[fsQCA_Thesis_Chapter]]
+
+## Linked Domains
+
+- [[AI_Governance]]
+- [[BFSI_Governance]]
+
+## Linked Concepts
+
+- [[Regulatory_Parallelism]]
+- [[Governance_Debt]]
+- [[Institutional_Coherence]]
+- [[Accountability]]
+- [[Transparency]]
+
+## Linked Frameworks
+
+- [[SEBI_AI_Circular]]
+- [[IndiaAI_Framework]]
+- [[EU_AI_Act]]
+
+## Linked Institutions
+
+- [[RBI]]
+- [[SEBI]]
+- [[MEITY]]
+
+## Linked Methods
+
+- [[Institutional_Grammar_IG2]]
+- [[fsQCA]]
+
+## Future Research / Reuse Opportunities
+
+In the fsQCA truth table, FREE-AI's expected high RL/high SR profile will test whether sectoral binding-instrument quality is sufficient for legitimate AI governance outcomes in the absence of cross-regulator coordination — the central empirical question of P3 and P4. For P4's Three-Level Governance Alignment Model, FREE-AI's six-pillar architecture is the primary Indian design reference for the enterprise governance layer within RBI's jurisdiction. For the BFSI AI Governance Handbook, FREE-AI is the primary source instrument — its seven sutras, six pillars, and risk taxonomy generate the handbook's core compliance architecture. The AI Governance Wiki Section 2.4 is drawn directly from FREE-AI content and requires updating as supervisory expectations are clarified through examination feedback (Perplexity monitoring target: RBI circular updates, examination guidelines, and any FAQs on FREE-AI implementation).
+
+---
+
+_Back to [[_Frameworks_MOC]]_

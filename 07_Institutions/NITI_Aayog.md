@@ -1,0 +1,71 @@
+---
+type: Institution
+status: active
+last_updated: 2026-07-21
+tags:
+  - type/institution
+  - status/active
+  - engine/phd
+---
+
+# NITI_Aayog
+
+**Type:** Institution Node  
+**Vault path:** `07_Institutions/NITI_Aayog.md`  
+**Full name:** National Institution for Transforming India (NITI Aayog)  
+**Type of body:** Government of India think tank / policy advisory body  
+**Established:** January 1, 2015 (replaced Planning Commission)  
+**Parent ministry:** Government of India (reports to Prime Minister)  
+**Domain:** [[03_Domains/AI_Governance]]  
+
+---
+
+## Role in PRIS Research
+
+NITI Aayog is the primary national policy architect for India's AI governance framework. It has not issued binding regulatory instruments but has produced foundational strategy documents that define India's approach to responsible AI and propose the governance architecture.
+
+**Key contribution to PRIS:** Empirical evidence for India's governance configuration in fsQCA (advisory + self-regulation as default; mandatory only for high-risk). Also provides the explicit acknowledgement of the multi-regulator coordination problem that underlies the Regulatory Parallelism construct.
+
+---
+
+## Key Documents in Corpus
+
+| Document | Date | Significance |
+|---------|------|-------------|
+| [[07_Institutions/Corpus/NITI_Aayog/NITI_6]] | Jan 2021 (draft) | Draft enforcement mechanisms; CET proposal origin; ADICO-rich |
+| [[07_Institutions/Corpus/NITI_Aayog/NITI_3]] | Aug 2021 | Finalised Part 2: Operationalizing Principles; foundational governance architecture |
+
+---
+
+## Relevant AI Governance Contributions
+
+- **National Strategy for Artificial Intelligence (2018):** Advocated responsible use of AI; first India AI strategy
+- **Responsible AI for All, Part 1 (February 2021):** Established seven Principles for Responsible AI
+- **Responsible AI for All, Part 2 (August 2021) — NITI_3:** Operationalised principles; proposed CET; recommended risk-based governance
+- **Enforcement Mechanisms Draft (January 2021) — NITI_6:** Working document for public consultation preceding Part 2
+
+---
+
+## Proposed Governance Architecture (Not Enacted)
+
+**Council for Ethics and Technology (CET):**
+- Independent, multi-disciplinary, apex-level advisory body
+- Mandate: Coordinate across sectoral regulators; manage and update AI principles; drive convergence
+- Proposed composition: CS/AI experts, legal experts, sectoral experts, civil society, humanities/social science, private sector, environmental expert, national security expert, cybersecurity expert, standards bodies
+- Status: **NEVER ESTABLISHED** as of June 2026 — constitutes 5-year Governance Debt
+
+---
+
+## Connections
+
+**Related concepts:** [[05_Concepts/Signature/Regulatory_Parallelism]] | [[05_Concepts/Signature/Governance_Debt]]  
+**Related domains:** [[03_Domains/AI_Governance]]  
+**Related projects:** [[02_Projects/P3_BFSI_JEIM]] | [[02_Projects/fsQCA_Thesis_Chapter]]  
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]  
+**Related institutions:** [[07_Institutions/SEBI]] | [[07_Institutions/RBI]] | [[07_Institutions/CERT_IN]] | [[07_Institutions/MEITY]]
+
+---
+
+## Log
+
+- 2026-06-13: Stub created. S5 session. NITI_3 and NITI_6 corpus nodes written.

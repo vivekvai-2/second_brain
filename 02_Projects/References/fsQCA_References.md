@@ -1,0 +1,154 @@
+---
+type: Reference File
+tags:
+  - type/reference
+  - status/active
+  - paper/fsqca-primary
+  - ref/complete
+  - gate/open
+  - engine/phd
+---
+
+# fsQCA Reference File — PhD Empirical Chapter
+
+**Paper:** fsQCA Thesis Chapter — *Causal Configurations of AI Governance Conditions for Legitimate Outcomes*  
+**Deliverable:** IIM Indore FPM thesis empirical chapter  
+**Citation style:** APA  
+**Corpus status:** Settled. Core methodological corpus locked. No additions without TAC approval.  
+**Last Updated:** 2026-07-15 (Andrews entry completed from placeholder — see below; no new references added, TAC-lock respected)
+
+---
+
+## CORE fsQCA METHODOLOGY
+
+### Ragin, C. C. (2008)
+
+**Full citation:** Ragin, C. C. (2008). *Redesigning social inquiry: Fuzzy sets and beyond*. University of Chicago Press.  
+**Role:** Methodological warrant — primary fsQCA specification  
+**Claim:** Fuzzy-set QCA uses set-theoretic logic to identify sufficient configurations of conditions for outcomes — INUS conditions (Insufficient but Non-redundant parts of Unnecessary but Sufficient conditions) provide the causal logic.  
+**Where used:** §4 (method section — fsQCA design warrant); §6 (calibration architecture); §7 (truth table construction and Boolean minimisation)  
+**Shared anchor:** [[Ragin_2008]]  
+**Note:** Authoritative source for all fsQCA design decisions. The calibration anchor scheme (0.00/0.33/0.67/1.00), consistency threshold (≥0.80), and INUS interpretation all trace to this source.
+
+---
+
+### Ragin, C. C. (1987)
+
+**Full citation:** Ragin, C. C. (1987). *The comparative method: Moving beyond qualitative and quantitative strategies*. University of California Press.  
+**Role:** Methodological warrant — original QCA  
+**Claim:** Comparative case analysis can use Boolean logic to identify necessary and sufficient conditions for outcomes across a moderate number of cases.  
+**Where used:** §4 (intellectual lineage of fsQCA — situates the method in the broader comparative tradition)
+
+---
+
+### Rihoux, B., & Ragin, C. C. (Eds.) (2009)
+
+**Full citation:** Rihoux, B., & Ragin, C. C. (Eds.). (2009). *Configurational comparative methods: Qualitative comparative analysis (QCA) and related techniques*. Sage.  
+**Role:** Methodological warrant — QCA application guide  
+**Claim:** Configurational comparative methods provide protocols for case selection, calibration, truth table construction, and solution interpretation appropriate for mid-N studies.  
+**Where used:** §4 (method section — mid-N design warrant; case selection logic)
+
+---
+
+## TYPOLOGY AND CONFIGURATION LOGIC
+
+### Fiss, P. C. (2011)
+
+**Full citation:** Fiss, P. C. (2011). Building better causal theories: A fuzzy set approach to typologies in organization research. *Academy of Management Journal*, *54*(2), 393–420.  
+**Role:** Theoretical anchor — typology-configuration logic  
+**Claim:** SLR-derived typologies (describing what archetypes exist) and fsQCA-derived configurations (identifying what combinations of conditions are sufficient for outcomes) are complementary contributions — the typology provides the analytical vocabulary; the configuration provides the causal test.  
+**Where used:** §2 (theoretical scaffolding — P1 typology provides the vocabulary; this chapter provides the causal test); §4 (design rationale — Fiss logic as the bridge between P1 and the empirical chapter)  
+**Shared anchor:** [[Fiss_2011]]
+
+---
+
+## ROBUSTNESS AND REPORTING
+
+### Dul, J. (2016)
+
+**Full citation:** Dul, J. (2016). Necessary condition analysis (NCA): Logic and methodology of "necessary but not sufficient" causality. *Organizational Research Methods*, *19*(1), 10–52.  
+**Role:** Methodological warrant — limited diversity and necessary conditions  
+**Claim:** When logical configurations include remainder rows (cases not observed in the data), simplifying assumptions must be documented and counterfactual analysis reported transparently.  
+**Where used:** §4 (limited diversity — 10-case design with 4 conditions produces 16 logical configurations; protocol for handling remainder rows); §6 SOM (simplifying assumptions documented in `fsqca_SOM_V2.docx`)  
+**Note:** The Dul (2016) protocol for simplifying assumptions is documented in Table `fsqca_SOM_V2.docx`. Reference in the chapter method section to confirm limited diversity is acknowledged.
+
+---
+
+### Andrews, R., & Beynon, M. J. (2024)
+
+**Full citation:** Andrews, R., & Beynon, M. J. (2024). The revolving door in UK government departments: A configurational analysis. *Regulation & Governance*, *18*(2), 590–611. (Confirmed 2026-07-15 via [[04_Knowledge_Products/Wiki_Intake/F087_Andrews_Beynon_Revolving_Door_UK_Government_fsQCA_2024|F087]] — placeholder citation below resolved; co-author M. J. Beynon was missing from the original placeholder entry.)  
+**Role:** Methodological warrant — robustness reporting precedent, specifically **temporal robustness** ("Consistency of pathways through time," §4.4: complex-solution consistency re-reported per sub-period, COUT1 = 0.837, COUT2 = 0.812)  
+**Claim:** Robustness checks for fsQCA results in governance research should include consistency sensitivity analysis and solution coverage reporting per Ragin (2008) protocol; Andrews & Beynon add a concrete precedent for reporting solution stability across sub-periods of a panel, distinct from cross-sectional consistency/coverage.  
+**Where used:** §4 (robustness protocol — cited as precedent in the governance literature for the reporting approach used in the chapter); candidate technique for §7.5 if the 10-case design has temporal/repeated-observation structure (see [[fsQCA_Thesis_Chapter]] §9 flag, 2026-07-15)  
+**Shared anchor / corpus node:** [[04_Knowledge_Products/Wiki_Intake/F087_Andrews_Beynon_Revolving_Door_UK_Government_fsQCA_2024|F087]]  
+**Note:** Citation now confirmed — no further Zotero lookup needed. Substantively about UK civil-service revolving-door appointments, not AI governance; cited for method only.
+
+---
+
+### Gong, Y., & Yang, Y. (2025)
+
+**Full citation:** Gong, Y., & Yang, Y. (2025). Analyzing digital government partnerships: An institutional logics perspective. *Government Information Quarterly*, *42*, Article 101987. (Confirmed 2026-07-15 via [[04_Knowledge_Products/Wiki_Intake/F091_Gong_Yang_Digital_Government_Partnerships_fsQCA_2025|F091]] — placeholder citation below resolved; co-author Y. Yang was missing from the original placeholder entry.)  
+**Role:** Methodological warrant — robustness reporting precedent, specifically **"Multiple QCAs, Different Time Periods"** (five separate fsQCAs run per year across a 2018–2022 panel, comparing configuration recurrence across periods as evidence of institutional stability/maturity)  
+**Claim:** Recent fsQCA applications in the governance/IS literature provide precedent for the robustness reporting protocol used in this chapter; Gong & Yang add a second, distinct temporal-robustness technique (separate-QCA-per-period) alongside Andrews & Beynon's sub-period consistency check.  
+**Where used:** §4 (robustness protocol — recent precedent); candidate technique for §7.5 alongside the Andrews & Beynon (2024) precedent if the 10-case design has temporal/repeated-observation structure  
+**Shared anchor / corpus node:** [[04_Knowledge_Products/Wiki_Intake/F091_Gong_Yang_Digital_Government_Partnerships_fsQCA_2025|F091]]  
+**Note:** Citation now confirmed — no further Zotero lookup needed. Substantively about Chinese digital government partnerships, not AI governance; cited for method only.
+
+---
+
+## CALIBRATION AND IG 2.0 FOUNDATION
+
+### Crawford, S. E. S., & Ostrom, E. (1995)
+
+**Full citation:** Crawford, S. E. S., & Ostrom, E. (1995). A grammar of institutions. *American Political Science Review*, *89*(3), 582–600.  
+**Role:** Methodological warrant — ADICO canonical source  
+**Claim:** ADICO syntax provides the institutional grammar for parsing governance documents at the rule level — the foundation for generating calibration scores from coded governance instruments.  
+**Where used:** §4 (IG 2.0 coding → calibration scores; ADICO as the coding syntax for condition operationalisation)  
+**Shared anchor:** [[Crawford_Ostrom_1995]]
+
+---
+
+### Frantz, C., & Siddiki, S. (2022)
+
+**Full citation:** Frantz, C., & Siddiki, S. (2022). *Institutional grammar: Foundations and applications for institutional analysis*. Palgrave Macmillan.  
+**Role:** Methodological warrant — IG 2.0 grammar specification  
+**Claim:** IG 2.0 provides the refined classification for institutional statement types (Rules, Norms, Shared Strategies) enabling systematic coding of governance instruments for calibration.  
+**Where used:** §4 (IG 2.0 coding protocol — the basis for deriving EA, SR, RL, SI calibration scores from coded instruments)  
+**Shared anchor:** [[Frantz_Siddiki_2022]]
+
+---
+
+## LEGITIMACY — OUTCOME VARIABLE THEORY
+
+### Suchman, M. C. (1995)
+
+**Full citation:** Suchman, M. C. (1995). Managing legitimacy: Strategic and institutional approaches. *Academy of Management Review*, *20*(3), 571–610.  
+**Role:** Theoretical anchor — legitimacy calibration  
+**Claim:** Legitimacy is a generalised perception that the actions of an entity are desirable, proper, or appropriate within a socially constructed system — distinguishing pragmatic, cognitive, and moral legitimacy.  
+**Where used:** §3 (outcome variable definition — legitimacy as the dependent condition in the fsQCA model); §5 (calibration anchors for the outcome variable — Suchman's tripartite framework provides the conceptual basis for the 0.00/0.33/0.67/1.00 calibration scheme)
+
+---
+
+## INSTITUTIONAL THEORY — CONDITION SCAFFOLDING
+
+### DiMaggio, P. J., & Powell, W. W. (1983)
+
+**Full citation:** DiMaggio, P. J., & Powell, W. W. (1983). The iron cage revisited: Institutional isomorphism and collective rationality in organizational fields. *American Sociological Review*, *48*(2), 147–160.  
+**Role:** Theoretical anchor — SR (Systemic Regulatory) condition  
+**Claim:** Institutional fields exhibit pressures toward isomorphism — the SR condition captures the degree to which governance instruments within a field exhibit cross-referencing and coordination consistent with an isomorphically coherent regulatory architecture.  
+**Where used:** §3 (SR condition theoretical foundation)  
+**Shared anchor:** [[DiMaggio_Powell_1983]]
+
+---
+
+## OPEN METHODOLOGICAL QUESTIONS (pending TAC)
+
+| ID | Question | Affects |
+|---|---|---|
+| D4 | Whether INUS logic applied as robustness layer or primary interpretation | §4 method; §7 results interpretation |
+| OQ-09 | Final 10-case list (overdue — 31 May 2026) | §4 case selection; §6 calibration |
+| OQ-10 | Second coder for inter-rater reliability (overdue — 31 May 2026) | §4 reliability; Cohen's κ ≥ 0.75 target |
+
+---
+
+_Back to [[fsQCA_Thesis_Chapter]]_

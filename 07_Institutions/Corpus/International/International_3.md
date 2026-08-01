@@ -1,0 +1,96 @@
+---
+type: Corpus Node
+status: active
+last_updated: 2026-07-21
+tags:
+  - type/corpus-node
+  - status/active
+  - engine/phd
+  - jurisdiction/global
+  - institution/international
+---
+
+# International_3 — MAS Consultation Paper on Guidelines on Artificial Intelligence Risk Management (Singapore)
+
+**Type:** Corpus Node
+**Vault path:** `07_Institutions/Corpus/International/International_3.md`
+**Institution:** [[07_Institutions/International]] (Monetary Authority of Singapore)
+**Issuing body:** Monetary Authority of Singapore (MAS)
+**Document date:** Consultation Paper P017-2025, November 2025
+**Pages:** Not fully determinable
+**Domain:** [[03_Domains/AI_Governance]] | [[03_Domains/BFSI_Governance]]
+
+---
+
+## Instrument Identity
+
+**Full title:** Consultation Paper on Guidelines on Artificial Intelligence Risk Management
+**Type:** Consultation Paper (proposed guidelines, pre-finalisation — non-binding pending issuance)
+**Target entities:** Financial Institutions (FIs) regulated by MAS, "applied in a proportionate manner across FIs of different sizes and risk profiles"
+**Legal basis:** MAS supervisory guidance (proposed)
+**Companion documents:** [[07_Institutions/Corpus/International/International_4]] (FEAT Principles, 2019 — explicitly cited as foundational); [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] (closely comparable scope and timing — both November 2025)
+
+---
+
+## Analytical Classification
+
+**Wiki section:** S3 (International Regulatory Context) — fills the Singapore comparator gap identified for S3; also feeds S2 cross-comparison with India
+**Jurisdiction:** Singapore
+**Confidence:** Medium (consultation paper, not yet finalised)
+**AI explicit:** Yes, including Generative AI
+**Tier classification:** Tier A — explicit, proposed AI risk management regulation for the financial sector
+**AI Governance Wiki relevance:** HIGH — direct international comparator to RBI_FREE_AI_2025, issued in the **same month** (November 2025), enabling a near-contemporaneous cross-jurisdictional comparison.
+
+---
+
+## Substantive Content
+
+### Scope and applicability
+The proposed Guidelines (AIRG — AI Risk Guidelines) cover: oversight of AI risk management in FIs; AI risk management systems, policies and procedures; AI life cycle controls; and capabilities/capacity needed for AI use. Explicitly designed to apply "in a proportionate manner across FIs of different sizes and risk profiles" and to be "generally applicable to different AI applications and technologies, including Generative AI."
+
+### Risk framing
+MAS frames AI risk as accentuating existing risks or introducing new ones across functional areas: poor-performing AI risk-assessment models could cause "substantial financial losses"; unexpected AI system behaviour could "disrupt critical operations"; inappropriate customer-facing AI outputs could cause "harm or financial loss to customers."
+
+### Regulatory lineage (explicit institutional history)
+- **2018**: MAS co-created the **FEAT** principles (Fairness, Ethics, Accountability, Transparency) with industry — see [[07_Institutions/Corpus/International/International_4]].
+- **Nov 2019**: **Veritas Initiative** launched (industry consortium) to operationalise FEAT via assessment methodologies, toolkits, and case studies.
+- **(undated, post-FEAT)**: **Project MindForge** established specifically to examine generative AI risks.
+- **Dec 2024**: MAS published a paper on **AI Model Risk Management (MRM) in Banks**, highlighting good practices in AI oversight/governance, risk identification systems, materiality assessments, model inventories, and validation/deployment standards.
+- This 2025 Consultation Paper represents the **culmination of a 7-year lineage** (FEAT 2018 → Veritas 2019 → MindForge → AI MRM 2024 → AIRG Consultation 2025) of incrementally formalising AI governance from voluntary principles to proposed binding guidelines.
+
+---
+
+## Analytical Significance for PRIS Research
+
+### For P3 (BFSI AI Governance Regulatory Parallelism, JEIM) and fsQCA — direct comparator
+MAS's AIRG Consultation (Nov 2025) and RBI's FREE-AI Committee Report (2025) are **near-contemporaneous instruments addressing the same risk domain** (AI risk management in regulated financial institutions) in two jurisdictions with very different regulatory lineages: Singapore shows a **7-year incremental, principles-to-guidelines pathway** (FEAT → Veritas → MindForge → MRM → AIRG), while India's RBI FREE-AI appears to be a **single-step committee report** without an equivalent multi-year principles lineage. This contrast is directly usable as a **comparative configuration** in the fsQCA truth table: "incremental institutionalisation" (Singapore) vs. "compressed/single-instrument" (India) as a condition affecting governance maturity outcomes.
+
+### Coordination / Parallelism Pattern
+Existing node: [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]]. Pattern: **Parallel development, no cross-reference** — both instruments dated November 2025, addressing materially similar BFSI AI risk management scope, with no evidence (in extracted text) of mutual awareness or harmonisation — a textbook case for the international dimension of Regulatory Parallelism.
+
+### Consulting Connection
+**AEGIS_OS / PrivacyWeave**: MAS's "AI life cycle controls" and "AI MRM" lineage (2024 paper) provides a more mature reference architecture than India's current framework — useful as a benchmark for advisory engagements proposing AI governance maturity roadmaps to Indian BFSI clients.
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/International/International_4]], [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]], [[07_Institutions/Corpus/RBI/RBI_3]]
+**Related concepts:** [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]], [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]], [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]
+**Related frameworks:** —
+**Related projects:** [[02_Projects/P3_BFSI_JEIM]], [[02_Projects/fsQCA_Thesis_Chapter]]
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
+**Related consulting:** AEGIS_OS, PrivacyWeave
+
+---
+
+## Coding Status
+
+- **P3 NVivo:** Canonical corpus candidate — strong comparator instrument, recommend inclusion in next coding pass
+- **Wiki intake status:** Pending
+
+---
+
+## Log
+
+- 2026-06-14: Corpus node created. Batch 3. Cowork session. Source: Final_Consultation_Paper_on_Guidelines_on_AI_Risk_Management_ForRelease.pdf. Originally routed to Batch 2 (mis-titled as potential RBI/SEBI document) — confirmed as MAS (Singapore) and rerouted to International/.

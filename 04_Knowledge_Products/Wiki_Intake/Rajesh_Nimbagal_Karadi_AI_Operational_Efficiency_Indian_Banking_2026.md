@@ -1,0 +1,13 @@
+---
+type: Wiki Intake Note
+tags:
+  - status/superseded
+---
+
+# SUPERSEDED — Duplicate of F011
+
+This file (originally drafted as F027, Batch 6) is a **confirmed duplicate** of [[Rajesh_Nimbagal_Karadi_AI_Governance_Risk_Nexus_2026]] (F011, Batch 5) — same paper, same DOI (Rajesh, Nimbagal & Karadi, AIJMR 4(1), 2026, DOI 10.62127/aijmr.2026.v04i01.1197).
+
+The one additional framing from the F027 extraction (absence-of-AI-disclosure-standards meta-pattern, cross-linked to F024) has been merged into F011 as a 2026-06-14 Batch 6 addendum. Do not cite this file — use F011.
+
+See [[Corpus_Index_MOC]] Batch 6 table and consolidated VERIFY tracker for traceability.

@@ -1,0 +1,61 @@
+---
+type: Wiki Intake Note
+tags:
+  - type/wiki-intake
+  - status/pending
+  - paper/p3
+  - paper/p4
+  - content/wiki-entry
+  - gate/open
+  - engine/knowledge-product
+---
+
+# McLemore & Mihov (2025) — AI and Operational Losses: Evidence from U.S. Bank Holding Companies — Intake Note
+
+**Source:** Ping McLemore (Federal Reserve Bank of Richmond) & Atanas Mihov (University of Kansas)
+**Year:** 2025 (September 3)
+**Full title:** "AI and Operational Losses: Evidence from U.S. Bank Holding Companies"
+**Outlet:** Working paper (Federal Reserve System affiliation; presented at 2025 RCFS Winter Conference, SFS Cavalcade North America 2025)
+**File ID:** F014
+**Zotero key:** McLemore_Mihov_2025 *(confirm in Zotero)*
+**Wiki section(s):** S6 (Model Risk); S2 (regulatory implications)
+**Confidence:** High — confidential supervisory data, IV-identified causal estimates, large sample (36 BHCs, ~82% of US banking assets)
+**Jurisdiction:** United States (cross-jurisdictional comparator for India)
+
+## Classification
+
+- **Document type:** Empirical–quantitative (causal, IV strategy), Federal Reserve working paper
+- **Primary audience:** Bank supervisors, risk management practitioners, academic researchers
+- **AI explicit:** Yes — central variable is firm-level AI investment (AI-skilled human capital measure)
+
+## 3–5 Reusable Findings
+
+1. Headline causal finding: a one-standard-deviation increase in AI investment is associated with a **24% increase in quarterly operational losses** (≈$68,416 per $1bn assets, or ~$12m/quarter for the median BHC) — a directly quotable empirical anchor for "AI increases operational risk absent governance" arguments (feeds S6).
+2. AI investment increases the *frequency of tail (low-probability, high-impact) operational risk events* — not just routine losses — directly relevant to capital-planning and systemic-risk framing (feeds S6).
+3. The AI–operational-loss relationship is concentrated in three loss categories: External Fraud, Clients/Products/Business Practices (CPBP), and Business Disruption/Systems Failure (BDSF); no significant effect on Internal Fraud, Employment Practices, Physical Asset Damage, or Execution/Delivery/Process Management — a granular taxonomy reusable for risk-category-specific AI governance controls (feeds S6).
+4. **Critical moderation finding**: the risk-enhancing effect of AI is significantly more pronounced at BHCs with *weaker risk management practices* — i.e., governance quality determines whether AI investment translates into operational loss exposure. This is a US empirical mirror of F011's (Rajesh et al. 2026) India "governance–risk nexus" finding, strengthening cross-jurisdictional [[Institutional_Coherence]] comparison (feeds S6/S1).
+5. Uses an instrumental-variables identification strategy (historical exposure to AI-talent supply from AI-research-strong universities) — methodologically rigorous causal design that other corpus papers (mostly descriptive/secondary-data) lack; useful as a "gold standard" methodological benchmark when assessing the evidentiary tier of Indian studies (feeds S6).
+
+## Consulting / Teaching Reuse
+
+- The 24%-operational-loss statistic is a high-impact, board-ready talking point for AEGIS_OS sales conversations: "AI investment without governance maturity measurably increases operational losses — Federal Reserve evidence."
+- The three-category loss taxonomy (External Fraud / CPBP / BDSF) maps directly onto a practitioner checklist for AI-specific operational risk controls.
+
+## Cross-Links
+
+- **Wiki sections:** S6, S2
+- **Concepts:** [[Institutional_Coherence]] (US empirical confirmation of governance-quality moderation, cross-validates [[04_Knowledge_Products/Wiki_Intake/Rajesh_Nimbagal_Karadi_AI_Governance_Risk_Nexus_2026]] F011's India finding), [[Governance_Capacity]] (weak-risk-management BHCs as the "low capacity" end of the spectrum), [[Governance_Debt]] (unaddressed AI-specific operational risk as accumulating debt)
+- **Corpus nodes:** [[04_Knowledge_Products/Wiki_Intake/Fed_OCC_SR11-7_Model_Risk_Management_2011]] (F006 — SR 11-7 doctrinal lineage now has a 2025 empirical test of its consequences when absent/weak), [[04_Knowledge_Products/Wiki_Intake/Rajesh_Nimbagal_Karadi_AI_Governance_Risk_Nexus_2026]] (F011 — India/US cross-jurisdictional governance-risk nexus parallel — strong fsQCA evidence pair)
+- **Knowledge products:** [[P3_BFSI_JEIM]], [[02_Projects/P4_Doctrinal_IJLIT]], [[fsQCA_Thesis_Chapter]] (US BHC case as a cross-jurisdictional comparator condition)
+
+## Processing Status
+
+- [x] PDF extracted (pdftotext, first 15 pages — sufficient for headline findings and methodology)
+- [x] Findings extracted (5 reusable insights)
+- [x] Wiki section mapped (S6/S2)
+- [x] Cross-links to existing nodes identified — pairs strongly with F011 for fsQCA
+- [ ] Status to be updated to `status/processed` after indexing pass
+
+## Log
+
+- 2026-06-14: Intake note created (Batch 5, File ID F014). Source: "McLemore_AIandOpLosses.pdf". No VERIFY flags — figures quoted directly from abstract/introduction of the working paper.

@@ -1,0 +1,83 @@
+---
+type: Institution
+tags:
+  - type/institution
+  - status/active
+  - paper/p2
+  - paper/p4
+  - gate/open
+  - engine/phd
+  - engine/consulting
+  - phase/0-now
+---
+
+# MeitY
+
+**Type:** Institution **Status:** Active **Last Updated:** 2026-06-12
+
+---
+
+## Core Synthesis
+
+The Ministry of Electronics and Information Technology is the apex policy body for India's digital governance architecture — the issuer of the IndiaAI national framework, the administrator of the DPDP Act, and the ministry responsible for DPI infrastructure including Aadhaar, UPI, and the Account Aggregator ecosystem. Within PRIS, MeitY occupies a cross-cutting role: it is the institutional home of both the national AI strategy (IndiaAI) that P4 diagnoses as insufficiently coordinative, and the DPI governance architecture that P2 analyses for rule-allocation asymmetry. MeitY is simultaneously the strategic opportunity — the primary gateway to institutional roles and consulting mandates post-PhD — and the empirical object of study for how India governs its sovereign digital infrastructure.
+
+## Institutional Profile
+
+- **Type:** Central government ministry
+- **Governing framework:** IT Act 2000 (as amended); DPDP Act 2023; Aadhaar Act 2016; Payment and Settlement Systems Act (jointly with RBI)
+- **Primary mandate:** National digital infrastructure, electronics manufacturing policy, IT services governance, data protection regulation, cybersecurity coordination
+- **AI-relevant functions:** IndiaAI Mission (national AI strategy), DPDP Act administration via Data Protection Board, DPI governance (UIDAI, NIC, NeGD oversight), AI Governance Guidelines (November 2025)
+- **Key bodies under MeitY:** UIDAI (Aadhaar), NIC (National Informatics Centre), CERT-In (cybersecurity), NeGD (e-governance), STQC (quality and testing)
+
+## Key AI/Digital Governance Instruments (PRIS-relevant)
+
+|Instrument|Date|Role in PRIS|
+|---|---|---|
+|IT Intermediaries Rules 2021 (amended Feb 2026)|2021/2026|AI Governance Wiki; P4 fragmentation context|
+|DPDP Act 2023 + Rules 2025|2023/2025|P2 (citizen data governance), P4 (DPDP-algorithmic accountability interface), AI Governance Wiki|
+|MeitY AI Governance Guidelines (Seven Sutras)|November 2025|[[IndiaAI_Framework]] note; P4 doctrinal mapping|
+|IndiaAI Mission Framework|2023–ongoing|[[IndiaAI_Framework]] note; fsQCA case; P4 comparator|
+
+## Institutional Logic (Research Relevance)
+
+MeitY's governing logic is **digital sovereignty and ecosystem development** — it prioritises India's ability to build, own, and govern its digital infrastructure, with an explicit national-capability orientation. This produces an AI policy stance that is pro-innovation and self-regulation-first, in deliberate contrast to the EU's prescriptive binding model. For PRIS, this logic explains why IndiaAI is advisory rather than binding: MeitY's preference for ecosystem enablement over mandate-imposition is a structural choice, not a capacity gap. The interaction between MeitY's cross-sectoral advisory posture and sectoral regulators' binding mandates is the meta-governance gap that P4 diagnoses and proposes to remedy.
+
+## Consulting & Outreach Relevance
+
+- Partner gate: No gate — Phase 0 accessible _(see [[VV_Integrated_Strategy_Master]])_
+- Target units: AIGG (AI Governance Group), TPEC (Technology Policy and Evaluation Cell), IndiaAI Mission Secretariat
+- Value proposition: Cross-regulator compliance synthesis; IndiaAI implementation intelligence; DPI governance research outputs (P2)
+- Engagement pathway: Consultation responses to MeitY draft policies; IndiaAI event participation; post-PhD institutional role (policy analyst / senior research fellow)
+
+## Linked Projects
+
+- [[P2_DPI_JSIS]]
+- [[P4_Doctrinal_IJLIT]]
+- [[P1_SLR_RG]]
+
+## Linked Frameworks
+
+- [[IndiaAI_Framework]]
+
+## Linked Concepts
+
+- [[Regulatory_Parallelism]]
+- [[Institutional_Coherence]]
+- [[Governance_Capacity]]
+
+## Linked Domains
+
+- [[AI_Governance]]
+- [[DPI_Governance]]
+- [[Privacy_DataProtection]]
+
+## Linked Institutions
+
+- [[UIDAI]]
+- [[CERT_IN]]
+- [[RBI]]
+- [[SEBI]]
+
+---
+
+_Back to [[_Institutions_MOC]]_

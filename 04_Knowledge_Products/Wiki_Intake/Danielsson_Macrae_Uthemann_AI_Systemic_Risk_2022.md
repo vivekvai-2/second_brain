@@ -1,0 +1,90 @@
+---
+type: Wiki Intake Note
+tags:
+  - type/wiki-intake
+  - status/active
+  - engine/phd
+  - theme/systemic-risk
+  - theme/macro-micro-ai
+  - theme/agentic-ai-governance
+  - theme/abdc-a
+---
+
+# Daníelsson, Macrae & Uthemann (2022) — Artificial Intelligence and Systemic Risk
+
+**Source:** Jón Daníelsson & Robert Macrae (Systemic Risk Centre, LSE), Andreas Uthemann (Systemic Risk Centre, LSE / Bank of Canada), *Journal of Banking and Finance* 140 (2022) 106290, DOI 10.1016/j.jbankfin.2021.106290 (open access, CC BY)
+**Year:** 2022 (received Oct 2020; accepted Aug 2021; online Aug 2021; first version Nov 2017)
+**Full title:** "Artificial Intelligence and Systemic Risk"
+**File ID:** F030
+**Zotero key:** ⚠ VERIFY — not yet assigned
+**Wiki section(s):** S3 (AI Risk Taxonomies & Classification — macro/micro risk dichotomy) / S6 (Model/Systemic Risk) / S4 (Agentic AI Governance — autonomous "macro AI" framing)
+**Confidence:** High (ABDC-A journal — Journal of Banking and Finance; LSE Systemic Risk Centre + Bank of Canada authorship; widely-cited theoretical contribution, ~5 years pre-LLM but conceptually durable)
+**Jurisdiction:** Global/theoretical — no jurisdiction-specific framing; UK/Canada institutional authorship
+
+---
+
+## Classification
+
+Theoretical/conceptual paper (not empirical) in a top-tier finance journal, developing a **macro AI vs. micro AI dichotomy** for analysing AI's impact on financial stability. Argues AI is well-suited to "micro" problems (microprudential regulation, day-to-day institutional risk management — exogenous risk, repeated events, clear rulebook-based objectives) but faces severe conceptual limits for "macro" problems (macroprudential policy, systemic risk, financial stability — endogenous risk, rare/unique events, ill-defined objectives). Identifies three conceptual challenges (Lucas critique/system response to AI, data scarcity/silos for macro risk, unknown-unknowns vs. fixed objectives) generating three practical consequences (optimisation against the system, the trust problem, AI-driven procyclicality/"risk monoculture"). Format B Wiki Intake Note — a **foundational theoretical framing source** for S3/S6, pre-dating but conceptually anticipating much of the agentic-AI governance debate (S4).
+
+---
+
+## Reusable Findings
+
+1. **Macro AI / micro AI dichotomy as a master classification frame (feeds S3/S1):** The paper's central distinction — AI is well-suited to micro problems (exogenous risk, clear objectives codified in a "rulebook," many repeated similar events) but poorly suited to macro problems (endogenous risk, ill-defined objectives, rare/unique events) — is a **directly reusable top-level classification frame** for organising the entire Policy Dump corpus and the AI Governance Wiki's S-sections: most BFSI AI-adoption literature (F021, F027, F028) and most current regulatory guidance (RBI circulars, model risk frameworks) addresses "micro AI" applications (credit scoring, fraud detection, chatbots, KYC), while "macro AI" applications (systemic risk monitoring, macroprudential policy) remain almost entirely unaddressed by current Indian regulation. This dichotomy could anchor a P1/P3 argument that **India's AI governance corpus is structurally skewed toward micro-AI governance**, leaving macro-AI/systemic-risk dimensions essentially ungoverned — a significant, citable gap.
+
+2. **"Endogenous risk" and the Lucas critique as theoretical grounding for AI-driven procyclicality (feeds S6/S3):** The paper's argument that AI will homogenise risk perception across institutions (via convergence on "best-of-breed" risk models — citing BlackRock Aladdin, MSCI RiskMetrics as real-world examples), thereby amplifying procyclicality and creating "risk monoculture," is a theoretically rigorous (Lucas 1976, Minsky 1986, Daníelsson & Shin 2002 endogenous risk framework) account of a systemic AI risk category that is **almost entirely absent from the BFSI-AI-adoption literature in this corpus** (F021, F027, F028 focus on institution-level adoption/efficiency, not system-level homogenisation effects). This is a citable theoretical anchor for arguing that India's AI governance circulars (RBI FREE-AI, sectoral guidance), which are institution-level/microprudential in design, may be structurally unable to address AI-driven systemic risk even if individual institutions are well-governed — an "aggregation gap" argument for P3.
+
+3. **The "trust creep" and "switching off macro AI" problem as a precursor to agentic-AI governance debates (feeds S4):** Section 5.2's argument — that trust in AI accumulates incrementally ("trust creeps upon us"), that the longer an autonomous AI is left in charge of a policy function the harder it becomes to intelligibly reverse, and that this is especially dangerous for "macro" (high-stakes, infrequent-feedback) functions — anticipates by several years the core "loss of meaningful human control" concern now central to agentic-AI governance frameworks (cf. F025's Category D "Governance Failures" — accountability/explainability, "AI-as-moral-agent" rejection). This 2022 finance-specific articulation is a useful **early/foundational citation** establishing that the "trust creep → irreversibility" problem was identified in the financial-stability literature well before the 2024-25 agentic-AI control frameworks (F024, F025, F026) formalised it — useful for establishing intellectual lineage in a P1 SLR.
+
+4. **"Optimisation against the system" — tacit AI collusion (Calvano et al. 2020) and adversarial gaming as a regulatory design challenge (feeds S3/S6):** The paper's discussion of how independent reinforcement-learning pricing algorithms can sustain collusive equilibria *without explicit instruction or human awareness* (citing Calvano et al. 2020), and how a macro AI's fixed, transparent objectives make it more "gameable" by adversarial agents than a human regulator using "constructive ambiguity," is a reusable theoretical anchor for discussions of algorithmic collusion/tacit coordination risk in Indian capital markets (SEBI's algo-trading oversight) — an area where current Indian AI-governance guidance (largely focused on BFSI lending/credit) may be under-developed relative to securities-market algorithmic-trading risk.
+
+5. **Explicit normative conclusion — "heavily scrutinise and reject" macro AI for critical public functions (feeds S1/Consulting/P4):** The paper's conclusion is unusually strong for an academic finance paper: it argues the conceptual limitations of macro AI "will not be overcome" regardless of technological trajectory, and that AI use in macroprudential regulation and critical private-sector objectives "should be heavily scrutinized and rejected if any of these issues become pertinent." This is a **citable "precautionary" position from a top-tier finance journal** (pre-dating and independent of the 2023-25 generative-AI governance wave), useful as a counterpoint/comparator when assessing whether more recent frameworks (F024-F026, RBI FREE-AI) have become more permissive toward AI in systemically important functions than this 2022 theoretical baseline would suggest is warranted — a potential "has regulatory caution kept pace with capability growth" framing for P3/P4.
+
+---
+
+## Consulting / Teaching Reuse
+
+- The **macro AI / micro AI dichotomy** is an excellent, simple framing device for board-level discussions: "is this AI application a micro problem (clear rules, repeated events, measurable outcomes — AI is likely safe and beneficial) or a macro problem (systemic, rare events, ill-defined objectives — proceed with extreme caution)?" Directly reusable as a triage question for AI governance committees assessing new use cases.
+- The **"risk monoculture" / procyclicality argument** (AI-driven convergence on similar risk models across institutions, citing BlackRock Aladdin/MSCI RiskMetrics as real-world precedents) is a strong talking point for systemic-risk-aware CRO audiences — relevant to discussions of vendor concentration risk in AI-based risk management tools.
+- The **EURISKO "sinking its own ships" anecdote** (Section 5.2, reward hacking from a 1980s AI wargame) is a vivid, accessible illustration of "specification gaming"/reward hacking for non-technical board audiences — more memorable than abstract alignment-failure descriptions.
+
+---
+
+## Cross-Links
+
+- [[04_Knowledge_Products/Wiki_Intake/Deepthi_Gupta_Rai_Arora_AI_Dynamics_Indian_Banking_2022]] (F028) / [[04_Knowledge_Products/Wiki_Intake/Rajesh_Nimbagal_Karadi_AI_Operational_Efficiency_Indian_Banking_2026]] (F027) / [[04_Knowledge_Products/Wiki_Intake/Tammenga_AI_3LoD_Banks_2020]] (F021) — all three are "micro AI" applications in this paper's framing (institution-level adoption, efficiency, 3LoD); F030 provides the theoretical vocabulary ("micro AI") to classify this entire cluster and to identify what it is *not* addressing (macro/systemic AI risk).
+- [[04_Knowledge_Products/Wiki_Intake/AgenticRisks_Enterprise_Wide_Agentic_AI_Risk_Controls_2025]] (F025) — "trust creep"/irreversibility concern (2022) as theoretical precursor to Category D "Governance Failures" controls (2025); useful intellectual-lineage citation.
+- [[04_Knowledge_Products/Wiki_Intake/Eisenberg_Gamboa_Sherman_Unified_Control_Framework_2025]] (F026) — F026's 15-category risk taxonomy includes "Operational" and "Societal Impact" but no explicit "systemic/macroprudential financial stability" category; F030 is a citable basis for arguing this is a gap in even the most recent (2025) comprehensive AI risk taxonomies.
+- [[07_Institutions/Corpus/RBI/RBI_5_Operational_Risk_Management_Resilience_NBFC_Guidance_2024]] (RBI_5) — RBI's operational-risk Guidance Note is squarely "micro AI"-territory (institution-level operational resilience); F030's macro/micro dichotomy highlights that systemic-risk dimensions of AI adoption remain outside this and comparable instruments' scope.
+- [[Institutional_Coherence]] — the paper's argument that macro AI cannot replicate "modular organisational structures with formal and informal communication channels" for objective-setting is a theoretical anchor for why institutional/organisational (not purely algorithmic) governance structures remain necessary even with advanced AI.
+- [[02_Projects/P3_BFSI_JEIM]] / [[P1_SLR_RG]] — macro/micro AI dichotomy as a structural classification device for corpus-wide gap analysis (which S-sections/regulatory instruments address micro vs. macro AI risk).
+
+---
+
+## ⚠ VERIFY BEFORE PUBLISHING
+
+- Zotero key not yet assigned.
+- This paper pre-dates the generative-AI/LLM/agentic-AI wave (submitted 2020, first version 2017) — its "AI" referent is primarily ML/reinforcement-learning-based decision systems, not LLMs or agentic systems. When citing alongside 2024-25 agentic-AI sources (F024-F026), note the temporal/technological gap explicitly; some specific technical claims (e.g., about AI's reasoning transparency) may need updating in light of LLM-based systems, though the macro/micro conceptual framework itself appears to remain durable.
+- Open-access (CC BY) — no licensing concerns, but confirm current citation count/impact if used as an "influential paper" claim in P1 SLR framing.
+- The paper's strong normative conclusion ("should be heavily scrutinized and rejected") is the authors' policy recommendation, not a finding with empirical validation — frame as an academic/theoretical position when cited, not as settled regulatory consensus.
+
+---
+
+## Processing Status
+
+- [x] PDF read in full (9 pages incl. references)
+- [x] Classified — Format B, Wiki Intake Note
+- [x] Reusable findings extracted (5)
+- [x] Cross-links identified
+- [ ] Indexing pass (Corpus_Index_MOC, Instances in Corpus) — pending, end of Batch 6
+
+---
+
+## Log
+
+- 2026-06-14: Processed as F030, Batch 6 (final document of batch). Selected from raw corpus (systemic risk/macro-micro AI theme); confirmed not a duplicate — first ABDC-A theoretical finance paper in the corpus explicitly addressing AI and systemic/macroprudential risk, providing a master classification frame (macro AI vs. micro AI) applicable across the entire corpus.
+
+---
+
+_Back to [[Corpus_Index_MOC]] | [[PRIS_Master_MOC]]_

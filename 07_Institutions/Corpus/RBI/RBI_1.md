@@ -1,0 +1,173 @@
+---
+type: Corpus Node
+status: active
+last_updated: 2026-07-21
+tags:
+  - type/corpus-node
+  - status/active
+  - engine/phd
+  - jurisdiction/india
+  - institution/rbi
+---
+
+# RBI_1 — Master Direction on Information Technology Governance, Risk, Controls and Assurance Practices (2023)
+
+**Type:** Corpus Node  
+**Vault path:** `07_Institutions/Corpus/RBI/RBI_1.md`  
+**Institution:** [[07_Institutions/RBI]]  
+**Issuing body:** Reserve Bank of India (RBI), Department of Supervision  
+**Document date:** November 7, 2023  
+**Circular reference:** RBI/2023-24/107; DoS.CO.CSITEG/SEC.7/31.01.015/2023-24  
+**Pages:** 26  
+**Domain:** [[03_Domains/BFSI_Governance]] | [[03_Domains/AI_Governance]]  
+
+---
+
+## Instrument Identity
+
+**Full title:** Reserve Bank of India (Information Technology Governance, Risk, Controls and Assurance Practices) Directions, 2023  
+**Short form:** RBI IT Governance Master Direction 2023  
+**Type:** Master Direction (binding statutory directions)  
+**Target entities:** Scheduled Commercial Banks (excl. RRBs), Small Finance Banks, Payments Banks, NBFCs (Top/Upper/Middle Layer), Credit Information Companies, All India Financial Institutions (EXIM Bank, NABARD, NaBFID, NHB, SIDBI)  
+**Signatory:** T.K. Rajan, Chief General Manager  
+**Effective date:** November 7, 2023 (earlier circulars repealed effective March 31, 2024)  
+**Companion direction:** [[07_Institutions/Corpus/RBI/RBI_2]] — RBI Master Direction on Outsourcing of IT Services (April 2023)
+
+---
+
+## Analytical Classification
+
+**P3 corpus role:** SCREENING CORPUS — included in 17-document screening pass but contributes 0 analytical AI-specific RUs to the canonical 91-RU corpus. Technology-neutral IT governance framework without AI-specific requirements. Null finding analytically significant.  
+**P4 corpus relevance:** HIGH — CISO mandate, IS audit requirements, IT risk management framework are directly relevant to BFSI legal compliance architecture  
+**AI Governance Wiki relevance:** MEDIUM — Demonstrates India's technology-neutral approach in banking vs. SEBI's AI-explicit approach  
+**Tier classification:** Tier B only (technology-neutral language applicable to AI via interpretation, not explicit)
+
+---
+
+## Substantive Content
+
+### Governance Structure (Chapters I–II)
+
+**Board-Level IT Strategy Committee (ITSC):**
+- Mandatory for all Regulated Entities (REs)
+- Responsibilities: Approve IT strategy, policy, and annual IT budget; monitor major IT projects; address IT-related regulatory/legal issues; oversee IT risks; evaluate IT performance
+- Meets: Quarterly (minimum)
+
+**IT Steering Committee:**
+- Senior Management level representation from IT and business functions
+- Assists ITSC in strategic IT planning, oversight, business alignment
+- Oversees BCP/DR processes; ensures regulatory compliance in IT architecture
+
+**Head of IT Function (CTO/CIO):**
+- Senior, technically competent role
+- First line of defence: assessment, evaluation, management of IT controls and IT risk
+
+**Chief Information Security Officer (CISO):**
+- Senior level (General Manager or equivalent rank)
+- Independent of Head of IT Function — no direct reporting relationship
+- Not to be given business targets
+- Responsible for cyber security strategy and regulatory compliance
+- Manages and monitors Security Operations Centre (SOC)
+- Quarterly reporting to Board/RMCB/ITSC on cyber security risks
+
+### IT Infrastructure and Services (Chapter III)
+
+**Third-Party Arrangements (§10):**
+- Vendor risk assessment process and controls required
+- Must mitigate concentration risk, conflicts of interest, single point of failure
+- Supply chain risk management
+- Compliance with legal/regulatory requirements for customer data protection
+
+**Project Management (§12):**
+- Adoption of new/emerging technologies must align with risk appetite and business/IT strategy
+- Enterprise architecture planning methodology required
+- Source code escrow for critical applications
+- Certificate from application developer confirming absence of known vulnerabilities, malware, covert channels
+
+**Audit Trails (§15):**
+- Every IT application accessing critical/sensitive information must have audit/logging capability
+- Audit trails must support forensic evidence and dispute resolution
+
+**Cryptographic Controls (§16):**
+- Key length, algorithms, cipher suites must meet internationally accepted standards
+
+### IT and Information Security Risk Management (Chapter IV)
+
+**Information Security Committee (ISC):**
+- Under oversight of ITSC; CISO heads the ISC
+- Responsibilities: Develop information/cyber security policies; monitor IS projects; review cyber incidents; update ITSC/CEO
+
+**Vulnerability Assessment/Penetration Testing (§26):**
+- VA: At least every 6 months for critical systems/DMZ-facing customer systems
+- PT: At least once in 12 months for critical systems
+- Corrective measures in time-bound manner; compliance sustained against CVE database
+
+**Cyber Incident Management (§27):**
+- Cyber incident analysis (forensic if necessary) for severity, impact, root cause
+- Written incident response and recovery procedures
+- **§27(d):** "REs shall pro-actively notify CERT-In and RBI regarding incidents, as per regulatory requirements." — KEY M1 EVIDENCE
+- Encouraged: IB-CART reporting (Indian Banks – Centre for Analysis of Risks and Threats)
+
+### Business Continuity and Disaster Recovery (Chapter V)
+- DR drills: At least half-yearly for critical systems
+- Switching to DR site as primary for minimum one full working day
+- Near-zero RPO target for critical systems
+
+### Information Systems Audit (Chapter VI)
+- Audit Committee of the Board (ACB) responsible for IS Audit oversight
+- IS Audit Policy approved by ACB; reviewed at least annually
+- Risk-based audit approach; consideration of continuous auditing for critical systems
+
+---
+
+## Analytical Significance for PRIS Research
+
+### P3 — Null Finding Evidence
+
+RBI_1 null finding (0 AI-specific RUs) is crucial for P3's Regulatory Parallelism argument:
+- RBI issued comprehensive IT governance directions (November 2023) without any AI-specific governance requirements
+- SEBI issued AI/ML-specific reporting mandates (January 2019, May 2019) covering similar financial institutions
+- The null finding for RBI in combination with SEBI's explicit AI governance regime is the definitional evidence for parallelism at the cross-regulator level
+- RBI's technology-neutral approach vs. SEBI's AI-explicit approach = governance architecture divergence
+
+### Mandatory CERT-In Reporting Link (M1 Evidence)
+
+§27(d): "REs shall pro-actively notify CERT-In and RBI regarding incidents, as per regulatory requirements."
+
+This creates dual-channel incident reporting (RBI + CERT-In) for the same cyber incident — a concrete manifestation of Coordination Pattern M1 (Separate regulatory reporting channels for one event). This is a core evidence element in the Manifestation Evidence Layer (Tables S17–S21 of SOM).
+
+### Governance Architecture Comparison (P3/P4)
+
+| Dimension | RBI_1 (IT Governance, 2023) | SEBI_9/SEBI_10 (AI Reporting, 2019) |
+|-----------|---------------------------|--------------------------------------|
+| AI explicit? | No (technology-neutral) | Yes (AI/ML explicitly named) |
+| Scope | All IT systems | AI/ML systems specifically |
+| Reporting | Not AI-specific | Quarterly AI inventory reports |
+| Black-box problem addressed? | No | Yes (SEBI_10 §2) |
+| Year | 2023 | 2019 |
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/RBI/RBI_2]] | [[07_Institutions/Corpus/SEBI/SEBI_9]] | [[07_Institutions/Corpus/SEBI/SEBI_10]] | [[07_Institutions/Corpus/CERT_In/CERT_1]] | [[07_Institutions/Corpus/CERT_In/CERT_2]]  
+**Related concepts:** [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] | [[05_Concepts/05_Concepts_Signature/Governance_Debt]]  
+**Related frameworks:** [[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]] | [[06_Frameworks/Manifestation_Evidence_Layer]]  
+**Related projects:** [[02_Projects/P3_BFSI_JEIM]] | [[02_Projects/P4_Doctrinal_IJLIT]]  
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]  
+**Zotero key:** RBI_MD_ITGovernance_2023
+
+---
+
+## Coding Status
+
+- **P3 NVivo coding:** In screening corpus — 0 analytical AI RUs. Null finding confirmed. Contributes to saturation evidence.
+- **Manifestation Layer (M1):** §27(d) dual CERT-In + RBI incident reporting = M1 evidence
+- **P4 relevance:** CISO mandate, IS audit framework, access controls — directly relevant to BFSI legal compliance
+
+---
+
+## Log
+
+- 2026-06-13: Corpus node created from source extraction. S5 session. Null finding consistent with SOM Table S0.
+

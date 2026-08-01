@@ -1,0 +1,10 @@
+# Obsidian app config, workspace state, plugin binaries
+.obsidian/
+
+# OS artifacts
+.DS_Store
+.fuse_hidden*
+
+# Editor/lock files
+*.tmp
+*~

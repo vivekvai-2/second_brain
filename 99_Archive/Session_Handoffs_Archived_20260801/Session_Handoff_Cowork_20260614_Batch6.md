@@ -1,0 +1,90 @@
+---
+type: Session Handoff
+status: archived
+last_updated: 2026-07-21
+tags:
+  - type/session-handoff
+  - status/archived
+  - engine/phd
+---
+
+# Session Handoff — Batch 6 Complete (2026-06-14)
+
+**Type:** MOC / Handoff Note
+**Status:** Active
+**Supersedes:** Session_Handoff_Cowork_20260614.md (Batches 1–5 state)
+
+---
+
+## What Was Done This Session (Batch 6)
+
+Batch 6 sourced 10 candidate documents directly from the raw 187-PDF corpus at `/Users/vivek/Documents/LinkedIn/Policy Dump/PDFs/`, prioritising 3LoD/Model-Risk/Agentic-AI and India-BFSI themes. Outcome:
+
+| ID | Title (short) | Format | Status |
+|---|---|---|---|
+| F021 | Tammenga — AI in Banks 3LoD | B | ✅ Complete |
+| F022 | Risk Governance as Line of Defense (review) | B | ✅ Complete |
+| F023 | — | — | SKIPPED — confirmed duplicate of F013 (already in vault) |
+| F024 | Rao & Scepanovic — AI Model Risk Catalog | B | ✅ Complete |
+| F025 | Enterprise-Wide Agentic AI Risk Controls (242-control taxonomy) | B | ✅ Complete |
+| F026 | Eisenberg, Gamboa & Sherman — Unified Control Framework | B | ✅ Complete |
+| F027 | — | — | **SKIPPED — confirmed duplicate of F011** (merged as addendum) |
+| F028 | — | — | **SKIPPED — confirmed duplicate of F016** (merged as addendum) |
+| RBI_5 | Operational Risk Management & Resilience — NBFC Guidance (2024) | A | ✅ Complete |
+| F030 | Daníelsson, Macrae & Uthemann — AI and Systemic Risk (JBF 2022) | B | ✅ Complete |
+
+Net new nodes: **8** (F021, F022, F024, F025, F026, RBI_5, F030, plus 2 addenda). Confirmed duplicates resolved: **2** (F023 — skip only, pre-existing pattern; F027/F028 — addendum-merge + supersede pattern, new this batch).
+
+### F027/F028 Duplicate Resolution (process note)
+
+- F027 ("Rajesh_Nimbagal_Karadi_AI_Operational_Efficiency_Indian_Banking_2026") duplicates Batch 5 node **F011** (`Rajesh_Nimbagal_Karadi_AI_Governance_Risk_Nexus_2026.md.md`) — same authors, same DOI (10.62127/aijmr.2026.v04i01.1197).
+- F028 ("Deepthi_Gupta_Rai_Arora_AI_Dynamics_Indian_Banking_2022") duplicates Batch 5 node **F016** (`Deepthi_Gupta_Rai_Arora_AI_Indian_Banking_Dynamics_2022.md.md`) — same authors/source, near-identical title (word-order swap only).
+- Resolution: unique additional findings from F027/F028 were appended as dated "2026-06-14 (Batch 6 addendum)" Log entries to F011/F016. The duplicate files were overwritten with short `status/superseded` stub notes pointing to F011/F016 (could not `rm` — vault paths return "Operation not permitted" via bash; did not pursue `mcp__cowork__allow_cowork_file_delete`).
+- Both slots marked SKIPPED in Corpus_Index_MOC Batch 6 table and VERIFY tracker (rows 18-35), analogous to the F023 pattern.
+
+### ⚠ Process Lesson for Batches 7–11
+
+The "already written" summary list is **insufficient** for duplicate detection. Two near-duplicate filename patterns caused this batch's misses:
+1. **`.md.md` double-extension files** — several Batch 5 Wiki Intake notes carry this naming quirk (`Rajesh_Nimbagal_Karadi_AI_Governance_Risk_Nexus_2026.md.md`, `Deepthi_Gupta_Rai_Arora_AI_Indian_Banking_Dynamics_2022.md.md`, plus concept files `Governance_Debt.md.md`, `Regulatory_Parallelism.md.md`, `Institutional_Coherence.md.md`, `_Institutions_MOC.md.md`, `_Concepts_MOC.md.md`). Glob/grep against `*.md` alone can miss these.
+2. **Word-order/title-variant duplicates** — same author + DOI but reworded title (e.g., "AI Governance Risk Nexus" vs. "AI Operational Efficiency ... Governance-Risk Nexus"; "AI Indian Banking Dynamics" vs. "AI Dynamics Indian Banking").
+
+**Recommendation:** before writing any new node, run a Glob for `**/*.md*` (catches `.md.md`) AND cross-check candidate author surnames + DOIs (not just titles) against the full Wiki_Intake directory listing — not just the curated "already written" list.
+
+---
+
+## Vault Numbering State (Next IDs)
+
+| Series | Next ID |
+|---|---|
+| RBI | **RBI_6** |
+| SEBI | **SEBI_13** |
+| MeitY | **MeitY_4** |
+| NITI Aayog | **NITI_8** |
+| International | **International_5** |
+| F-series (academic/Wiki Intake) | **F031** |
+
+**Note on RBI_5:** RBI_5 was assigned as a **Format A Corpus Node** (07_Institutions/Corpus/RBI/), following the same convention as RBI_1–RBI_4 (regulatory instruments), NOT as an F-series Wiki Intake note — despite being sourced from a secondary commentary (Vinod Kothari Consultants) on an RBI Guidance Note. This preserves the institution-corpus numbering convention; F-series remains reserved for academic/Big4/advisory papers.
+
+---
+
+## Indexing Pass — Completed This Session
+
+1. ✅ `Corpus_Index_MOC.md` — new "Batch 6 — Raw-Corpus Selection" table (10 rows incl. 2 skips); "By Wiki Section" table updated (S1/S3/S4/S5/S6); "By Project" table updated (P1/P3/P4); VERIFY tracker expanded from 17 → **35 open flags** (rows 18-35 = Batch 6, including 2 new flags on the F011/F016 addenda).
+2. ✅ `Governance_Debt.md.md` — 3 new "(Batch 6)" Instances-in-Corpus bullets (F024, RBI_5, F011-addendum).
+3. ✅ `Regulatory_Parallelism.md.md` — 2 new "(Batch 6)" bullets (BCBS→RBI_5 transposition lag; F026 control-mapping).
+4. ✅ `Institutional_Coherence.md.md` — 3 new "(Batch 6)" bullets (RBI_5 internal coherence; F026 Colorado gap; F030 macro-AI institutional argument).
+5. ✅ `Agentic_AI_Governance.md` — 4 new "(Batch 6)" bullets (F025, F026, RBI_5, F030).
+6. ✅ `_Institutions_MOC.md.md` — Research Corpus Mapping table: RBI row updated (RBI_5); new "Academic (Batch 6...)" row added; F027/F028 duplicate-resolution note added to corpus-detail line; Last Updated → 2026-06-14.
+7. ✅ `_Concepts_MOC.md.md` — Cross-Concept Applications table: new **⊕⊕⊕⊕** (Batch 6) markers added to Regulatory Parallelism, Governance Debt, and Institutional Coherence rows; legend updated; Last Updated → 2026-06-14.
+
+---
+
+## Recommended Batch 7–11 Plan (unchanged from prior handoff, carried forward)
+
+Continue raw-corpus sourcing from `/Users/vivek/Documents/LinkedIn/Policy Dump/PDFs/` for Batches 7–11 (academic papers with generic filenames). Per project instructions: **first map footnote references in `shortlist_cluster*.md` files to actual PDFs** before writing notes — treat this mapping as its own checkpoint, especially given the duplicate-detection issues surfaced in Batch 6.
+
+Priority themes still under-represented in the corpus per Batch 6 gap analysis (F030): **macro-AI / systemic-risk literature** — most of the BFSI-AI corpus (F011, F016, F021) addresses "micro AI" (operational/individual-firm), leaving systemic/macro-AI governance comparatively thin. Batches 7-11 should actively scout for additional macro-AI/systemic-risk sources to balance this.
+
+---
+
+_Back to [[00_MOC/PRIS_Master_MOC|PRIS_Master_MOC]] | [[Corpus_Index_MOC]]_

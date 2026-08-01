@@ -1,0 +1,99 @@
+---
+type: Corpus Node
+status: active
+last_updated: 2026-07-21
+tags:
+  - type/corpus-node
+  - status/active
+  - engine/phd
+  - jurisdiction/india
+  - institution/sebi
+---
+
+# SEBI_12 — Reporting for AI and ML Applications and Systems Offered and Used by Market Intermediaries
+
+**Type:** Corpus Node
+**Vault path:** `07_Institutions/Corpus/SEBI/SEBI_12.md`
+**Institution:** [[07_Institutions/SEBI]]
+**Issuing body:** Securities and Exchange Board of India (SEBI), Market Intermediaries Regulation and Supervision Department (MIRSD)
+**Document date:** 4 January 2019
+**Circular reference:** SEBI/HO/MIRSD/DOS2/CIR/P/2019/10
+**Pages:** 6
+**Domain:** [[03_Domains/AI_Governance]] | [[03_Domains/BFSI_Governance]]
+
+---
+
+## Instrument Identity
+
+**Full title:** Reporting for Artificial Intelligence (AI) and Machine Learning (ML) Applications and Systems Offered and Used by Market Intermediaries
+**Type:** Regulatory Circular (binding reporting obligation)
+**Target entities:** Stock Brokers and Depository Participants; Recognised Stock Exchanges and Depositories
+**Legal basis:** Not fully captured in extraction — SEBI Act 1992 powers (consistent with companion MII circular)
+**Companion documents:** [[07_Institutions/Corpus/SEBI/SEBI_9]] (27 days later — MII-facing circular, SEBI/HO/MRD/DOP1/CIR/P/2019/24, dated 31 Jan 2019). **Not a duplicate of SEBI_9**: this circular (4 Jan 2019, ref .../2019/10) addresses Stock Brokers and Depository Participants directly, while SEBI_9 (31 Jan 2019, ref .../2019/24) addresses Market Infrastructure Institutions (Exchanges/Depositories/Clearing Corps) only. Different addressee population, different circular number, 27-day gap — two distinct instruments in the same reporting regime.
+
+---
+
+## Analytical Classification
+
+**Wiki section:** S2 (India Regulatory Framework, BFSI) — feeds the same gap as SEBI_9/SEBI_10
+**Jurisdiction:** India
+**Confidence:** High (binding circular, addressed directly to regulated intermediaries)
+**AI explicit:** Yes
+**Tier classification:** Tier A — explicit AI/ML regulation
+**AI Governance Wiki relevance:** HIGH — establishes the foundational AI/ML taxonomy SEBI uses for intermediary-level (broker/DP) reporting, complementing SEBI_9's MII-level reporting.
+
+---
+
+## Substantive Content
+
+### Background and rationale
+SEBI identifies increasing AI/ML usage in investor- and consumer-facing products (e.g., "robo advisors") by market intermediaries. The circular establishes a survey/inventory mechanism "to gain an in-depth understanding of the adoption of such technologies in the markets" and to prepare for future AI/ML policy. SEBI explicitly notes AI/ML systems are often "black boxes" whose behaviour "cannot be easily quantified," creating a need to verify advertised financial benefits in investor-facing products.
+
+### AI/ML system definition (taxonomy — mandatory reporting trigger)
+A system is reportable as AI/ML if it exhibits any of the following characteristics:
+1. Builds a knowledge base of a domain by learning from and creating outputs based on real-world input data, deciding future outputs based on that knowledge base (examples given: Decision Tree, Random Forest, K-means, Markov Decision Process, Gradient Boosting algorithms).
+2. Uses statistical heuristic methods instead of procedural algorithms, or applies clustering/categorisation without predefined categories.
+3. Uses a feedback mechanism to improve its own parameters and bases subsequent execution on those updated parameters.
+4. Performs knowledge representation and maintains a knowledge base.
+
+### Reporting mechanism — Annexure C (Consolidated Quarterly Reporting Form)
+Registered intermediaries using AI/ML systems must submit **consolidated quarterly reports** to Stock Exchanges/Depositories, capturing per system/application:
+- Entity registration number, name, PAN; application/system name and date in use
+- Type of area where AI/ML is used (order execution, advisory services, KYC/AML, surveillance/compliance, others)
+- Whether a system audit report has been submitted, whether it contains adverse remarks, and whether the entity has been inspected in the past year with any irregularity noted
+- Compliance status against this circular (explicitly cross-referenced by circular number/date on the form itself)
+- A separate row is required for each system or application.
+
+---
+
+## Analytical Significance for PRIS Research
+
+### For P3 (BFSI AI Governance Regulatory Parallelism, JEIM) and fsQCA
+SEBI_12 and SEBI_9 together demonstrate SEBI's **layered reporting architecture** — distinct circulars for different tiers of the securities market value chain (intermediaries vs. market infrastructure institutions), issued within a month of each other in early 2019, six years before RBI's first AI-specific framework (FREE-AI, 2025). This timing gap is significant for the fsQCA configuration: SEBI's "Tier A, mandatory reporting" approach (2019) vs. RBI's "Tier A, advisory" approach (2025) represents two divergent regulatory postures toward the same underlying risk (AI/ML black-box opacity in financial decision-making), supporting the Regulatory Parallelism construct — same risk category, different regulators, different instrument types (binding circular vs. advisory committee report), issued six years apart with no apparent cross-reference.
+
+### Coordination / Parallelism Pattern
+Existing nodes: [[07_Institutions/Corpus/SEBI/SEBI_9]] (Convergence — same reporting regime, sequential circulars, 27 days apart); [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] (Parallelism — no cross-reference between SEBI's 2019 binding AI/ML reporting regime and RBI's 2025 AI governance advisory, despite both addressing AI risk transparency in regulated financial entities).
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/SEBI/SEBI_9]], [[07_Institutions/Corpus/SEBI/SEBI_10]], [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]]
+**Related concepts:** [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]], [[05_Concepts/05_Concepts_Standard/Transparency]], [[05_Concepts/05_Concepts_Standard/Accountability]]
+**Related frameworks:** —
+**Related projects:** [[02_Projects/P3_BFSI_JEIM]], [[02_Projects/fsQCA_Thesis_Chapter]]
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
+**Related consulting:** —
+
+---
+
+## Coding Status
+
+- **P3 NVivo:** Screening corpus (candidate — companion to SEBI_9, likely same screening tier given inventory/reporting function rather than substantive AI governance mandate)
+- **Wiki intake status:** Pending
+
+---
+
+## Log
+
+- 2026-06-14: Corpus node created. Batch 2. Cowork session. Source: "Reporting for Artificial Intelligence (AI) and Machine Learning (ML) applications and systems offeredand usedby market intermediaries.pdf". Confirmed NOT a duplicate of SEBI_9 (different circular number, date, and addressee population).
