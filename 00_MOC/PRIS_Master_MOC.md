@@ -65,6 +65,7 @@ Evidence  ← lives in Zotero / NVivo / Policy Dump, not Obsidian
 - [[01_Strategy/VV_Publication_Pipeline_v3]] — Portfolio management of current and future publication streams.
 - [[Phase0_Gate]] — Strategic prioritisation and sequencing mechanism for major initiatives.
 - [[Workflow_Discipline_Protocol]] — Authoritative operational guide for enforcing Link, Concept, and Close-out disciplines and preventing ontology inflation.
+- [[Git_Version_Control_Protocol]] — Vault version history, GitHub backup, and recovery procedures; documents the automatic commit/push system and how to check back or roll back a file if needed.
 
 ---
 
