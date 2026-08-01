@@ -131,6 +131,24 @@ The *Aim* dimension is the novel coding contribution: existing ADICO application
 
 ---
 
+## **Judicial Test — the construct's first contact with a court (2026-08-02)**
+
+[[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] (Delhi High Court, 24 July 2026) is the first Indian judicial determination on LLM training and copyright, and it supplies two findings that the construct did not anticipate.
+
+**1. Where no evidentiary layer exists, a court reconstructs from vendor metadata.** The output claim was decided without a training-data manifest, inference logs, retention record, or anything else from the defendant's systems. The Court reasoned from **published training cut-off dates** against article publication dates and concluded that memorisation was impossible (para 83). The dispositive evidence of what a model did was a date the vendor had published about itself.
+
+This is the construct's fourth dimension — evidentiary destination — resolving itself by default. No instrument required the artefacts to exist, so none did, so the court used what was left. The rights-holder could not test the assertion because there was nothing to test it against.
+
+**2. Prompt design is now an evidentiary standard in Indian law.** Para 104 introduces **adversarial prompting** as a legal category, with academic citation: prompts are "carefully designed inputs that manipulate model outputs." The Court distinguished *GEMA v. OpenAI* (Munich Regional Court, 11 Nov 2025 — which found memorisation) precisely on this ground: GEMA's prompts were non-adversarial, ANI's used the word "exactly" (para 119).
+
+The consequence is that **the method of interrogating a system now bears on the weight of the resulting evidence**. This is a new dimension for the construct and it sits outside the existing four: not what artefact is retained, for how long, in whose custody, or to what end — but *how the system was questioned to produce the artefact in the first place*. No instrument in the corpus addresses how prompt-elicited evidence should be captured, logged, timestamped or authenticated. Add as a candidate fifth dimension — **interrogation provenance** — pending a second instance.
+
+**3. The admissibility question was never engaged.** The judgment contains no reference to the Bharatiya Sakshya Adhiniyam, no s.63 certification analysis, no direction on preservation. **OQ-EG-01 is not merely unanswered: India's first AI copyright case reached final interlocutory disposal without any party or either Amicus raising it.** That is stronger evidence of the gap than the gap itself.
+
+⚠ Interim order, expressly prima facie, appealable — see DHC_1 status caveat and ⚠ V-DHC1-1.
+
+---
+
 ## **Open Research Questions**
 
 **OQ-EG-01 (primary contribution candidate).** Would artefacts generated to satisfy EU AI Act Art. 12 logging or ISO/IEC 42001 documented-information requirements satisfy the certification conditions for electronic-record admissibility under Bharatiya Sakshya Adhiniyam s.63(4)? The technical-standards literature and the evidence-law literature do not currently speak to each other. ⚠ **VERIFY / GAP:** no BSA corpus node exists in the vault — s.63 provisions cited here derive from external Deep Research (2026-08-02), not from vault primary-source intake. **A BSA_1 corpus node must be created before this question is used in any publication-track output.**
@@ -140,6 +158,10 @@ The *Aim* dimension is the novel coding contribution: existing ADICO application
 **OQ-EG-03.** How do the BSA s.63(2) conditions — regular use, proper operation, ordinary course of business, carried forward from Indian Evidence Act s.65B — apply to probabilistic, non-deterministic systems whose defining property is that identical inputs need not produce identical outputs?
 
 **OQ-EG-04.** What chain-of-custody standard should apply to model weights, inference logs, and prompt/output pairs? No instrument in the corpus, Indian or international, addresses this.
+
+**OQ-EG-05 (new, 2026-08-02).** Should prompt provenance be a governed artefact class? [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] makes the adversarial or non-adversarial character of a prompt determinative of evidentiary weight, while no instrument specifies how prompts and their outputs are to be captured, timestamped or authenticated. A litigant's screenshot is currently the entire evidentiary record.
+
+**OQ-EG-06 (new, 2026-08-02).** Where a regulated entity is required to retain nothing, does the evidentiary burden shift *de facto* to vendor-published metadata — and what governance consequences follow from a defendant's own published claims about its systems becoming the dispositive evidence about those systems?
 
 ---
 
@@ -177,6 +199,7 @@ A genuine, citable NIST-to-India evidentiary transmission exists and should be u
 - [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] — §16.6 audit-data custody regime
 - [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] — Rule 6 breach-investigation retention
 - [[07_Institutions/Corpus/International/International_22_EU_AI_Act_Conformity_Assessment_Notified_Bodies]] — Arts. 33, 47 + Annex V retention horizons
+- [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] — **judicial instance**: model behaviour reconstructed from vendor-published training dates absent any retained artefact; prompt design made an evidentiary standard; BSA never engaged
 - [[07_Institutions/Corpus/CERT_In/CERT_In_3_Blueprint_AI_Assisted_Exploitation_2026]] — evidence preservation (§6.10, §10.1); agentic audit logging (§12.14); auditability (§12.10); **no custody standard, no horizon**
 - [[07_Institutions/Corpus/RBI/RBI_9_AI_Accelerated_Cyber_Threats_Advisory_2026]] — "logging, traceability and forensic readiness" as a named domain ⚠ Tier C
 - [[07_Institutions/Corpus/IRDAI/IRDAI_2_Working_Group_AI_Governance_2026]] — pre- and post-deployment AI audit framework mandated, due ~18 Sep 2026 (watch item)

@@ -128,6 +128,24 @@ Batch 6 sourced documents directly from the raw 187-PDF corpus at `/Users/vivek/
 
 ---
 
+## Ad-hoc intake 2026-08-02 (third pass) — DHC_1 (1 node), Format A · **opens the judicial track**
+
+First **judgment** in the corpus, and the first Format A judicial node. Opens a new institution track: [[07_Institutions/DHC]] (High Court of Delhi), folder `07_Institutions/Corpus/DHC/`.
+
+| Node | Title | Institution | Date | Tier | Primary text? | ⚠VERIFY |
+|---|---|---|---|---|---|---|
+| [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] | *ANI Media Pvt. Ltd. v. OpenAI OpCo LLC*, CS(COMM) 1028/2024 (Amit Bansal J.) | DHC | **24 Jul 2026** | **A** | ✅ Full judgment, 135pp / 275 paras | 6 (2 HIGH) |
+
+**Why it matters.** India's first judicial determination on LLM training and copyright. Four doctrinal moves: s.52 held to be a liberally construed **user-rights provision, not an exception**; **commercial use not excluded** from s.52(1)(a)(i) (reasoned from where the legislature *did* exclude it); **"private" distinct from "personal"** (else "private" is otiose); and **"research" extended to machine learning by updating construction** — *"the acts of further research cannot be confined to acts of human being alone"* (para 218). The Court formulated its **own three-factor fairness test**, rejecting the US four-factor test as statutorily inapplicable and anchoring to Berne Art. 9(2).
+
+**Two corpus-level findings.** (1) **Evidentiary reconstruction without artefacts** — the output claim was decided from *vendor-published training cut-off dates* against article publication dates, with no logs, no manifest, no retention record before the Court; and **prompt design became an evidentiary standard**, distinguishing Munich's *GEMA v. OpenAI* on adversarial vs non-adversarial prompting. The BSA and admissibility were **never engaged** across 21 hearings, six intervenors and two Amici. (2) **Inter-branch parallelism** — the Court decided the TDM question under existing s.52 while DPIIT ([[07_Institutions/Corpus/DPIIT/DPIIT_1]]) was still consulting on whether to legislate one. A third structural variant of [[Regulatory_Parallelism]], and the first that is **not remediable by coordination**.
+
+**⚠ Interim order, expressly prima facie, appealable — see node status caveat. Do not cite as settled Indian law.** Two HIGH flags: appeal status unverified (V-DHC1-1); P4 scope decision required, logged as **DJ-12 (OPEN)** (V-DHC1-2).
+
+**Numbering state:** next DHC ID = DHC_2. **Housekeeping:** an empty `07_Institutions/Corpus/Judiciary/` folder was created in error and could not be removed through the mount — delete manually.
+
+---
+
 ## Ad-hoc intake 2026-08-02 (second pass) — CERT_In_3, SEBI_18, RBI_9, IRDAI_2 (4 nodes), Format A
 
 Four nodes closing a **May–June 2026 corpus gap** discovered via a lead in an AI-generated practitioner deck. All four instruments were verified independently before intake; the deck is not cited as a source for any node.

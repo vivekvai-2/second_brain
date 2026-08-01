@@ -17,6 +17,8 @@ tags:
 **Type:** Domain **Status:** Seeded — promoted from stub 2026-08-02; **not yet a full Domain synthesis** **Last Updated:** 2026-08-02
 
 > **Status discipline.** The 2026-07-31 stub correctly recorded that this domain rests on a **single** corpus node and that a full synthesis on the model of [[03_Domains/DPI_Governance]] must wait for intake of the eCourts, CEPEJ and UK judicial-AI documents. That constraint stands. This promotion does two things only: it establishes the analytical axis the domain will be organised around, and it connects the judicial material to adjacent corpus nodes that were already carrying judicial-evidentiary content without being tagged to this domain. **No claim below rests on a document that has not been read into the vault.** The candidate-source table from the stub is preserved intact.
+>
+> **Update 2026-08-02 — second node, and a different kind.** [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] (Delhi High Court, 24 July 2026) is the domain's second corpus node and the first **adjudication** rather than guidance. The domain remains `seeded` rather than `active`: two nodes still do not support a full synthesis, and the intake queue below is unchanged. But the analytical axis stated below is now empirically supported rather than merely proposed — see §Dual Position, updated.
 
 ---
 
@@ -27,6 +29,12 @@ Judicial Governance in the PRIS corpus is not primarily about courts adopting AI
 As deployer, the judiciary is the only Indian institution to have published a self-audit of its own AI estate alongside a candid catalogue of its own failures — three documented Indian judicial AI-hallucination incidents, recorded in [[04_Knowledge_Products/Wiki_Intake/SCI_1_White_Paper_AI_and_Judiciary_2025]]. No regulator in the corpus has done anything comparable for its own systems.
 
 As forum, the judiciary is where [[05_Concepts/05_Concepts_Signature/Evidentiary_Governance]] terminates. Every logging, retention and audit-trail obligation imposed by RBI, SEBI, CERT-In or MeitY is ultimately a bet about what will satisfy a court. The corpus currently contains that bet from the regulators' side and almost nothing from the court's side. Closing that asymmetry is this domain's reason for existing.
+
+**The first data point from the court's side is now in, and it is stark.** In [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] the Delhi High Court determined what an LLM had and had not done **without a single retained system artefact before it** — no training-data manifest, no inference log, no retention record. It reconstructed model behaviour from the vendor's own published training cut-off dates set against the plaintiff's article publication dates, and on that basis held memorisation impossible (para 83). It then made **prompt design** an evidentiary standard, distinguishing the Munich *GEMA v. OpenAI* decision on the ground that ANI's prompts were adversarial where GEMA's were not (paras 104, 119).
+
+The judgment contains no reference to the Bharatiya Sakshya Adhiniyam, no s.63 certification analysis, and no direction on preservation. India's first AI copyright case reached interlocutory disposal without any party or either Amicus raising the admissibility question at all. That silence is the domain's most important finding to date.
+
+⚠ **DHC_1 is an interim order on an injunction application, expressly prima facie throughout, and appealable to a Division Bench** (para 274; ⚠ V-DHC1-1, appeal status unverified). Every claim in this domain note resting on it is provisional. It must not be cited as settled Indian law on AI training and copyright.
 
 ---
 
@@ -41,7 +49,8 @@ The candidate construct: **judicial systems are being asked to adjudicate the ou
 | Dimension | Question | Current corpus support |
 |---|---|---|
 | **Judiciary as AI deployer** | What governs AI used *by* courts? | SCI_1 — nine-tool inventory, six-risk taxonomy, six ethical principles, role-differentiated obligations for institutions, lawyers and law clerks |
-| **Judiciary as evidentiary forum** | What standard must AI-derived evidence meet? | ⚠ **Structural gap** — no Indian evidence-law instrument is in the vault |
+| **Judiciary as evidentiary forum** | What standard must AI-derived evidence meet? | **[[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]]** — first Indian adjudication; behaviour reconstructed from vendor metadata absent artefacts; prompt design made an evidentiary standard. ⚠ Structural gap persists: no Indian evidence-law instrument in the vault, and the judgment never engages BSA s.63 |
+| **Judiciary as gap-filler** | What does a court do when the executive has not legislated? | DHC_1 para 4: *"the Courts are required to step in to fill the gap between advancing technologies and existing laws."* Decided the TDM question under existing s.52 while DPIIT was still consulting — see [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] §Inter-Branch |
 | **Synthetic-media integrity** | How is fabricated evidence detected and governed upstream? | SCI_1 Ch. 4.C, plus MeitY's platform-side regime — see below |
 
 ---
@@ -91,7 +100,11 @@ Carried forward unchanged from the 2026-07-31 stub, with the BSA added at the to
 
 ## **Open Research Questions**
 
-**OQ-JG-01 (blocking, shared with Evidentiary_Governance).** Do artefacts generated under Indian regulatory logging mandates satisfy BSA s.63(4) certification requirements? Cannot be addressed until the BSA node exists.
+**OQ-JG-01 (blocking, shared with Evidentiary_Governance).** Do artefacts generated under Indian regulatory logging mandates satisfy BSA s.63(4) certification requirements? Cannot be addressed until the BSA node exists. **Sharpened 2026-08-02:** DHC_1 shows the question is not merely unanswered but unasked — it did not arise across 21 hearings, six intervenors and two Amici.
+
+**OQ-JG-05 (new, 2026-08-02).** Where a court must determine what an AI system did and no artefacts were retained, what evidentiary sources does it fall back on, and with what reliability? DHC_1's answer was vendor-published training dates. Is that generalisable, and what happens when a vendor's published claims are themselves contested?
+
+**OQ-JG-06 (new, 2026-08-02).** Should prompt provenance be a governed artefact class? DHC_1 makes the adversarial character of a prompt determinative of evidentiary weight while no instrument specifies how prompts and outputs are to be captured or authenticated. Shared with [[05_Concepts/05_Concepts_Signature/Evidentiary_Governance]] OQ-EG-05.
 
 **OQ-JG-02.** Does MeitY's synthetic-media labelling and takedown regime preserve or destroy the provenance information a court would need for authentication? The instruments are silent; the answer determines whether the two regimes are complementary or actively in tension.
 
@@ -125,11 +138,11 @@ Carried forward unchanged from the 2026-07-31 stub, with the BSA added at the to
 
 ## **Linked Institutions**
 
-[[07_Institutions/SCI]] | [[07_Institutions/MEITY]]
+[[07_Institutions/DHC]] | [[07_Institutions/SCI]] | [[07_Institutions/MEITY]] | [[07_Institutions/DPIIT]]
 
 ## **Linked Corpus Nodes**
 
-[[04_Knowledge_Products/Wiki_Intake/SCI_1_White_Paper_AI_and_Judiciary_2025]] (anchor) | [[07_Institutions/Corpus/MeitY/MeitY_5_Draft_IT_Rules_Amendment_SGI_2025]] | [[07_Institutions/Corpus/MeitY/MeitY_6_SOP_NCII_Takedown_2025]] | [[07_Institutions/Corpus/MeitY/MeitY_7_IT_Intermediary_Guidelines_Digital_Media_Ethics_Code_Rules_2021]] | [[04_Knowledge_Products/Wiki_Intake/F046_UK_LawCommission_AI_and_Law_DiscussionPaper_2025]]
+[[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] (first adjudication) | [[04_Knowledge_Products/Wiki_Intake/SCI_1_White_Paper_AI_and_Judiciary_2025]] (anchor) | [[07_Institutions/Corpus/MeitY/MeitY_5_Draft_IT_Rules_Amendment_SGI_2025]] | [[07_Institutions/Corpus/MeitY/MeitY_6_SOP_NCII_Takedown_2025]] | [[07_Institutions/Corpus/MeitY/MeitY_7_IT_Intermediary_Guidelines_Digital_Media_Ethics_Code_Rules_2021]] | [[04_Knowledge_Products/Wiki_Intake/F046_UK_LawCommission_AI_and_Law_DiscussionPaper_2025]]
 
 ## **Future Reuse Opportunities**
 

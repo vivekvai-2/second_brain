@@ -101,6 +101,8 @@ RBI (internal, added 2026-08-02)
 
 **Intra-regulator parallelism (2026-08-02).** [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] shows the zero-cross-reference pattern operating *inside* RBI, not only between RBI and peer regulators. This reframes the RBI↔SEBI divergence as a downstream consequence of RBI's internal separation between its principle layer and its operative layer, rather than as an inter-agency coordination failure. See [[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]] §Intra-Regulator Parallelism.
 
+**Inter-branch parallelism (2026-08-02).** [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] adds a third structural type: the **judiciary** decided that existing s.52(1)(a)(i) covers LLM training while the **executive** ([[07_Institutions/Corpus/DPIIT/DPIIT_1]]) was consulting on whether to legislate a TDM exception. Unlike inter- and intra-regulator parallelism, this variant is **not remediable by coordination** — a court seized of a live dispute cannot defer to a consultation. See [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] §Inter-Branch.
+
 ---
 
 ## **Research Corpus Mapping**
@@ -111,6 +113,7 @@ RBI (internal, added 2026-08-02)
 | CERT-In | `CERT_In/` | CERT_1, CERT_2, CERT_4, CERT_In_1, CERT_In_2, **CERT_In_3** | — | **CERT_In_3 (25 May 2026) Blueprint — cross-sectoral, AI-explicit, contains a 16-area AI governance chapter (§12). Cites CERT_In_1 and CERT_4 — the corpus's only self-coherent instrument stack. Next ID CERT_In_4** |
 | SEBI | `SEBI/` | SEBI_9–SEBI_17, **SEBI_18** | — | **SEBI_18 (5 May 2026) — first corpus instrument regulating in response to a named commercial AI model. Next ID SEBI_19** |
 | IRDAI | `IRDAI/` | IRDAI_1 ⚠Tier C, **IRDAI_2** | — | **IRDAI_2 (18 Jun 2026) WG-AI — seats a CERT-In scientist and former ReBIT CEO; strongest positive cross-regulator coordination instance in the corpus. Recommendations due ~18 Sep 2026. Next ID IRDAI_3** |
+| **DHC (new)** | `DHC/` | **DHC_1** | — | **High Court of Delhi — new track opened 2026-08-02.** DHC_1 = *ANI Media v. OpenAI* (24 Jul 2026), India's first judicial determination on LLM training and copyright. **First judgment in the corpus**; judiciary now issues instruments by adjudication, not only guidance (cf. [[SCI]]). ⚠ Interim, prima facie, appealable. Next ID DHC_2 |
 | SEBI | `SEBI/` | SEBI_9, SEBI_10, SEBI_11, SEBI_14, SEBI_15, SEBI_17 | SEBI_12, SEBI_13; ~~SEBI_16~~ (duplicate of SEBI_14, redirect stub) | P3 core timeline; capital markets AI reporting; CSCRF cyber+AI stack (SEBI_15 + SEBI_14 = complete cybersecurity + AI accountability layer) |
 | CERT-In | `CERT_In/` | CERT_1, CERT_2, CERT_4, CERT_In_1, CERT_In_2 | — | P3 security track; SBOM guidelines; SatCom security |
 | MeitY | `MeitY/` | MeitY_1, MeitY_4, MeitY_5, MeitY_6, MeitY_7 | MeitY_2, MeitY_3 | P2 DPI core; DPDP Rules; deepfake takedown; IT Intermediary Guidelines/Digital Media Ethics Code 2021 (parent instrument for MeitY_5/MeitY_6) |

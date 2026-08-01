@@ -196,6 +196,29 @@ _Back to [[PRIS_Master_MOC]]_
 
 ---
 
+## DJ-12 · 2026-08-02 · ⚠ OPEN — P4 Scope vs. the ANI v. OpenAI Judgment
+
+**Status: DECISION REQUIRED. Not resolved. Logged so it is not lost.**
+
+**Context:** [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] — *ANI Media Pvt. Ltd. v. OpenAI OpCo LLC*, CS(COMM) 1028/2024, Delhi High Court, Amit Bansal J., pronounced 24 July 2026 — was ingested on 2026-08-02. It is India's first judicial determination on LLM training and copyright: 135 pages, 275 paragraphs, six intervenors, two Amici Curiae. Its four doctrinal moves (s.52 as a liberally construed user-rights provision rather than an exception; commercial use not excluded from s.52(1)(a)(i); "private" distinct from "personal"; "research" extended to machine learning by updating construction) plus a bespoke Indian three-factor fairness test rejecting the US four-factor test make it the single most doctrinally rich Indian AI instrument in the corpus.
+
+**The conflict:** [[02_Projects/P4_Doctrinal_IJLIT]] has an explicitly locked scope — RBI + SEBI, CERT-In adjacent, IRDAI excluded, with a stated risk control that "any IRDAI reference in body text triggers a rewrite." The judgment is **copyright and intellectual property**, not BFSI prudential regulation. It does not fit the locked scope, and forcing it in would breach the same discipline that keeps P4 coherent.
+
+**Options:**
+1. **Leave P4 scope untouched; the judgment anchors a separate paper.** P4 proceeds as planned for April 2027 IJLIT submission. DHC_1 becomes the empirical core of a new doctrinal paper on AI training and Indian copyright — plausibly also IJLIT or ICTL, plausibly stronger than P4 given first-mover advantage on a judgment nine days old at intake.
+2. **Widen P4 to Indian AI doctrinal analysis generally.** Retains one paper but dissolves the RBI+SEBI focus that the contribution framing and narrative spine were built around; likely triggers rework of the theoretical scaffold and spine.
+3. **Cite DHC_1 in P4 only as comparative context** for the fragmentation diagnosis (judiciary as a further uncoordinated instrument-issuer), without making it substantive. Cheapest, but wastes the asset.
+
+**Recommendation (mine, not a decision):** Option 1. The judgment is strong enough to carry a paper, its novelty decays fast, and P4's locked scope exists for good reasons that were reasoned through in the contribution framing.
+
+**Blocking dependency:** ⚠ V-DHC1-1 — appeal status unverified. The order is interim, expressly prima facie, and appealable to a Division Bench. **Verify appeal status before committing to any option**, since a stay or reversal changes the calculus materially.
+
+**Deadline:** Before P4 activation, Q4 2026.
+
+**Linked notes:** [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] · [[02_Projects/P4_Doctrinal_IJLIT]] · [[07_Institutions/DHC]] · [[01_Strategy/VV_Publication_Pipeline_v3]]
+
+---
+
 ## DJ-11 · 2026-08-01 · Session_Handoff Consolidation — 31 Files to 1 Rolling File
 
 **Context:** A housekeeping-burden discussion identified `00_MOC/Session_Handoffs/` as the single largest source of vault clutter: 31 files (~230KB), several literally covering the same batch (three separate files for "Batch 15" alone: Start, Complete, Continuation_Complete). A full read-through of all 31 files, cross-checked against this Decision Journal and `Corpus_Index_MOC.md`, found that the large majority (26 of 31) were fully redundant — their numbering-state tables, VERIFY flag lists, and "Instances in Corpus" indexing items are all now duplicated in `Corpus_Index_MOC.md` and the concept files themselves. Five files, however, carried content that existed nowhere else in the vault: a standing duplicate-handling protocol change (2026-07-16, never logged here), two live citation-integrity bugs in `P2_References.md`, the Records_Rules_Asymmetry fabrication-audit downgrade (signature → candidate) with its unresolved remediation options, two open research-management questions (P2 second coder, fsQCA case-list lock), and a five-item "Vivek-only" verification punch list requiring the user's own project artefacts.

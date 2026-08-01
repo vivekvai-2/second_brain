@@ -31,6 +31,27 @@ Regulatory Parallelism is a structurally distinct coordination pattern in which 
 |Contradiction|Regulators issue conflicting or incompatible requirements|Parallelism involves equivalent not conflicting obligations; the problem is duplication not conflict|
 |Regulatory Fragmentation|Absence of regulatory coverage across a domain|Parallelism involves overlapping coverage not absence; the problem is over-specification not under-specification|
 
+## **Inter-Branch Parallelism — new structural variant (2026-08-02)**
+
+Every instance recorded to date operates between regulators, or (since RBI_8) within one regulator. [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] supplies a third structural type: **parallelism between branches of government**.
+
+[[07_Institutions/Corpus/DPIIT/DPIIT_1]] records the DPIIT working paper consulting on whether India should legislate a text-and-data-mining exception, with Nasscom formally dissenting in favour of the TDM model. While that executive consultation was running, the Delhi High Court held on 24 July 2026 that the **existing** s.52(1)(a)(i) of the Copyright Act 1957 already covers LLM training, by giving "research" an updating construction extending it to machine learning. Two branches produced answers to one question, on different constitutional footings, neither citing the other.
+
+| | Inter-regulator | Intra-regulator | **Inter-branch** |
+|---|---|---|---|
+| Actors | Two agencies of equal type | One agency, two tracks | Executive and judiciary |
+| Mechanism | Non-coordination | Deontic placement | Different constitutional function |
+| Outputs | Cumulative — entity complies with both | Cumulative | **Potentially substitutive** — a legislated TDM exception may now be redundant, or may be drafted to displace the judicial reading |
+| Remediable by coordination? | Yes, in principle | Yes, by drafting discipline | **No** — a court seized of a live dispute cannot defer to a consultation, and the legislature cannot be bound by an interim order |
+
+The final row carries the weight. Prior instances are coordination failures and could in principle be fixed by coordinating. Inter-branch parallelism is a **structural feature of constitutional design rather than a defect**. Para 4 of the judgment states the posture plainly: *"the Courts are required to step in to fill the gap between advancing technologies and existing laws."*
+
+This materially extends the construct's theoretical reach — it can no longer be characterised as a critique of Indian regulatory coordination habits alone.
+
+⚠ The judgment is interim and appealable (⚠ V-DHC1-1). If reversed, the substitutive-output claim weakens; the structural observation survives.
+
+---
+
 ## **Empirical Evidence Base**
 
 The construct emerges from analysis of eighteen binding regulatory instruments issued by RBI, SEBI, and CERT-In between 2012 and 2024. The corpus comprised 492 pages, 450 extracted requirement units, and 91 AI-relevant requirement units subjected to detailed coding and coordination analysis. Across forty coordination pairs distributed across ten governance clusters, twenty-three instances of Parallelism were identified, compared with ten instances of Convergence and one instance of Contradiction. The most significant finding concerned behavioural surveillance obligations, where eleven requirement units across four separate instruments imposed equivalent requirements despite the complete absence of cross-references between RBI and SEBI. Intercoder review achieved a 90 percent agreement rate, with only two of twenty-three edge cases requiring revision, providing confidence that Parallelism represents a stable and observable coordination pattern rather than a coding artefact.
@@ -54,6 +75,8 @@ Regulatory Parallelism functions as the primary upstream cause of [[Governance_D
 - [[AI_Governance_Wiki]]
 
 ## **Instances in Corpus**
+
+- **(Inter-branch, 2026-08-02)** [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] ↔ [[07_Institutions/Corpus/DPIIT/DPIIT_1]] — Delhi High Court decided that existing s.52(1)(a)(i) covers LLM training while DPIIT was consulting on whether to legislate a TDM exception. Judicial and executive tracks on one question, no cross-reference, potentially substitutive outputs. See the Inter-Branch Parallelism section above.
 
 - [[07_Institutions/Corpus/International/International_3]] ↔ [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] — both dated November 2025, materially similar BFSI AI risk-management scope, no evidence of mutual awareness: textbook **international** Regulatory Parallelism case.
 - [[07_Institutions/Corpus/RBI/RBI_3]] — Draft Circular on Model Risk in Credit (2024) feeds the RBI side of the BFSI parallelism timeline alongside SEBI_12.
