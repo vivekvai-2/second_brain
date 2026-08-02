@@ -46,7 +46,7 @@ tags:
 > This is an **interim order on an application for temporary injunction**, not a final determination. Every holding is expressly **prima facie**. Para 274: *"Needless to say, any observations made herein are only for the purpose of adjudication of the aforesaid application and would have no bearing on the final outcome of the suit."*
 >
 > - I.A. 45300/2024 was **dismissed**; the suit CS(COMM) 1028/2024 **continues**.
-> - The order is **appealable** to a Division Bench. ⚠ Appeal status unverified (V-DHC1-1).
+> - The order is **appealable** to a Division Bench. ✅ Confirmed 2026-08-02: no appeal filed or decided as of verification date (was V-DHC1-1).
 > - The **RAG question was left expressly undecided** — not pleaded in the plaint (paras 84, 65.5).
 > - The s.52 holding rests on OpenAI's **admitted temporary storage**, the Court having found "no factual foundation in the plaint to reach a finding of infringement in respect of the training claim" (para 202).
 >
@@ -224,7 +224,7 @@ ANI's own 3 October 2024 letter offering a licence at **USD 7.5 million** was he
 
 ## S9. ⚠ VERIFY Flags
 
-- **⚠ V-DHC1-1 (HIGH).** **Appeal status unverified.** The order is appealable to a Division Bench and was pronounced 24 July 2026 — nine days before intake. Check before any publication-track citation; a stay or reversal would materially change its weight.
+- **✅ RESOLVED 2026-08-02 (was V-DHC1-1, HIGH).** **No Division Bench appeal has been filed or decided as of the verification date.** Confirmed via Cyril Amarchand Mangaldas (29 July 2026) and SCC Online (26 July 2026), both describing the order purely as a single-judge interlocutory ruling with the underlying suit (CS(COMM) 1028/2024) continuing at trial. This confirms the order's treatment as unsettled/interlocutory throughout this node remains accurate — no appellate development is on record. Re-check periodically; a future appeal would materially change this node's weight and require re-flagging.
 - **⚠ V-DHC1-2 (HIGH — scope decision, not a defect).** P4's declared scope is RBI + SEBI BFSI doctrinal analysis, IRDAI excluded. This judgment is copyright and IP, not BFSI. Either P4's scope widens to Indian AI doctrinal analysis generally, or **this judgment anchors a separate paper**. It is strong enough to carry one. Decision required before P4 activation in Q4 2026 — log in [[12_Decision Journal/Decision_Journal]].
 - **⚠ V-DHC1-3 (MEDIUM).** Paragraph numbers cited here are from the supplied judgment text. Verify against the official Delhi HC copy (`2026:DHC:____`) before quoting; neutral citation not yet captured.
 - **⚠ V-DHC1-4 (MEDIUM).** The Court's summary of *Bartz v. Anthropic* at para 80 quotes a passage referring to **Meta** and Llama, not Anthropic — an apparent conflation of *Bartz* with *Kadrey v. Meta* in the source text. Do not reproduce that quotation without checking both US judgments.

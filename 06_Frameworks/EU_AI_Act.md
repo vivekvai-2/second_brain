@@ -38,6 +38,8 @@ Regulation (EU) 2024/1689 is the world's first comprehensive binding AI regulati
 
 **⚠ 2026-07-15 update — Digital Omnibus on AI deferral:** The "2026–2027 phase-in" dating above is superseded. The Digital Omnibus on AI (COM(2025) 836, Council final approval 29 June 2026) deferred Annex III high-risk obligations (originally 2 Aug 2026) to **2 December 2027**, and Annex I product-embedded obligations (originally 2 Aug 2027) to **2 August 2028**. Art. 50(2) watermarking is deferred to 2 Dec 2026 for systems already on market. See [[07_Institutions/Corpus/International/International_22_EU_AI_Act_Conformity_Assessment_Notified_Bodies]] for full detail on the conformity-assessment/notified-body mechanism and the amended timeline table. This affects the "prior" fsQCA calibration note below (RL/EA scoring should account for the deferred binding date, not the original 2026 date) — revisit before Q3 2026 NVivo coding.
 
+**⚠ 2026-08-02 update — no conformity-assessment standards exist yet.** Article 40 grants presumption of conformity only to harmonised standards published and cited in the Official Journal. As of June 2026, **zero AI-specific harmonised standards have been cited** — presumption of conformity under this Act currently attaches to nothing. The CEN-CENELEC JTC 21 pipeline is entirely in draft/enquiry/approval stages, with prEN 18286 (QMS, Art. 17) most advanced at Formal Vote and targeted for Q4 2026; the Commission mandate deadline is amended to 28 February 2027. See [[07_Institutions/Corpus/International/International_33_CEN_CENELEC_JTC21_Harmonised_Standards_2026]]. This plausibly supplies the mechanical reason for the Digital Omnibus deferral recorded above — the standards the high-risk obligations depend on were not going to exist in time — though that is an inference, not a documented causal claim. **ISO/IEC 42001 is not part of the EU harmonisation process**; the European AI Office signalled in May 2024 that it is not fully aligned with the final Act text. See [[06_Frameworks/ISO_IEC_42001]].
+
 ## Structural Overview
 
 The Act organises AI systems into four risk tiers. At the apex, a small category of AI applications is outright **prohibited** on grounds of incompatibility with fundamental rights — social scoring by public authorities, real-time biometric surveillance in public spaces (with narrow exceptions), and systems exploiting vulnerabilities. Below prohibition sits the **high-risk** tier, which carries the primary compliance burden: conformity assessment against harmonised standards, CE marking, mandatory risk-management systems, data-governance requirements, technical documentation, logging and audit-trail obligations, human-oversight mechanisms, and post-market monitoring. A **limited-risk** tier applies primarily transparency obligations — users must know when they are interacting with AI. The **minimal-risk** tier is largely unregulated, with voluntary codes of conduct encouraged.
@@ -93,6 +95,8 @@ The Act's risk-classification machinery depends on the Annex III high-risk list,
 - [[Institutional_Coherence]]
 
 ## Linked Frameworks
+
+- [[ISO_IEC_42001]] — assessed by the AI Office and found not aligned; not a conformity route
 
 - [[OECD_AI_Principles]]
 - [[NIST_AI_RMF]]

@@ -151,6 +151,6 @@ RU3 (data collection/sharing standards) and RU5 (privacy policy) operate alongsi
 ← [[07_Institutions/Corpus/RBI/RBI_3]] (Draft Model Risk in Credit — pending finalisation; unresolved alongside RBI_7)  
 ← [[07_Institutions/Corpus/SEBI/SEBI_14]] (Parallel sole-responsibility architecture for AI tools — no cross-reference)  
 ← [[04_Knowledge_Products/Wiki_Intake/International_12_HCJP_Legal_AI_BFSI_2025]] (EU AI Act consumer right to explanation — gap comparator for RBI_7 RU5)  
-← [[05_Concepts/Regulatory_Parallelism]]  
-← [[05_Concepts/Accountability]]  
-← [[05_Concepts/Transparency]]
+← [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]  
+← [[05_Concepts/05_Concepts_Standard/Accountability]]  
+← [[05_Concepts/05_Concepts_Standard/Transparency]]

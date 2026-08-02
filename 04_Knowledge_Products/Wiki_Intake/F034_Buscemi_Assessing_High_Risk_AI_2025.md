@@ -63,7 +63,7 @@ tags:
 
 **Wiki sections:** [[04_Knowledge_Products/AI_Governance_Wiki]] S1, S6
 **Concepts:** [[05_Concepts/05_Concepts_Signature/Governance_Debt]], [[05_Concepts/05_Concepts_Standard/Accountability]], [[05_Concepts/05_Concepts_Standard/Transparency]], [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]
-**Corpus nodes:** [[07_Institutions/Corpus/International/International_18_UNESCO_Recommendation_Ethics_AI_2021]] (UNESCO — cited as normative source), [[07_Institutions/Corpus/International/International_12_HCJP_Legal_AI_BFSI_2025]] (EU AI Act BFSI analysis), [[07_Institutions/Corpus/SEBI/SEBI_14]] (India accountability obligation needing verification framework), [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] (Seven Sutras mapping to 11 macro-categories), [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] (India's operative audit infrastructure)
+**Corpus nodes:** [[07_Institutions/Corpus/International/International_18_UNESCO_Recommendation_Ethics_AI_2021]] (UNESCO — cited as normative source), [[04_Knowledge_Products/Wiki_Intake/International_12_HCJP_Legal_AI_BFSI_2025]] (EU AI Act BFSI analysis), [[07_Institutions/Corpus/SEBI/SEBI_14]] (India accountability obligation needing verification framework), [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] (Seven Sutras mapping to 11 macro-categories), [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] (India's operative audit infrastructure)
 **Knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
 
 ---

@@ -47,6 +47,8 @@ tags:
 | Nature | Recommendations (non-binding; addressed to Government of India / DoT) |
 | Successor | TRAI_1 (TRAI Direction Feb 2026) — operational implementation of principles in TRAI_2 |
 | Corpus gap filled | First comprehensive TRAI AI governance framework; establishes risk-based classification and multi-stakeholder governance architecture |
+| Primary source link (confirmed 2026-08-02) | https://www.trai.gov.in/sites/default/files/2024-09/Recommendation_20072023.pdf — resolves ⚠V-TRAI4 below |
+| Predecessor consultation | Consultation Paper on Leveraging Artificial Intelligence and Big Data in Telecommunication Sector, released 5 August 2022, comment deadline 16 September 2022, closed/superseded by this document. Link: https://www.trai.gov.in/sites/default/files/2024-09/CP_05082022.pdf (six chapters; 40 stakeholder questions on opportunities and risks including algorithmic bias, privacy, and model instability) |
 
 ---
 
@@ -135,9 +137,9 @@ This TRAI_2 → TRAI_1 evolution reveals a pattern: TRAI's cross-sector governan
 
 | Flag | Claim | Action |
 |---|---|---|
-| ⚠V-TRAI4 | Confirm exact date: 20 July 2023 — verify against TRAI.gov.in official recommendations repository | trai.gov.in |
-| ⚠V-TRAI5 | Was the proposed multi-stakeholder advisory body (R3) ever formally established by Government of India? | Web search: "TRAI AI advisory body India 2023 2024" |
-| ⚠V-TRAI6 | Did the Department of Telecommunications (DoT) formally accept/reject/defer TRAI_2's recommendations? | Check DoT website and telecom policy updates |
+| ⚠V-TRAI4 | ✅ **RESOLVED 2026-08-02.** Date confirmed as 20 July 2023; direct primary trai.gov.in link now in S1 table above. | Closed |
+| ⚠V-TRAI5 | Was the proposed multi-stakeholder advisory body (R3) ever formally established by Government of India? | Still open — NCAIC_1 (2025/26) is the closest candidate but was not confirmed in this pass as a direct response to R3 specifically; do not conflate without further verification |
+| ⚠V-TRAI6 | **Partially resolved 2026-08-02.** DoT's rule-making under the Telecommunications Act 2023 to date (e.g., the Telecommunication Rules for Authorisation of Services/License Migration, notified 23 June 2026) contains **no reference to AI, automated decision-making, or algorithmic systems** — confirmed absence, not a retrieval gap. This is consistent with, though does not definitively prove, deferral rather than formal rejection: DoT appears simply not to have acted on TRAI_2's cross-sector AI recommendation in its own rule-making to date. See [[07_Institutions/Corpus/International/International_30_Ofcom_Strategic_Approach_AI_Telecom]] for the analogous UK "technology-neutral, no telecom-specific AI rules" comparator. | Still open for a definitive DoT acceptance/rejection/deferral statement |
 
 ---
 
@@ -146,6 +148,12 @@ This TRAI_2 → TRAI_1 evolution reveals a pattern: TRAI's cross-sector governan
 ← [[07_Institutions/Corpus/TRAI/TRAI_1]] (TRAI Direction 2026 — operational implementation)  
 ← [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]] (cross-sector coordination body — TRAI_2 recommended a predecessor 2 years earlier)  
 ← [[07_Institutions/Corpus/MeitY/MeitY_2]] (IndiaAI Guidelines — the cross-sector framework TRAI was calling for)  
-← [[05_Concepts/Regulatory_Parallelism]]  
-← [[05_Concepts/Governance_Capacity]]  
-← [[05_Concepts/Governance_Debt]]
+← [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]  
+← [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]  
+← [[05_Concepts/05_Concepts_Signature/Governance_Debt]]
+
+---
+
+## Log
+
+- 2026-08-02: Perplexity Deep Research pass (per [[Sector_Gap_Audit_Perplexity_Prompts_2026-08-02]] Telecom prompt) resolved V-TRAI4 (primary link confirmed) and partially resolved V-TRAI6 (DoT's own Telecommunications Act 2023 rule-making confirmed silent on AI as of 23 June 2026). Predecessor consultation paper (August 2022) added as companion reference.

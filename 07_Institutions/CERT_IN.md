@@ -66,6 +66,7 @@ CERT-In's governing logic is **incident-response and resilience** — its frame 
 
 - [[BFSI_Governance]]
 - [[AI_Governance]]
+- [[03_Domains/Power_Grid_Critical_Infrastructure_Governance]] (CERT-In provides coordination leadership to CSIRT-Power, added 2026-08-02)
 
 ## Linked Institutions
 

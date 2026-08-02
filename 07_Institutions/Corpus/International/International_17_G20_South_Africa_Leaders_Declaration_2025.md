@@ -120,7 +120,7 @@ The Declaration's explicit linkage of "data governance complementarity" with AI 
 
 ## Connections
 
-**Related corpus nodes:** [[07_Institutions/Corpus/International/International_1]] (OECD AI), [[07_Institutions/Corpus/International/International_5]] (US EO), [[07_Institutions/Corpus/International/International_16_Australia_National_AI_Plan_2025]] (Australia), [[07_Institutions/Corpus/International/International_18_UNESCO_Recommendation_Ethics_AI_2021]] (UNESCO), [[07_Institutions/Corpus/NITI_Aayog/NITI_8_DeepSeek_AI_Shifts_2025]] (India sovereign AI)
+**Related corpus nodes:** [[07_Institutions/Corpus/International/International_1]] (OECD AI), [[07_Institutions/Corpus/International/International_5]] (US EO), [[07_Institutions/Corpus/International/International_16_Australia_National_AI_Plan_2025]] (Australia), [[07_Institutions/Corpus/International/International_18_UNESCO_Recommendation_Ethics_AI_2021]] (UNESCO), [[04_Knowledge_Products/Wiki_Intake/NITI_8_DeepSeek_AI_Shifts_2025]] (India sovereign AI)
 **Related concepts:** [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]], [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]], [[05_Concepts/05_Concepts_Standard/Legitimacy]], [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]
 **Related frameworks:** [[06_Frameworks/OECD_AI_Principles]]
 **Related projects:** [[02_Projects/P1_SLR_RG]], [[02_Projects/fsQCA_Thesis_Chapter]], [[02_Projects/P4_Doctrinal_IJLIT]]

@@ -149,7 +149,7 @@ As of January 2019, SEBI had mandatory AI/ML reporting for all three regulated e
 ← [[07_Institutions/Corpus/SEBI/SEBI_10]] (SEBI_10 — Mutual Fund-facing sister circular, May 2019; Cluster C09)  
 ← [[07_Institutions/Corpus/SEBI/SEBI_11]] (SEBI_11 — 2024-25 accountability arc successor)  
 ← [[07_Institutions/Corpus/SEBI/SEBI_14]] (SEBI_14 — 2025 statutory accountability arc culmination)  
-← [[05_Concepts/Regulatory_Parallelism]]  
-← [[05_Concepts/Governance_Debt]]  
-← [[05_Concepts/Accountability]]  
-← [[05_Concepts/Transparency]]
+← [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]  
+← [[05_Concepts/05_Concepts_Signature/Governance_Debt]]  
+← [[05_Concepts/05_Concepts_Standard/Accountability]]  
+← [[05_Concepts/05_Concepts_Standard/Transparency]]

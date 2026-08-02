@@ -70,6 +70,10 @@ Not applicable. The UNESCO Recommendation sits outside the P3 Indian BFSI corpus
 
 The central tension is between the Recommendation's universal scope — all 193 member states including those with limited AI governance capacity — and the implementation gap that universality creates. The RAM is designed to bridge this gap, but country implementation reports show highly variable uptake. For the fsQCA model, this implementation variance creates a coding challenge: the Recommendation as an instrument has one profile, but effective implementation across cases varies enormously. A second tension is the domain-mapping aspiration: eleven governance domains are identified but the Recommendation provides no prioritisation mechanism, leaving the coordination problem (which domain takes precedence when principles conflict?) unresolved. This non-prioritisation gap is analytically relevant for the Regulatory Complexity Handbook.
 
+## Linked Corpus Nodes
+
+- [[07_Institutions/Corpus/International/International_18_UNESCO_Recommendation_Ethics_AI_2021]] — full Recommendation text, RAM/EIA tools, country implementation tracking (already existed in the vault but was not linked from this framework note — fixed 2026-08-02; this note previously had zero corpus-node anchoring despite the node itself being extensive)
+
 ## Linked Projects
 
 - [[P1_SLR_RG]]
@@ -102,6 +106,8 @@ The central tension is between the Recommendation's universal scope — all 193 
 ## Future Research / Reuse Opportunities
 
 In the fsQCA truth table, the UNESCO Recommendation serves as the second international non-binding case alongside OECD Principles — comparing their calibration scores will test whether the implementation infrastructure difference (RAM vs none) produces measurable SR or SI differentiation, which would be a novel empirical finding. For P1, the Recommendation's ten principles and domain mapping are reference architecture for the normative-baseline archetype in the typology. For the AI Governance Wiki, Section 1's international landscape requires the UNESCO Recommendation as the global-scope counterpart to the OECD's member-state scope. Perplexity monitoring target: biennial review outcomes and country implementation report patterns — particularly India's RAM submission, which would provide direct evidence for the fsQCA case profile.
+
+**Status conflict flagged (2026-08-02):** UNESCO's own RAM Global Hub tracker (map data "last updated October 2025") lists India's Readiness Assessment as **"In Process,"** while 2026 press coverage (dig.watch, 4 March 2026; PIB, 19 November 2025) describes an India AI Readiness Assessment Report as launched at the India AI Impact Summit 2026 (implementing partner Ikigai Law). No direct UNESDOC PDF for the India report was locatable to resolve this conflict — treat "India's RAM submission" as **unconfirmed-complete** until the primary report is retrieved, rather than citing it as a finished case. Brazil, by contrast, is confirmed "Completed" on the same tracker (UNESDOC record, 2024) and is a safer near-term comparator if a completed non-OECD RAM case is needed before India's status resolves.
 
 ---
 

@@ -150,6 +150,6 @@ International_7 (BIS/IFC Report No. 18, Apr 2025) provides the empirical demand 
 ← [[07_Institutions/Corpus/International/International_7]] (BIS/IFC Report No. 18 — empirical 60-central-banks survey; demand side for this framework)  
 ← [[07_Institutions/Corpus/International/International_10]] (BoE FPC — central bank as AI regulator; governance capacity comparator)  
 ← [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] (RBI's external AI governance principles; gap against International_13's internal governance framework)  
-← [[05_Concepts/Governance_Capacity]]  
-← [[05_Concepts/Institutional_Coherence]]  
-← [[05_Concepts/Accountability]]
+← [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]  
+← [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]]  
+← [[05_Concepts/05_Concepts_Standard/Accountability]]

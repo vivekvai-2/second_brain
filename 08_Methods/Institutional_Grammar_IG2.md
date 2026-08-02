@@ -25,7 +25,7 @@ Institutional Grammar 2.0 (IG 2.0) is the rule-level coding methodology applied 
 - **Type:** Rule-level text coding; institutional analysis
 - **Syntax:** ADICO — Attributes (A), Deontic (D), aIm (I), Conditions (C), Or-else (O)
 - **Ontology:** Statements are classified as Rules (ADICO complete), Norms (ADIC without O), Shared Strategies (AIC without D or O)
-- **Software:** NVivo (coding environment); inter-coder reliability via Cohen's κ
+- **Software:** NVivo (coding environment); reliability via Cohen's κ — ⚠ **see [[Coding_Reliability_Protocol]], created 2026-08-02: three corrections apply.** (1) The correct term for a pre-established deductive schema like ADICO is **Inter-Coder Agreement (ICA)**, not inter-rater reliability. (2) The **IG field standard is simple percent agreement at ≥80%** (Brady et al. 2018 IG 1.0 Codebook; Basurto et al. 2010; Siddiki et al. 2011), not κ — PRIS's departure is defensible but must be stated and justified. (3) **κ is unstable under the prevalence imbalance characteristic of ADICO coding** (Or-else components are rare); **Gwet's AC1** is the standard remedy, and Schlager et al. (2021) — the first published IG-QCA study — engaged this exact debate in its own reliability reporting
 - **Key anchors in PRIS:** Siddiki et al. (2019) — IG 2.0 specification; Crawford & Ostrom (1995) — original IG grammar; Basurto et al. (2010) — application protocol; Frantz & Siddiki (2021) — IG 2.0 refinements
 
 ## Application in PRIS Corpus
@@ -55,7 +55,7 @@ Institutional Grammar 2.0 (IG 2.0) is the rule-level coding methodology applied 
 |Unit of analysis|Institutional statement (not paragraph or clause)|Enables cross-instrument comparability|
 |Deontic classification|Must/shall = Rule; Should/ought = Norm; May = Shared Strategy|Standard IG 2.0 protocol; applied consistently across P2, P3, fsQCA|
 |Or-else coding|Explicit penalty text OR documented regulatory consequence|Avoids over-coding implicit enforcement|
-|Inter-coder protocol|20% random subsample double-coded by second coder; Cohen's κ reported|Standard reliability threshold κ ≥ 0.75|
+|Inter-coder protocol|20% random subsample double-coded by second coder; Cohen's κ reported|Standard reliability threshold κ ≥ 0.75. ⚠ **20% subsample matches the IG field standard exactly; the κ choice does not.** Recommended revision: report **percent agreement + Gwet's AC1**, with κ alongside only where distribution permits. See [[Coding_Reliability_Protocol]]|
 |AI-relevance filter|P3: applied to 450 requirement units to isolate 91 AI-relevant units|Reduces scope to PRIS-relevant coding; method and filter documented in SOM|
 
 ## Open Methodological Questions

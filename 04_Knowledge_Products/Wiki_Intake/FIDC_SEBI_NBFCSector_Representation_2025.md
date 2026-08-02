@@ -62,7 +62,7 @@ tags:
 **Concepts:**
 - [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] — direct practitioner evidence: FIDC formally documents cross-regulatory fragmentation in BFSI cyber governance
 - [[05_Concepts/05_Concepts_Signature/Governance_Debt]] — compliance cost on dual-regulated NBFCs from multi-regulator cyber/KYC/listing obligations
-- [[05_Concepts/05_Concepts_Standard/Institutional_Coherence]] — FIDC's request for SEBI-RBI-CERT-In joint working group as a demand for institutional coherence
+- [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]] — FIDC's request for SEBI-RBI-CERT-In joint working group as a demand for institutional coherence
 
 **Corpus nodes:**
 - [[07_Institutions/Corpus/SEBI/SEBI_14]] — SEBI Intermediaries AI Amendment 2025 (SEBI AI regulation binding NBFCs)

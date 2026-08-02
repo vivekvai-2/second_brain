@@ -97,7 +97,7 @@ This architecture requires institutional separation: Track A under the enforceme
 **Related nodes:**
 - [[07_Institutions/Corpus/CERT_In/CERT_In_2]] — contrast: CERT-In mandatory/punitive space-sector reporting vs. AIIRS voluntary near-miss architecture
 - [[04_Knowledge_Products/Wiki_Intake/F041_AEF1_Minimum_Operating_Conditions_AI_Evaluations|F041]] (AEF-1) — complementary: pre-deployment evaluation vs. post-deployment incident reporting as sequential governance layers
-- [[04_Knowledge_Products/Wiki_Intake/International_20_Australia_DTA_AI_Impact_Assessment_Tool|International_20]] (DTA AIIA) — pre-deployment governance instrument; together with F051 defines pre/post-deployment governance lifecycle
+- [[07_Institutions/Corpus/International/International_20_Australia_DTA_AI_Impact_Assessment_Tool|International_20]] (DTA AIIA) — pre-deployment governance instrument; together with F051 defines pre/post-deployment governance lifecycle
 
 ---
 

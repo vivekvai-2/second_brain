@@ -18,6 +18,8 @@ tags:
 
 The Telecom Regulatory Authority of India is the sectoral regulator for telecommunications — a peripheral but strategically positioned actor in the PRIS portfolio. TRAI does not appear in any current paper corpus, but its relevance is forward-looking: as AI-driven network management, automated customer service, and telecom data monetisation intersect with DPDP obligations and the emerging AI governance landscape, TRAI becomes a third sectoral regulator (alongside RBI and SEBI) that could generate a telecom-sector instance of Regulatory Parallelism. Its inclusion in the consulting target map as a "cross-regulator enforcement logic translator" opportunity positions it as a Phase 0 consulting prospect. This note is a forward intelligence note — research relevance is anticipatory, not current.
 
+**Update, 2026-08-02 — "anticipatory, not current" needs revising.** TRAI is in fact the most analytically developed of the three thin sectors surveyed in a 2026-08-02 sourcing pass (alongside insurance and power grid). It issued a comprehensive cross-sector AI governance Recommendations document in July 2023 (surveying the EU AI Act, NIST AI RMF, OECD Principles, Singapore FEAT, and UK AI Strategy, and explicitly arguing AI cannot be regulated "in isolation" by sector) and operationalised part of it into a binding UCC/spam AI direction in February 2026. The broader cross-sector ambition was never adopted by the Government of India — a Governance_Debt instance, not a case of TRAI doing nothing. Full detail, plus international comparators (Ofcom, FCC, GSMA), now live at [[03_Domains/Telecom_AI_Governance]].
+
 ## Institutional Profile
 
 - **Type:** Statutory independent regulator
@@ -49,6 +51,7 @@ TRAI's AI governance intersection is primarily through **data localisation** (ne
 ## Linked Domains
 
 - [[AI_Governance]]
+- [[03_Domains/Telecom_AI_Governance]] (added 2026-08-02 — primary domain for TRAI's AI-specific tracking)
 
 ## Linked Institutions
 

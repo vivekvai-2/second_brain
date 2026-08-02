@@ -105,7 +105,7 @@ The Australian DTA AI Impact Assessment Tool (International_20) covers overlappi
 - [[Governance_Capacity]] — FRIA requires legal and technical capacity that smaller public sector deployers may lack; the guide's practical step-by-step format is a capacity-building intervention
 
 **Related nodes:**
-- [[04_Knowledge_Products/Wiki_Intake/International_20_Australia_DTA_AI_Impact_Assessment_Tool|International_20]] (Australian DTA AI Impact Assessment) — parallel instrument from common-law tradition; useful typological comparison
+- [[07_Institutions/Corpus/International/International_20_Australia_DTA_AI_Impact_Assessment_Tool|International_20]] (Australian DTA AI Impact Assessment) — parallel instrument from common-law tradition; useful typological comparison
 - [[04_Knowledge_Products/Wiki_Intake/RAND_GovAI_AI_Incident_Reporting_Institutional_Design|F051]] (RAND/GovAI Incident Reporting) — upstream-downstream relationship: FRIA is pre-deployment; AIIRS is post-deployment; together constitute a lifecycle governance architecture
 
 ---

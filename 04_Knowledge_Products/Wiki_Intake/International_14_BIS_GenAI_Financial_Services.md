@@ -70,5 +70,5 @@ Companion to International_13 (BIS/IMF Governance of AI Adoption in Central Bank
 ← [[07_Institutions/Corpus/International/International_13]] (BIS/IMF Governance of AI Adoption in Central Banks — governance framework companion; International_14 provides risk evidence base for International_13's Action A5/A6)  
 ← [[07_Institutions/Corpus/International/International_15]] (FSB FIRE — incident reporting standard; relevant to GenAI-specific incident categorisation gap identified in International_14)  
 ← [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] (Seven Sutras — "human oversight" Sutra; International_14 provides GenAI-specific design requirements that RBI_FREE_AI_2025 does not specify)  
-← [[05_Concepts/Governance_Capacity]]  
-← [[05_Concepts/Accountability]]
+← [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]  
+← [[05_Concepts/05_Concepts_Standard/Accountability]]

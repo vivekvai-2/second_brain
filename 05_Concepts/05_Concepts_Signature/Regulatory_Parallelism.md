@@ -31,6 +31,21 @@ Regulatory Parallelism is a structurally distinct coordination pattern in which 
 |Contradiction|Regulators issue conflicting or incompatible requirements|Parallelism involves equivalent not conflicting obligations; the problem is duplication not conflict|
 |Regulatory Fragmentation|Absence of regulatory coverage across a domain|Parallelism involves overlapping coverage not absence; the problem is over-specification not under-specification|
 
+## **Boundary Condition — parallelism is subject-matter-specific, not capacity-determined (added 2026-08-02, DEPA sourcing pass)**
+
+The construct's most obvious rebuttal is that Indian regulators produce parallel instruments because they lack the machinery to coordinate. [[06_Frameworks/DEPA]] defeats that rebuttal directly.
+
+RBI, SEBI, IRDAI, PFRDA and the Ministry of Finance **jointly co-authored** the DEPA framework (NITI Aayog, Aug 2020). Their four ombudsman schemes jointly constitute tier 3 of the Account Aggregator grievance chain, operating as a single redress route across four regulatory perimeters without a coordinating statute (see [[07_Institutions/Corpus/Sahamati/Sahamati_1_SRO_Recognition_and_Grievance_Architecture_2026]]). Technical specification is delegated to a single body with a regulator concurrence gate, versioned change control, and 30-day ecosystem-wide adoption reporting ([[07_Institutions/Corpus/RBI/RBI_12_ReBIT_AA_API_Specifications_2023]]). That is a coordinated, interoperable, multi-regulator architecture — the clearest instance of successful cross-regulator coordination in the entire PRIS corpus.
+
+**The same four regulators, in the same period, produce AI instruments with zero cross-references.**
+
+This is a within-institution control. It holds the institutions, the jurisdiction and the time period constant and varies only the subject matter, which isolates the parallelism variable to **what is being governed** rather than **who is governing**. Two consequences:
+
+1. **Strengthens the construct.** Parallelism cannot be explained away as institutional incapacity; these bodies coordinate when they choose to. The question becomes why AI was not chosen — a governance-priority and problem-framing question, not a capacity one. Connects to [[Governance_Capacity]], which should be read as *deployed* rather than *possessed* capacity.
+2. **Bounds the construct.** Parallelism is not a general property of Indian financial-sector regulation. It is a property of Indian financial-sector regulation *of AI*. Claims should be scoped accordingly; an unscoped claim is falsifiable by the DEPA case and a reviewer familiar with India Stack will know it.
+
+Related: [[Proportionality]] supplies the complementary distinction — differential obligations across regulators are defensible where risks genuinely differ and incoherent where they do not. Parallelism proper is the latter.
+
 ## **Inter-Branch Parallelism — new structural variant (2026-08-02)**
 
 Every instance recorded to date operates between regulators, or (since RBI_8) within one regulator. [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] supplies a third structural type: **parallelism between branches of government**.

@@ -92,6 +92,24 @@ A notable characteristic of the landscape is the absence of formal cross-regulat
 
 **OQ-BFSI-04:** How does the tripartite coordination typology of convergence, contradiction, and parallelism manifest within AI governance regimes in the EU, UK, Singapore, and other dual-regulated jurisdictions?
 
+## **Linked Corpus Nodes**
+
+- [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] — FREE-AI Committee Report (now with confirmed direct RBI link, operationalizing-recommendations status, and the RBI/SEBI/IRDAI non-coordination finding)
+- [[07_Institutions/Corpus/SEBI/SEBI_19_AI_ML_Consultation_Paper_2025]] — June 2025 five-principle AI/ML consultation paper (⚠ secondary-sourced, flagged for verification) — SEBI's first move toward risk-tiered (vs. reporting-only) AI governance
+- [[07_Institutions/Corpus/IRDAI/IRDAI_3_Fraud_Monitoring_Framework_2025]] — Fraud Monitoring Framework Guidelines, effective April 2026 (⚠ secondary-sourced)
+
+**Update, 2026-08-02:** Insurance now has its own dedicated domain — [[03_Domains/Insurance_AI_Governance]] — covering IRDAI's WG-AI (constituted 17 June 2026, the corpus's strongest positive cross-regulator coordination instance despite IRDAI's historically thin substantive output), the InsurTech Regulatory Sandbox, and three international comparators (NAIC, EIOPA, IAIS). This domain note's IRDAI coverage above remains accurate but should be read as the BFSI-parallelism angle specifically; the fuller insurance-sector picture, including international benchmarks, now lives in the linked domain.
+
+*(Added 2026-08-02 — this domain note previously had zero corpus-node anchoring despite its strong empirical/theoretical base; see [[Thin_Node_Perplexity_Prompts_2026-08-02]].)*
+
+### Confirmed Findings (2026-08-02 Perplexity Deep Research)
+
+- **RBI's FREE-AI recommendations are not yet operative.** The Report proposes amendments to seven existing RBI instruments (Outsourcing Guidelines, Cyber Security Framework, Digital Lending Directions, Customer Service Master Circular, Fraud Risk Management Master Direction, IT Governance and IT Outsourcing Master Directions) — none independently confirmed as amended yet. FREE-AI is a foundational-document-stage instrument, structurally analogous to DPDP's "enacted but not operative" pattern, though as Committee recommendations rather than statute.
+- **No joint RBI-SEBI-IRDAI AI governance statement exists**, confirming and sharpening the domain's existing coordination-failure argument from the regulator side as well as the instrument side: RBI's Inter-operable Regulatory Sandbox is the single closest cross-regulator mechanism, and it is general fintech-focused, not AI-specific.
+- **A three-way regulator race at different stages:** SEBI (consultation-paper stage, moving toward risk-tiered governance), RBI (Committee-recommendation stage, FREE-AI not yet implemented), IRDAI (working-group stage, per [[07_Institutions/Corpus/IRDAI/IRDAI_2_Working_Group_AI_Governance_2026]]) — each proceeding independently with no visible cross-regulator benchmarking, a useful concrete instantiation of Regulatory Parallelism as a *process*, not only an *instrument* pattern.
+- **International comparators confirm India is not an outlier in fragmentation, but differs in direction:** the UK (FCA/PRA/Bank of England) explicitly maintains a technology-neutral, no-binding-AI-rules posture (confirmed April 2026 update); US federal banking agencies (OCC Bulletin 2026-13, 17 April 2026) explicitly **exclude** generative/agentic AI from revised model-risk guidance, while Singapore's MAS is moving toward a more prescriptive AI risk-management framework (November 2025 consultation, building on FEAT/Veritas/Project MindForge). RBI's FREE-AI, once implemented, would sit closer to MAS's trajectory than the UK/US "wait and extend existing rules" postures — worth an explicit note in any P3/fsQCA comparative-regulator-stance argument.
+- **Big 4/industry maturity data point:** PwC India (reported 9 January 2026, via IBA Conference launch) finds 65% of Indian banks have begun AI adoption but only 9% have reached production-grade scaled deployment, citing governance, explainability, and regulatory clarity as the primary barriers — external corroboration of the domain's core "regulatory fragmentation impedes AI governance maturity" argument. No India-specific Big 4 report narrowly titled on "AI governance maturity" (as distinct from general AI-in-banking transformation) was independently confirmed — flagged as a gap for future targeted search.
+
 ## **Linked Projects**
 
 [[P3_BFSI_JEIM]]

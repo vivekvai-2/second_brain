@@ -73,6 +73,10 @@ Not applicable. The NIST AI RMF sits outside the P3 Indian BFSI corpus. It enter
 
 The core tension in the NIST AI RMF is its voluntary status in a context where the US federal government increasingly expects RMF-aligned risk management from agencies and contractors without mandating it — creating a de facto obligation that is not legally formalised. This ambiguity between "voluntary" and "expected" is analytically significant: it produces a form of regulatory pressure without the transparency of a binding obligation, and it creates compliance costs for enterprises operating across jurisdictions (EU binding + US voluntary-but-expected + India sectoral). A secondary gap is the sector-profile lag: the AI RMF's horizontal architecture requires sector-specific translation that is proceeding slowly relative to the pace of AI deployment in regulated sectors, including financial services — the exact dynamic that Indian sectoral regulators have experienced.
 
+## Linked Corpus Nodes
+
+- [[07_Institutions/Corpus/International/International_24_NIST_AI_RMF_2023]] — AI RMF 1.0, Generative AI Profile, Playbook, NIST-authored crosswalks, and GAO federal-adoption evidence (added 2026-08-02 — this framework note previously had zero corpus-node anchoring)
+
 ## Linked Projects
 
 - [[P1_SLR_RG]]
@@ -105,6 +109,8 @@ The core tension in the NIST AI RMF is its voluntary status in a context where t
 ## Future Research / Reuse Opportunities
 
 In the fsQCA truth table, NIST AI RMF's expected SR-high/RL-low calibration profile will test whether high role clarity is sufficient for legitimate AI governance outcomes without binding enforcement — a directly policy-relevant configuration for jurisdictions designing voluntary frameworks. For P4, the Govern function's role-specification architecture is a design reference for the enterprise layer of the Three-Level Governance Alignment Model. For the AI Governance Wiki (Section 3.2), NIST AI RMF is the primary US instrument reference. For the BFSI AI Governance Handbook, the four-function core provides a reusable enterprise risk-management scaffold that BFSI practitioners can adapt. Perplexity monitoring target: financial-sector profile completion and any movement toward binding status for federal AI procurement.
+
+**Confirmed open research gap (2026-08-02):** No formal comparative study juxtaposing NIST AI RMF against India's IndiaAI Governance Guidelines or RBI FREE-AI exists in the literature (confirmed via Perplexity Deep Research — see [[07_Institutions/Corpus/International/International_24_NIST_AI_RMF_2023]]) — only practitioner commentary noting structural parallels. This is a genuine white space for original P1/P4/fsQCA comparative contribution, strengthened by the fact that NIST's own crosswalk index already maps AI RMF against OECD/EU/EO13960, giving methodological precedent for extending the same crosswalk logic to the India cases.
 
 ---
 

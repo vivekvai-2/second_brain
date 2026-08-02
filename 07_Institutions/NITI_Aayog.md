@@ -58,7 +58,7 @@ NITI Aayog is the primary national policy architect for India's AI governance fr
 
 ## Connections
 
-**Related concepts:** [[05_Concepts/Signature/Regulatory_Parallelism]] | [[05_Concepts/Signature/Governance_Debt]]  
+**Related concepts:** [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] | [[05_Concepts/05_Concepts_Signature/Governance_Debt]]  
 **Related domains:** [[03_Domains/AI_Governance]]  
 **Related projects:** [[02_Projects/P3_BFSI_JEIM]] | [[02_Projects/fsQCA_Thesis_Chapter]]  
 **Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]  

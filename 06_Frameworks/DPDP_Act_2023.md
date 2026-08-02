@@ -67,9 +67,24 @@ The nearly four-year staggered commencement means that, as of this note's writin
 
 **Duplicate resolved (2026-07-31):** MeitY_1 and MeitY_4 were found to cite the identical final notification (G.S.R. 846(E), 13 November 2025) — a genuine duplicate corpus node, not draft-vs-final stages as initially hypothesized. MeitY_4 (created 2026-06-15, Batch 7) is substantially more complete — full rule-by-rule breakdown, exact figures, and existing Regulatory_Parallelism/Governance_Debt analysis already cross-linked to SEBI_9/10/11 and RBI_6 — and has been retained as canonical. MeitY_1 (created earlier, 2026-06-14, Batch 1) has been converted to a redirect stub; all vault references to it were repointed to MeitY_4.
 
+**Evidence gap closed (2026-08-02):** This framework note previously had only one corpus-node anchor (MeitY_4, the subordinate Rules) despite synthesising the Act itself — flagged in a 2026-08-02 thin-node audit. Sourced via Perplexity Deep Research and intaken as [[07_Institutions/Corpus/MeitY/MeitY_8_DPDP_Act_2023]] (the Act plus its two constitutive commencement/establishment notifications, G.S.R. 843(E) and G.S.R. 844(E)) and [[07_Institutions/Corpus/Parliament/Parliament_1_Standing_Committee_48th_Report_2023]] (pre-enactment legislative history — note the scope limitation: this report examined the 2022 Bill draft, not the final Act, which bypassed committee review entirely before passage).
+
+**Confirmed negative finding (2026-08-02):** No RBI, SEBI, or IRDAI circular explicitly cross-referencing DPDP compliance obligations has been issued as of the most recent search, even post-commencement. This strengthens rather than weakens the Regulatory_Parallelism argument below — sectoral regulators built their own algorithm/data-adjacent obligations during DPDP's dormant period and have not revisited them now that DPDP's institutional machinery is live.
+
+
+## ⚠ The ADM Gap — specified 2026-08-02
+
+The corpus has long recorded that DPDP contains no automated-decision-making provision. [[GDPR]] now specifies exactly what is absent, and it is **a sub-architecture rather than a single clause**: the Art. 22(1) prohibition on solely-automated significant decisions (a prohibition per WP251, not a right requiring invocation); the Art. 22(3) rights to human intervention, to be heard and **to contest**; and three transparency hooks — Arts. 13(2)(f), 14(2)(g), 15(1)(h) — each requiring "meaningful information about the logic involved." DPDP delivers none of the four.
+
+CJEU *SCHUFA* (C-634/21, 7 Dec 2023) then pushes the regulated moment upstream to the **score generator**, which is where the Indian consequence bites: see [[07_Institutions/Corpus/International/International_36_CJEU_SCHUFA_C634_21]] and the AA inference-layer seam at [[07_Institutions/Corpus/RBI/RBI_11_NBFC_Account_Aggregator_Master_Directions_2016]].
+
+**Confirmed white space:** no law-journal article treats the DPDP ADM absence as its primary analytical focus. Strongest P4 spin-off identified in the 2026-08-02 audit sequence.
+
 ## Linked Corpus Nodes
 
+- [[07_Institutions/Corpus/MeitY/MeitY_8_DPDP_Act_2023]] — the Act itself, plus its s.1(2) commencement notification (G.S.R. 843(E)) and the DPB establishment notification (G.S.R. 844(E))
 - [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] — Digital Personal Data Protection Rules, 2025 (canonical node — see Key Tensions above for the MeitY_1 duplicate resolution)
+- [[07_Institutions/Corpus/Parliament/Parliament_1_Standing_Committee_48th_Report_2023]] — pre-enactment legislative history (2022 Bill draft, not the final Act — scope-limited, see node for caveat)
 
 ## Linked Domains
 

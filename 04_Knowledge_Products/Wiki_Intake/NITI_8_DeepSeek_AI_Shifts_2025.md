@@ -70,8 +70,8 @@ NITI Aayog analytical brief in response to the January 2025 DeepSeek disruption 
 
 ## Backlinks
 
-← [[07_Institutions/Corpus/MeitY/MeitY_IndiaAI_Mission]] (IndiaAI Mission — NITI_8's compute/sovereignty concerns manifest here)  
+← [[04_Knowledge_Products/Wiki_Intake/MeitY_IndiaAI_Mission]] (IndiaAI Mission — NITI_8's compute/sovereignty concerns manifest here)  
 ← [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]] (NCAIC — proposed national coordinator; NITI_8 adds geopolitical context)  
 ← [[07_Institutions/Corpus/International/International_9]] (BIS FSI No. 63 — international regulatory landscape that NITI positions India within)  
-← [[05_Concepts/Governance_Capacity]]  
-← [[05_Concepts/Institutional_Coherence]]
+← [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]  
+← [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]]

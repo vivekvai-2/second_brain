@@ -16,9 +16,10 @@ tags:
 **Vault path:** `07_Institutions/Corpus/MeitY/MeitY_2.md`
 **Institution:** [[07_Institutions/MEITY]]
 **Issuing body:** Ministry of Electronics and Information Technology (IndiaAI Mission), with Office of the Principal Scientific Adviser to the Government of India
-**Document date:** 2025/2026 (exact gazette date not in extraction — ⚠ VERIFY)
+**Document date:** Circulated via Press Information Bureau, 4 November 2025 (confirmed 2026-08-02 — resolves prior ⚠ VERIFY flag)
 **Pages:** Not determinable from extraction
 **Domain:** [[03_Domains/AI_Governance]]
+**Link (confirmed 2026-08-02):** https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf — explicitly adapts the "seven guiding principles/sutras" from the RBI FREE-AI Committee Report ([[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]])
 
 ---
 

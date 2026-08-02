@@ -104,7 +104,7 @@ The Paladin primer is primarily US-centric, but the layer-decomposition framewor
 **Related nodes:**
 - [[04_Knowledge_Products/Wiki_Intake/F041_AEF1_Minimum_Operating_Conditions_AI_Evaluations|F041]] (AEF-1) — complementary at model layer: evaluation standards operate at Layer 2
 - [[07_Institutions/Corpus/CERT_In/CERT_In_2]] — CERT-In space cybersecurity framework operates at Layer 3 (application/deployment) in satellite domain
-- [[04_Knowledge_Products/Wiki_Intake/International_20_Australia_DTA_AI_Impact_Assessment_Tool|International_20]] — Layer 3 government-as-deployer instrument
+- [[07_Institutions/Corpus/International/International_20_Australia_DTA_AI_Impact_Assessment_Tool|International_20]] — Layer 3 government-as-deployer instrument
 
 ---
 

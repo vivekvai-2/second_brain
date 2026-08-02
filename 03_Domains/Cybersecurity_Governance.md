@@ -33,6 +33,8 @@ Cybersecurity Governance is examined in this research as the set of regulatory o
 
 This domain covers the regulatory frameworks, enterprise governance processes, accountability mechanisms, and operational controls governing the cybersecurity of AI-enabled systems in India. The analytical focus is on how cybersecurity obligations intersect with and amplify AI governance requirements in BFSI and DPI environments. The domain includes CERT-In incident reporting, RBI IT risk and operational resilience requirements, SEBI cybersecurity frameworks, and the DPDP Act's breach notification obligations. It excludes offensive cyber operations, national intelligence frameworks, and technical security engineering as disciplines. The boundary between cybersecurity governance and AI governance is treated as analytically permeable — the domain is examined precisely because the two governance regimes increasingly co-apply to the same systems.
 
+**Scope note (2026-08-02):** This domain is BFSI-scoped by design. Cybersecurity/AI-assurance governance for power-grid and other critical infrastructure (CEA, NCIIPC) is out of scope here and is covered instead by the new sibling domain [[03_Domains/Power_Grid_Critical_Infrastructure_Governance]], which documents a structurally different pattern — regulatory *silence* on AI within a mature regime, rather than the multi-regulator *parallelism* this domain documents for BFSI.
+
 ---
 
 ## **Key Debates**

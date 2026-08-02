@@ -42,8 +42,8 @@ tags:
 |---|---|---|
 | Instrument | Working Group on Artificial Intelligence ("WG-AI") for the insurance sector | HIGH |
 | Issuing Authority | IRDAI | HIGH |
-| Date constituted | **18 June 2026** (Thursday) | HIGH — Business Standard reports "on Thursday", published 18 Jun 2026 18:58 IST |
-| Order reference | **Not obtained** | — |
+| Date constituted | **17 June 2026** (order date, confirmed 2026-08-02); reported by Business Standard on 18 June 2026 | HIGH |
+| Order reference | **IRDAI/GA&HR/ORD/MISC/90/06/2026** (confirmed 2026-08-02) | HIGH |
 | Membership | 7 (chair + 5 members + member-convener) | HIGH |
 | Reporting line | Member (Finance and Investment), IRDAI | HIGH |
 | Deadline | **Three months from constitution** → recommendations due ~**18 September 2026** | HIGH |
@@ -144,8 +144,8 @@ Mandate item 6 names **claims and fraud prevention** as in-scope use cases. Thes
 
 ## S7. ⚠ VERIFY Flags
 
-- **⚠ V-IRDAI2-1 (MEDIUM).** **The office order itself has not been obtained.** All content derives from Business Standard (18 June 2026, BS Reporter, Mumbai). Obtain the order from irdai.gov.in for the reference number and exact terms of reference before publication-track citation.
-- **⚠ V-IRDAI2-2 (MEDIUM).** The originating lead (an AI-generated practitioner deck, `AI Attack.pdf`, ISC2 chapter keynote, 25 July 2026) stated "**IRDAI Office Order dated June 17, 2026**." Business Standard reports constitution "on Thursday," 18 June 2026. **One-day discrepancy unresolved** — the order may be dated 17 June and announced 18 June. This node uses 18 June, resolving against the named-source report. **The deck is not cited as a source for any content in this node**; it is recorded here solely as the origin of a disputed date. Confirm from the order.
+- **✅ RESOLVED 2026-08-02 (was V-IRDAI2-1, MEDIUM).** The office order reference has now been confirmed via Perplexity Deep Research (secondary reproduction, taxguru.in): **Ref No. IRDAI/GA&HR/ORD/MISC/90/06/2026**, titled "Working Group on Artificial Intelligence (AI) Governance in the Insurance Sector," issued by IRDAI's General Administration & HR Department. Chair confirmed as **Prof. Sandeep K. Shukla, Director, IIIT Hyderabad** (matches this node's "Sandeep Shukla" — full name/title now confirmed). Ten explicit terms of reference confirmed, closely matching (though not verbatim-identical to) the 11-item mandate already recorded below from Business Standard — both sources converge on the same substantive scope. The primary irdai.gov.in-hosted PDF is still not independently retrieved — only the taxguru.in secondary reproduction and the original Business Standard summary are in hand. Recommend one further pass to pull the exact primary text directly from irdai.gov.in before any publication-track verbatim quotation.
+- **✅ RESOLVED 2026-08-02 (was V-IRDAI2-2, MEDIUM — one-day date discrepancy).** Confirmed: the order is dated **17 June 2026**; Business Standard's "Thursday, 18 June 2026" is the reporting/announcement date, one day after issuance. This node's date field should be corrected to reflect the order's actual date (17 June 2026) rather than the reporting date (18 June 2026) — see corrected Document Identity table note below.
 - **⚠ V-IRDAI2-3 (LOW).** Asia Insurance Review (22 June 2026, Anoop Khanna) corroborates the constitution and its subject matter but its full text is **paywalled**; only the lede was retrieved. It is recorded as corroboration of existence only, not of composition or mandate.
 - **⚠ V-IRDAI2-4 (LOW).** Mandate items 1–11 are reproduced from Business Standard's summary, which is detailed and appears close to the order's language but is not a verbatim source. Do not quote as the order's wording.
 - **⚠ V-IRDAI2-5 (WATCH — not a defect).** Recommendations due ~18 September 2026. Diarise; if delivered, the output is a Tier A intake candidate and likely the corpus's first Indian AI audit framework.
@@ -171,3 +171,4 @@ Mandate item 6 names **claims and fraud prevention** as in-scope use cases. Thes
 ## Log
 
 - 2026-08-02: Node created at Tier B. Full composition and 11-item mandate from Business Standard. Cross-regulator personnel coordination (CERT-In scientist + former ReBIT CEO on an IRDAI body) recorded as the corpus's strongest positive Institutional_Coherence instance, with cautions. AI audit framework mandate (item 9) flagged as the likely first place a retention horizon appears. Recommendations due ~18 Sep 2026 — diarised as V-IRDAI2-5.
+- 2026-08-02 (later same day): Perplexity Deep Research pass (per [[Sector_Gap_Audit_Perplexity_Prompts_2026-08-02]] Insurance prompt) resolved V-IRDAI2-1 and V-IRDAI2-2. Order reference confirmed (IRDAI/GA&HR/ORD/MISC/90/06/2026), chair's full name/title confirmed (Prof. Sandeep K. Shukla), order date corrected to 17 June 2026 (was recorded as 18 June, the reporting date). Independently sourced 10-item ToR list (taxguru.in) substantively converges with this node's 11-item Business Standard mandate. Primary irdai.gov.in PDF still not directly retrieved — one further verification pass recommended before verbatim citation.

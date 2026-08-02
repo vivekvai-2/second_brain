@@ -105,7 +105,20 @@ Transparency draws its theoretical grounding from three distinct but complementa
 
 [[Accountability]]
 
+[[Explainability]] — created 2026-08-02. Several instances recorded above (F085, F080/F081, F115, F123, International_12) are explainability rather than transparency instances under the definition now formalised there; they are retained here for continuity but the boundary is: transparency = visibility of governance information; explainability = representation of mechanism.
+
+[[Fairness]]
+
+[[Human_Oversight]]
+
+[[Contestability_Redress]]
+
+[[Proportionality]] — supplies the criterion for the "risk-proportionate" property this note attributes to transparency obligations
+
 ## **Linked Frameworks**
+
+[[Singapore_AI_Governance]] — MAS FEAT principles 12–14 and Veritas Doc 3C: the corpus's only published regime-level transparency assessment methodology
+
 
 [[EU_AI_Act]]
 

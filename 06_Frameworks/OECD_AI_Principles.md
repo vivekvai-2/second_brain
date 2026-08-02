@@ -31,7 +31,7 @@ The OECD AI Principles (2019, updated 2024) are the foundational international n
 - **Key dates:**
     - May 2019: Original Principles adopted by OECD Council
     - 2021: OECD AI Policy Observatory launched as implementation tracking tool
-    - 2024: Principles updated to incorporate generative AI and foundation model considerations _(verify exact update text via Perplexity)_
+    - 3 May 2024: Principles updated to incorporate generative AI and foundation model considerations (confirmed 2026-08-02 — see [[07_Institutions/Corpus/International/International_23_OECD_AI_Principles_2019_2024]])
 
 ## Structural Overview
 
@@ -70,6 +70,10 @@ Not applicable. The OECD Principles sit outside the P3 Indian BFSI corpus. They 
 
 The core tension in the OECD Principles is the gap between normative aspiration and implementation operationalisation: the five value principles generate broad normative consensus but provide no mechanism for translating that consensus into enforceable obligations. The 2024 update addresses generative AI and foundation models at the principle level, but the same implementation gap persists — producing a document that tracks technological change in vocabulary while remaining structurally unable to discipline it. For jurisdictions that have cited the OECD Principles as the foundation for national AI strategies (India included), this gap is propagated downstream: the principles provide legitimacy without architecture. This tension is analytically productive for the P1 typology and the Regulatory Complexity Handbook.
 
+## Linked Corpus Nodes
+
+- [[07_Institutions/Corpus/International/International_23_OECD_AI_Principles_2019_2024]] — OECD/LEGAL/0449 primary text, 2024 amendment, G20 Annex, and C/MIN(2024)17 implementation report (added 2026-08-02 — this framework note previously had zero corpus-node anchoring)
+
 ## Linked Projects
 
 - [[P1_SLR_RG]]
@@ -102,6 +106,8 @@ The core tension in the OECD Principles is the gap between normative aspiration 
 ## Future Research / Reuse Opportunities
 
 In the fsQCA truth table, the OECD Principles will likely anchor the low-RL end of the spectrum — their calibration score will define the principles-only, non-binding pole against which higher-RL cases (EU AI Act, RBI FREE-AI) are differentiated. For P1, they are the normative-baseline case in the archetype typology. For the AI Governance Wiki (Section 1 and international comparators), they provide the foundational vocabulary layer. The 2024 update and its generative AI provisions are a Perplexity monitoring target — any substantive change to the enforcement or operationalisation architecture would change their fsQCA prior and require note revision before Q3 2026 coding.
+
+**Confirmed gap (2026-08-02):** No dedicated OECD.AI Policy Observatory country review specifically assessing India's adoption of the OECD Principles exists — India appears only in the Observatory's general national-policy database, distinct from UNESCO's dedicated India Readiness Assessment (see [[06_Frameworks/UNESCO_Recommendations]]). Worth flagging as an asymmetry: India has a UNESCO-specific readiness assessment but no OECD-specific equivalent, despite India's direct OECD engagement at the 2026 AI Impact Summit (GPAI Council Meeting).
 
 ---
 

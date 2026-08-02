@@ -44,6 +44,8 @@ Defines the role, authority, reporting lines, escalation responsibilities, and b
 
 Examines informed, granular, and revocable consent requirements together with consent-management patterns emerging from DEPA-aligned ecosystems.
 
+**✅ Source-blocked status cleared 2026-08-02.** This chapter was blocked on the absence of a DEPA node; [[DEPA]] now exists with full primary-source anchoring. Chapter 4 can be drafted against: the DEPA framework document (NITI Aayog, Aug 2020 — note it is a *draft*, never finalised); RBI's NBFC-AA Master Directions 2016 as amended through 6 Sep 2024; ReBIT's API Specification v2.0.0 and its 30-day adoption-reporting governance; the four-tier AA grievance architecture now supervised by [[Sahamati]] as RBI-recognised SRO; and DPDP Rules 2025 Rule 4 / First Schedule. The practitioner-facing spine of the chapter is the **enacted-but-not-operative / operative-but-not-enacted chiasmus** — a client running an AA integration today is governed by one regime and will be governed by a second from 13 November 2026, and the two are not identical.
+
 ### **Chapter 5 — Data Minimisation and Retention Controls**
 
 Provides governance approaches for managing personal data throughout the AI lifecycle, including collection, training, inference, retention, and disposal.

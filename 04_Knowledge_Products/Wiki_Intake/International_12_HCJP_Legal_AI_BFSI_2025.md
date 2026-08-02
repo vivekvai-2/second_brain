@@ -93,6 +93,6 @@ Senior legal analytical report from France's apex financial markets legal adviso
 ← [[07_Institutions/Corpus/International/International_9]] (BIS FSI No. 63 — EU as "rules-based" archetype)  
 ← [[07_Institutions/Corpus/International/International_3]] (MAS AIRG — principles-based comparator)  
 ← [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] (India BFSI — principles-based comparator to EU rules-based)  
-← [[05_Concepts/Regulatory_Parallelism]]  
-← [[05_Concepts/Accountability]]  
-← [[05_Concepts/Transparency]]
+← [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]  
+← [[05_Concepts/05_Concepts_Standard/Accountability]]  
+← [[05_Concepts/05_Concepts_Standard/Transparency]]

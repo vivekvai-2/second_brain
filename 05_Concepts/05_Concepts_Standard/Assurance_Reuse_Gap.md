@@ -29,7 +29,7 @@ The Assurance Reuse Gap is the systematic inability of a regulated enterprise to
 
 ## **Application in This Research**
 
-Within [[P3_BFSI_JEIM]], the Assurance Reuse Gap is the principal operationalisation of [[Governance_Debt]] at the audit and assurance layer — it quantifies the burden regulated enterprises carry from parallel non-interoperable audit cycles (RBI outsourcing audit + SEBI CSCRF quarterly review + DPDP SDF audit + CERT-In cyber audit). Within [[fsQCA_Thesis_Chapter]], the presence or absence of a cross-recognition mechanism (e.g., ISO/IEC 42001 mapped to sectoral audit requirements) is a candidate calibration point for the Structural Readiness (SR) condition. Within [[P4_Doctrinal_IJLIT]], the Assurance Reuse Gap grounds the doctrinal critique that non-cross-recognising audit regimes convert regulatory oversight into a series of parallel evidentiary rituals rather than substantive verification. Within consulting applications, the concept underpins the Unified Controls Framework (UCF) and Common Evidence Repository (CER) recommendations — enterprises can partially reclaim the Assurance Reuse Gap through internal architecture even where regulators refuse to cross-recognise.
+Within [[P3_BFSI_JEIM]], the Assurance Reuse Gap is the principal operationalisation of [[Governance_Debt]] at the audit and assurance layer — it quantifies the burden regulated enterprises carry from parallel non-interoperable audit cycles (RBI outsourcing audit + SEBI CSCRF quarterly review + DPDP SDF audit + CERT-In cyber audit). Within [[fsQCA_Thesis_Chapter]], the presence or absence of a cross-recognition mechanism (e.g., ISO/IEC 42001 mapped to sectoral audit requirements) is a candidate calibration point for the Structural Readiness (SR) condition. **⚠ Revised 2026-08-02 — this calibration is not viable as stated.** No jurisdiction anywhere recognises ISO/IEC 42001 certification as compliance evidence, so the condition would score at or near full non-membership for every case in the corpus, including the EU, and a zero-variance condition carries no configurational information. **Recalibrate SR on whether a national accreditation scheme exists** — that does vary (ANAB and UKAS operate schemes; NABCB has none located) and is the layer where institutional capacity genuinely differs. See [[ISO_IEC_42001]]. Within [[P4_Doctrinal_IJLIT]], the Assurance Reuse Gap grounds the doctrinal critique that non-cross-recognising audit regimes convert regulatory oversight into a series of parallel evidentiary rituals rather than substantive verification. Within consulting applications, the concept underpins the Unified Controls Framework (UCF) and Common Evidence Repository (CER) recommendations — enterprises can partially reclaim the Assurance Reuse Gap through internal architecture even where regulators refuse to cross-recognise.
 
 ## **Boundary Conditions**
 
@@ -54,7 +54,26 @@ The Assurance Reuse Gap is grounded in three theoretical traditions. First, inst
 
 - (Batch 15 continuation — canonical grounding) [[04_Knowledge_Products/Cross_Institutional_Mandate_Comparison]] §5 (Functional Equivalence Matrix) and §8 (Governance Debt Assessment) document the Assurance Reuse Gap across four overlapping mandate interfaces in Indian BFSI: dual AI asset registers; three-channel incident reporting; three-cycle audit stack (DPDP + CSCRF + CERT-In); vendor liability contract duplication.
 - (Batch 10) [[07_Institutions/Corpus/International/International_11]] FSB TPRM Toolkit — the international standard for third-party risk audit reuse that India BFSI regulators have not adopted; the absence of adoption is the Assurance Reuse Gap operationalised against a specific global benchmark (⚠V-FSB3).
-- (Batch 12) [[04_Knowledge_Products/Wiki_Intake/F034_Buscemi_Assessing_High_Risk_AI_2025]] — the EU AI Act → ISO/IEC 42001 audit control mapping is the corpus's clearest example of *architectural cross-recognition*: EU regulators accept ISO 42001-based technical evaluations as discharging AI Act audit obligations. India has no equivalent legal-to-technical mapping, producing the Assurance Reuse Gap at the standards layer.
+- ~~(Batch 12) [[04_Knowledge_Products/Wiki_Intake/F034_Buscemi_Assessing_High_Risk_AI_2025]] — the EU AI Act → ISO/IEC 42001 audit control mapping is the corpus's clearest example of *architectural cross-recognition*: EU regulators accept ISO 42001-based technical evaluations as discharging AI Act audit obligations. India has no equivalent legal-to-technical mapping, producing the Assurance Reuse Gap at the standards layer.~~
+
+  > ### ⚠ **CORRECTED 2026-08-02 — this claim was factually wrong and inverted the argument**
+  >
+  > **EU regulators do not accept ISO/IEC 42001-based evaluations as discharging AI Act obligations.** Confirmed by three independent lines of evidence in the ISO 42001 sourcing pass:
+  > 1. The European Commission's own AI Act standardisation page names **CEN-CENELEC JTC 21 harmonised standards** — not ISO/IEC 42001 — as the mechanism that "will offer legal certainty under the AI Act."
+  > 2. The **European AI Office signalled in May 2024** that ISO/IEC 42001 is *not fully aligned* with the final AI Act text and is **not part of the EU harmonisation process**.
+  > 3. **AI Act Article 40** grants presumption of conformity only to harmonised standards cited in the *Official Journal*. As of June 2026 **zero AI-specific harmonised standards have been cited** — presumption of conformity attaches to nothing at all. See [[07_Institutions/Corpus/International/International_33_CEN_CENELEC_JTC21_Harmonised_Standards_2026]].
+  >
+  > What F034 actually documents is a **researcher-constructed verification mapping** between AI Act obligations and ISO 42001 controls — an academic proposal, not a recognised regulatory pathway. No ISO-issued official crosswalk exists; every located mapping is third-party (Microsoft, commercial tools, NIST-hosted-but-community-submitted with an explicit NIST non-endorsement disclaimer).
+  >
+  > **The correction inverts the argument, and strengthens the concept.** The original claim framed the Assurance Reuse Gap at the standards layer as an India-specific failure measured against a working EU benchmark. There is no working EU benchmark. **No jurisdiction anywhere — EU, US, UK, India — recognises ISO/IEC 42001 certification as compliance evidence.** The gap is global.
+  >
+  > **And it is structural, not temporal.** ISO/IEC 42001 certifies that an *organisation* runs a functioning AI management system; the EU AI Act regulates *individual AI systems as products*, assessed at market placement. A categorical mismatch in the unit of assessment, which no crosswalk can reconcile. This is a stronger and more publishable finding than the one it replaces: the Assurance Reuse Gap at the standards layer is not a coordination failure between regulators but a mismatch between what management-system certification can certify and what product regulation requires. Full treatment at [[ISO_IEC_42001]].
+  >
+  > **Consequence for P4:** any passage comparing India unfavourably to the EU on standards-based assurance reuse must be rewritten. The defensible comparison is at the **accreditation** layer, where variance is real — ANAB and UKAS operate ISO 42001 accreditation schemes; **NABCB has none located**.
+
+- (2026-08-02 — assurance quality gap, new layer) [[06_Frameworks/ISO_IEC_42001]] — **ISO/IEC 42006**, the scheme-specific standard defining auditor competence for AIMS certification, **is not published** (confirmed by UKAS as "currently being developed"). Certification bodies are therefore auditing against ISO/IEC 42001 under the generic requirements of ISO/IEC 17021-1, with no AI-specific competence standard in force, and no dedicated IAF mandatory document located. A market in AI management-system certificates is operating *ahead of* the competence standard that would make those certificates comparable. This is a distinct sub-layer of the gap not previously recorded: not "assurance artefacts cannot be reused across regulators," but "**assurance artefacts are not yet comparable to each other**." Feeds [[Evidentiary_Governance]] directly.
+
+- (2026-08-02 — India's missing middle layer) [[07_Institutions/Corpus/BIS/BIS_1_LITD30_and_IS_ISO_IEC_42001_Adoption]] — BIS has adopted the standard as **IS/ISO/IEC 42001** and runs a 5-day Lead Auditor course at NITS Noida, with **no confirmed NABCB accreditation scheme** for the certification bodies those auditors would work for. Standard adopted ✅, auditors trained ✅, accreditation scheme ❌, regulatory recognition ❌. A fourth instance of the corpus's "institution before regulation" sequencing pattern, in the form *capability before scheme*.
 - (Batch 15 continuation) [[07_Institutions/Corpus/SEBI/SEBI_15]] CSCRF + [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] — SEBI does cross-reference CERT-In empanelled auditors (partial mitigation of the gap at the horizontal infrastructure layer), but RBI does not; the pattern illustrates how the gap can be partially closed sector by sector without whole-of-government coordination.
 - (Batch 16 — **canonical academic grounding, elevates concept from PRIS-internal to peer-reviewed literature**) [[04_Knowledge_Products/Wiki_Intake/Costanza_Chock_Who_Audits_the_Auditors_2022]] (F061) — Costanza-Chock, Raji & Buolamwini (ACM FAccT 2022): first comprehensive field scan of the algorithmic auditing ecosystem (N=438 individuals, N=189 organisations, N=152 survey, N=10 interviews). Establishes that AI audit claims globally are un-standardised, lack shared methodologies, and cannot be verified across jurisdictions — the empirical demonstration of Assurance_Reuse_Gap at the global level, predating and independently corroborating the PRIS construct. Policy recommendations directly align with the PRIS Cross-Institutional §12 recommendations (mandatory third-party audit, standardised methodologies, auditor safe harbours, cross-jurisdictional recognition). **This is the concept's strongest external empirical anchor and should be cited as the primary literature foundation in any P3/P4 manuscript deploying the Assurance_Reuse_Gap construct.**
 - (Batch 16 — enterprise-implementation companion) [[04_Knowledge_Products/Wiki_Intake/Hadley_Algorithm_Review_Boards_RAI_2025]] (F060) — Hadley et al. document how enterprises use Algorithm Review Boards + IRBs + external audits in parallel without recognising each other's outputs; internal-organisational analogue to the cross-regulator audit non-recognition documented in Cross_Institutional §5.
@@ -101,6 +120,18 @@ See [[Corpus_Index_MOC]] for full node index.
 [[Accountability]]
 
 [[Governance_Capacity]]
+
+[[Proportionality]]
+
+## **Linked Frameworks**
+
+[[ISO_IEC_42001]] — the standards-layer anchor; carries the corrected global-absence finding
+
+[[EU_AI_Act]]
+
+## **Linked Institutions**
+
+[[BIS]]
 
 ## **Linked Methods**
 

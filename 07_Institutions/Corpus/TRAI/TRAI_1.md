@@ -143,6 +143,6 @@ This four-way null cross-reference is direct evidence for [[Regulatory_Paralleli
 ← [[07_Institutions/Corpus/TRAI/TRAI_2]] (TRAI Recommendations 2023 — policy foundation for this direction)  
 ← [[07_Institutions/Corpus/MeitY/MeitY_2]] (IndiaAI Guidelines — cross-sector AI framework not cross-referenced in TRAI_1)  
 ← [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]] (proposed coordinator — not yet engaged by TRAI)  
-← [[05_Concepts/Regulatory_Parallelism]]  
-← [[05_Concepts/Governance_Debt]]  
-← [[05_Concepts/Accountability]]
+← [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]  
+← [[05_Concepts/05_Concepts_Signature/Governance_Debt]]  
+← [[05_Concepts/05_Concepts_Standard/Accountability]]

@@ -131,7 +131,7 @@ This comparison is directly applicable to P3 (Ethical AI Governance in Indian e-
 - [[Transparency]] — C9 (explainability for AI-assisted financial advice) and C12 (deployment monitoring) are transparency operationalisations
 
 **Related nodes:**
-- [[04_Knowledge_Products/Wiki_Intake/International_20_Australia_DTA_AI_Impact_Assessment_Tool|International_20]] (Australian DTA AI Impact Assessment) — parallel implementation tool in different regulatory tradition; together they illustrate two models of government-supported AI governance instrument design
+- [[07_Institutions/Corpus/International/International_20_Australia_DTA_AI_Impact_Assessment_Tool|International_20]] (Australian DTA AI Impact Assessment) — parallel implementation tool in different regulatory tradition; together they illustrate two models of government-supported AI governance instrument design
 - [[04_Knowledge_Products/Wiki_Intake/RAND_GovAI_AI_Incident_Reporting_Institutional_Design|F051]] (RAND/GovAI AIIRS) — C13 (AI incident management) in MindForge directly complements the AIIRS architecture; MindForge provides the FI-sector implementation context
 - [[07_Institutions/Corpus/International/International_3]] (MAS AI Risk Management Consultation) — MindForge is the industry-consortium companion to MAS's public sector consultation instrument
 

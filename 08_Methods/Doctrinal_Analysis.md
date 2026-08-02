@@ -33,6 +33,10 @@ Doctrinal analysis in P4 performs three functions:
 
 **2. Diagnosis (Section 4):** Identifying where instruments create gaps, overlaps, and coordination failures at the rule level. The finding that 0 cross-references exist between RBI and SEBI AI governance instruments is a doctrinal finding — established by reading the primary texts, not by interviewing stakeholders. The Three Lines of Defence analysis (Section 4.1) is an application of doctrinal reading to identify where each line's AI risk obligations are specified and where they are absent.
 
+**⚠ Benchmark discipline (added 2026-08-02, Singapore sourcing pass).** This note's framing of Singapore as contributing "operationalisation" is correct and should be preserved verbatim — it is the only place in the corpus that states Singapore's contribution accurately. [[P4_Doctrinal_IJLIT]] currently frames all three benchmarks as comparators "for what India is missing," which on Singapore is wrong in one direction: **Singapore has no binding AI instrument at all** — no statute, no AI-specific Notice or Directive, no designated AI regulator. RBI issues binding Master Directions; MAS issues Information Papers. **On binding force India is ahead.** What India lacks is Singapore's *assessment methodology* (Veritas Docs 3A/3B/3C, AI Verify), which is exactly what "operationalisation" names. Keep the dimensions separate in drafting. See [[Singapore_AI_Governance]].
+
+Note also that Singapore has one financial regulator, so the coordination problem P4 diagnoses in India does not arise there — Singapore is a **poor comparator for coordination**, and the UK FCA-PRA MoU must carry that argument alone.
+
 **3. Redesign proposal (Section 5):** The Three-Level Governance Alignment Model is a normative proposal derived from doctrinal analysis — it specifies what a coherent legal architecture would look like, informed by the EU AI Act (risk-tiering), Singapore FEAT/Veritas (operationalisation), and UK FCA-PRA MoU (coordination mechanism). This is the contribution that makes P4 a law journal paper rather than an IS paper.
 
 ## Register Discipline (Critical for P4)
@@ -43,6 +47,16 @@ The P3/P4 boundary is enforced methodologically:
 - **P4 frame:** Legal/doctrinal; regulatory architecture; normative redesign proposal
 - **Test:** Does the sentence describe an enterprise compliance problem (P3) or a regulatory design failure (P4)?
 - **OSCOLA requirement:** All primary legal sources cited as statutes/circulars with gazette references — never as corpus intake codes (P29, P53, etc.)
+
+## Linked Methods
+
+- [[Comparative_Regulatory_Analysis]] — the international-benchmarking limb of P4's method, anchored 2026-08-02. Note its register limit: functional comparison is weak for **normative evaluation**, so P4 §5's redesign proposal must rest on regulatory-governance theory rather than on comparison alone
+
+## Linked Frameworks
+
+- [[Singapore_AI_Governance]] — the operationalisation benchmark; see discipline note above
+- [[EU_AI_Act]]
+- [[ISO_IEC_42001]]
 
 ## Linked Projects
 

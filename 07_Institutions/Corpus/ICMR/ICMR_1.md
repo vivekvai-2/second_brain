@@ -144,6 +144,6 @@ The null cross-referencing is evidence of [[Regulatory_Parallelism]] at the ethi
 ← [[07_Institutions/Corpus/MeitY/MeitY_2]] (IndiaAI Guidelines — parallel cross-sector framework, no cross-reference)  
 ← [[07_Institutions/Corpus/NITI_Aayog/NITI_3]] (Responsible AI for All — parallel principles framework)  
 ← [[07_Institutions/Corpus/IRDAI/IRDAI_1_Maintenance_and_Sharing_of_Information_Regulations_2025]] (health data intersects IRDAI)  
-← [[05_Concepts/Regulatory_Parallelism]]  
-← [[05_Concepts/Accountability]]  
-← [[05_Concepts/Transparency]]
+← [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]  
+← [[05_Concepts/05_Concepts_Standard/Accountability]]  
+← [[05_Concepts/05_Concepts_Standard/Transparency]]

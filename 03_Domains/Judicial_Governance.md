@@ -73,26 +73,26 @@ The White Paper is also the only corpus instrument extending AI governance oblig
 
 ---
 
-## **Known Structural Gap — Blocking**
+## **Known Structural Gap — Resolved 2026-08-02**
 
-⚠ **No Indian evidence-law instrument exists in the vault.** The Bharatiya Sakshya Adhiniyam 2023 came into force on 1 July 2024, repealing the Indian Evidence Act 1872; its s.63 governs admissibility of electronic records and carries a mandatory certification requirement. It is the single most important missing document for this domain and for OQ-EG-01 in [[05_Concepts/05_Concepts_Signature/Evidentiary_Governance]].
+✅ **[[07_Institutions/Corpus/Parliament/BSA_1_Section_63_Admissibility_2023]] now exists in the vault.** The Bharatiya Sakshya Adhiniyam 2023 came into force on 1 July 2024, repealing the Indian Evidence Act 1872; its s.63 governs admissibility of electronic records and carries a mandatory certification requirement (Schedule, Parts A and B). Primary text confirmed via the official MHA-hosted Gazette PDF and the India Code Schedule PDF. This was the single most important missing document for this domain and for OQ-EG-01 in [[05_Concepts/05_Concepts_Signature/Evidentiary_Governance]] — the domain can now progress past this blocker.
 
-**Action: create a `BSA_1` corpus node before any publication-track use of admissibility claims.** Until then, all statements in this vault about BSA s.63 derive from external Deep Research (2026-08-02) and are unverified against primary text. This gap is listed first in the intake queue below, ahead of the sources carried over from the 2026-07-31 stub.
+**Immediate next step (not yet done):** systematically check RBI_8, CERT_In_2/3, SEBI's AI/ML reporting circulars, and DPDP's breach-notification retention rules against s.63(2)'s four conditions and s.63(4)'s certificate-signatory requirement — see BSA_1's own "Analytical Significance" section for the preliminary read (most regulatory logging obligations appear to specify retention but not certification-readiness, on current coding).
 
 ---
 
-## **Candidate Sources — Confirmed but Not Yet Intake**
+## **Candidate Sources — Link-Verified 2026-08-02, Not Yet Read/Coded**
 
-Carried forward unchanged from the 2026-07-31 stub, with the BSA added at the top. Titles and dates confirmed; content not read or coded.
+Item 1 (BSA) is now fully intaken — see [[07_Institutions/Corpus/Parliament/BSA_1_Section_63_Admissibility_2023]] above. Items 2–6 have had their links independently verified as live and current (2026-08-02) but their content has still not been read or coded into the vault — this table tracks link-verification status, not intake status.
 
-| Priority | Document | Issuing Body | Date | Source |
-|---|---|---|---|---|
-| **1 (blocking)** | Bharatiya Sakshya Adhiniyam, 2023 — s.63 and Schedule | Parliament of India | In force 1 July 2024 | India Code |
-| 2 | Artificial Intelligence (AI) Guidance for Judicial Office Holders | Courts and Tribunals Judiciary, UK | 31 October 2025 (supersedes Apr 2025, Dec 2023) | judiciary.uk |
-| 3 | European Ethical Charter on the Use of AI in Judicial Systems | CEPEJ, Council of Europe | 3–4 December 2018 | rm.coe.int |
-| 4 | Vision Document for Phase III of eCourts Project | e-Committee, Supreme Court of India / DoJ | 26 November 2022 | ecourts.gov.in |
-| 5 | Policy and Action Plan Document, Phase II (eCourts) | e-Committee, Supreme Court of India | 8 January 2014 | ecourts.gov.in |
-| 6 | Policy and Action Plan Document, Phase I (eCourts) | e-Committee, Supreme Court of India | 1 August 2005 | ecourts.gov.in |
+| Priority | Document | Issuing Body | Date | Source | Status |
+|---|---|---|---|---|---|
+| ~~1~~ | ~~Bharatiya Sakshya Adhiniyam, 2023 — s.63 and Schedule~~ | Parliament of India | In force 1 July 2024 | India Code | ✅ **Intaken** — [[07_Institutions/Corpus/Parliament/BSA_1_Section_63_Admissibility_2023]] |
+| 2 | Artificial Intelligence (AI) Guidance for Judicial Office Holders | Courts and Tribunals Judiciary, UK | 31 October 2025 (confirmed: supersedes Apr 2025, which superseded Dec 2023) | https://www.judiciary.uk/guidance-and-resources/artificial-intelligence-ai-judicial-guidance-october-2025/ | Link verified live; not yet read/coded |
+| 3 | European Ethical Charter on the Use of AI in Judicial Systems | CEPEJ, Council of Europe | 3–4 December 2018 | https://rm.coe.int/ethical-charter-en-for-publication-4-december-2018/16808f699c | Link verified live; not yet read/coded |
+| 4 | Vision Document for Phase III of eCourts Project | e-Committee, Supreme Court of India / DoJ | 26 November 2022 (per e-Committee's own listing; note the then-CJI accepted it 23 September 2022 — two dates in play, not a discrepancy, just acceptance-vs-publication) | https://ecommitteesci.gov.in/document/vision-document-for-phase-iii-of-ecourts-project/ | Link verified live; not yet read/coded |
+| 5 | Policy and Action Plan Document, Phase II (eCourts) | e-Committee, Supreme Court of India | 8 January 2014 | https://ecommitteesci.gov.in/document/policy-and-action-plan-document-phase-ii/ | Link verified live; not yet read/coded |
+| 6 | Policy and Action Plan Document, Phase I (eCourts) | e-Committee, Supreme Court of India | 1 August 2005 | https://ecommitteesci.gov.in/document/policy-and-action-plan-document/ | Link verified live; not yet read/coded |
 
 **Standing cautions (unchanged).** No standalone official policy PDF exists for SUPACE — do not cite a SUPACE "policy document" without confirming one exists. No unified US federal judicial-AI policy instrument exists comparable to the UK or CEPEJ documents; US judicial AI governance is fragmented across circuit and district local rules.
 
@@ -100,7 +100,7 @@ Carried forward unchanged from the 2026-07-31 stub, with the BSA added at the to
 
 ## **Open Research Questions**
 
-**OQ-JG-01 (blocking, shared with Evidentiary_Governance).** Do artefacts generated under Indian regulatory logging mandates satisfy BSA s.63(4) certification requirements? Cannot be addressed until the BSA node exists. **Sharpened 2026-08-02:** DHC_1 shows the question is not merely unanswered but unasked — it did not arise across 21 hearings, six intervenors and two Amici.
+**OQ-JG-01 (no longer blocking — BSA_1 now intaken, 2026-08-02).** Do artefacts generated under Indian regulatory logging mandates satisfy BSA s.63(4) certification requirements? **Sharpened 2026-08-02:** DHC_1 shows the question is not merely unanswered but unasked — it did not arise across 21 hearings, six intervenors and two Amici. Now analytically tractable — see [[07_Institutions/Corpus/Parliament/BSA_1_Section_63_Admissibility_2023]] for the preliminary read against RBI/CERT-In/SEBI logging provisions (not yet systematically completed).
 
 **OQ-JG-05 (new, 2026-08-02).** Where a court must determine what an AI system did and no artefacts were retained, what evidentiary sources does it fall back on, and with what reliability? DHC_1's answer was vendor-published training dates. Is that generalisable, and what happens when a vendor's published claims are themselves contested?
 
@@ -142,7 +142,7 @@ Carried forward unchanged from the 2026-07-31 stub, with the BSA added at the to
 
 ## **Linked Corpus Nodes**
 
-[[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] (first adjudication) | [[04_Knowledge_Products/Wiki_Intake/SCI_1_White_Paper_AI_and_Judiciary_2025]] (anchor) | [[07_Institutions/Corpus/MeitY/MeitY_5_Draft_IT_Rules_Amendment_SGI_2025]] | [[07_Institutions/Corpus/MeitY/MeitY_6_SOP_NCII_Takedown_2025]] | [[07_Institutions/Corpus/MeitY/MeitY_7_IT_Intermediary_Guidelines_Digital_Media_Ethics_Code_Rules_2021]] | [[04_Knowledge_Products/Wiki_Intake/F046_UK_LawCommission_AI_and_Law_DiscussionPaper_2025]]
+[[07_Institutions/Corpus/Parliament/BSA_1_Section_63_Admissibility_2023]] (evidentiary standard — added 2026-08-02, closes prior blocking gap) | [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] (first adjudication) | [[04_Knowledge_Products/Wiki_Intake/SCI_1_White_Paper_AI_and_Judiciary_2025]] (anchor) | [[07_Institutions/Corpus/MeitY/MeitY_5_Draft_IT_Rules_Amendment_SGI_2025]] | [[07_Institutions/Corpus/MeitY/MeitY_6_SOP_NCII_Takedown_2025]] | [[07_Institutions/Corpus/MeitY/MeitY_7_IT_Intermediary_Guidelines_Digital_Media_Ethics_Code_Rules_2021]] | [[04_Knowledge_Products/Wiki_Intake/F046_UK_LawCommission_AI_and_Law_DiscussionPaper_2025]]
 
 ## **Future Reuse Opportunities**
 
@@ -156,6 +156,7 @@ Carried forward unchanged from the 2026-07-31 stub, with the BSA added at the to
 ## **Log**
 
 - 2026-08-02: Promoted stub → seeded. Organising axis established (algorithmic adjudication and evidentiary integrity, staged inline per CDW-2). Synthetic-media cross-domain thread assembled from SCI_1 + MeitY_5/6/7 — a synthesis SCI_1's own cross-links had flagged as unbuilt. BSA corpus-node gap added as priority-1 blocking intake. **Not a full Domain synthesis** — that remains gated on the intake queue above.
+- 2026-08-02 (later same day): Perplexity Deep Research verification pass (per [[Sector_Gap_Audit_Perplexity_Prompts_2026-08-02]]) closed the priority-1 blocking gap — [[07_Institutions/Corpus/Parliament/BSA_1_Section_63_Admissibility_2023]] now exists. DHC_1's V-DHC1-1 appeal-status flag resolved (no Division Bench appeal filed/decided as of verification). Candidate-source links for items 2–6 (UK judicial guidance, CEPEJ, three eCourts documents) all confirmed live — content still not read/coded. Still **not a full Domain synthesis**, but the single most important structural blocker is now cleared.
 
 ---
 

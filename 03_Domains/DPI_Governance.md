@@ -84,6 +84,36 @@ The corpus reveals a consistent governance pattern across otherwise diverse posi
 
 ---
 
+## **Linked Corpus Nodes**
+
+- [[07_Institutions/Corpus/International/International_25_World_Bank_DPI_Development_2025]] — global comparative DPI-governance framework (World Bank), consolidating OECD/T20 Brazil/IIM-B/IES/Vidhi companion material
+- [[07_Institutions/Corpus/UIDAI/UIDAI_1_Circular_8_2025_Data_Vaults_HSM]] — Aadhaar authentication security circular (⚠ secondary-sourced, flagged for primary verification)
+- [[07_Institutions/Corpus/MeitY/MeitY_2]] — India AI Governance Guidelines (explicit DPI-AI linkage: "Leveraging DPI can also ensure that AI solutions are embedded with principles of privacy, transparency, interoperability, and security by design")
+
+**Note (2026-08-02):** Telecom-sector AI governance (TRAI, DoT) now has its own dedicated domain — [[03_Domains/Telecom_AI_Governance]] — rather than being folded into this domain's general DPI framing. TRAI remains linked here as an institution given its DPI-adjacent data-governance relevance, but its AI-specific instruments (TRAI_1, TRAI_2) and international comparators are catalogued in the new domain.
+
+*(Added 2026-08-02 — this domain note previously had zero corpus-node anchoring despite extensive synthesis; see [[Thin_Node_Perplexity_Prompts_2026-08-02]].)*
+
+### Confirmed Gaps and Findings (2026-08-02 Perplexity Deep Research)
+
+- **No fsQCA-methodology paper applied to DPI governance exists** — a confirmed open research niche (see [[International_25_World_Bank_DPI_Development_2025]] for the fuller argument) and a genuine white-space opportunity to extend this domain's existing 12-document/248-statement IG2.0 corpus into a small-N fsQCA design.
+- **No MOSIP-self-published AI-governance document exists** — MOSIP appears only as a subject within third-party publications (World Bank, IIM Bangalore), never as an issuing institution in its own right.
+- **AI-DPI intersection language is emerging but thin.** The Account Aggregator ecosystem is officially described (PIB, 19 November 2025) as "strengthening the digital credit infrastructure and enhancing the effectiveness of AI-based credit models" — direct GoI confirmation that DPI increasingly underwrites AI-based financial decisioning, reinforcing this domain's relevance to P3/BFSI work even though its primary framing remains welfare delivery.
+- **UIDAI has no AI-specific circular** despite confirming (via its own official channel, not a formal circular) that its Face Authentication system is AI/ML-based — this is a documented instance of the domain's own "records vs rules asymmetry" argument at the security-governance layer: the technology has moved to AI/ML, the governing instrument has not followed.
+- **Vidhi's N.U.D.G.E. proposal** (a dedicated User-Driven Governance Entity for the Account Aggregator ecosystem, 7 June 2023) is a directly relevant existing proposal for exactly the kind of citizen-facing governance mechanism this domain's Records_Rules_Asymmetry argument identifies as missing — worth citing as evidence that the gap has been named by outside researchers, not only by this corpus.
+
+### DEPA Sourcing Pass — Findings (2026-08-02, second Perplexity run)
+
+The domain's consent layer now has full framework and corpus anchoring: [[06_Frameworks/DEPA]], [[07_Institutions/Corpus/RBI/RBI_11_NBFC_Account_Aggregator_Master_Directions_2016]], [[07_Institutions/Corpus/RBI/RBI_12_ReBIT_AA_API_Specifications_2023]], [[07_Institutions/Corpus/Sahamati/Sahamati_1_SRO_Recognition_and_Grievance_Architecture_2026]], plus new institution notes [[Sahamati]] and [[NPCI]].
+
+- **New pattern — "operationalisation without enactment."** DEPA was published as a *Draft for Discussion* (NITI Aayog, Aug 2020), never finalised or superseded, yet became operative in two sectors and was subsequently written into statute via DPDP Rules 2025 Rule 4. The RBI Master Directions implementing it **predate the document by four years**. This is the mirror image of DPDP's "enacted but not operative" and gives the domain a two-sided account of instrument-status/reality divergence. Full treatment in [[06_Frameworks/DEPA]].
+- **The N.U.D.G.E. gap has been half-closed, in the wrong direction.** RBI recognised [[Sahamati]] as SRO for the AA ecosystem on 5 June 2026 — a governance entity now exists, but it is an **industry** body, not the **user-driven** entity Vidhi proposed. The Records_Rules_Asymmetry argument survives the development and is arguably strengthened: when a governance layer was finally built, it was built for participants rather than for data principals.
+- **Coherence counter-case.** RBI, SEBI, IRDAI and PFRDA co-authored DEPA and their four ombudsman schemes jointly form tier 3 of the AA grievance chain — the clearest operational instance of cross-regulator coordination in the corpus. The same four regulators produce non-cross-referencing AI instruments. Same institutions, same period, coherent on consent and parallel on AI: this isolates the parallelism variable to subject matter rather than institutional capacity, and should be written into [[Regulatory_Parallelism]] as a boundary condition.
+- **NPCI: confirmed governance absence.** UPI runs federated AI fraud detection generating cross-institutional risk scores with **no published governance instrument of any kind** — evidence is secondary reporting and NPCI promotional material only. A [[Governance_Debt]] instance at the infrastructure rather than regulator layer. See [[NPCI]].
+- **Telecom DEPA extension: confirmed absent.** The 2020 draft claimed telecom piloting was underway; no DoT, TRAI or NITI instrument operationalising it was located. Independently corroborates [[Telecom_AI_Governance]].
+- **No cross-sectoral consent layer exists as an operative instrument.** The National Health Stack's "Consent layer" framing is architectural only; health's HIE-CM and finance's AA remain separate instantiations.
+- ⚠ **Open conflict:** DEPA's public-comment closing date is given as 1 October 2020 in the Executive Summary and 30 November 2020 in a secondary source. Unresolved — do not cite a closing date.
+
 ## **Linked Projects**
 
 [[P2_DPI_JSIS]]

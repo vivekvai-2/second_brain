@@ -154,10 +154,10 @@ The source document explicitly maps FIRE fields to RBI DAKSH reporting fields. T
 ## Backlinks
 
 ← [[07_Institutions/Corpus/International/International_11]] (FSB TPRM Toolkit — policy governance layer; FIRE is the operational/incident-response layer; together = FSB's complete third-party risk architecture)  
-← [[07_Institutions/Corpus/International/International_14_BIS_GenAI_Financial_Services]] (BIS GenAI Working Paper — GenAI-specific cyber risks that FIRE incident reporting would cover)  
+← [[04_Knowledge_Products/Wiki_Intake/International_14_BIS_GenAI_Financial_Services]] (BIS GenAI Working Paper — GenAI-specific cyber risks that FIRE incident reporting would cover)  
 ← [[07_Institutions/Corpus/International/International_10]] (BoE multi-authority coordination model — descriptive coherence evidence; FIRE is the prescriptive coherence standard)  
 ← [[07_Institutions/Corpus/RBI/RBI_1]] (IT Governance — RBI DAKSH is the India domestic implementation context for FIRE)  
-← [[05_Concepts/Institutional_Coherence]]  
-← [[05_Concepts/Regulatory_Parallelism]]  
-← [[05_Concepts/Governance_Capacity]]  
-← [[05_Concepts/Accountability]]
+← [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]]  
+← [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]  
+← [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]  
+← [[05_Concepts/05_Concepts_Standard/Accountability]]

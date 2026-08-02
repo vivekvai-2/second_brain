@@ -96,6 +96,29 @@ The enforcement architecture relies on accountability, breach notification, regu
 
 ---
 
+### DEPA Sourcing Pass (2026-08-02)
+
+[[06_Frameworks/DEPA]] created — the consent-manager architecture underlying both the RBI Account Aggregator regime and DPDP Rules 2025 Rule 4. Key finding for this domain: DPDP's Consent Manager provisions are not a novel statutory design but a generalisation of an architecture two sectoral regulators had already been operating (RBI since 2016, NHA/ABDM since 2021). The **enacted-but-not-operative (DPDP, Rule 4 commences 13 Nov 2026) versus operative-but-not-enacted (AA, running on 2016 licensing plus a never-finalised draft)** chiasmus is the sharpest available illustration of this domain's instrument-status/reality gap.
+
+## **Linked Corpus Nodes**
+
+- [[07_Institutions/Corpus/MeitY/MeitY_8_DPDP_Act_2023]] — the Act, commencement notification, DPB establishment notification
+- [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] — DPDP Rules, 2025 (canonical)
+- [[07_Institutions/Corpus/RBI/RBI_10_Storage_Payment_System_Data_2018]] — 2018 payment-data localisation circular; intra-India blanket-vs-conditional localisation contrast against DPDP Rule 15
+- [[07_Institutions/Corpus/UIDAI/UIDAI_1_Circular_8_2025_Data_Vaults_HSM]] — Aadhaar authentication security circular (⚠ secondary-sourced, flagged for primary verification)
+- [[07_Institutions/Corpus/Parliament/Parliament_1_Standing_Committee_48th_Report_2023]] — pre-enactment legislative history
+
+*(Added 2026-08-02 — this domain note previously had zero corpus-node anchoring despite extensive synthesis; see [[Thin_Node_Perplexity_Prompts_2026-08-02]].)*
+
+### Confirmed Gaps (2026-08-02 Perplexity Deep Research)
+
+- **No DPB substantive orders or adjudications exist yet** — the Board is constituted (see MeitY_8) but remains in an institution-building phase; no published case orders were located.
+- **No Significant Data Fiduciary criteria notification has been issued** under s.10(1) — confirmed by two independent secondary legal-analysis sources. Treat "SDF obligations" as prospective, not currently operative.
+- **No cross-border transfer restriction list has been issued** under s.16(1)/Rule 15 — the permissive-by-default position (see [[06_Frameworks/DPDP_Act_2023]]) remains unqualified in practice; provisions take effect May 2027 regardless.
+- **No RBI circular explicitly cross-references DPDP compliance** — confirmed independently in both the DPDP-focused and this Privacy-focused search round; RBI's 2018 localisation circular (RBI_10, above) and DPDP remain parallel, non-cross-referencing regimes, and this holds even considering RBI's much earlier and stricter localisation mandate.
+- **No CIS India (Centre for Internet & Society) publication dated 2023 or later on the privacy-AI governance intersection was located** — the only CIS document surfaced predates the DPDP Act (2018) and is out of scope. Flag for a more targeted cis-india.org search if CIS commentary is specifically needed.
+- **Comparative enforcement material available but not yet coded as corpus nodes** (below the evidence threshold for standalone intake, noted here for reuse): 2024 GDPR-AI enforcement fines (Clearview AI €30.5M — Dutch DPA; LinkedIn €310M — Irish DPC; OpenAI/ChatGPT €15M — Italian Garante); a December 2025 comparative legal analysis of GDPR Art. 22 / EU AI Act interplay (Hohmann, *Cogent Social Sciences*, DOI 10.1080/23311886.2025.2560654); and the UK's Data (Use and Access) Act 2025 replacement of GDPR Art. 22 (new Articles 22A–22D, in force 5 February 2026, SI 2026/82) — now held at [[06_Frameworks/GDPR]] — **built 2026-08-02**, scoped to the ADM/AI layer. The Clearview (€30.5m), LinkedIn (€310m), OpenAI (€15m) and Hamburg (€492k, explicitly algorithmic decision-making at a financial services provider) enforcement decisions are recorded there; the UK Data (Use and Access) Act 2025 replacement of Art. 22 (new Arts. 22A–22D, in force 5 Feb 2026, SI 2026/82) remains uncoded and is the obvious next addition.
+
 ## **Linked Projects**
 
 [[P2_DPI_JSIS]]

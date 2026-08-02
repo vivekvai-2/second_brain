@@ -116,6 +116,20 @@ Accountability draws its theoretical lineage from three converging traditions. P
 
 [[BFSI_Governance]]
 
+## **Linked Standard Concepts**
+
+[[Transparency]]
+
+[[Explainability]]
+
+[[Fairness]]
+
+[[Human_Oversight]]
+
+[[Contestability_Redress]] — accountability without an exercisable challenge route is attribution without consequence; these are the remedial limb of accountability
+
+[[Proportionality]]
+
 ## **Linked Signature Concepts**
 
 [[Institutional_Coherence]]
@@ -123,6 +137,9 @@ Accountability draws its theoretical lineage from three converging traditions. P
 [[Regulatory_Parallelism]]
 
 ## **Linked Frameworks**
+
+[[Singapore_AI_Governance]] — FEAT splits Internal Accountability (principles 7–9) from External Accountability (10–11); Veritas Doc 3B supplies the assessment methodology
+
 
 [[OECD_AI_Principles]]
 

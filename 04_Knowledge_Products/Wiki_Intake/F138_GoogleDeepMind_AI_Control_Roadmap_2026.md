@@ -62,7 +62,7 @@ tags:
 ## Cross-Links
 
 **Wiki sections:** [[04_Knowledge_Products/AI_Governance_Wiki]] S4, S5
-**Concepts:** [[05_Concepts/05_Concepts_Standard/Agentic_AI_Governance]] (central — control invariants, mitigation ladders), [[05_Concepts/05_Concepts_Standard/Governance_Capacity]] (D1–D4/R1–R3 ladder as calibration instrument, strongest in corpus to date), [[05_Concepts/05_Concepts_Standard/Institutional_Coherence]] (defence-in-depth, control invariants as coherence mechanism), [[05_Concepts/05_Concepts_Standard/Accountability]] (detection/"incrimination" as accountability infrastructure)
+**Concepts:** [[05_Concepts/05_Concepts_Standard/Agentic_AI_Governance]] (central — control invariants, mitigation ladders), [[05_Concepts/05_Concepts_Standard/Governance_Capacity]] (D1–D4/R1–R3 ladder as calibration instrument, strongest in corpus to date), [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]] (defence-in-depth, control invariants as coherence mechanism), [[05_Concepts/05_Concepts_Standard/Accountability]] (detection/"incrimination" as accountability infrastructure)
 **Corpus nodes:**
 - [[04_Knowledge_Products/Wiki_Intake/F038_ISACA_Agentic_AI_Security_Best_Practices]] — parallel maturity-model comparison (CMMI 5-level vs. D1–D4/R1–R3); GDM's ladder is more formally capability-anchored.
 - [[04_Knowledge_Products/Wiki_Intake/F036_NIST_NCCoE_Agent_Identity_Authorization]] — AI access control / agent identity overlap (GDM's "AI access control" prevention mitigation cluster).

@@ -146,6 +146,6 @@ Selection principles from fsqca_SOM_V2: variation across maturity tiers, jurisdi
 
 - [[02_Projects/fsQCA_Thesis_Chapter]] — primary project state file
 - [[02_Projects/Shared_Anchors/EU_AI_Act_Governance]] — F1 in P1 corpus; high-RL benchmark for condition anchoring
-- [[07_Institutions/Corpus/International/OECD_AI_Principles_2024]] — F5 in P1 corpus; low-RL benchmark
+- [[02_Projects/Shared_Anchors/OECD_AI_Principles_2024]] — F5 in P1 corpus; low-RL benchmark
 - [[02_Projects/Shared_Anchors/Ragin_2008]] — fsQCA methodological anchor
 - [[02_Projects/Shared_Anchors/Fiss_2011]] — typology-to-configuration bridge (P1→fsQCA)

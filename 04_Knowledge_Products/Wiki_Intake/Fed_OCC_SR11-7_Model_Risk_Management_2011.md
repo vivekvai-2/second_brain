@@ -8,6 +8,17 @@ tags:
   - engine/phd
 ---
 
+
+> ## ⚠ SUPERSEDED — flagged 2026-08-02
+>
+> **SR 11-7 was superseded and replaced on 17 April 2026 by SR 26-2, *Revised Guidance on Model Risk Management*** (Federal Reserve, jointly with OCC and FDIC; companions OCC Bulletin 2026-13 and FDIC FIL-15-2026). https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm
+>
+> SR 26-2 also supersedes SR 21-8 and rescinds OCC Bulletins 2011-12, 2021-19 and 1997-24, the Model Risk Management booklet of the Comptroller's Handbook, and FDIC FIL-22-2017.
+>
+> **Do not cite SR 11-7 as current guidance.** Retain this node for historical and citation purposes — SR 11-7 remains the foundational text and the reference point most of the literature was written against. Successor changes: applicability narrowed to banks above $30bn; model definition tightened to three cumulative criteria; new third-party/vendor-model section; **generative and agentic AI explicitly carved out of scope**, with non-generative/non-agentic ML retained.
+>
+> Full treatment and the four-jurisdiction boundary comparison at [[05_Concepts/05_Concepts_Standard/Model_Risk]].
+
 # Federal Reserve / OCC — SR Letter 11-7: Supervisory Guidance on Model Risk Management (2011) — Intake Note
 
 **Source:** Federal Reserve Board / Office of the Comptroller of the Currency (OCC), United States

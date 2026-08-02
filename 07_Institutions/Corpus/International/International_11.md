@@ -125,8 +125,8 @@ The Toolkit's critical innovation is the shift from **outsourcing** (narrow, leg
 
 ← [[07_Institutions/Corpus/RBI/RBI_2]] (IT Outsourcing Master Direction — India implementation)  
 ← [[07_Institutions/Corpus/RBI/RBI_6_AIFI_Outsourcing_Directions_2025]] (AIFI Outsourcing — India implementation)  
-← [[07_Institutions/Corpus/SEBI/SEBI_15_TEMPLATE_original]] (SEBI CSCRF — India implementation)  
+← [[99_Archive/SEBI_15_pre_population_2026_07_14/SEBI_15_TEMPLATE_original]] (SEBI CSCRF — India implementation)  
 ← [[07_Institutions/Corpus/International/International_9]] (BIS FSI No. 63 — cites TPRM concentration risk)  
 ← [[07_Institutions/Corpus/International/International_10]] (BoE FSiF — AI service provider concentration risk)  
-← [[05_Concepts/Governance_Debt]]  
-← [[05_Concepts/Regulatory_Parallelism]]
+← [[05_Concepts/05_Concepts_Signature/Governance_Debt]]  
+← [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]

@@ -141,6 +141,6 @@ The FPC's stated approach (Section 3) is characterised by:
 ← [[07_Institutions/Corpus/International/International_8]] (BIS FSI No. 73 — data governance; thematic peer)  
 ← [[07_Institutions/Corpus/International/International_9]] (BIS FSI No. 63 — regulatory landscape; BoE cited as context)  
 ← [[07_Institutions/Corpus/International/International_3]] (MAS AIRG — principles-based BFSI peer)  
-← [[05_Concepts/Regulatory_Parallelism]]  
-← [[05_Concepts/Governance_Capacity]]  
-← [[05_Concepts/Accountability]]
+← [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]  
+← [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]  
+← [[05_Concepts/05_Concepts_Standard/Accountability]]

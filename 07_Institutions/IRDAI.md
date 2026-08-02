@@ -20,6 +20,8 @@ tags:
 
 The Insurance Regulatory and Development Authority of India is the insurance-sector complement to RBI and SEBI in the PRIS Regulatory Parallelism diagnosis. IRDAI's AI governance posture as of Batch 15 continuation is predominantly indirect — the Maintenance and Sharing of Information Regulations, 2025 (IRDAI_1) is a data-governance/information-maintenance framework with **no explicit AI/ML provisions**, positioning IRDAI as a *fourth silo* in India's fragmented AI-governance architecture (RBI + SEBI + MeitY + IRDAI) despite substantive AI adoption in underwriting, claims, and fraud detection across the insurance sector. IRDAI's absence from AI-specific rulemaking, combined with its statutory mandate over an increasingly AI-intensive sector, generates the strongest "Regulatory Parallelism through omission" evidence in the P3 corpus.
 
+**Update, 2026-08-02 — the picture is now two-track, not zero-track.** IRDAI constituted a Working Group on AI (WG-AI) on 17 June 2026, tasked with recommending an AI governance framework by ~18 September 2026 — and, unusually, seated a serving CERT-In scientist and the former CEO of RBI's technology subsidiary (ReBIT) alongside industry CISOs, making this the corpus's strongest positive cross-regulator personnel-coordination instance despite IRDAI being its weakest substantive-output institution. IRDAI's InsurTech Regulatory Sandbox has also processed 350+ applications across two cohorts, though without disaggregating AI-specific products. Neither track has yet produced a binding AI-specific obligation. Full detail, plus international comparators (NAIC, EIOPA, IAIS), now live at [[03_Domains/Insurance_AI_Governance]] — this institution note's "fourth silo, zero movement" framing should be read alongside that domain's fuller "study-in-progress, not silence" picture.
+
 ## Institutional Profile
 
 - **Type:** Statutory insurance regulator
@@ -34,6 +36,9 @@ The Insurance Regulatory and Development Authority of India is the insurance-sec
 | Instrument | Date | Role in PRIS |
 |---|---|---|
 | Maintenance and Sharing of Information Regulations, 2025 (IRDAI_1) | 2025 (exact gazette date ⚠VERIFY) | S2/S5 secondary-source corpus node; data governance without AI/ML explicit provisions; "Regulatory Parallelism through omission" evidence |
+| Working Group on AI (WG-AI) constitution (IRDAI_2) | 17 June 2026 (Ref IRDAI/GA&HR/ORD/MISC/90/06/2026) | Corpus's strongest positive Institutional_Coherence instance (CERT-In + ReBIT-adjacent personnel); recommendations due ~18 Sep 2026 — see [[03_Domains/Insurance_AI_Governance]] |
+| Fraud Monitoring Framework Guidelines, 2025 (IRDAI_3) | 9 Oct 2025, effective 1 Apr 2026 | Technology-neutral fraud-governance instrument, de facto AI-relevant given fraud-detection's AI/ML implementation in practice |
+| Regulatory Sandbox Regulations, 2025 (IRDAI_4) | 2025 | InsurTech experimentation pathway, 350+ applications across 2 cohorts, not AI-disaggregated |
 
 ## Institutional Logic (P3/P4 Analytical Relevance)
 
@@ -62,6 +67,7 @@ IRDAI's governing logic is **policyholder protection and market conduct in an in
 
 - [[BFSI_Governance]]
 - [[AI_Governance]]
+- [[03_Domains/Insurance_AI_Governance]] (added 2026-08-02 — primary domain for IRDAI's AI-specific tracking)
 
 ## Linked Institutions
 

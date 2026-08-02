@@ -58,7 +58,7 @@ tags:
 
 **Wiki sections:** [[04_Knowledge_Products/AI_Governance_Wiki]] S1, S3
 **Concepts:** [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]], [[05_Concepts/05_Concepts_Standard/Governance_Capacity]], [[05_Concepts/05_Concepts_Standard/Legitimacy]]
-**Corpus nodes:** [[07_Institutions/Corpus/International/International_17_G20_South_Africa_Leaders_Declaration_2025]] (G20 SA — overlapping AI for Africa / voluntary cooperation), [[07_Institutions/Corpus/International/International_5]] (US EO — US unilateralism that Blueprint responds to), [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]] (India's proposed AI coordinator — institutional parallel to Blueprint consortium), [[07_Institutions/Corpus/NITI_Aayog/NITI_8_DeepSeek_AI_Shifts_2025]] (India sovereign AI framing, DeepSeek)
+**Corpus nodes:** [[07_Institutions/Corpus/International/International_17_G20_South_Africa_Leaders_Declaration_2025]] (G20 SA — overlapping AI for Africa / voluntary cooperation), [[07_Institutions/Corpus/International/International_5]] (US EO — US unilateralism that Blueprint responds to), [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]] (India's proposed AI coordinator — institutional parallel to Blueprint consortium), [[04_Knowledge_Products/Wiki_Intake/NITI_8_DeepSeek_AI_Shifts_2025]] (India sovereign AI framing, DeepSeek)
 **Knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
 
 ---

@@ -178,3 +178,17 @@ See [[Corpus_Index_MOC]] for full node index.
 ---
 
 _Back to [[_Concepts_MOC]]_
+## Two New Sub-Patterns — 2026-08-02
+
+**1. Infrastructure-layer governance debt.** Distinct from the regulator-layer debt that dominates this note's evidence base. Two systemically significant *operators* run production AI with no governance instrument reaching either:
+
+- [[NPCI]] — federated AI fraud detection generating cross-institutional customer risk scores across UPI. No circular, policy paper, technical standard or framework. Evidence is trade reporting and promotional material.
+- [[Grid_India]] — day-ahead demand forecasting on the national grid (ANN/Levenberg–Marquardt, XGBoost, 2–5% MAPE), an IIT Kanpur AI/ML renewable-data engine, and a 24×7 AI-driven SOC. [[Ministry_of_Power]] confirmed AI/ML use in a **Rajya Sabha reply of 18 December 2023**. Applicable instruments (CEA Cyber Security Guidelines, CERC regulations) predate machine learning.
+
+Neither is a "Regulated Entity" in the sense RBI FREE-AI addresses. **India regulates AI at the regulator layer and not at the infrastructure-operator layer** — confirmed across two unrelated critical sectors, which makes it structural rather than sectoral.
+
+**2. The institutional shell.** The corpus records four instances of *institution before regulation* — CSIRT-Power operational before its formalising regulation; the AA Master Directions preceding [[DEPA]] by four years; [[Sahamati]] operating years before SRO recognition; [[BIS]] adopting IS/ISO/IEC 42001 and training lead auditors with no accreditation scheme. Each produced governance capacity ahead of formal authority.
+
+[[DPB]] is the inverse, and worse. Statute passed (DPDP Act s.18), rules notified (Rules 17–21, in force 13 Nov 2025), body constituted, digital-first office software built — and **no Chairperson and no Members as of 31 July 2026**, with zero orders issued. Formal authority with no capacity at all: the appearance of governance without the substance.
+
+The dependency is dated and falsifiable: **Rule 4 Consent Manager registration commences 13 November 2026 and registration is with the Board.** Every substantive DPDP obligation commencing 13 May 2027 is Board-enforced. See [[07_Institutions/Corpus/DPB/DPB_1_Establishment_and_Vacancy_2025_2026]].
