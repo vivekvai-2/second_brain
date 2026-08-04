@@ -70,8 +70,27 @@ SAIL occupies a position no PRIS framework currently holds: **operational granul
 | [[EU_AI_Act]] | Article-level mappings (Art. 6, 9, 10, 14, 15, 17, 25, 50, 72, 73) — **all assume high-risk classification** |
 | OWASP Agentic Top 10 (2026) / LLM Top 10 (2025) | Vulnerability-identification layer SAIL claims to complement |
 | DASF v3.0 (Databricks) | Component-level risk analysis layer |
-| AIUC-1 | Newer standard, lightly represented — check whether the wiki has intake on this yet |
+| AIUC-1 | Newer standard, lightly represented in SAIL. **Flag closed 2026-08-04** — see below |
 | [[RBI_Free_AI]] | No mapping (SAIL is jurisdiction-agnostic). The absence is itself a finding for P3/P4 — no practitioner framework maps to Indian sectoral instruments |
+
+## AIUC-1 — Open Flag Closed (2026-08-04)
+
+The intake above flagged AIUC-1 as unchecked. [[04_Knowledge_Products/Wiki_Intake/F133_Trout_et_al_AI_Insurance_Stack_2026]] Table 3 characterises it against the three other live AI standards:
+
+| | ISO 42001 | NIST AI RMF | STAR for AI | AIUC-1 |
+|---|---|---|---|---|
+| **Issuer** | ISO (private) | NIST (public) | Cloud Security Alliance (private) | AIUC (private) |
+| **Type** | Auditable + certifiable | Voluntary framework | Auditable + certifiable | Auditable + certifiable |
+| **Revision cadence** | Multi-year (~5 yr) | Multi-year | Unknown | Quarterly |
+| **Scope** | Broad — all ML, management-system focus | Broad — all ML | Medium — LLM systems, cyber/cloud focus | Narrow — LLM agents in enterprise deployment |
+| **Performance-based** | No | No | No | **Yes** — certification requires meeting benchmark scores in quarterly standardised evaluations |
+| **Technical depth** | Shallow | Moderate | Deep | Deep |
+
+**Why this matters for SAIL.** SAIL and AIUC-1 occupy the same niche — deep technical prescriptiveness for agentic deployment, fast revision cadence, no regulatory standing — and both position themselves as the operational layer beneath ISO 42001 and NIST AI RMF. They are more usefully treated as **competing practitioner standards** than as complementary layers, which is not how SAIL's own cross-mapping table presents the relationship.
+
+⚠ **Conflict of interest, disclosed.** The lead author of F133 and two co-authors are employed by AIUC, which develops and sells AIUC-1 and underwrites AI insurance. Table 3 rates AIUC-1 as the only performance-based standard of the four. The authors disclose this at fn 29 and state they applied common evaluation dimensions across all four and noted AIUC-1's disadvantages (rigidity, burden, moving-target revision). **Reuse the table with the disclosure attached; do not present it as a neutral comparison.** SAIL carries a structurally identical problem — Pillar Security is a commercial vendor whose framework maps favourably to its own positioning.
+
+The broader point for PRIS: the practitioner-standards layer is now populated by vendor-authored artefacts competing for the same insurability signal, with no accreditation infrastructure adjudicating between them. See [[Assurance_Reuse_Gap]] and [[Regulation_by_Insurance]].
 
 ## IG 2.0 Coding Summary
 
@@ -138,6 +157,7 @@ Pillar Security. (2026, June). *SAIL 2.0: Secure AI Lifecycle Framework — A pr
 ## Log
 
 - 2026-08-04: Intake complete. Classified as secondary/practitioner framework; excluded from fsQCA case set; flagged as IG 2.0 codebook input rather than coded case.
+- 2026-08-04: AIUC-1 open flag closed from [[04_Knowledge_Products/Wiki_Intake/F133_Trout_et_al_AI_Insurance_Stack_2026]] Table 3. SAIL and AIUC-1 reclassified as competing rather than complementary practitioner standards. Vendor conflict-of-interest caveat added, applying to both.
 
 ---
 

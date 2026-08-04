@@ -198,3 +198,17 @@ The dependency is dated and falsifiable: **Rule 4 Consent Manager registration c
 [[SAIL_Secure_AI_Lifecycle]] (Pillar Security, June 2026) describes the construct without naming it: SAIL 3.18 "Posture Drift" and the framework's treatment of shadow agents both articulate the gap between capability deployed and control in place. The framework never uses the term "governance debt."
 
 Treat this as **independent convergence, not citation support** — a vendor-authored practitioner framework arriving at the same structure from enterprise security practice rather than regulatory analysis. Its value is corroborative: the construct is being encountered by practitioners at the enterprise layer, not only by researchers at the regulator layer. Triangulate before use; the framework is grey literature with no disclosed empirical validation methodology.
+
+## A Third Sub-Pattern — Risk-Transfer-Layer Debt (2026-08-04)
+
+The sub-patterns recorded above operate at the **regulator layer** (duplicated mandates) and the **infrastructure-operator layer** (NPCI, Grid India running production AI with no instrument reaching them). [[04_Knowledge_Products/Wiki_Intake/F133_Trout_et_al_AI_Insurance_Stack_2026]] documents a third: debt accumulating in the **risk-transfer layer**.
+
+**"Silent coverage."** As of March 2026, over 90% of insurers' exposure to AI agent risk sat inside pre-existing cyber, D&O, CGL, and Tech E&O policies whose terms never mention AI but cover its consequences regardless — unpriced, unmodelled, and invisible to portfolio managers. The report pairs this with a survey disconnect: nearly 50% of Lloyd's underwriters believe their policyholders manage AI risk adequately, while only 1 in 5 businesses report a mature governance model for autonomous agents.
+
+**Why this is the construct rather than an analogy.** The causal shape is identical to the regulator-layer pattern — capability deployed ahead of the apparatus that governs it, with the resulting burden sitting somewhere it was never designed for. The difference is the mechanism of accumulation: regulator-layer debt accrues through *duplication* (two mandates, one capability), risk-transfer debt accrues through *silence* (no mandate, one capability, exposure absorbed by default). Both are architectural rather than executional; neither can be resolved by the party carrying them.
+
+**Note the divergence in resolution path.** Insurers can and are unilaterally exiting the debt by writing exclusions — over 80% of such filings approved by US regulators as of early 2026. That option does not exist at the regulator layer, where regulated entities cannot decline a mandate. The result is that risk-transfer debt resolves into a *protection gap* rather than a compliance burden: the debt does not disappear, it relocates to the uninsured party.
+
+⚠ Source caveat: F133 is vendor-authored grey literature with a declared conflict of interest (the lead author's employer sells AI insurance and a certifiable standard). The silent-coverage and survey figures are drawn from broker and market sources cited within it, not independently verified here. Triangulate the Lloyd's Market Association and Deloitte survey figures directly before citing.
+
+**Not yet an Indian finding.** F133 contains no India content. Whether Indian insurers carry equivalent silent AI exposure is undocumented in the corpus and would need to be established, not assumed — see [[Regulation_by_Insurance]].

@@ -123,9 +123,23 @@ See [[Corpus_Index_MOC]] for full node index.
 
 [[Proportionality]]
 
+## **⚠ The SR Recalibration May Have the Same Zero-Variance Problem (2026-08-04)**
+
+The 2026-08-02 revision recorded above replaced the ISO 42001-recognition calibration with **"does a national accreditation scheme exist"**, on the reasoning that ANAB and UKAS operate schemes while NABCB has none located — a condition that genuinely varies.
+
+**New evidence complicates this.** [[04_Knowledge_Products/Wiki_Intake/F133_Trout_et_al_AI_Insurance_Stack_2026]] §I.2 reports that the UK has more than 500 AI assurance firms by some estimates, but that "few if any hold certifications from the United Kingdom Accreditation Service," with the consequence that quality is likely to vary widely.
+
+**A scheme existing is not the same as providers being accredited under it.** If UKAS operates a scheme that the AI assurance market has largely not entered, then the UK's functional position on assurance-artefact reliability is closer to India's than the binary presence/absence calibration would score it. The condition may therefore be near-zero-variance in substance even though it varies in form — the exact failure the 2026-08-02 revision was designed to escape.
+
+**Suggested resolution, to be tested against coded data rather than assumed:** calibrate on *accredited provider density* or *proportion of the assurance market operating under accreditation*, not on scheme existence. This is a fuzzy rather than crisp condition and would preserve variance. It requires a data source that does not currently exist in the corpus for any jurisdiction, so treat this as a flagged calibration risk, not a solved recalibration.
+
+⚠ Source caveat: F133 is vendor-authored grey literature with a declared conflict of interest, and it cites the 500-firm figure as an estimate ("by some estimates"). The underlying UK government source ([110] in that report, DSIT's *Trusted third-party AI assurance roadmap*, Sept 2025) should be retrieved and read directly before this correction is relied on in a submission.
+
 ## **Linked Frameworks**
 
-[[ISO_IEC_42001]] — the standards-layer anchor; carries the corrected global-absence finding
+[[ISO_IEC_42001]] — the standards-layer anchor; carries the corrected global-absence finding. F133 §II.3.B supplies a *mechanism* for that finding: ISO 27001 is rarely referenced in US courts for determining reasonable cybersecurity, NIST CSF is the go-to, and the report attributes this to courts and plaintiffs preferring freely available frameworks issued by a US government body. It predicts the same dynamic for AI RMF over ISO 42001.
+
+[[Regulation_by_Insurance]] — reframes the assurance-market problem as incentive design rather than capability: third-party assurance providers lack financial stakes contingent on the risk they assess, whereas insurers bear consequence for coverage decisions
 
 [[EU_AI_Act]]
 

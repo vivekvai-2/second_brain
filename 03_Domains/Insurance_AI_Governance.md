@@ -120,6 +120,19 @@ Zotero remains the authoritative reference store; logged here for quick reuse in
 
 [[07_Institutions/IRDAI]]
 
+### **Two Directions, and This Domain Has Only Been Reading One (2026-08-04)**
+
+The scope statement above frames this domain as AI governance "in underwriting, claims processing, fraud detection, pricing, and customer service within the insurance sector" — that is, **insurers as regulated subjects**, with IRDAI supervising their own AI use. [[04_Knowledge_Products/Wiki_Intake/F133_Trout_et_al_AI_Insurance_Stack_2026]] operates in the opposite direction entirely: **insurers as private regulators**, underwriting *other* sectors' AI risk and thereby setting standards, pricing safety, and gatekeeping market entry.
+
+| Direction | Question | Indian position | Comparators |
+|---|---|---|---|
+| Insurers as regulated subjects | How should IRDAI supervise insurers' own AI use? | Behind — constitutive WG-AI order only, recommendations due ~18 Sept 2026 | NAIC (written AIS Program), EIOPA (Opinion), IAIS (existing ICPs suffice), UK PRA/FCA (declined) |
+| Insurers as private regulators | How should insurers underwrite other sectors' AI risk, and with what governance effect? | **Absent — and the question is not on any Indian regulator's mandate** | Also largely absent: NAIC, EIOPA, and IAIS all address the first direction only. The gap appears global, not Indian |
+
+The second row is the more interesting finding, and it revises this domain's central "India lags its peers" framing in a specific way. On the first direction India genuinely lags — three live comparators exist and IRDAI has matched none. On the second, **nobody is ahead.** No insurance supervisor anywhere appears to be addressing insurers' role as private regulators of AI risk, even as a market for that coverage begins forming (standalone products with limits to ~$50m, per F133 §II.4.B).
+
+That asymmetry may be the more publishable observation, because it does not depend on the India-lags narrative and is falsifiable against the NAIC/EIOPA/IAIS document set already mapped in this domain. See [[Regulation_by_Insurance]] for the construct and its boundary conditions — including the cyber counter-case, where the mechanism demonstrably failed.
+
 ---
 
 ## **Future Reuse Opportunities**
