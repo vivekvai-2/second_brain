@@ -287,7 +287,7 @@ See [[Corpus_Index_MOC]] for full node index.
 
 **Related concepts:** [[Accountability]] | [[Transparency]] | [[Governance_Debt]] | [[Regulatory_Parallelism]] | [[Institutional_Coherence]] | [[Governance_Capacity]]  
 **Related corpus nodes:** [[07_Institutions/Corpus/RBI/RBI_1]] | [[07_Institutions/Corpus/RBI/RBI_2]] | [[07_Institutions/Corpus/SEBI/SEBI_11]] | [[07_Institutions/Corpus/CERT_In/CERT_2]] | [[07_Institutions/Corpus/CERT_In/CERT_4]]  
-**Related frameworks:** [[RBI_Free_AI]] | [[SEBI_AI_Circular]] | [[NIST_AI_RMF]] | [[EU_AI_Act]] | [[IndiaAI_Framework]]  
+**Related frameworks:** [[RBI_Free_AI]] | [[SEBI_AI_Circular]] | [[NIST_AI_RMF]] | [[EU_AI_Act]] | [[IndiaAI_Framework]] | [[SAIL_Secure_AI_Lifecycle]] *(practitioner/grey-literature — action control vs. access control, autonomy tiers, confused-deputy agent, shadow agents)*  
 **Related domains:** [[AI_Governance]] | [[BFSI_Governance]] | [[Cybersecurity_Governance]] | [[Privacy_DataProtection]]  
 **Related projects:** [[P3_BFSI_JEIM]] | [[P4_Doctrinal_IJLIT]]  
 **Related knowledge products:** [[AI_Governance_Wiki]] | [[BFSI_AI_Governance_Handbook]] | [[DPDP_Playbook]] | [[Regulatory_Complexity_Handbook]]  

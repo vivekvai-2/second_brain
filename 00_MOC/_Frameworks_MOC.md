@@ -32,6 +32,14 @@ tags:
 | **ISO/IEC 42001** | [[ISO_IEC_42001]] | ISO/IEC JTC 1/SC 42 | Voluntary, certifiable | P3/P4 — **no jurisdiction anywhere recognises it as compliance evidence**; unit-of-certification mismatch (organisation vs system). Corrects the Assurance_Reuse_Gap standards-layer claim | ✅ **Created 2026-08-02** |
 | **DEPA** | [[DEPA]] | NITI Aayog (with RBI, SEBI, IRDAI, PFRDA, MoF) | **Non-binding — and never finalised (Draft for Discussion, Aug 2020)** | P2 primary; consent-layer architecture of India Stack; **"operationalisation without enactment"** pattern; coherence counter-case to [[Regulatory_Parallelism]] | ✅ **Created 2026-08-02** |
 
+### **Practitioner / Grey-Literature Frameworks (non-instrument)**
+
+Voluntary, vendor- or industry-authored frameworks. Not issued instruments, not fsQCA cases, not IG 2.0 coded texts. Held for operational granularity and as evidence of practitioner consensus forming ahead of binding regulation.
+
+| **Framework** | **File** | **Author** | **PRIS Role** | **Status** |
+|---|---|---|---|---|
+| SAIL 2.0 — Secure AI Lifecycle | [[SAIL_Secure_AI_Lifecycle]] | Pillar Security (multi-firm CISO contributor panel) | Operationalises agentic constructs (action control, autonomy tiers, zone topology) the literature names abstractly; 7-framework cross-mapping usable as a Rosetta Stone; IG 2.0 codebook input; regulatory-lag evidence for P4 | ✅ **Intake 2026-08-04** |
+
 ### **Analytical Frameworks (non-instrument)**
 
 These are PRIS-internal analytical structures, not issued instruments, and are not fsQCA cases.

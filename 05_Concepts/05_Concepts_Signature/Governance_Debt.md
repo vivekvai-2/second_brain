@@ -192,3 +192,9 @@ Neither is a "Regulated Entity" in the sense RBI FREE-AI addresses. **India regu
 [[DPB]] is the inverse, and worse. Statute passed (DPDP Act s.18), rules notified (Rules 17–21, in force 13 Nov 2025), body constituted, digital-first office software built — and **no Chairperson and no Members as of 31 July 2026**, with zero orders issued. Formal authority with no capacity at all: the appearance of governance without the substance.
 
 The dependency is dated and falsifiable: **Rule 4 Consent Manager registration commences 13 November 2026 and registration is with the Board.** Every substantive DPDP obligation commencing 13 May 2027 is Board-enforced. See [[07_Institutions/Corpus/DPB/DPB_1_Establishment_and_Vacancy_2025_2026]].
+
+## Independent Convergence — Practitioner Literature (2026-08-04)
+
+[[SAIL_Secure_AI_Lifecycle]] (Pillar Security, June 2026) describes the construct without naming it: SAIL 3.18 "Posture Drift" and the framework's treatment of shadow agents both articulate the gap between capability deployed and control in place. The framework never uses the term "governance debt."
+
+Treat this as **independent convergence, not citation support** — a vendor-authored practitioner framework arriving at the same structure from enterprise security practice rather than regulatory analysis. Its value is corroborative: the construct is being encountered by practitioners at the enterprise layer, not only by researchers at the regulator layer. Triangulate before use; the framework is grey literature with no disclosed empirical validation methodology.
