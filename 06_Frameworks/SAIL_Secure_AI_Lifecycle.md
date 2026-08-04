@@ -73,6 +73,12 @@ SAIL occupies a position no PRIS framework currently holds: **operational granul
 | AIUC-1 | Newer standard, lightly represented in SAIL. **Flag closed 2026-08-04** — see below |
 | [[RBI_Free_AI]] | No mapping (SAIL is jurisdiction-agnostic). The absence is itself a finding for P3/P4 — no practitioner framework maps to Indian sectoral instruments |
 
+## Independent Convergence — Chinese Regulators Reached the Same Pivot (2026-08-04)
+
+SAIL's central move — access control → **action control** — was arrived at independently by Chinese regulators in the same quarter, from a different baseline. [[04_Knowledge_Products/Wiki_Intake/F139_ConcordiaAI_State_of_AI_Safety_China_2026]] documents China's governance framework shifting from **content control** (what models say) to action control, triggered by OpenClaw's proliferation in February 2026 and formalised in CAC agentic-AI guidance in May 2026. TC260's eleven-threat agent taxonomy maps substantially onto SAIL's risk catalogue; both propose agent IDs, least-privilege tool scoping, and human confirmation for high-risk operations. Neither cites the other.
+
+A US commercial vendor and a Chinese state regulator converging on the same governance primitive, from opposite starting points, in the same quarter, is a stronger signal than either document alone. Full framing, caveats, and verification steps in [[Agentic_AI_Governance]]. **China is now the stronger of the two citations** — its instruments are state-issued and one is heading for mandatory status, whereas SAIL remains vendor-authored grey literature.
+
 ## AIUC-1 — Open Flag Closed (2026-08-04)
 
 The intake above flagged AIUC-1 as unchecked. [[04_Knowledge_Products/Wiki_Intake/F133_Trout_et_al_AI_Insurance_Stack_2026]] Table 3 characterises it against the three other live AI standards:

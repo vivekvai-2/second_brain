@@ -148,6 +148,20 @@ See [[Corpus_Index_MOC]] for full node index.
 - [[fsQCA]]
 - [[Institutional_Grammar_IG2]]
 
+## **Committee-Level Coherence Does Not Produce Output-Level Coherence — China (2026-08-04)**
+
+[[04_Knowledge_Products/Wiki_Intake/F139_ConcordiaAI_State_of_AI_Safety_China_2026]] contains both a strong positive coherence instance and its own refutation, which makes it unusually useful for specifying what the construct actually measures.
+
+**Coherence by design.** TC260 established a dedicated AI Safety Working Group (WG9) in March 2026 whose leadership deliberately spans four institutions: chaired by Shanghai AI Lab's director, with vice-chairs from CNCERT (incident response, under CAC), CAICT (research institute under MIIT), the MPS Third Research Institute (security testing), and CNITSEC (operates the national vulnerability database). This is cross-institutional composition as an explicit design choice — structurally the same move as IRDAI's WG-AI, which [[03_Domains/Insurance_AI_Governance]] records as the corpus's strongest positive coherence instance.
+
+**Parallelism in practice, simultaneously.** The same report documents TC260/WG9, MIIT/TC1/WG8 and SAC/TC28/SC42 **all drafting overlapping agent-security standards**, and states plainly that coordination between them is uncertain. Separately, the MIIT ethics-review regime and the CAC algorithm registry impose review obligations on the same systems with cross-recognition unresolved — see [[Assurance_Reuse_Gap]].
+
+**The specification this forces.** Coherence at the level of *who sits on the committee* is not the same property as coherence at the level of *what mandates get issued*. China scores high on the first and low on the second, at the same time, within the same standards system. If the construct is operationalised through committee composition or personnel overlap — the readiest available indicator — it will misclassify this case.
+
+**Consequence for [[fsQCA_Thesis_Chapter]]:** the coherence condition needs an explicit operationalisation decision recorded before coding — composition-based, output-based, or a composite. These will not track each other. The IRDAI WG-AI instance and this Chinese instance both look like high coherence on composition and are untested on output.
+
+⚠ Note this also bears on [[Regulatory_Parallelism]]: parallelism occurring inside a unitary state with centralised standards coordination means it is a property of mandate architecture rather than of federal or multi-regulator political structure.
+
 ## **Future Research and Reuse Opportunities**
 
 - Cross-jurisdictional comparative studies examining how Institutional Coherence combines with other governance conditions within fsQCA configurations to produce legitimate AI governance outcomes.

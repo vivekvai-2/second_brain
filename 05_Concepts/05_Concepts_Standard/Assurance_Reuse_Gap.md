@@ -123,6 +123,21 @@ See [[Corpus_Index_MOC]] for full node index.
 
 [[Proportionality]]
 
+## **First Non-Indian Instance — China (2026-08-04)**
+
+Every instance recorded above is Indian. That is a generalisability weakness: a construct evidenced in one jurisdiction invites the reviewer response that it describes Indian institutional dysfunction rather than a governance pattern. [[04_Knowledge_Products/Wiki_Intake/F139_ConcordiaAI_State_of_AI_Safety_China_2026]] supplies the first instance outside India.
+
+**The instance.** MIIT's *Administrative Measures for the Ethical Review and Services of AI Science and Technology (Trial)* (March 2026) require universities, research institutes and companies to establish and register ethics review committees, with mandatory second-round review by government-assigned expert panels for three high-risk project categories. This sits alongside the CAC's pre-existing algorithm registry, which already requires security evaluation documentation and pre-deployment regulator access for public-facing AI services.
+
+**Two authorities, one capability, cross-recognition unresolved.** Article 26 suggests systems already registered under the generative AI regulations may be exempt from second-round ethics review — which would be cross-recognition — but implementation is unclear, and the ten-province pilot (June–November 2026) is where it will be settled. Concordia flags the coordination question as a live uncertainty, not a resolved design.
+
+**Two features distinguish this from the Indian instances:**
+
+1. **Temporal mismatch, not just duplication.** The ethics regime bites *before R&D begins* — in principle before pre-training — while the algorithm registry bites before public deployment. The two obligations attach at different lifecycle points, so even successful cross-recognition would not fully collapse them. None of the Indian instances have this property; RBI, SEBI and CERT-In audits all attach post-deployment.
+2. **Outsourcing as a designed mitigation.** Institutions may outsource review to "AI ethics service centers," with CAICT, CESI and CEPREI positioning to provide them. This is an explicit state-designed attempt to reduce the compliance cost of duplicated review — closer to your enterprise-level UCF/CER remedy than to anything Indian regulators have offered. Worth watching as a natural experiment in whether the gap can be closed by intermediary infrastructure rather than by regulator cross-recognition.
+
+⚠ **Do not overclaim this yet.** It is a *pending* instance — the pilot has not concluded, Article 26's operation is untested, and the evidence is secondary (Concordia is a well-sourced report, not the instrument). Before citing, retrieve the MIIT Measures and the Art. 26 text directly. If cross-recognition does operate, this becomes a **counter-case** — an instance of the gap being closed by design — which would be at least as valuable as another confirming instance, and arguably more so for the boundary-conditions section.
+
 ## **⚠ The SR Recalibration May Have the Same Zero-Variance Problem (2026-08-04)**
 
 The 2026-08-02 revision recorded above replaced the ISO 42001-recognition calibration with **"does a national accreditation scheme exist"**, on the reasoning that ANAB and UKAS operate schemes while NABCB has none located — a condition that genuinely varies.

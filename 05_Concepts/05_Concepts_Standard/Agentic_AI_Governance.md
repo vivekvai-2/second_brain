@@ -283,11 +283,37 @@ See [[Corpus_Index_MOC]] for full node index.
 - **(2026-08-02 — a regulator declines to govern agentic AI as model risk)** [[Model_Risk]] — **SR 26-2** (Fed/OCC/FDIC, 17 Apr 2026), which supersedes SR 11-7, **explicitly carves generative AI and agentic AI out of model risk management scope** as "novel and rapidly evolving," directing institutions to govern them under "broader risk management and governance practices" pending a future Request for Information. Non-generative, non-agentic ML remains in scope. **The boundary is drawn at generative/agentic vs everything else, not at AI vs non-AI.** This is the corpus's strongest evidence that agentic systems are treated as categorically distinct from models by a mature supervisory regime — a considered judgment, not an oversight, and arguably better evidence for the structural-insufficiency thesis than any paper. Consequence: an agentic system outside model validation is also outside the independent-challenge structure validation provides (see [[Human_Oversight]]). Contrast RBI FREE-AI, whose governance scope covers "increasingly autonomous AI systems" — India includes where the US excludes, non-bindingly.
 
 
+## Convergence on Action Control Across Adversarial Jurisdictions (2026-08-04)
+
+Two documents intaked four days apart, produced by actors with no relationship, from opposite starting points, describe the same conceptual pivot in the same quarter.
+
+| | [[SAIL_Secure_AI_Lifecycle]] (Jun 2026) | [[China_AI_Governance]] / [[04_Knowledge_Products/Wiki_Intake/F139_ConcordiaAI_State_of_AI_Safety_China_2026]] (May–Jun 2026) |
+|---|---|---|
+| **Actor** | Pillar Security — US commercial AI security vendor | CAC, TC260, MIIT — Chinese state regulators and standards bodies |
+| **Baseline departed** | **Access** control — authorising sessions and identities | **Content** control — regulating what models say |
+| **Destination** | Action control — authorising every discrete action against policy in real time | Action control — governing what agents do; CAC guidance calls for clear boundaries between actions an agent may take alone, those requiring user authorisation, and the user's own decisions |
+| **Trigger** | Enterprise agentic deployment; capability-reliability divergence | OpenClaw proliferation, February 2026; multi-agency warnings within weeks |
+| **Standing** | Voluntary, vendor-authored, no regulatory force | Non-binding "opinion", but backed by a **mandatory** national standard in drafting |
+
+**The mechanisms rhyme.** TC260's eleven agent threats (March 2026 research report) map substantially onto SAIL's risk catalogue: agent hijacking via prompt injection, identity spoofing and privilege escalation, tool abuse, memory manipulation, supply-chain and plugin poisoning, multi-agent cascading failure, human-oversight and traceability failure. Both propose agent IDs and identity infrastructure. Both propose least-privilege tool scoping. Both propose human confirmation for high-risk operations. Neither cites the other.
+
+**Why the convergence is analytically strong.** Agreement between allied jurisdictions is cheap — it can be explained by policy transfer, shared epistemic communities, or copying. Agreement between a US commercial vendor and a Chinese state regulator, *from different baselines*, in the same quarter, with no citation path between them, is much harder to explain that way. The most parsimonious explanation is that the pivot is forced by the technology's properties: once a system takes consequential actions autonomously, governance anchored to either identity authorisation or output content stops being sufficient, and both starting points converge on authorising the action itself.
+
+**India is absent from both.** No Indian regulator has issued agent-specific guidance. [[RBI_Free_AI]] covers "increasingly autonomous AI systems" in scope but does not operationalise action-level authorisation; [[SEBI_AI_Circular]], [[IndiaAI_Framework]] and [[DPDP_Act_2023]] contain nothing agent-specific. Note the contrast already recorded above: SR 26-2 shows a mature US supervisory regime *excluding* agentic systems from model risk, while China is building a mandatory standard for them. India has neither included nor excluded — it has not addressed the question.
+
+**Status: candidate contribution, not an established finding.** Two sources, both secondary characterisations of instruments not yet in the corpus. Before this carries weight in a submission:
+
+1. Retrieve the CAC May 2026 agentic guidance and the TC260 March 2026 agent-security research report as primary texts (URLs in F139's sourcing-leads section).
+2. Test whether a third independent source shows the same pivot — the EU AI Act's treatment of GPAI agentic deployment, or any OWASP/NIST agentic work — which would move this from a pair to a pattern.
+3. Confirm the Indian absence by direct search rather than by inference from two documents that do not cover India.
+
+If it survives those checks, the framing worth developing is **convergent agentic governance across adversarial jurisdictions, with India unaddressed** — a regulatory-lag argument that does not depend on the India-lags-the-West narrative, because in this instance nobody is following anybody.
+
 ## Connections
 
 **Related concepts:** [[Accountability]] | [[Transparency]] | [[Governance_Debt]] | [[Regulatory_Parallelism]] | [[Institutional_Coherence]] | [[Governance_Capacity]]  
 **Related corpus nodes:** [[07_Institutions/Corpus/RBI/RBI_1]] | [[07_Institutions/Corpus/RBI/RBI_2]] | [[07_Institutions/Corpus/SEBI/SEBI_11]] | [[07_Institutions/Corpus/CERT_In/CERT_2]] | [[07_Institutions/Corpus/CERT_In/CERT_4]]  
-**Related frameworks:** [[RBI_Free_AI]] | [[SEBI_AI_Circular]] | [[NIST_AI_RMF]] | [[EU_AI_Act]] | [[IndiaAI_Framework]] | [[SAIL_Secure_AI_Lifecycle]] *(practitioner/grey-literature — action control vs. access control, autonomy tiers, confused-deputy agent, shadow agents)*  
+**Related frameworks:** [[RBI_Free_AI]] | [[SEBI_AI_Circular]] | [[NIST_AI_RMF]] | [[EU_AI_Act]] | [[IndiaAI_Framework]] | [[SAIL_Secure_AI_Lifecycle]] *(practitioner/grey-literature — action control vs. access control, autonomy tiers, confused-deputy agent, shadow agents)* | [[China_AI_Governance]] *(content control → action control; TC260 eleven-threat taxonomy; second mandatory national AI standard in drafting)*  
 **Related domains:** [[AI_Governance]] | [[BFSI_Governance]] | [[Cybersecurity_Governance]] | [[Privacy_DataProtection]]  
 **Related projects:** [[P3_BFSI_JEIM]] | [[P4_Doctrinal_IJLIT]]  
 **Related knowledge products:** [[AI_Governance_Wiki]] | [[BFSI_AI_Governance_Handbook]] | [[DPDP_Playbook]] | [[Regulatory_Complexity_Handbook]]  

@@ -57,7 +57,22 @@ tags:
 ## Cross-Links
 
 **Wiki sections:** [[04_Knowledge_Products/AI_Governance_Wiki]] S3
-**Concepts:** [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] (comparator — China's single-coordinator departmental-rule model contrasts with India's multi-regulator parallelism pattern), [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]]
+**Concepts:** [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] ⚠ **see correction below — the original "single-coordinator" framing is overstated**, [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]]
+**Frameworks:** [[China_AI_Governance]] (created 2026-08-04)
+
+---
+
+## ⚠ CORRECTION 2026-08-04 — the "single-coordinator" contrast is overstated
+
+This note originally characterised China as a **"single-coordinator departmental-rule model"** contrasting with India's multi-regulator parallelism. [[04_Knowledge_Products/Wiki_Intake/F139_ConcordiaAI_State_of_AI_Safety_China_2026]] does not support that framing at the standards layer.
+
+Three Chinese standards bodies were **simultaneously drafting overlapping agent-security standards** as of June 2026 — TC260/WG9, MIIT/TC1/WG8, and SAC/TC28/SC42. Concordia states directly: *"There is some uncertainty about how TC260 will coordinate these efforts with other standard-setting bodies. For example, MIIT/TC1 is also working on multiple related standards."* Separately, the relationship between MIIT's new ethics-review regime and the CAC algorithm registry is unresolved (Art. 26 hints at exemption; implementation unclear pending the ten-province pilot) — an [[Assurance_Reuse_Gap]] instance.
+
+**What survives:** China's *rulemaking* layer is genuinely more centralised than India's — the CAC leads, ministries co-sign, and the algorithm registry is a single enforcement spine. The contrast is real at instrument level.
+
+**What does not:** the implication that China avoids parallelism. It does not. Parallelism appears at the standards and review layers, inside a unitary state with centralised standards coordination.
+
+**Why this matters beyond China.** If [[Regulatory_Parallelism]] occurs in a centralised unitary system, it is a property of **mandate architecture**, not of federal or multi-regulator political structure. That strengthens the construct's generalisability and weakens any framing of India's parallelism as a distinctively Indian institutional failure. Use the corrected contrast as *degree*, not *kind*.
 **Corpus nodes:** None yet linked.
 **Knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
 

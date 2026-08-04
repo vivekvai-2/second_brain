@@ -32,6 +32,8 @@ tags:
 | **ISO/IEC 42001** | [[ISO_IEC_42001]] | ISO/IEC JTC 1/SC 42 | Voluntary, certifiable | P3/P4 — **no jurisdiction anywhere recognises it as compliance evidence**; unit-of-certification mismatch (organisation vs system). Corrects the Assurance_Reuse_Gap standards-layer claim | ✅ **Created 2026-08-02** |
 | **DEPA** | [[DEPA]] | NITI Aayog (with RBI, SEBI, IRDAI, PFRDA, MoF) | **Non-binding — and never finalised (Draft for Discussion, Aug 2020)** | P2 primary; consent-layer architecture of India Stack; **"operationalisation without enactment"** pattern; coherence counter-case to [[Regulatory_Parallelism]] | ✅ **Created 2026-08-02** |
 
+| **China AI Governance** | [[China_AI_Governance]] | CAC (lead), MIIT, SAC/TC260/TC28, MPS | **Binding departmental rules — but sub-statutory; no horizontal AI law** | P1/P4 primary comparator — India's closest **structural peer** (large non-Western state, state-led DPI), not just another jurisdiction. Demonstrates [[Regulatory_Parallelism]] surviving centralisation. Content control → action control pivot | ✅ **Created 2026-08-04** |
+
 ### **Practitioner / Grey-Literature Frameworks (non-instrument)**
 
 Voluntary, vendor- or industry-authored frameworks. Not issued instruments, not fsQCA cases, not IG 2.0 coded texts. Held for operational granularity and as evidence of practitioner consensus forming ahead of binding regulation.
@@ -67,9 +69,17 @@ High RL → [[EU_AI_Act]] | [[RBI_Free_AI]] | [[SEBI_AI_Circular]] | [[NIST_AI_R
 
 ### **By Jurisdiction**
 
-- **Indian:** [[IndiaAI_Framework]], [[RBI_Free_AI]], [[SEBI_AI_Circular]]
-- **European:** [[EU_AI_Act]]
-- **International:** [[OECD_AI_Principles]], [[UNESCO_Recommendations]], [[NIST_AI_RMF]]
+- **Indian:** [[IndiaAI_Framework]], [[RBI_Free_AI]], [[SEBI_AI_Circular]], [[DPDP_Act_2023]], [[DEPA]]
+- **European:** [[EU_AI_Act]], [[GDPR]]
+- **Chinese:** [[China_AI_Governance]]
+- **Other national:** [[Singapore_AI_Governance]]
+- **International:** [[OECD_AI_Principles]], [[UNESCO_Recommendations]], [[NIST_AI_RMF]], [[ISO_IEC_42001]]
+
+### **⚠ RL Measurement Caution (2026-08-04)**
+
+[[China_AI_Governance]] surfaces a problem with the instrument-level binding/non-binding binary used throughout this MOC and in [[fsQCA_Thesis_Chapter]]. China has issued a dense stack of binding departmental rules, yet has only **two mandatory national AI standards** (content labelling 2025; agent application security, in drafting) — everything else is recommended, and the CAC agentic guidance that drove the year's biggest governance shift carries no legal force at all.
+
+Binding-ness therefore varies *within* a jurisdiction, at standard level. A binary scored from instrument existence may be measuring **output volume rather than regulatory force**. This applies to every case in the table, not only China. Test against the EU and India cases before RL calibration.
 
 ---
 
