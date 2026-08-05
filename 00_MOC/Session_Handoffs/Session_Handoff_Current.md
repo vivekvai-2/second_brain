@@ -28,14 +28,20 @@ tags:
 
 | Series | Next available |
 |---|---|
-| F-series (Wiki Intake) | F138 |
-| International | International_21 |
+| F-series (Wiki Intake) | F140 (F139 added 2026-08-04, ConcordiaAI State of AI Safety China; not yet reflected when this row was last edited) |
+| International | International_39 (International_38 added 2026-08-05, World Bank WDR2026 AI Governance chapter — see below; row was stale at International_21 before this edit) |
 | RBI | RBI_8 |
 | SEBI | SEBI_18 |
 | MeitY | MeitY_7 |
 | NITI | NITI_9 |
 | CERT-In | CERT_In_3 (naming-unification decision still pending — see below) |
 | VERIFY flags | Check `Corpus_Index_MOC.md` consolidated tracker directly — this is the authoritative live count, do not trust any number in an archived handoff |
+
+---
+
+## Addendum — 2026-08-05 (targeted edit only, not a full state refresh)
+
+**International_38 created:** [[07_Institutions/Corpus/International/International_38_World_Bank_WDR2026_AI_Governance]] — World Development Report 2026: The Promise of Artificial Intelligence (World Bank, published 4 Aug 2026), routed as Format A Corpus Node per the [[International_25_World_Bank_DPI_Development_2025]] precedent. Not yet added to `Corpus_Index_MOC.md` (consistent with International_25, which is also not yet in the MOC). Five ⚠ VERIFY flags on the node itself (title variant, Ch.9/Spotlight 7 page ranges, Box 9.1 detail, GRIDMAP figures, Bangladesh case status) — see node Log for detail. This addendum is a targeted edit, not a full state-of-vault refresh — the rest of this file below (numbering table aside) was not re-audited this session and may itself be stale; treat "last_updated: 2026-08-01" in the frontmatter as accurate for everything except the two rows just edited and this addendum.
 
 ---
 
