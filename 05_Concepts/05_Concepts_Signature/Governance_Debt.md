@@ -160,6 +160,34 @@ Vault-quality debt arising from failure to detect, at the point of corpus intake
 
 See [[Corpus_Index_MOC]] for full node index.
 
+## **🔷 The De Jure / De Facto Gap Is Universal, Not Developing-Country-Specific (2026-08-09)**
+
+Source: [[07_Institutions/Corpus/International/International_38_World_Bank_WDR2026_AI_Governance]] Ch.9, Figures 9.3 and 9.4, primary text; underlying instrument World Bank (2025b) **GRIDMAP Data Markets Module**.
+
+**The finding.** GRIDMAP assesses country practice against a "minimum package" across three dimensions — **legal framework · institutional arrangements · implementation and enforcement**. First wave 2025, **53 economies**, concentrated in Europe and Central Asia, Latin America and the Caribbean, and Sub-Saharan Africa. The result:
+
+> **Economies across *all* income groups fall below the minimum package, and the shortfall widens as you move from legal framework → institutional arrangements → implementation and enforcement.**
+
+**Why this matters to the construct.** Governance Debt has been evidenced almost entirely in India, which invites the reviewer response that it describes Indian state capacity rather than a governance mechanism. GRIDMAP shows the gap between what is enacted and what is enforced **is present in high-income economies too**, and that it is systematically largest at the enforcement end regardless of income. The report's illustrative case is pointed: a **€20 million** fine issued by the Italian data protection regulator against **Clearview AI** in 2023, for unlawful processing of biometric and geolocation data, **remains unenforced and the data have yet to be deleted** — in a jurisdiction with a mature legal framework and an active regulator. The report's own gloss: *"the large asymmetries in resources and knowledge between industry and regulators means this is also a problem for developed countries."*
+
+⚠ **Scope limit that must travel with the citation.** GRIDMAP's first wave assesses **data protection**, not AI governance. Ch.9 deploys it as an analogy for what AI enforcement will face. Citing it as direct evidence about AI regimes is an overreach. It is also **self-report** — completed by the regulatory authorities being assessed — which if anything suggests the true gap is wider than measured.
+
+**Figure 9.4 — the resource mechanism, quantified.** Asked whether their budget suffices for complaints handling, investigations, hiring and training, **43% of data protection authorities in low-income countries strongly disagree, against 15% in high-income countries.** Most authorities worldwide report insufficient resources; the income gradient is the finding. The report's remedy is institutional rather than merely fiscal — **multiyear rather than annual budget cycles**, and approval procedures insulating regulator funding *"from changes in political will and from private influence."* That is a specific, testable design prescription and the vault has not previously held one for the enforcement-capacity limb of this construct.
+
+## **🔷 Governance Debt in Budgetary Form: the Project / Product Distinction (2026-08-09)**
+
+Source: same node, **Ch.8 Box 8.3**, primary text; drawing on Pahlka (2024) and Flyvbjerg and Budzier.
+
+The construct has been articulated in regulatory terms — obligations enacted without the capacity to discharge them. Box 8.3 states the same mechanism in **funding** terms, and the restatement is useful because it names the point at which the debt accrues:
+
+> *"Governments fund technology as if it were static, following a project model that is both expensive and more prone to failure… AI intensifies this mismatch. The dominant costs are ongoing, not up-front; however, the project model funds the launch as if it were the largest cost. Systems adequately funded at launch become **chronically underfunded in operation, when governance requirements are highest**."*
+
+The failure is specific and it compounds: *"AI systems that are not actively maintained degrade over time. Model versions deteriorate, performance drifts, and security vulnerabilities accumulate."* Each modernisation cycle then restarts at a higher price. Evidence: **one in six IT projects ends in cost overruns of about 200%**, following a power-law distribution (Flyvbjerg and Budzier). The prescription — a **standing budget line, a permanent internal team, and a mandate that does not expire when the contract is signed** — is the debt-avoidance design.
+
+**A second accrual point the vault has not recorded: pre-contractual lock-in.** *"Low-cost pilots, vendor partnerships, and donor-funded packages let a system accumulate the interaction logs, configurations, and integrations that make it useful… by the time a formal contract is signed the vendor has been chosen in all but name."* None of this passes through procurement scrutiny. **Directly applicable to donor-financed AI in the DPI space** — see [[P2_DPI_JSIS]].
+
+**A live Deontic-Placement Debt instance, from the same node.** The EU's **Digital Omnibus**, formally approved by the Council in June 2026, postpones stand-alone high-risk obligations to **December 2027** and embedded high-risk to **August 2028** — while **deployer transparency obligations remain in force from August 2026**. The transparency layer binds on schedule; the substantive layer slips sixteen months. That is the Deontic-Placement Debt sub-pattern recorded above, appearing for the first time in a *high-capacity* jurisdiction and by explicit legislative amendment rather than by drafting accident.
+
 ## **Appears In**
 
 - [[P3_BFSI_JEIM]]

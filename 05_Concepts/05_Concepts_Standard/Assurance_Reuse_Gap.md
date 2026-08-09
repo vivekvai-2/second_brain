@@ -140,6 +140,34 @@ Every instance recorded above is Indian. That is a generalisability weakness: a 
 
 ⚠ **Do not overclaim this yet.** It is a *pending* instance — the pilot has not concluded, Article 26's operation is untested, and the evidence is secondary (Concordia is a well-sourced report, not the instrument). Before citing, retrieve the MIIT Measures and the Art. 26 text directly. If cross-recognition does operate, this becomes a **counter-case** — an instance of the gap being closed by design — which would be at least as valuable as another confirming instance, and arguably more so for the boundary-conditions section.
 
+## **🔷 The Construct Inverts: Three Jurisdictions Grant Assurance Credit, India Refuses It (2026-08-09)**
+
+Source: [[07_Institutions/Corpus/International/International_38_World_Bank_WDR2026_AI_Governance]] Ch.9 (p. 324), primary text.
+
+**Until now this construct has been an absence.** Every instance in the vault records a regulator *failing* to recognise assurance produced for another regulator — inferred from silence, never from a stated refusal. That framing has an inherent weakness: absence-based findings are hard to distinguish from immaturity, and a reviewer can always respond that recognition mechanisms simply have not been built yet.
+
+**WDR 2026 supplies the comparator that removes that objection.** Three jurisdictions have affirmatively built assurance-credit mechanisms:
+
+| Jurisdiction | Mechanism | Legal effect |
+|---|---|---|
+| **Colorado** — SB24-205, *Consumer Protections for Artificial Intelligence* | Compliance with the **NIST AI Risk Management Framework** | *"a **shield from legal liability**"* (WDR p. 324) |
+| **Texas** — *Responsible Artificial Intelligence Governance Act* | Same | Same |
+| **EU** — AI Act | Standards developed by CEN and CENELEC | *"one route for AI providers to take to demonstrate compliance with regulatory requirements"* — presumption of conformity |
+
+**Against India.** [[07_Institutions/Corpus/RBI/RBI_14_Draft_Guidance_Model_Risk_Management_2026]] **para 46(i)** requires independent validation *"**notwithstanding** any validation, certification, or assurance provided by the third-party provider."*
+
+**The construct is therefore a divergence, not a deficit.** Two US states and the EU grant legal credit for voluntary-standards compliance; India's most recent draft expressly refuses it. That is a **positional difference between regulatory philosophies**, and it is a materially stronger claim than the absence framing because it has a live comparator on both sides.
+
+**Three qualifications that must travel with the finding:**
+
+1. **The EU's presumption currently attaches to nothing.** As recorded above under *The Core Finding*, and confirmed at [[07_Institutions/Corpus/International/International_33_CEN_CENELEC_JTC21_Harmonised_Standards_2026]], **zero AI-specific harmonised standards have been cited in the Official Journal.** The EU has built the mechanism and not yet loaded it. So the EU row is *architectural* assurance credit, not *operative* assurance credit — which is a third position, distinct from both the US states and India.
+2. **The US safe harbours are state-level, not federal**, and both are recent. Whether they survive litigation testing is unknown.
+3. **RBI_14 is a draft.** Its refusal carries no deontic force yet — the prospective-deontic problem recorded at [[05_Concepts/05_Concepts_Signature/Deontic_Bifurcation]]. Whether the *notwithstanding* clause survives consultation is the thing to watch, and it is exactly the clause industry has the strongest incentive to contest.
+
+**A fourth position now exists, making this a four-way typology worth building out:** *grants operative credit* (Colorado, Texas) · *grants architectural credit not yet operative* (EU) · *expressly refuses credit* (India, draft) · *silent* (every other instance recorded in this note). The silent category was previously assumed to be the whole field. It is not.
+
+**Independent empirical support for mandating audit, from the same report.** Raji and Buolamwini (2019), cited at WDR Box 7.1: **commercial AI providers publicly named for bias in algorithmic audits substantially reduced their error rates within months; unaudited competitors did not.** This is direct evidence that audit exposure changes provider behaviour — the causal premise on which the mandatory-third-party-audit recommendation in the PRIS Cross-Institutional §12 set rests, and it has not previously been anchored in this note.
+
 ## **⚠ The SR Recalibration May Have the Same Zero-Variance Problem (2026-08-04)**
 
 The 2026-08-02 revision recorded above replaced the ISO 42001-recognition calibration with **"does a national accreditation scheme exist"**, on the reasoning that ANAB and UKAS operate schemes while NABCB has none located — a condition that genuinely varies.

@@ -108,9 +108,34 @@ The [[Assurance_Reuse_Gap]] note proposes cross-recognition (specifically "ISO/I
 
 Recommended: recalibrate SR on *whether a national accreditation scheme exists* rather than on regulatory recognition. That does vary — ANAB and UKAS have operating schemes, NABCB does not — and it is the layer where institutional capacity actually differs.
 
+## 🔷 Standards-Setting Participation Asymmetry, Quantified (2026-08-09)
+
+Source: [[07_Institutions/Corpus/International/International_38_World_Bank_WDR2026_AI_Governance]] Ch.9, primary text; drawing on Hennessy, Radu and von Ingersleben-Seip (2026) and Galvagna (2023).
+
+This note has carried the participation problem as a qualitative assertion. WDR 2026 supplies numbers.
+
+| Finding | Value |
+|---|---|
+| AI-related standards published or under development, across all bodies | **more than 800** |
+| Share of **ISO/IEC** AI standards-committee members from developing countries | **one-third** |
+| Countries party to **all seven** sampled non-UN AI governance initiatives | **7** — Canada, France, Germany, Italy, Japan, UK, US. All high income. |
+| Countries party to **none** | **118** |
+| African Group members involved in none | **48 of 54** |
+
+The report is explicit that standards are not neutral instruments: *"Whoever writes these standards determines the definitions of value-laden terms like fairness, safety, and risk"* (Hennessy et al. 2026; Solow-Niederman 2023). Barriers to participation for civil society and developing-country policy makers are named as the time commitment, opacity of standards-development processes, and industry dominance within them.
+
+**The Seoul Statement — a live commitment worth tracking.** In **December 2025**, the **IEC, ISO and ITU** jointly issued a statement committing to *"deepening their understanding of the relationship between international standards and human rights, incorporating sociotechnical dimensions into the development of standards, and strengthening the multistakeholder community for developing and applying AI standards."* Whether this produces procedural change in SC 42 is the thing to watch, and it is the natural place to look for movement on the accreditation and competence layers this note tracks.
+
+**Bearing on ⚠#304 (the NABCB / ISO/IEC 42006 contradiction).** WDR 2026 does not resolve it — the report says nothing about NABCB or 42006 specifically. But it does establish two things that shift the priors slightly:
+1. **BIS is a P-member of SC 42 and hosted the 15th plenary in New Delhi (April 2025).** India's participation in the standards layer is active, not nominal — which makes it more plausible, not less, that NABCB has moved on an AIMS scheme ahead of UKAS-sourced visibility.
+2. **The report treats ISO/IEC 42005 (AI System Impact Assessment) as published**, alongside ISO/IEC 42001 and the NIST AI RMF, in its list of standards giving organisations operational guidance. If 42005 is out, the 42006 timeline warrants a fresh direct check rather than reliance on the UKAS "currently being developed" language recorded above.
+
+**Neither point settles the contradiction.** The instruction stands: retrieve a dated, named NABCB AIMS accreditation scheme document, and check the ISO catalogue entry for 42006 directly, before revising the Framework Identity table.
+
 ## Key Tensions & Gaps
 
 - **The India-lags framing does not hold here.** On ISO/IEC 42001 recognition, India, the EU, the US and the UK are all at zero. India lags on the *accreditation* layer, not the recognition layer.
+- **⚠ The "no jurisdiction grants recognition" finding needs narrowing as of 2026-08-09.** It is accurate for ISO/IEC 42001 specifically. It is **not** accurate as a general statement about voluntary-standards recognition: WDR 2026 Ch.9 records that **Colorado and Texas grant liability safe harbour for NIST AI RMF compliance**, and that the EU AI Act treats CEN-CENELEC harmonised standards as a route to demonstrating conformity. So the correct statement is: *no jurisdiction grants recognition to **ISO/IEC 42001**; two US states grant it to **NIST AI RMF**; the EU has built the mechanism for **harmonised standards** but has cited none.* See [[Assurance_Reuse_Gap]], which now carries this as a four-way typology. **This materially affects the fsQCA SR calibration discussion above** — the recognition condition varies after all, just not on the standard this note tracks.
 - **BIS LITD 30 is active but has published nothing.** Scope: "Standardization in the area of Artificial Intelligence and Big Data"; P-member of ISO/IEC JTC 1/SC 42; 46th sectional committee meeting scheduled **5 August 2026**. Only two potential proposals located — "Reliability of AI systems" and "Guidance for Generative AI Applications" — neither a published standard nor a draft under public comment.
 - SC 42 had published 35 AI standards with 47 under development as of its 15th plenary (New Delhi, hosted by BIS, April 2025).
 

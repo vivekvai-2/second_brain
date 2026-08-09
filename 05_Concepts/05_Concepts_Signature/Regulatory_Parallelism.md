@@ -187,8 +187,32 @@ See [[Corpus_Index_MOC]] for full node index.
 
 - [[Institutional_Grammar_IG2]]
 
+## **🔷 Parallelism Has a Normative Defence: the "Shared AI Governance Floor" (2026-08-09)**
+
+Source: [[07_Institutions/Corpus/International/International_38_World_Bank_WDR2026_AI_Governance]] Ch.9, p. 326, primary text; citing Schüür, Birtwistle, Field Reid, Groves and Rincon (2026), Ada Lovelace Institute.
+
+**This note has treated parallelism as a pathology throughout** — a coordination failure producing duplicated obligation, compliance cost, and [[Governance_Debt]]. That framing is defensible at the intra-jurisdiction scale where the construct was developed. It is **not** the only available position at the international scale, and a World Bank flagship has now stated the alternative:
+
+> *"global dialogue should aim for **regulatory pluralism** — allowing countries to shape national governance frameworks in ways that match local communities' needs — as its goal, but underpinned by a **shared AI governance floor**, where countries agree to ensure a common level of human rights protection and interoperability of different governance regimes."*
+
+**What this does to the construct.** It separates two things this note has bundled:
+
+| | **Divergence in substance** | **Divergence in floor** |
+|---|---|---|
+| Present | Regulators impose different requirements for the same capability | Regulators disagree on the minimum protection owed |
+| Normative status per WDR | **Acceptable — arguably desirable**, because local context differs | **Not acceptable** — this is what produces a race to the bottom |
+
+Parallelism as currently operationalised in this note does not distinguish these. Two regulators requiring different audit formats for the same AI system is substantive divergence with a shared floor. Two regulators disagreeing on whether an audit is owed at all is floor divergence. **The compliance cost of the first is real; the governance failure is only in the second.**
+
+**Why this matters for P1 and P3 specifically.** Any framing that treats *all* parallelism as fragmentation is now vulnerable to the response that the World Bank explicitly endorses pluralism as a goal. The stronger position is to **adopt the distinction and locate the Indian BFSI evidence within it** — and the honest reading is that most Indian instances recorded in this note *are* substantive divergence rather than floor divergence, which makes them a compliance-burden finding rather than a rights-protection finding. That is a narrower claim, and it is the one the evidence actually supports.
+
+**The floor is not currently reachable, and the report supplies the reason.** WDR Figure 9.6: of seven non-UN interregional AI governance initiatives, **seven countries — all high income — are party to all; 118 countries are party to none**; 48 of 54 African Group members are involved in none. Only UNESCO's Recommendation was developed with broad developing-country participation. **A floor negotiated by seven countries is not a floor.** The participation asymmetry is the binding constraint on the report's own proposed remedy — which is a tension the report does not resolve, and therefore a legitimate opening for critical engagement.
+
+**Related:** [[Institutional_Coherence]] — the floor concept is a coherence mechanism operating at the international rather than intra-state scale. [[06_Frameworks/ISO_IEC_42001]] — the standards channel through which a floor would in practice be built, and where the same participation asymmetry recurs (one-third developing-country membership on ISO/IEC AI committees).
+
 ## **Future Research and Reuse Opportunities**
 
+- **Operationalise the substantive-divergence / floor-divergence distinction** introduced above, and recode the existing Indian instances against it. This is a bounded, high-value task and it materially sharpens what the construct claims.
 - Cross-sector replication studies examining whether Regulatory Parallelism appears in healthcare AI governance, defence procurement governance, and Digital Public Infrastructure governance.
 - International comparative analysis assessing whether Parallelism emerges within dual-regulated sectors across the European Union, United Kingdom, Singapore, and other multi-regulator jurisdictions.
 - Executive and graduate teaching cases using Indian BFSI governance as an archetypal example of Parallelism in practice.

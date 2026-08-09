@@ -55,6 +55,33 @@ This is stronger than the original claim in every respect that matters for the c
 
 ---
 
+## 🔴 C-02 — "WDR 2026 never once cites India" is false
+
+**Where it originated:** [[07_Institutions/Corpus/International/International_38_World_Bank_WDR2026_AI_Governance]], created 2026-08-05 from secondary extraction only. The node presented the claim as *"the strongest single contribution of this node"* and **explicitly recommended three uses**: a P1 SLR positioning sentence, a rationale for the vault's independent India corpus, and LinkedIn practitioner content under the "AI Governance & Cyber Risk" brand.
+
+**Why it is wrong.** The primary text, obtained 2026-08-09, cites India roughly twenty-five times. Telangana's AI weather forecasting appears in the **Foreword**, the Overview *and* Chapter 5. Sarvam AI is the report's flagship "advance" exemplar. UPI is the recurring DPI model, invoked in the Foreword as the answer to the sovereignty problem. Also cited: BHASHINI, the IndiaAI Mission, iGOT Karmayogi, TGDeX, Kisan e-Mitra, Odisha's Ama Krushi, Tamil Nadu's diabetic-retinopathy screening, Wadhwani AI's Cough Against TB, a Maharashtra HTA of Qure.ai's qXR, the 20-year data-centre tax holiday, Microsoft's $17.5bn India commitment, and the **largest single country sample in the Enterprise Survey on AI Adoption at 1,355 firms**. **S. Krishnan, Secretary of MeitY, sat on the high-level advisory panel.** The **Reserve Bank Innovation Hub** is among consulted organisations.
+
+**Failure mode this exemplifies.** A secondary-extraction pass reported an absence. An absence claim about a document is only as good as the coverage of the extraction — and the extraction covered Chapter 9 and Spotlight 7, roughly 15% of the report. **Absence findings must not be asserted from partial extraction.** That is a general rule worth carrying, not a one-off.
+
+### The corrected claim — use this instead
+
+> **WDR 2026 treats India as an AI-deployment and digital-public-infrastructure exemplar, and never as an AI regulatory-governance case.** India is absent from Box 9.1's horizontal-law comparator set, from Chapter 9's existing-law case studies (Senegal, Kenya, Chile, Colombia, Philippines, Singapore), from Spotlight 7's coordination cases (Singapore, Egypt, Bangladesh), and from Box 9.4. The sharpest instance: the RBI participated institutionally through RBIH, yet [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] — a textbook case of the report's own "extend existing instruments" logic — goes uncited, as do the DPDP Act and the SEBI AI circular.
+
+This version is **stronger** than the false one, because it identifies a structural pattern in how the development-policy literature positions India rather than making a coverage claim that collapses on inspection.
+
+### Action required
+
+| Channel | Check | Status |
+|---|---|---|
+| P1 SLR draft text | Search for "never", "omits India", "does not cite India" in any positioning or gap paragraph | ⚠ **Vivek to confirm** — not verifiable from the vault |
+| LinkedIn / practitioner content since 2026-08-05 | Any post citing WDR 2026 on India's absence | ⚠ **Vivek to confirm** |
+| Supervisor or committee correspondence | Same | ⚠ **Vivek to confirm** |
+| Vault | Corrected in place at International_38 with the original struck, not deleted | ✅ Done 2026-08-09 |
+
+If the claim has circulated, the correction is easy and reflects well: the sharper finding replaces the looser one, and the report is publicly available for anyone to check.
+
+---
+
 ## Watch items — claims in content that are correct but fragile
 
 | # | Artefact | Claim | Caveat to carry |
@@ -76,6 +103,7 @@ This is stronger than the original claim in every respect that matters for the c
 
 ## Log
 
+- 2026-08-09 (later, WDR2026 primary-text pass): **C-02 added** — the "WDR 2026 never once cites India" claim, which originated in International_38 on 2026-08-05 and was explicitly recommended for P1 SLR positioning and LinkedIn use. Falsified by the primary text (~25+ India citations, including three in the Foreword and Overview). Replaced with the deployment-versus-governance asymmetry, which is both true and sharper. **General rule extracted and worth carrying beyond this instance: absence claims about a document must not be asserted from partial extraction.** Three channels need a check that only Vivek can run — P1 draft text, LinkedIn since 5 August, and supervisor correspondence.
 - 2026-08-09: Register created. Opened with C-01, the NIST Digital Forensics Artifact Catalog attribution — corrected in [[05_Concepts/05_Concepts_Signature/Evidentiary_Governance]] on 2026-08-02 but never corrected in the carousel, which continued to circulate. Four watch items recorded. Created as part of the H1–H4 / S1–S5 sequence run this session.
 
 ---

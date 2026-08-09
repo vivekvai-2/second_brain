@@ -1295,4 +1295,36 @@ Also: **ten-year retention for decommissioned models** (para 23) — the first I
 
 ---
 
+## 2026-08-09 (same session, later) — WDR 2026 primary-text pass: material correction to [[07_Institutions/Corpus/International/International_38_World_Bank_WDR2026_AI_Governance]]
+
+**No new node.** The World Development Report 2026 was already held as International_38, created 2026-08-05 **from secondary extraction only** — a Perplexity synthesis pass plus live search, covering roughly Chapter 9 and Spotlight 7. The primary text (front matter, Overview, Parts 1–3, Spotlights 1–7) was supplied 2026-08-09. This is a **source upgrade**, not a duplicate under the standing protocol, and it produced two material corrections.
+
+### 🔴 Two errors corrected
+
+**E-1 — "WDR 2026 never once cites India" is false, and the node recommended using it in a journal submission.** India appears roughly twenty-five times, including in the **Foreword**: Telangana's AI weather forecasting ($560/farmer), Sarvam AI, UPI, BHASHINI, IndiaAI Mission, iGOT Karmayogi, TGDeX, Kisan e-Mitra, Odisha's Ama Krushi, Tamil Nadu retinopathy screening, Wadhwani AI, the 20-year data-centre tax holiday, Microsoft's $17.5bn commitment, and the **largest Enterprise Survey sample at 1,355 firms**. **Secretary MeitY sat on the advisory panel; RBIH is among consulted organisations.** Replaced with the defensible and sharper finding: **WDR 2026 treats India as an AI-deployment and DPI exemplar and never as an AI regulatory-governance case** — absent from Box 9.1, from Ch.9's existing-law cases, from Spotlight 7, and from Box 9.4, while the RBI participated institutionally through RBIH and FREE-AI goes uncited. Logged **C-02** at [[11_Content/Content_Correction_Register]]; **⚠#339** raised for the three circulation channels only Vivek can check. **General rule extracted: absence claims about a document must not be asserted from partial extraction.**
+
+**E-2 — Box 9.1's comparative table over-attributes.** Box 9.1 is **prose, not a table**. It contains no 7%-revenue fine figure, no conformity-assessment reference, no Feb 2025 prohibition date, and no itemised Korea obligation list — all of which the node cited to `[WDR p.311]`. Reconstruction warning added with the box's actual content.
+
+**One dated fact superseded:** the Digital Omnibus is **formally approved** (Council of the EU, June 2026), not provisional — and **deployer transparency obligations remain in force from August 2026** while high-risk slips to December 2027 / August 2028. A partial-deferral structure, recorded as a live Deontic-Placement Debt instance in a high-capacity jurisdiction.
+
+### Four ⚠ VERIFY flags closed
+
+Title confirmed as ***The Promise of Artificial Intelligence*** — "Decoding AI" is the title of **Part 1**, not the report (ISBN 978-1-4648-2331-2; DOI 10.1596/978-1-4648-2331-2). Ch.9 pp. 307–336 and Spotlight 7 pp. 337–343 confirmed exactly. GRIDMAP detail retrieved, **with a scope correction — it is the Data Markets Module assessing *data protection*, not AI markets** (⚠#340). Bangladesh flag narrowed (⚠#342).
+
+### Five findings
+
+1. **[[05_Concepts/05_Concepts_Standard/Assurance_Reuse_Gap]] inverts from deficit to divergence.** Colorado and Texas grant NIST AI RMF compliance as *"a shield from legal liability"*; the EU AI Act treats CEN-CENELEC standards as a route to demonstrating conformity. Against **RBI_14 para 46(i)**, which requires validation *"notwithstanding any validation, certification, or assurance provided by the third-party provider."* The construct becomes a **four-way typology** — operative credit (CO, TX) / architectural credit not yet operative (EU, zero harmonised standards cited) / express refusal (India, draft) / silence (everything previously recorded).
+2. **[[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] acquires a normative defence.** The **"shared AI governance floor"** formulation (Schüür et al. 2026, Ada Lovelace) treats regulatory pluralism as the *goal*, conditional on a common floor. This forces a distinction the note has bundled: **substantive divergence** (acceptable) versus **floor divergence** (not). Most Indian instances recorded are the former — a compliance-burden finding, not a rights-protection one, which is narrower and better supported.
+3. **[[05_Concepts/05_Concepts_Signature/Governance_Debt]] gains a universality result.** GRIDMAP, 53 economies: **all income groups** fall below the minimum package, and the shortfall widens toward enforcement. Illustration — Italy's **€20m Clearview AI fine remains unenforced and the data undeleted**. Figure 9.4: **43%** of low-income data protection authorities strongly disagree their budget is adequate, against 15% high-income. Plus Box 8.3's **project-versus-product** restatement of the construct in budgetary terms, and **pre-contractual lock-in** via pilots and donor-funded packages.
+4. **Bradford's three-model thesis is contested by a World Bank flagship** (Box 9.4, California and China as parallel leaders in both innovation and binding regulation). Bradford appears nowhere in the vault — a gap worth closing.
+5. **Standards participation asymmetry, quantified.** Figure 9.6: **7 countries — all high income — party to all seven** sampled non-UN initiatives; **118 party to none**; 48 of 54 African Group members involved in none. **One-third** of ISO/IEC AI committee members are from developing countries. **Seoul Statement (Dec 2025, IEC+ISO+ITU)** commits the three bodies to human-rights and sociotechnical work. Feeds **⚠#304**.
+
+**Also captured, previously absent from the vault:** Box 5.3 — of ~9,762 AI health studies, **17** provide causal evidence in low-resource contexts. Box 8.1 shadow AI — **no low-income economy holds any enterprise AI licence**; 44% of judicial workers across 96 countries use AI tools, **9% have guidance**. Box 8.2 — the **RADAR** benchmark across 166 countries, with English-speaking countries scoring 0.2–0.4 higher after controlling for income. Ch.6 in full — sovereignty as a *development trap* and the "fragmentation doom loop"; **Kasy's data-externality argument**, which cuts against DPDP's consent architecture; the **Indonesian Pusat Data Nasional procurement corruption case** (140.8bn rupiah); Beraja et al. on AI-tocracy; and **discourse homogenisation as a case for model plurality** distinct from disinformation. Box 7.4 — **Iranian drone strikes on Gulf hyperscale cloud facilities, March 2026**, and war-exclusion gaps in infrastructure insurance. Spotlight 3 — **−20% in-class exam scores** against +18% homework scores among Chinese secondary students. Spotlight 4 — 72% of China's compute in severe water-scarcity regions.
+
+**Downstream updates applied:** [[05_Concepts/05_Concepts_Standard/Assurance_Reuse_Gap]] · [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] · [[05_Concepts/05_Concepts_Signature/Governance_Debt]] · [[06_Frameworks/ISO_IEC_42001]] · [[11_Content/Content_Correction_Register]] (C-02).
+
+**Vault numbering after this addition:** International → **International_39** next; VERIFY → #343 (next = **#344**).
+
+---
+
 _Back to [[PRIS_Master_MOC]]_

@@ -180,4 +180,16 @@ RBI (internal, added 2026-08-02)
 
 ---
 
+## ⚠ Correction to the International row (2026-08-09)
+
+The `International` row in the Research Corpus Mapping table above is **stale** — it lists nodes only to **International_20**. The folder actually holds **International_1 through International_38**. Do not use that row to determine the next available number; `ls 07_Institutions/Corpus/International/` instead. This is the same staleness caveat already recorded for the Corpus_Index batch log.
+
+| Institution | Corpus folder | Nodes held (2026-08-09, verified by directory listing) | Next number |
+|---|---|---|---|
+| International (multilateral, foreign regulators, standards bodies) | `International/` | International_1–11, 13, 15–38 (12 and 14 not present) | **International_39** |
+
+**World Bank Group** now holds two nodes: [[07_Institutions/Corpus/International/International_25_World_Bank_DPI_Development_2025]] (DPI white paper) and [[07_Institutions/Corpus/International/International_38_World_Bank_WDR2026_AI_Governance]] (**World Development Report 2026: The Promise of Artificial Intelligence**, published 4 August 2026). International_38 was **upgraded from secondary extraction to primary text on 2026-08-09**, which corrected two material errors — the false "never cites India" claim (now **C-02** at [[11_Content/Content_Correction_Register]], ⚠#339) and an over-attributed Box 9.1 reconstruction — and expanded coverage from Ch.9/Spotlight 7 alone to the full report. Five downstream concept and framework notes were updated in the same pass. The Bank is now the vault's **most analytically load-bearing multilateral source**, carrying instances for Assurance_Reuse_Gap, Regulatory_Parallelism, Governance_Debt, Institutional_Coherence and Records_Rules_Asymmetry simultaneously.
+
+---
+
 _Back to [[PRIS_Master_MOC]]_
