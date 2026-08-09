@@ -22,7 +22,7 @@ This session (a Desktop-folder ad hoc intake, not a formal batch) found that `Co
 
 | Series | Next available (folder-confirmed) |
 |---|---|
-| RBI | RBI_14 |
+| RBI | **RBI_15** (RBI_14 added this session) ⚠ RBI_3 and RBI_13 are duplicates of each other — flagged, not merged |
 | SEBI | SEBI_19 |
 | MeitY | MeitY_9 |
 | CERT-In (new-style) | CERT_In_4 |
@@ -30,9 +30,9 @@ This session (a Desktop-folder ad hoc intake, not a formal batch) found that `Co
 | Parliament | Parliament_3 (note: BSA_1 also lives in this folder, on its own naming) |
 | DHC | DHC_2 |
 | **CEA** | **CEA_4** (CEA_3 added this session) |
-| F-series (Wiki Intake) | F142 |
+| F-series (Wiki Intake) | **F143** (F142 added this session) |
 | International | International_39 |
-| VERIFY flags | **#328 used as of 2026-08-09; next = #329.** Caveat stands for anything earlier — flags are scattered across nodes and the historical trackers are stale. If a precise count is needed, grep the vault for `⚠` / `VERIFY #` patterns directly. |
+| VERIFY flags | **#338 used as of 2026-08-09; next = #339.** Caveat stands for anything earlier — flags are scattered across nodes and the historical trackers are stale. If a precise count is needed, grep the vault for `⚠` / `VERIFY #` patterns directly. |
 
 ---
 
@@ -100,6 +100,41 @@ Five synthesis artefacts built **entirely from material already in the vault** �
 | **#322** | `Decision_Infrastructure`'s NPCI gate instance rests on trade reporting, not a primary instrument | **The gate passes without it** — either create an NPCI corpus node or drop the instance |
 | **#324** | `Decision_Infrastructure`'s novelty claim (OQ-DI-02: does any jurisdiction govern decision chains as such?) is **unchecked and load-bearing** | If one does, the contribution weakens from "identifies an ungoverned layer" to "documents India's absence." Check before framing an abstract |
 | **#326** | The Minimum Evidence Register's ❌ codings assert corpus-wide absence | High confidence for records 1/3/4, but confirm against IRDAI WG-AI (due ~18 Sep 2026) and SEBI_15 CSCRF |
+
+---
+
+## 🔴 Also headline — RBI_14: India's general-purpose model-risk instrument, and it changes three vault findings
+
+[[07_Institutions/Corpus/RBI/RBI_14_Draft_Guidance_Model_Risk_Management_2026]] — *Guidance on Regulatory Principles for Model Risk Management, 2026*, RBI Department of Regulation, **June 2026, draft for public consultation**. 64 paragraphs, 6 chapters, **eleven RE categories** — the widest AI-adjacent perimeter in the corpus. Tier B → A on notification.
+
+**Three corrections to standing vault findings, all applied:**
+
+1. **[[05_Concepts/05_Concepts_Standard/Model_Risk]] listed "No Indian general-purpose model-risk instrument" under Confirmed Absences. That is now wrong.** RBI_14 is general-purpose, with a functional use-based definition that captures a spreadsheet loan-pricing calculator "irrespective of whether such tools are recognised as models by the RE," and it is **more AI-inclusive than SR 26-2, which carves generative and agentic AI out entirely**. The absence that remains is **bindingness alone** — which is precisely the diagnosis that note had already reached on weaker evidence.
+2. **[[05_Concepts/05_Concepts_Standard/Human_Oversight]]'s specification-gap finding — "the largest India/EU gap of any construct in the EA cluster" — does not survive.** Paras 60–63 match all five Art. 14(4) items and add two the EU does not have: **decision fatigue** and a **near-miss learning loop**. ⚠ This forces an explicit D4 calibration decision on whether draft instruments count; recorded in-note with three options.
+3. **[[05_Concepts/05_Concepts_Signature/Governance_Debt]]'s Deontic-Placement Debt is now three-for-three in one quarter, with an inverse relationship.** RBI_9 (Jun, advisory, AI-explicit) + RBI_14 (Jun, draft guidance, AI-explicit, widest perimeter) + RBI_8 (31 Jul, **binding**, AI-silent, Commercial Banks only). The instrument with the strongest deontic force has the narrowest perimeter and no AI content. Systematic, not incidental.
+
+**Two further findings:** para 46(i)'s requirement of independent validation *"notwithstanding any validation, certification, or assurance provided by the third-party provider"* is the corpus's **first express regulatory refusal of assurance reuse** (previously inferred from silence); and para 7(7)(iii) makes *"time-suitability issues (models becoming less fit / unsuitable over time)"* a constitutive limb of model risk — a **partial counter-instance to F142**, intaken the same day.
+
+**✅ Closes ⚠#306, and reverses it.** F140's "RBI Guidance DOR.ORG.REC.XXXX/2026-27" placeholder was flagged as possibly illustrative. **The placeholder is in the RBI draft itself.** The deck was accurate; the characterisation is withdrawn.
+
+### ⚠ Pre-existing vault duplicate found by the duplicate check
+**[[07_Institutions/Corpus/RBI/RBI_3]] and [[07_Institutions/Corpus/RBI/RBI_13_Draft_Model_Risk_Credit_2024]] are the same instrument** (5 Aug 2024 credit-scoped draft, DOR.STR.REC./21.04.048/2024-25). RBI_13 was created 2026-08-02 without checking against RBI_3. **Flagged on both nodes, not merged**, per the standing duplicate protocol — resolution is your call, and a merge needs both (RBI_3 has the legal basis; RBI_13 has the sourcing metadata).
+
+**⚠ #335 is the one worth acting on:** para 2 cites **"paragraph I.10 of Utkarsh 2029"** as the source of RBI's commitment that further AI-model requirements may follow. **Utkarsh 2029 is not in the vault.** It is the closest thing the corpus has to a dated signal of RBI's binding-AI-regulation roadmap.
+
+---
+
+## Also this session — F142 (Azimi, temporal validity / governance age)
+
+[[04_Knowledge_Products/Wiki_Intake/F142_Azimi_Temporal_Validity_Governance_Age_2026]] — unaffiliated academic working paper, July 2026, proposing **temporal validity** as an under-theorised dimension alongside accountability/transparency/fairness/safety/robustness, and **governance age** as the degree of divergence between governance representations and the current state of the system governed.
+
+**🔴 Tagged `gate/restricted`.** The document states **"NOT FOR CITATION WITHOUT PERMISSION"** twice. Permission must be obtained before P1, P4, proposal, deck or client use (⚠#329, HIGH). No affiliation or contact details are given, so locating the author is itself a step. It also carries **zero references** while claiming to differentiate itself from seven literatures — its central gap claim is unverifiable as written (⚠#330; possibly an extraction artefact, ⚠#331).
+
+**Why it was taken despite that:** it is a **second independent convergence** with [[06_Frameworks/SAIL_Secure_AI_Lifecycle]]'s SAIL 3.18 "Posture Drift" (June 2026) — same phenomenon, one month apart, vendor security practice vs governance theory, no citation path either way. Recorded from both sides.
+
+**Two things the vault gives back to the paper**, both recorded in-note: CEA_3 is the empirical instance it lacks (annual policy review, six-monthly risk updates — scheduling standing in for correspondence); and CEA_3 is also a **boundary condition the paper does not state** — governance age presupposes a representation, so regulatory silence is not young governance but absent governance.
+
+**One claim flagged as contestable rather than adopted:** §7.3's defence that the compliance-status/governance-validity distinction is irreducible to the compliance-performance gap looks weak on two of three grounds against the vault's existing decoupling material. Testing it sharpens your own use of decoupling, which currently appears in five files without a stated position on whether it is representational or implementational.
 
 ---
 

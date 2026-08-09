@@ -1237,4 +1237,62 @@ Also: S5 added a **Delegation as the Control Point** section to [[05_Concepts/05
 
 ---
 
+## Ad Hoc Addition — 2026-08-09 (continued): F142, Azimi on temporal validity
+
+| File ID | Title | Source | Wiki Section | Confidence | ⚠VERIFY |
+|---|---|---|---|---|---|
+| **F142** | [[04_Knowledge_Products/Wiki_Intake/F142_Azimi_Temporal_Validity_Governance_Age_2026]] — *How Old Is Your AI Governance? A Conceptual Investigation into the Temporal Validity of Governance Frameworks for Continuously Evolving AI Systems* | Behnaz Azimi (**no affiliation stated**), working paper, July 2026 | S1 / S9 | **Low-Medium** | 4 open (#329–#332), **one HIGH** |
+
+**Duplicate check clean.** No existing node on temporal validity, governance age, or this author.
+
+**Two hard bars, both recorded in-note.** (1) The document states **"NOT FOR CITATION WITHOUT PERMISSION"** twice — tagged `gate/restricted`; permission must be obtained before P1, P4, proposal, deck or client use (⚠#329, HIGH). (2) The paper contains **zero references** while claiming to differentiate itself from seven named literatures, making its central gap claim unverifiable as written (⚠#330) — possibly an extraction artefact, to be confirmed (⚠#331).
+
+**Principal reason for intake — a second independent convergence.** [[06_Frameworks/SAIL_Secure_AI_Lifecycle]] (Pillar Security, **June 2026**) names **SAIL 3.18 "Posture Drift"**; Azimi theorises the same phenomenon **one month later**, from regulatory and institutional theory rather than enterprise security practice, with no citation path in either direction. Neither source is individually strong; the convergence is the evidence — structurally the same pattern already treated as analytically strong for the US/China action-control convergence in [[05_Concepts/05_Concepts_Standard/Agentic_AI_Governance]]. Recorded from both sides (F142 and a new block in the SAIL framework note).
+
+**Two contributions the vault makes back to the paper:**
+
+1. **CEA_3 is the empirical instance it lacks.** [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] is a textbook case of the "static governance assumption" in binding law — annual policy review, six-monthly risk-assessment updates, annual retention-policy review: scheduling standing in for correspondence.
+2. **And a boundary condition the paper does not state.** CEA_3 cannot suffer governance age with respect to Grid-India's ML, because it makes **no representational claim about it at all**. **Governance age presupposes a representation; regulatory silence is not young governance but absent governance** — that failure belongs to [[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]].
+
+**§7.3 flagged as contestable, not adopted.** The paper's defence that its compliance-status/governance-validity distinction is irreducible to the compliance-performance gap looks weak on two of three grounds against the vault's existing decoupling material (Meyer & Rowan via [[Institutional_Coherence]]; F047; the F094/F103/F121 coherence-in-form cluster). Testing it is cheap and sharpens the vault's own use of decoupling, which currently appears in five files without a stated position on whether it is representational or implementational.
+
+**Bidirectional links applied:** new convergence block in [[06_Frameworks/SAIL_Secure_AI_Lifecycle]]; new *Distinguished From* entry in [[05_Concepts/05_Concepts_Signature/Evidentiary_Governance]] setting out the target/time-direction distinction (proof of past conduct vs accuracy of present description) and the boundary condition.
+
+**Vault numbering after this addition:** F-series → F142 (next = **F143**); VERIFY → #332 (next = **#333**).
+
+---
+
+## Ad Hoc Addition — 2026-08-09 (continued): RBI_14, and a duplicate found in the process
+
+| Node | Title | Institution | Wiki Section | Tier | Key Concepts | Key Projects | ⚠VERIFY |
+|---|---|---|---|---|---|---|---|
+| [[07_Institutions/Corpus/RBI/RBI_14_Draft_Guidance_Model_Risk_Management_2026]] | Guidance on Regulatory Principles for Model Risk Management, 2026 — **draft**, June 2026, DoR.ORG.REC. | RBI | S2 / S6 | **B** (→ A on notification) | [[Model_Risk]], [[Human_Oversight]], [[Assurance_Reuse_Gap]], [[Deontic_Bifurcation]], [[Explainability]], [[Agentic_AI_Governance]], [[Retention_Horizon_Divergence]], [[Governance_Debt]], [[Decision_Infrastructure]] | P3, P4, fsQCA | 5 open (#334–#338) |
+
+**Not a duplicate of the 2024 credit draft.** Distinct in scope (all models vs credit models), date (June 2026 vs 5 Aug 2024), department code (DoR.ORG.REC vs DoR.STR.REC) and supersession target (Chapter 3 of the 2002 Credit Risk Guidance Note).
+
+### ✅ Closes ⚠#306 — and reverses its characterisation
+
+F140 (Joshi ISC2 deck) cited "RBI Guidance DOR.ORG.REC.XXXX/2026-27" and this vault flagged it as an unfilled placeholder, *"possibly illustrative or drafted-ahead-of-issuance material, not a verified RBI instrument."* **The placeholder is in the RBI draft itself** — the circular number is unassigned pending consultation. The deck was accurately reproducing a real draft. All of its slide 11–15 content is now traceable to named paragraphs. **The "possibly illustrative" characterisation is withdrawn.**
+
+### Six findings
+
+1. **India now has a general-purpose model-risk instrument — [[Model_Risk]] said it does not.** That note's Confirmed Absences listed "No Indian general-purpose model-risk instrument." RBI_14 is general-purpose (all models, functional use-based definition that captures a spreadsheet loan-pricing calculator "irrespective of whether such tools are recognised as models by the RE"), covers **eleven RE categories** — the widest AI-adjacent perimeter in the corpus — and is **more AI-inclusive than SR 26-2, which carves generative and agentic AI out**. Corrected finding: *India has a general-purpose model-risk instrument more AI-inclusive than the US or UK equivalents; it is draft, hortatory, and states no legal basis.* The absence that remains is **bindingness alone**.
+2. **Deontic-Placement Debt is three-for-three in one quarter, and the relationship is inverse.** RBI_9 (Jun, advisory, AI-explicit) + RBI_14 (Jun, draft guidance, AI-explicit, widest perimeter) + RBI_8 (31 Jul, binding Directions, **zero AI provisions**, Commercial Banks only). **The instrument with the strongest deontic force has the narrowest perimeter and no AI content.** Systematic, not incidental. Para 2 also names the regulator's own deferral: citing **Utkarsh 2029** ¶I.10, further AI-model requirements "may be issued later."
+3. **The largest India/EU specification gap in the corpus is closed and on two dimensions exceeded.** [[Human_Oversight]] recorded human oversight as the biggest EA-cluster gap, with Indian instruments using "a single unelaborated noun phrase each." RBI_14 paras 60–63 match **all five** EU AI Act Art. 14(4) items and add **decision fatigue** (61) and a **near-miss learning loop** (63), neither of which Art. 14(4) contains. Para 62's "able to effectively challenge, override, or escalate" states that note's nominal/effective boundary condition in instrument text. ⚠ Forces an explicit D4 calibration decision on whether draft instruments count.
+4. **The corpus's first express regulatory refusal of assurance reuse.** Para 46(i): independent validation *"notwithstanding any validation, certification, or assurance provided by the third-party provider."* [[Assurance_Reuse_Gap]] previously inferred the gap from regulatory silence; this is a regulator affirmatively excluding reliance, in text.
+5. **Temporal validity appears in Indian regulatory text** — para 7(7)(iii) makes *"time-suitability issues (models becoming less fit / unsuitable over time)"* a constitutive limb of the model-risk definition; para 54(7) mandates ongoing drift monitoring. A **partial counter-instance to [[04_Knowledge_Products/Wiki_Intake/F142_Azimi_Temporal_Validity_Governance_Age_2026]]**, intaken the same day, and recorded there.
+6. **Partial chain-awareness** — para 22 requires the inventory to record "dependencies with upstream and downstream models," which reaches [[Decision_Infrastructure]]'s H1 handoff. H2 (workflow → decision) remains ungoverned. A boundary refinement, not a refutation.
+
+Also: **ten-year retention for decommissioned models** (para 23) — the first Indian entry at the top of [[Retention_Horizon_Divergence]]'s range, creating an intra-RBI inversion against RBI_8's total retention abdication six weeks later.
+
+### ⚠ Vault-quality finding — a pre-existing duplicate, surfaced by the duplicate check
+
+**[[07_Institutions/Corpus/RBI/RBI_3]] and [[07_Institutions/Corpus/RBI/RBI_13_Draft_Model_Risk_Credit_2024]] are the same instrument** — the Draft Circular *Regulatory Principles for Management of Model Risks in Credit*, 5 August 2024, DOR.STR.REC./21.04.048/2024-25. RBI_13 was created 2026-08-02 without a duplicate check against RBI_3. A **duplicate-detection debt** instance (cf. SEBI_16/SEBI_14, resolved 2026-07-14). **Flagged on both nodes, not merged**, per the standing duplicate protocol. A merge needs both: RBI_3 holds the legal-basis detail, RBI_13 holds the sourcing metadata and Model_Risk linkage.
+
+**Downstream corrections applied:** [[Model_Risk]] (correction block, four-jurisdiction table India row, restated finding, Confirmed Absences resolved); [[Human_Oversight]] (correction block, regulatory-definitions table, Instances); [[Assurance_Reuse_Gap]]; [[Governance_Debt]] (Deontic-Placement Debt strengthened); [[Retention_Horizon_Divergence]]; [[04_Knowledge_Products/Wiki_Intake/F140_Joshi_Preventing_AI_Assisted_Cyber_Attacks_ISC2_Keynote_2026]] (#306 closed); [[04_Knowledge_Products/Wiki_Intake/F142_Azimi_Temporal_Validity_Governance_Age_2026]] (counter-instance); RBI_3 and RBI_13 (duplicate banners); `_Institutions_MOC` RBI row.
+
+**Vault numbering after this addition:** RBI → **RBI_15** next; VERIFY → #338 (next = **#339**).
+
+---
+
 _Back to [[PRIS_Master_MOC]]_

@@ -205,6 +205,19 @@ A genuine, citable NIST-to-India evidentiary transmission exists and should be u
 
 ## **Distinguished From**
 
+**Governance age / temporal validity** ([[04_Knowledge_Products/Wiki_Intake/F142_Azimi_Temporal_Validity_Governance_Age_2026]], 2026) — **the closest external construct, and genuinely distinct.** Both concern representational correspondence between governance instruments and the systems they govern. They differ in **target** and **time-direction**:
+
+| | Evidentiary Governance | Governance age |
+|---|---|---|
+| Asks | Can the retained artefact **prove**, adversarially and retrospectively, what the system **did**? | Does the artefact still accurately **describe** what the system currently **is**? |
+| Direction | Retrospective — proof of past conduct | Present-state — accuracy of current description |
+| Test | Admissibility, custody, non-repudiation, third-party verification | Correspondence between representation and system reality |
+| Fails when | The artefact exists but cannot be certified, retained long enough, or independently verified | The artefact is impeccable and describes a system that has since changed |
+
+The two are independent: an instrument can be perfectly current in its description and still unprovable ([[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] — seven retention horizons, zero certificate-readiness), or perfectly provable while describing a configuration that no longer exists.
+
+**A boundary condition worth keeping:** governance age presupposes a representation to become inaccurate. Where an instrument makes no claim about a system at all — CEA_3 says nothing about the ML running on the grid — the failure is prior and different, and belongs to [[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]] rather than to either construct here.
+
 **[[06_Frameworks/Manifestation_Evidence_Layer]]** — no relationship despite the similar name. That framework is the P3 empirical evidence layer (SOM Tables S17–S21) documenting how cross-regulator coordination patterns M1–M5 *manifest*; "evidence" there means research evidence for a coordination claim. Evidentiary Governance concerns evidence as a *regulated artefact class*. The two must not be conflated in drafting.
 
 ---

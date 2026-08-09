@@ -101,7 +101,15 @@ It should **not** be cited for provision-level regulatory detail — where it su
 
 ## VERIFY Flags
 
-**#306 (MEDIUM) — RBI Model Risk Governance Architecture provenance.** Slides 11–15 cite "RBI Guidance DOR.ORG.REC.XXXX/2026-27" with a literal placeholder circular number. Locate the actual instrument (if one exists) before citing any of the specific controls described (10-year model-inventory retention, RMCB approval SLAs, explainability/bias thresholds) as confirmed RBI text. Until resolved, treat as unconfirmed.
+**~~#306 (MEDIUM) — RBI Model Risk Governance Architecture provenance.~~ ✅ CLOSED 2026-08-09.**
+
+The flag read: *"Slides 11–15 cite 'RBI Guidance DOR.ORG.REC.XXXX/2026-27' with a literal placeholder circular number… treat as unconfirmed / possibly illustrative or drafted-ahead-of-issuance material, not a verified RBI instrument."*
+
+**The flag was wrong about the source and right about the status.** The instrument is [[07_Institutions/Corpus/RBI/RBI_14_Draft_Guidance_Model_Risk_Management_2026]] — *Guidance on Regulatory Principles for Model Risk Management, 2026*, RBI Department of Regulation, June 2026. **The placeholder is in the RBI draft itself** (`DoR.ORG.REC.XXXX/XX-XX-XXXX/2026-27`, "June xx, 2026"), because the circular number has not been assigned pending public consultation. Joshi was accurately reproducing a real draft, not fabricating or illustrating.
+
+Slide content now traceable to named paragraphs: three lines of defence (para 15); risk-based tiering with composite risk and the anti-dilution rule (17–20); **10-year decommissioned-model retention (23)**; RMCB approval for high-tier models (12(1), 18(ii)); validation reports to RMCB within three months (33); explainability thresholds and black-box compensating controls (54(1)); hallucination containment (54(2)); bias/fairness assessment and regularisation (54(3)); out-of-sample and stress testing (54(4)); drift monitoring (54(7)); red-teaming (55); prompt-injection safeguards (59(i)); customer disclosure with human-agent option (59(ii)–(iii)); kill-switches (60(ii)); third-party validation notwithstanding vendor certification (46(i)) and audit rights (48).
+
+**The "possibly illustrative" characterisation is withdrawn.** ⚠ The instrument remains **draft and hortatory** — do not cite the controls as binding RBI requirements (⚠#336 on the RBI_14 node).
 
 **#307 (LOW) — CERT-In remediation-clock figures.** The ≤12h/≤1d/≤3d/≤5d risk-based patch timeline is attributed to "CERT-In Blueprint V1.0, 25.05.2026." Cross-check against the primary text of [[07_Institutions/Corpus/CERT_In/CERT_In_3_Blueprint_AI_Assisted_Exploitation_2026]] before citing the specific hour/day figures in publication-track output.
 

@@ -58,6 +58,11 @@ Every figure below was read directly from the cited vault node on 2026-08-02. Fi
 | **3 years post-exit** | SEBI Regulatory Sandbox Framework, 2021 | Sandbox testing records following Stage-II exit | [[07_Institutions/Corpus/SEBI/SEBI_13_Regulatory_Sandbox_Framework_2021]] |
 | **5 years** | EU AI Act, Art. 33 | Notified-body subcontracting documentation | [[07_Institutions/Corpus/International/International_22_EU_AI_Act_Conformity_Assessment_Notified_Bodies]] |
 | **10 years** | EU AI Act, Art. 47 + Annex V | Machine-readable EU Declaration of Conformity | [[07_Institutions/Corpus/International/International_22_EU_AI_Act_Conformity_Assessment_Notified_Bodies]] |
+| **10 years (minimum)** *(added 2026-08-09)* | **RBI Draft Guidance on Model Risk Management, 2026, paras 23–24** | **Decommissioned models retained in inventory**, from decommissioning or from ceasing to serve as backup/benchmark, **whichever is later**, or longer if law requires; documentation retention aligned to the same period | [[07_Institutions/Corpus/RBI/RBI_14_Draft_Guidance_Model_Risk_Management_2026]] |
+
+> **The first Indian instrument to reach the top of the corpus range — and it creates an intra-RBI inversion (2026-08-09).** RBI_14's ten-year model-record horizon matches the EU AI Act's Declaration-of-Conformity period, previously the corpus maximum and exclusively European. It is also the first Indian retention horizon in the corpus tied to a **relative** trigger ("whichever is later") rather than a fixed event.
+>
+> The inversion: **RBI_8** (binding Directions, 31 July 2026) specifies **no retention period at all**, delegating scope, frequency and storage to stakeholder consultation (para 97), while **RBI_14** (draft guidance, June 2026) specifies ten years for model records — the same regulator, six weeks apart, at opposite ends of this construct's entire range. Read together with the CEA_3/RBI_8 same-day inversion below, this is now the **second** intra-jurisdictional pair demonstrating that retention specification is a discretionary drafting choice rather than a constraint of subject matter, period, or instrument type. The evidence for that proposition is now strong enough to state without hedging.
 
 **Spread: 1 to 10 years across six record classes, four issuing authorities, two jurisdictions — with no instrument citing any other instrument's period.**
 

@@ -57,7 +57,22 @@ The cross-mapping table is the framework's single most reusable asset for PRIS. 
 | **Maker-identity inheritance** | Low-code failure mode (SAIL 5.17): the consumer of an agent inherits the builder's access | Directly relevant to [[DPI_Governance]] work on delegated authority in welfare delivery |
 | **Confused-deputy agent** | Broadly-scoped agent identity used by a lower-privileged caller to reach systems they are not authorised for (SAIL 5.20) | Portable to IG 2.0 coding of delegation clauses — who is the *Attribute* when a deputy agent acts on delegated authority? |
 | **Shadow agents** | Agents provisioned outside security governance; the agentic-era analogue of shadow IT | Feeds [[Governance_Capacity]] and [[Governance_Debt]] |
-| **Governance debt** *(implicit, not named in source)* | The gap between agent capability deployed and control/oversight in place — e.g. SAIL 3.18 "Posture Drift" | Strong illustrative evidence for [[Governance_Debt]] even though SAIL never uses the term. Note this as an independent-convergence data point, not a citation of the construct |
+| **Governance debt** *(implicit, not named in source)* | The gap between agent capability deployed and control/oversight in place — e.g. SAIL 3.18 "Posture Drift" | Strong illustrative evidence for [[Governance_Debt]] even though SAIL never uses the term. Note this as an independent-convergence data point, not a citation of the construct. **Second convergence recorded 2026-08-09 — see below** |
+
+> ### Posture Drift ↔ Governance Age — a second independent convergence (2026-08-09)
+>
+> [[04_Knowledge_Products/Wiki_Intake/F142_Azimi_Temporal_Validity_Governance_Age_2026]] (Azimi, **July 2026**) theorises the same phenomenon SAIL 3.18 names as **"Posture Drift"** — the divergence between what governance holds to be true of a system and what the system has become — one month after SAIL (June 2026), **with no citation path in either direction**.
+>
+> | | SAIL 3.18 (Jun 2026) | Azimi (Jul 2026) |
+> |---|---|---|
+> | Author type | US commercial AI-security vendor, CISO contributor panel | Unaffiliated academic |
+> | Discipline | Enterprise security practice | Regulatory / institutional / sociotechnical theory |
+> | Vocabulary | Posture drift; shadow agents; action control | Governance age; representational divergence; temporal validity |
+> | Standing | Voluntary, vendor-authored, uncertifiable | Unrefereed working paper, **zero references** |
+>
+> Neither source is individually strong. **The convergence is the evidence** — two actors with no relationship, from opposite starting points, in the same quarter, naming the same gap. Structurally the same pattern already treated as analytically strong for the US/China action-control convergence in [[05_Concepts/05_Concepts_Standard/Agentic_AI_Governance]]: agreement between unrelated parties from different baselines is harder to explain by transmission than by the phenomenon being real.
+>
+> ⚠ Both are grey literature. Treat as **convergent naming of a phenomenon**, not established scholarship, and do not cite either as authority for the other. F142 additionally carries a **citation-permission bar** (⚠#329).
 
 ## Regulatory Position & Comparative Significance
 

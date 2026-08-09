@@ -13,6 +13,16 @@ tags:
 
 # RBI_13 — Draft Circular: Regulatory Principles for Management of Model Risks in Credit (2024)
 
+> ## ⚠ DUPLICATE ALERT — flagged 2026-08-09, not merged
+>
+> **This node and [[07_Institutions/Corpus/RBI/RBI_3]] are the same instrument.** Both are the Draft Circular *Regulatory Principles for Management of Model Risks in Credit*, **5 August 2024**, DOR.STR.REC./21.04.048/2024-25. RBI_3 was created earlier; RBI_13 was created 2026-08-02 during the model-risk sourcing pass without a duplicate check against RBI_3.
+>
+> This is a **duplicate-detection debt** instance in the sense recorded at [[05_Concepts/05_Concepts_Signature/Governance_Debt]] (cf. the SEBI_16/SEBI_14 case resolved 2026-07-14). **Reported only, per the standing duplicate protocol — no merge performed.**
+>
+> **Resolution is Vivek's call, and a merge needs both:** RBI_13 carries better sourcing metadata (reference number, comment-period close, FIDC provenance caveat) and the [[05_Concepts/05_Concepts_Standard/Model_Risk]] linkage; **RBI_3** carries the legal-basis detail (BR Act ss.21/35A/56; RBI Act ss.45JA/45L/45M; NHB Act ss.30A/32/33) and the RBI_FREE_AI companion note.
+>
+> **Superseding instrument:** [[07_Institutions/Corpus/RBI/RBI_14_Draft_Guidance_Model_Risk_Management_2026]] (June 2026) is the general-purpose successor covering all models across eleven RE categories. ⚠ Its relationship to this 2024 credit-scoped draft is **not stated** in its text — whether RBI_14 supersedes, absorbs, or runs parallel is unresolved (⚠#337).
+
 **Institution:** [[RBI]] | **Concept:** [[Model_Risk]] | **Added:** 2026-08-02 (model risk sourcing pass)
 
 ---

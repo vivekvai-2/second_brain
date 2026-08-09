@@ -140,6 +140,18 @@ Debt arising where a regulator possesses the relevant subject-matter vocabulary 
 
 Canonical instance: [[07_Institutions/Corpus/RBI/RBI_9_AI_Accelerated_Cyber_Threats_Advisory_2026]] (June 2026, non-binding advisory, reportedly covering AI governance, AI agents and privileged access, and "logging, traceability and forensic readiness") followed six weeks later by [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] (31 July 2026, binding, published, repealing, 233 paragraphs, **zero AI provisions**). Regulated entities carry an AI cyber-governance expectation with a board-approved gap assessment deadline that has no counterpart in the binding framework governing the technology estate those AI systems run on. ⚠ Contingent on Tier C content for RBI_9.
 
+> **Strengthened 2026-08-09 — the pattern is three-for-three in one quarter, and the relationship is inverse.** [[07_Institutions/Corpus/RBI/RBI_14_Draft_Guidance_Model_Risk_Management_2026]] (June 2026) is a third instrument in the same window: general-purpose draft Guidance on model risk, **hortatory throughout** ("should"; no SHALL, no Or-else, no penalty, no reporting obligation across 64 paragraphs), with a **dedicated AI/ML chapter** (paras 49–63) covering explainability thresholds, hallucination boundaries, fairness assessment, drift, red-teaming, prompt injection, kill-switches and human oversight.
+>
+> | Instrument | Date | Deontic force | AI content | Perimeter |
+> |---|---|---|---|---|
+> | RBI_9 | June 2026 | Advisory, apparently unpublished | AI-explicit | REs |
+> | **RBI_14** | June 2026 | **Draft Guidance — "should"** | **AI-explicit, dedicated chapter** | **11 RE categories — the widest in the corpus** |
+> | RBI_8 | 31 July 2026 | **Binding Directions — "shall", in force on issuance** | **Zero AI provisions** | Commercial Banks only |
+>
+> **The instrument with the strongest deontic force has the narrowest perimeter and no AI content; the instruments with the widest perimeter and richest AI content have the weakest force.** That inverse relationship, within one regulator across roughly six weeks, is a materially stronger claim than the two-instrument version — it is systematic rather than incidental, and it cannot be attributed to an instrument-specific drafting choice.
+>
+> RBI_14 para 2 also supplies the regulator's own forward reference: citing "paragraph I.10 of **Utkarsh 2029**," it states that *"further requirements, if any, applicable to AI models **may be issued later**."* The deferral of binding AI requirements is stated on the face of the instrument. ⚠ Utkarsh 2029 is not in the vault — source it (⚠#335).
+
 Interacts with [[05_Concepts/05_Concepts_Signature/Deontic_Bifurcation]]: that construct describes binding and aspirational instruments coexisting over the same activity; this sub-pattern identifies the *cost* borne when the split is temporal and intra-regulator.
 
 ### Duplicate-Detection Debt (new sub-pattern, 2026-07-14)

@@ -12,6 +12,14 @@ tags:
 
 # RBI_3 — Draft Circular: Regulatory Principles for Management of Model Risks in Credit
 
+> ## ⚠ DUPLICATE ALERT — flagged 2026-08-09, not merged
+>
+> **This node and [[07_Institutions/Corpus/RBI/RBI_13_Draft_Model_Risk_Credit_2024]] are the same instrument** — the Draft Circular *Regulatory Principles for Management of Model Risks in Credit*, **5 August 2024**, DOR.STR.REC./21.04.048/2024-25. RBI_13 was created 2026-08-02 during a model-risk sourcing pass without a duplicate check against this node.
+>
+> **Reported only, per the standing duplicate protocol — no merge performed.** A merge would need both: this node holds the legal-basis detail (BR Act ss.21/35A/56; RBI Act ss.45JA/45L/45M; NHB Act ss.30A/32/33) and the RBI_FREE_AI companion note; RBI_13 holds the reference number, comment-period close date, provenance caveat and the [[05_Concepts/05_Concepts_Standard/Model_Risk]] linkage.
+>
+> **Superseding instrument:** [[07_Institutions/Corpus/RBI/RBI_14_Draft_Guidance_Model_Risk_Management_2026]] (June 2026) — general-purpose, all models, eleven RE categories. Its relationship to this credit-scoped draft is not stated in its text (⚠#337).
+
 **Type:** Corpus Node
 **Vault path:** `07_Institutions/Corpus/RBI/RBI_3.md`
 **Institution:** [[07_Institutions/RBI]]
