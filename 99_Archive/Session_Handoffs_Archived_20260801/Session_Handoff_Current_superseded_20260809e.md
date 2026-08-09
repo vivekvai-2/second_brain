@@ -10,7 +10,7 @@ tags:
 
 # Session Handoff — Current State
 
-**This is the single rolling handoff file.** At the end of each session, **overwrite this file** with current state — do not create a new dated file. Before overwriting, the outgoing version is copied to `99_Archive/Session_Handoffs_Archived_20260801/Session_Handoff_Current_superseded_[YYYYMMDD][suffix].md` (done for this update: `..._superseded_20260809e.md`). This file is read by Cowork, ChatGPT, and NotebookLM alike to resume work — keep it self-contained and current, not a historical log.
+**This is the single rolling handoff file.** At the end of each session, **overwrite this file** with current state — do not create a new dated file. Before overwriting, the outgoing version is copied to `99_Archive/Session_Handoffs_Archived_20260801/Session_Handoff_Current_superseded_[YYYYMMDD][suffix].md` (done for this update: `..._superseded_20260809d.md`). This file is read by Cowork, ChatGPT, and NotebookLM alike to resume work — keep it self-contained and current, not a historical log.
 
 ---
 
@@ -22,7 +22,7 @@ This session (a Desktop-folder ad hoc intake, not a formal batch) found that `Co
 
 | Series | Next available (folder-confirmed) |
 |---|---|
-| RBI | **RBI_17** (RBI_14, RBI_15, RBI_16 added this session) ⚠ RBI_3 and RBI_13 are duplicates of each other — flagged, not merged |
+| RBI | **RBI_16** (RBI_14, RBI_15 added this session) ⚠ RBI_3 and RBI_13 are duplicates of each other — flagged, not merged |
 | SEBI | SEBI_19 |
 | MeitY | MeitY_9 |
 | CERT-In (new-style) | CERT_In_4 |
@@ -32,7 +32,7 @@ This session (a Desktop-folder ad hoc intake, not a formal batch) found that `Co
 | **CEA** | **CEA_4** (CEA_3 added this session) |
 | F-series (Wiki Intake) | **F143** (F142 added this session) |
 | International | **International_39** (International_38 upgraded to primary text this session — no new node) |
-| VERIFY flags | **#346 used as of 2026-08-09; next = #347.** (#339–#343 raised in the WDR2026 primary-text pass; #344 on RBI_15/Utkarsh 2.0; #345–#346 on RBI_16/Data Governance.) Caveat stands for anything earlier — flags are scattered across nodes and the historical trackers are stale. If a precise count is needed, grep the vault for `⚠` / `VERIFY #` patterns directly. |
+| VERIFY flags | **#344 used as of 2026-08-09; next = #345.** (#339–#343 raised in the WDR2026 primary-text pass; #344 raised on RBI_15/Utkarsh 2.0.) Caveat stands for anything earlier — flags are scattered across nodes and the historical trackers are stale. If a precise count is needed, grep the vault for `⚠` / `VERIFY #` patterns directly. |
 
 ---
 
@@ -247,30 +247,6 @@ Title is ***The Promise of Artificial Intelligence***; "Decoding AI" is the titl
 **Added to the next-session queue:**
 
 12. **Source Utkarsh 2029 directly** (⚠#344) — the three-generation lineage (2022 → 2.0 → 2029) is inferred, not confirmed. If Vivek has or can obtain it, this closes both #344 and the remainder of #335.
-
----
-
-## Sixth addendum, same day — RBI_16: Data Governance draft, and RBI_14's undeclared companion
-
-**New node.** [[07_Institutions/Corpus/RBI/RBI_16_Draft_Guidance_Data_Governance_2026]] — full text supplied by Vivek. Not a duplicate. Same placeholder pattern as RBI_14, dated July XX 2026 against RBI_14's June — but its **eleven-category applicability clause is word-for-word identical to RBI_14's**, same department, one month apart, governing sequential stages of one pipeline (data → model), with **zero cross-citation between the two instruments.**
-
-**Not AI-explicit — "AI" and "machine learning" appear nowhere in the text — but load-bearing for the corpus's AI-governance findings.** RBI_14 requires AI/ML models to meet data-quality standards without specifying what produces that data. RBI_16 is that architecture: four-role accountability chain, a mandatory Single Source of Truth (new construct for this corpus), point-of-capture metadata and lineage.
-
-**Four findings:**
-
-1. **[[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]]** — first dated, detailed primary-source instrument at the **Data** stage. With RBI_14 (Model stage), two of five chain stages now have instrument-level evidence, issued a month apart, uncited to each other. Narrows the construct's applicability while sharpening its diagnostic claim.
-2. **[[05_Concepts/05_Concepts_Signature/Governance_Debt]]** — new sub-pattern, **Uncited-Adjacency Debt**: two complementary instruments from the same department that plainly presuppose each other, with no stated relationship.
-3. **[[05_Concepts/05_Concepts_Standard/Retention_Horizon_Divergence]]** — fourth RBI abdication instance, softest recorded: no number, no sufficiency mandate either.
-4. **[[05_Concepts/05_Concepts_Standard/Assurance_Reuse_Gap]]** — first within-regulator divergence in this construct: RBI_14 expressly refuses third-party model assurance; RBI_16 has no equivalent refusal for third-party data assurance.
-
-**Files touched:** RBI_16 (new) · Decision_Infrastructure · Governance_Debt · Retention_Horizon_Divergence · Assurance_Reuse_Gap · _Institutions_MOC · Corpus_Index_MOC · this handoff.
-
-**Numbering after this addition:** RBI → **RBI_17** next; VERIFY → #346 (next = **#347**).
-
-**Added to the next-session queue:**
-
-13. **Confirm whether RBI_14 and RBI_16 are a formally linked consultation package** (⚠#345) — both share department code and an identical applicability clause; whether that reflects a coordinated release or coincidental drafting reuse is unconfirmed.
-14. **Independently verify RBI_16's deontic profile paragraph-by-paragraph** (⚠#346) — currently assumed "should"-throughout by analogy to RBI_14, not separately coded.
 
 ---
 

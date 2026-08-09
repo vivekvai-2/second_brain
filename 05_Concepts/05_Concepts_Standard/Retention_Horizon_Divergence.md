@@ -84,6 +84,8 @@ This is not divergence *between* regulators but **abdication by one**. It is ana
 
 CERT_In_3 is the sharpest case: an instrument willing to specify a **twelve-hour** containment expectation, and simultaneously requiring "evidence preservation" (§6.10, §10.1) and audit logging for agentic AI (§12.14), states no period for which any of it must be kept.
 
+**A fourth instance, and the softest yet (2026-08-09).** [[07_Institutions/Corpus/RBI/RBI_16_Draft_Guidance_Data_Governance_2026]] para 41 states only that "data retention period is justified by business, legal, regulatory, or audit requirements" — no number, anywhere in 20 pages, and unlike RBI_8 it is not even paired with a strong sufficiency mandate to test compliance against. Read together with RBI_14 (S5.7 there — ten years for decommissioned models, the corpus's joint-longest horizon), the same department (DoR.ORG.REC) holds, within a single quarter, instruments spanning the entire range from the corpus's most specific retention mandate to among its least specific. This is a fifth confirmation that retention specification is elective within a single issuing office, not merely across regulators.
+
 **Reframing.** The construct was originally built around *divergence* between regulators (1 year to 10 years). The 2026 Indian evidence suggests divergence may be the milder pathology. Where retention is stated, an entity can comply with the longest horizon. Where it is universally unstated while evidentiary sufficiency is mandated, there is no horizon to comply with at all — and the obligation becomes unfalsifiable until tested adversarially. **Consider whether the concept should be renamed to cover both limbs**, e.g. *Retention Horizon Indeterminacy*, with divergence and abdication as its two variants. Flagged for decision at the next indexing pass; not renamed unilaterally.
 
 ### **The inversion — CEA_3, added 2026-08-09. Abdication is a drafting choice, and here is the proof.**
@@ -179,6 +181,7 @@ For a BFSI entity simultaneously an SDF under DPDP, a regulated entity under RBI
 - [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] — **abdication variant**: para 95 sufficiency mandate, para 97 no stated period
 - [[07_Institutions/Corpus/CERT_In/CERT_In_3_Blueprint_AI_Assisted_Exploitation_2026]] — **abdication variant, sharpest case**: 12-hour remediation clock specified, evidence preservation required, retention period stated nowhere in 38pp
 - [[07_Institutions/Corpus/SEBI/SEBI_18_AI_Vulnerability_Detection_Advisory_2026]] — **abdication variant**: SOC monitoring and audit mandated, no retention period, no evidentiary provision
+- [[07_Institutions/Corpus/RBI/RBI_16_Draft_Guidance_Data_Governance_2026]] — **abdication variant, softest recorded**: no numeric period anywhere; retention left to unspecified "business, legal, regulatory, or audit requirements," with no sufficiency mandate attached either
 - [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] — §16.6, 1-year default for audit data
 - [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] — Rule 6 / Third Schedule / Seventh Schedule, 1-year and 3-year regimes
 - [[07_Institutions/Corpus/SEBI/SEBI_13_Regulatory_Sandbox_Framework_2021]] — 3 years post-exit

@@ -1344,4 +1344,23 @@ Title confirmed as ***The Promise of Artificial Intelligence*** — "Decoding AI
 
 ---
 
+## 2026-08-09 (same session, later still) — RBI_16: Draft Guidance on Regulatory Expectations for Data Governance, and its undeclared relationship to RBI_14
+
+**New node.** [[07_Institutions/Corpus/RBI/RBI_16_Draft_Guidance_Data_Governance_2026]] — full text supplied by Vivek. **Not a duplicate.** Same placeholder pattern as RBI_14 (`DoR.ORG.REC.XXXX/XX-XX-XXXX/2026-27`), dated **July XX, 2026** against RBI_14's June — a distinct instrument, but with a finding worth stating plainly: **its eleven-category applicability clause is word-for-word identical to RBI_14's.** Same department, same regulated population, one month apart, governing sequential stages of one pipeline (the data an AI model consumes, and the model itself), and **neither instrument cites the other.**
+
+**Not AI-explicit — "AI," "artificial intelligence" and "machine learning" appear nowhere in the text — but foundational to the corpus's AI-governance findings.** RBI_14 requires AI/ML models to meet data-quality standards (para 54(7): quality, non-representativeness, drift) without specifying the governance architecture that produces that data. RBI_16 is that architecture: a four-role accountability chain (Data Owner / Steward / Custodian / Function), a mandatory **Single Source of Truth** with no competing sources permitted (paras 43–46, a new construct for this corpus), point-of-capture metadata and lineage through transformation (paras 48–51), and third-party data-sharing controls (Ch. VI).
+
+**Four findings, each landing in a different concept file:**
+
+1. **[[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]] — the Data stage gets its first dated, detailed primary-source instrument.** Read alongside RBI_14 (the Model stage), the corpus now has instrument-level evidence for two of five chain stages, issued one month apart, uncited to each other. This narrows the construct's applicability (Data is no longer wholly unaddressed) while sharpening its diagnostic claim: governance stops at each stage's boundary and does not follow the chain across it — the Model→Workflow handoff and everything after it remain exactly as ungoverned as before.
+2. **[[05_Concepts/05_Concepts_Signature/Governance_Debt]] — a new sub-pattern, Uncited-Adjacency Debt.** Distinguished from Intra-Regulator Parallelism Debt (tracks that don't intersect in subject) and Deontic-Placement Debt (force mismatch over the same subject): here the subjects are genuinely complementary and the debt is the absence of a stated relationship between two instruments that plainly presuppose each other.
+3. **[[05_Concepts/05_Concepts_Standard/Retention_Horizon_Divergence]] — a fourth RBI abdication instance, and the softest recorded.** Para 41 states only that retention should be "justified" by unspecified requirements — no number, and unlike RBI_8 not even paired with a sufficiency mandate. RBI now holds, within one department and one quarter, instruments spanning the construct's entire specificity range (RBI_14's ten-year model-record horizon at one end, this at the other).
+4. **[[05_Concepts/05_Concepts_Standard/Assurance_Reuse_Gap]] — a within-regulator divergence, the first of its kind in this construct.** RBI_14 para 46(i) expressly refuses to accept third-party assurance for models ("notwithstanding any validation, certification, or assurance provided"). RBI_16's third-party data-sharing chapter requires audit but has no equivalent refusal clause. Same department, one month apart: an express refusal for model assurance, ordinary oversight language for data assurance.
+
+**Downstream updates applied:** [[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]] (new section + Instances-in-Corpus + Log) · [[05_Concepts/05_Concepts_Signature/Governance_Debt]] (new sub-pattern + Instances-in-Corpus) · [[05_Concepts/05_Concepts_Standard/Retention_Horizon_Divergence]] (new instance) · [[05_Concepts/05_Concepts_Standard/Assurance_Reuse_Gap]] (new instance) · `_Institutions_MOC` RBI row.
+
+**Vault numbering after this addition:** RBI → **RBI_17** next; VERIFY → #346 (next = **#347**).
+
+---
+
 _Back to [[PRIS_Master_MOC]]_
