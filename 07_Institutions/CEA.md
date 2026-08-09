@@ -31,7 +31,10 @@ The Central Electricity Authority, under the Ministry of Power, is India's techn
 |---|---|---|---|
 | Guidelines on Cyber Security in Power Sector, 2021 ([[07_Institutions/Corpus/CEA/CEA_1_Cyber_Security_Guidelines_2021]]) | 30 September 2021 | Current, binding | Primary anchor for the new Power Grid/Critical Infrastructure domain |
 | Draft CEA (Cyber Security in Power Sector) Regulations, 2024 | August 2024 | Superseded by 2025 draft | Historical iteration only |
-| Draft CEA (Cyber Security in Power Sector) Regulations, 2025 ([[07_Institutions/Corpus/CEA/CEA_2_Draft_Cyber_Security_Regulations_2025]]) | Comment deadline 7 November 2025 | **Draft, not yet notified** | Would formalise CSIRT-Power under CEA if finalised |
+| Draft CEA (Cyber Security in Power Sector) Regulations, 2025 ([[07_Institutions/Corpus/CEA/CEA_2_Draft_Cyber_Security_Regulations_2025]]) | Comment deadline 7 November 2025 | ~~Draft, not yet notified~~ **Superseded — notified as CEA_3** | Draft-stage antecedent only |
+| **CEA (Cyber Security in Power Sector) Regulations, 2026** ([[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]]) | **Notified 31 July 2026**; in force 1 April 2027 (six regs deferred to separate orders) | **Binding, gazetted — Tier A; the operative instrument** | Constitutes CSIRT-Power in binding text; 17 regulations, 40 definitions, 2 Schedules; **zero AI provisions**; mandates ISO 27001/TCC; seven retention horizons; binds vendors directly; MeitY concurrence on the face of the instrument |
+
+> **Update 2026-08-09.** The "null case" characterisation below is retained but must now be read in its stronger form. CEA did not merely fail to extend an ageing instrument — it **legislated afresh in 2026**, after publishing a draft for comment in October 2025 and considering objections, with its own parent ministry having confirmed Grid-India's production ML on the record in a Rajya Sabha reply of 18 December 2023, and still issued zero AI provisions. Silence with notice is a different and more interesting finding than silence from lag. See [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] §S5.1.
 
 ## Institutional Logic (Research Relevance)
 

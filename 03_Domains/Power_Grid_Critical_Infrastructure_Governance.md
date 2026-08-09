@@ -17,7 +17,20 @@ tags:
 
 ## **Core Synthesis**
 
-This domain examines cybersecurity and AI-assurance governance for power-grid critical infrastructure in India, benchmarked against the three major international comparators (US/NERC, EU/ENISA, and the international IEC 62443 standard). Its central finding inverts the pattern found everywhere else in this vault: **India is not behind its international peers here — nobody has moved yet.** CEA's 2021 Guidelines on Cyber Security in Power Sector and its 2025 draft Regulations are mature, binding, and OT/ICS-comprehensive, but — like NERC CIP, ENISA's NIS2-driven energy guidance, and IEC 62443 — contain zero AI-specific provisions, despite confirmed AI/ML adoption in grid load-forecasting, demand-response, and fault-detection systems. This is a genuine regulatory frontier, not a capacity failure specific to India, and it is the only domain in this corpus where that framing holds.
+This domain examines cybersecurity and AI-assurance governance for power-grid critical infrastructure in India, benchmarked against the three major international comparators (US/NERC, EU/ENISA, and the international IEC 62443 standard). Its central finding inverts the pattern found everywhere else in this vault: **India is not behind its international peers here — nobody has moved yet.** CEA's instruments are mature, binding, and OT/ICS-comprehensive, but — like NERC CIP, ENISA's NIS2-driven energy guidance, and IEC 62443 — contain zero AI-specific provisions, despite confirmed AI/ML adoption in grid load-forecasting, demand-response, and fault-detection systems. This is a genuine regulatory frontier, not a capacity failure specific to India, and it is the only domain in this corpus where that framing holds.
+
+> ### ⚠ Material update — 2026-08-09: the notified Regulations arrive, and sharpen the finding
+>
+> **[[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] — Central Electricity Authority (Cyber Security in Power Sector) Regulations, 2026 — was notified on 31 July 2026** (Gazette No. 484), in force 1 April 2027 with six regulations deferred to separate orders. It is Tier A: binding, gazetted, 17 regulations across 10 chapters plus two Schedules, with MeitY concurrence recorded on its face.
+>
+> **It contains zero AI provisions.** Consequences for this domain, all of which require the text below to be read with these corrections:
+>
+> 1. **"CEA's 2021 Guidelines are the sole operative instrument" and "2025 draft, not notified" are both now stale.** CEA_3 is the operative instrument from 1 April 2027; CEA_1 and CEA_2 are antecedents.
+> 2. **The *technology-lag* framing in "Regulatory Silence vs. Regulatory Parallelism" below does not survive this instrument.** That section rests on CEA's instruments predating machine learning. CEA legislated *afresh* in 2026 — with the draft published 7 Oct 2025, objections considered, and its own parent ministry having confirmed Grid-India's production ML on the record in a **Rajya Sabha reply of 18 December 2023** — and still did not extend the regime to AI. This is a regulator acting with actual notice, not one overtaken by technology. The pattern is closer to **deliberate technology-neutrality** than to lag, and the instrument's fine-grained specificity everywhere else (six-hour and 24-hour reporting clocks, seven retention horizons, 9–15 month audit windows, a 50 MW applicability threshold, a requirement that the OT time source be terrestrial or India-specific satellite) makes inadvertence implausible.
+> 3. **The domain is no longer purely a case of "regulatory silence within a single regime."** CEA_3 was notified **on the same day** as [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] — two regulators, two critical sectors, one day, both binding, both AI-silent, both imposing six-hour dual-channel incident reporting, neither citing the other. That is a parallelism instance, and a strong one, because same-day issuance forecloses the sequencing explanations available elsewhere in the corpus. See CEA_3 §S5.2.
+> 4. **The "nobody has moved yet" framing survives and is reinforced** — CEA_3 is the newest critical-infrastructure cyber instrument in the corpus in any jurisdiction, and it confirms the gap rather than closing it.
+>
+> ⚠ The AI null finding rests on a term sweep of a bilingual Gazette extraction with Devanagari OCR corruption in the Hindi portion; the English text extracted cleanly and is the basis for all provisions cited. Re-confirm against the CEA-hosted PDF before publishing the null finding as a headline claim (⚠ #310).
 
 ---
 
@@ -49,10 +62,11 @@ The domain currently rests on six primary/near-primary sources: CEA's 2021 Guide
 
 | **Instrument** | **Issuing Body** | **Status** | **AI-Specific?** |
 |---|---|---|---|
-| Guidelines on Cyber Security in Power Sector, 2021 | CEA | Binding, current | No |
-| Draft Cyber Security Regulations, 2025 | CEA | Draft, not notified | No |
+| **Cyber Security in Power Sector Regulations, 2026** ([[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]]) | CEA | **Notified 31 Jul 2026; in force 1 Apr 2027** (six regs deferred). Tier A — the operative instrument | **No — zero AI provisions across 17 regulations, 40 definitions, 2 Schedules** |
+| Guidelines on Cyber Security in Power Sector, 2021 | CEA | Binding; antecedent to CEA_3 | No |
+| ~~Draft Cyber Security Regulations, 2025~~ | CEA | **Superseded — notified as CEA_3 above** | No |
 | Guidelines for Protection of NCII v2.0 | NCIIPC | Current, cross-sectoral | No |
-| CSIRT-Power (administrative establishment) | Ministry of Power / CERT-In | Operational since Sept 2024; regulation pending | No |
+| CSIRT-Power | Ministry of Power / CERT-In | Operational since Sept 2024; **formally constituted by CEA_3 Chapter II, 31 Jul 2026 — sequencing gap ≈22 months** | No |
 | NERC CIP | NERC (US) | Binding, current | No — gap explicitly acknowledged by industry/academia |
 | NIS2 energy-sector guidance | ENISA (EU) | Current | No |
 | IEC 62443 | IEC/ISA | Current, voluntary global standard | No (AI recommended only as a defensive tool) |

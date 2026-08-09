@@ -1180,4 +1180,61 @@ See [[Bidirectional_Linking_Convention]] for the standing workflow applied to th
 
 ---
 
+## Ad Hoc Addition — 2026-08-09 (same session, continued): CEA_3, the session's most consequential intake
+
+| Node | Title | Institution | Wiki Section | Tier | Key Concepts | Key Projects | ⚠VERIFY |
+|---|---|---|---|---|---|---|---|
+| [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] | Central Electricity Authority (Cyber Security in Power Sector) Regulations, 2026 — notified 31 Jul 2026, in force 1 Apr 2027 | CEA | S2 | **A** | [[Evidentiary_Governance]], [[Retention_Horizon_Divergence]], [[Regulatory_Parallelism]], [[Governance_Debt]], [[Institutional_Coherence]], [[Assurance_Reuse_Gap]], [[Governance_Capacity]], [[Deontic_Bifurcation]] | P1, P4, fsQCA | 6 open (#309–#314), none HIGH |
+
+**Not a duplicate.** [[07_Institutions/Corpus/CEA/CEA_2_Draft_Cyber_Security_Regulations_2025]] is the 2025 *draft*, whose own status flag read "not confirmed as finalised/gazetted as of this intake (2026-08-02)." CEA_3 is the notified instrument and closes that flag. CEA_2 retained as draft-stage antecedent with a superseded banner.
+
+**Five findings recorded:**
+
+1. **AI null finding at its strongest form in the corpus.** Zero AI/ML/model/automated-decision provisions across 17 regulations, 40 definitions, 10 chapters and 2 Schedules — including reg 8's 33-component Cyber Security Policy specification, which reaches supply-chain risk, personnel risk, obsolescence phase-out and time-source selection. Unlike CEA_1/CEA_2, this cannot be read as lag: CEA legislated afresh, published a draft for comment 7 Oct 2025, considered objections, and had on-record notice from its own parent ministry (Rajya Sabha reply, 18 Dec 2023) that Grid-India runs production ML. **Silence with notice.**
+2. **Same-day cross-sector parallelism with RBI_8** — both notified 31 July 2026, both binding, both AI-silent, both six-hour dual-channel incident reporting, neither citing the other. Same-day issuance forecloses the sequencing explanations available for every other convergence in the corpus. Mechanism (common shock) inferred, not established — ⚠#311.
+3. **The retention inversion.** CEA_3 specifies **seven horizons** (1 month backups / 180-day logs and forensic records / 365-day incident logs spanning ±180 days / 1-year remote-access records / 3-year audit and self-audit reports / 4-year certification audits / life-of-asset FAT-SAT) plus a twelve-item First Schedule custody list. RBI_8, same day, specifies none. Sector, period, instrument type and drafting sophistication held constant — **what varies is the drafting choice**, which forecloses every structural excuse for RBI_8's abdication. Also supplies a first-party binding **180-day** figure, partially relieving (not closing) the CERT-In 2022 Directions blocking flag.
+4. **M1 upgraded to an N-regulator CERT-In hub** — reg 7(3)(a) mandates six-hour reporting to CERT-In *and* CSIRT-Power (itself constituted as "an extended arm of CERT-In"). This directly answers Future Research item 2 in [[Cross_Regulator_Coordination_Pattern_Matrix]], from a sector that matrix did not cover. CERT-In is now the common node across three binding regimes, with a sub-sectoral CSIRT layer beneath. The reporting-hub-not-rule-design-hub limitation is confirmed as structural rather than RBI-specific.
+5. **ISO 27001 is mandated (reg 5(24))** — narrowing [[ISO_IEC_42001]]'s "no Indian regulator recognises certification as compliance evidence" to be specific to ISO 42001. India mandates the information-security standard and does not recognise the AI standard, which sharpens the "certification without recognition" thesis by making the contrast internal to India and internal to the ISO family.
+
+**Also:** institution-before-regulation instance **closed** at ≈22 months (CSIRT-Power: administrative Sept 2024 → binding Chapter II, 31 Jul 2026) — the only one of four such instances datable from both ends. MeitY concurrence recorded on the instrument's face — procedural coherence coexisting with substantive AI silence.
+
+**Downstream corrections applied this pass:** CEA_2 (superseded banner + sequencing gap closed); [[03_Domains/Power_Grid_Critical_Infrastructure_Governance]] (Core Synthesis update block; instrument table; technology-lag framing flagged as not surviving); [[Governance_Debt]] ("instruments predate machine learning" struck and replaced with deliberate-omission-with-notice; within-instrument assurance-debt instance added); [[Retention_Horizon_Divergence]] (new Inversion section); [[ISO_IEC_42001]] (ISO 27001 contrast block); [[Evidentiary_Governance]] (instance added; **OQ-EG-01 BSA blocker cleared** — BSA_1 has existed since 2026-08-02 and the flag was never updated); [[Cross_Regulator_Coordination_Pattern_Matrix]] (Cross-Sector Extension section; Future Research item 2 marked answered); [[Institutional_Coherence]], [[Governance_Capacity]], [[Assurance_Reuse_Gap]] (instances added); [[07_Institutions/CEA]] and `_Institutions_MOC.md` (new CEA row, instrument table).
+
+**Vault numbering state after this addition (2026-08-09):** CEA → **CEA_4** next; Parliament → Parliament_3 next; F-series → **F142** next; VERIFY → #314 (next = **#315**). Same caveat as above — verify against folder listings, not this table.
+
+---
+
+## Synthesis Pass — 2026-08-09 (H1–H4 / S1–S5 sequence)
+
+No corpus nodes written. **Five new synthesis artefacts** built entirely from material already in the vault, plus four hygiene resolutions. Logged here because the Bidirectional Linking Convention governs synthesis outputs as well as corpus intake.
+
+### New artefacts
+
+| Artefact | Type | Location | Core finding |
+|---|---|---|---|
+| [[06_Frameworks/Evidentiary_Destination_Matrix]] | Framework | `06_Frameworks/` | Seven instruments crosswalked against BSA s.63. **The certificate-readiness column is empty across the entire Indian corpus.** Closes the method step BSA_1's own Log specified. Answers OQ-EG-01 and OQ-JG-01. |
+| [[05_Concepts/05_Concepts_Standard/Orchestration_Governance]] | Standard Concept (candidate) | `05_Concepts_Standard/` | Governs the layer that sequences models and agents. Gate passed against five nodes. **US excludes by judgment (SR 26-2), China includes, India has not reached the question.** |
+| [[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]] | Signature Concept (candidate) | `05_Concepts_Signature/` | Institutional risk is generated at the data→model→workflow→decision→action handoffs, not in the model. Gate passed across **four sectors**. Explains what Governance_Debt's infrastructure-layer sub-pattern only catalogues. |
+| [[04_Knowledge_Products/Minimum_Evidence_Register_Autonomous_AI]] | Knowledge Product | `04_Knowledge_Products/` | Six-record register crosswalked against Indian law: **four of six records have no Indian legal hook.** Adds a seventh requirement — a named s.63(4) signatory — that exists in no Indian AI framework. |
+| [[11_Content/Content_Correction_Register]] | Content Register | `11_Content/` | Reverse index for corrections that landed in the vault but never reached the published artefact. Opens with C-01, the NIST attribution. |
+
+### Hygiene resolutions
+
+| # | Issue | Resolution |
+|---|---|---|
+| **H1** | `Evidentiary_Governance` blocked OQ-EG-01 on a BSA node that had existed since the same day the flag was written | ✅ Blocker cleared; BSA_1 added to Instances in Corpus |
+| **H2** | "Evidentiary debt" name collision between `Governance_Debt` and `Evidentiary_Governance` — flagged 2026-08-02, open since | ✅ Governance_Debt's variant renamed **Source-Verification Debt**; *evidentiary-destination debt* keeps the name unambiguously |
+| **H3** | NIST "Digital Forensics Artifact Catalog" corrected in the vault 2026-08-02, never corrected in the circulating carousel | ✅ Logged as C-01 in the new Content Correction Register, with the verified RBI_8 Definition 14 replacement anchor and a suggested reframe |
+| **H4** | `Evidentiary_Governance` held at candidate class "pending P4 execution" — circular, since it could not be used in P4 while held at candidate | ✅ **Elevated to signature class.** Grounds recorded in-note and the elevation is explicitly reversible |
+
+Also: S5 added a **Delegation as the Control Point** section to [[05_Concepts/05_Concepts_Standard/Human_Oversight]], recording that the Art. 14(4) five-item scheme collapses to effectively one item (the stop function) for agentic deployments — a scope limitation for the fsQCA D4 calibration that compounds the direction-of-bias already disclosed there. Both errors run the same way: **scores will be too high, for two independent reasons.**
+
+**New VERIFY flags:** #315–#328 (fourteen). The four to act on first: **#320** (the Microsoft architecture underlying Orchestration_Governance has no corpus node), **#322** (the NPCI instance in Decision_Infrastructure's gate is non-primary — the gate passes without it), **#324** (Decision_Infrastructure's novelty claim, OQ-DI-02, is unchecked and load-bearing), **#326** (the Minimum Evidence Register's absence codings assert corpus-wide absence).
+
+**MOC updates:** `_Concepts_MOC` (Evidentiary_Governance elevated; Decision_Infrastructure and Orchestration_Governance rows added); `_Frameworks_MOC` (Evidentiary_Destination_Matrix row added under Analytical Frameworks).
+
+**Vault numbering after this pass:** VERIFY → #328 (next = **#329**). Corpus series unchanged — no nodes written.
+
+---
+
 _Back to [[PRIS_Master_MOC]]_

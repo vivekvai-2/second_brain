@@ -76,7 +76,17 @@ Three layers, and only two are built:
 | **Standard adopted** | ✅ **IS/ISO/IEC 42001** — BIS has adopted the ISO text under Indian Standard numbering |
 | **Auditor training** | ✅ BIS's National Institute of Training for Standardization (NITS, Noida) runs a 5-day Lead Auditor course against it (course held 15–19 Dec 2025) |
 | **Accreditation scheme** | ❌ **No NABCB published accreditation programme, scheme document, or auditor-competence guidance located** — confirmed gap |
-| **Regulatory recognition** | ❌ No Indian regulator recognises certification as compliance evidence |
+| **Regulatory recognition** | ❌ No Indian regulator recognises **ISO/IEC 42001** certification as compliance evidence — but see the ISO 27001 contrast immediately below, added 2026-08-09 |
+
+> ### The ISO 27001 contrast — narrowing this finding, 2026-08-09
+>
+> The claim "no Indian regulator recognises certification as compliance evidence" was stated too broadly and should be read as specific to **ISO/IEC 42001**. [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] reg 5(24) **mandates** that power-sector entities "ensure compliance with and acquire **ISO/IEC 27001 certificate or Technical Criteria Certificate** encompassing all critical systems," with a bar on four consecutive certification audits by the same agency or personnel, and places the certificate in the CISO's mandatory custody under the First Schedule.
+>
+> So India does mandate a management-system certificate as a binding compliance obligation — it is the **information-security** standard, not the **AI** standard.
+>
+> **This sharpens the "certification without recognition" thesis rather than weakening it.** The contrast is now internal to India and internal to the ISO management-system family, which is a cleaner comparison than the cross-jurisdictional one: the same regulator, in the same instrument, mandates ISO 27001 and says nothing about AI management systems. The unit-of-certification argument explains why — ISO 27001 certifies an organisational security posture that maps directly onto CEA's entity-level obligations, whereas ISO 42001 would have to discharge system-level AI conformity obligations **that do not exist anywhere in Indian law**. There is nothing for a 42001 certificate to be recognised *against*.
+>
+> **A second Indian accreditation regime also appears here.** CEA_3 reg 3(1)(jj) defines the **Technical Criteria Certificate** as one "issued to an organisation by a designated certification body **accredited** for ensuring conformance to cyber security standards specified by the Central Government." That sits alongside the unresolved NABCB/AIMS accreditation question at ⚠ #304 (see the India section below) and is worth checking when that flag is resolved — the two may share an accreditation body.
 
 India has adopted an AI management-system standard and is training lead auditors against it, with no confirmed national accreditation scheme for the certification bodies those auditors would work for, and no regulator that treats the resulting certificate as meaning anything. **A fourth instance of the "institution before regulation" sequencing pattern** already recorded for CSIRT-Power, the AA regime, and Sahamati — here in the form *standard before scheme before recognition*.
 

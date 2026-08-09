@@ -71,6 +71,58 @@ Use GIRAI only as an external convergent-validity check at country level, never 
 - Oversight of an autonomous/agentic system differs in kind from oversight of a decision-support system, because the intervention window may close before a human can act. See [[Agentic_AI_Governance]].
 - Oversight is distinct from [[Contestability_Redress]]: oversight operates *ex ante or in-flight* and is exercised by the deploying organisation; contestability operates *ex post* and is exercised by the affected person.
 
+---
+
+## **Delegation as the Control Point (added 2026-08-09)**
+
+The Art. 14(4) five-item scheme above assumes a particular shape of control: a human positioned at an output, able to interpret it, override it, or halt the system. That shape holds for decision-support systems. **It does not hold for delegated autonomy, and the difference is not one of degree.**
+
+### The shift
+
+| | Model as control point | Delegation as control point |
+|---|---|---|
+| **Chain** | Policy → Model → Output | Policy → Delegation → Orchestration → Execution → Evidence |
+| **What is governed** | The individual output | The **grant of authority** |
+| **Human act** | Reviews each output | Approves the delegation **once** |
+| **Frequency thereafter** | Per decision | The agent acts repeatedly, at machine speed |
+| **Assurance question** | Was this output correct? | Was this authority properly granted, correctly bounded, and is its exercise reconstructable? |
+
+The human does not disappear. **Control changes shape**: it moves from reviewing actions to governing authority, and it moves *upstream*, from the point of output to the point of grant. An oversight regime that only measures the downstream position will score a delegated-autonomy deployment as ungoverned when it may be well governed, or as governed when the single approving act was uninformed — and Art. 14(4) has no item that detects either error.
+
+### Why the Art. 14(4) scheme cannot capture it
+
+Each of the five items presupposes a human *at* the output:
+
+| Art. 14(4) item | What delegation does to it |
+|---|---|
+| (a) understand capacities and limitations | Still applies — arguably harder, since the human must understand them prospectively, across every action the grant will license |
+| (b) automation-bias countermeasures | Still applies, and worsens — a single approval is a far weaker bias check than repeated review |
+| (c) correctly interpret output | **Attenuates** — there may be no output the human sees |
+| (d) decide not to use, override, reverse | **Attenuates** — reversal is post hoc, if the action is reversible at all |
+| (e) intervene or halt | **Survives, and becomes central** — this is the kill switch, and it is the one item that operates on the authority rather than the output |
+
+Item (e) is the only one that transfers cleanly. **A five-item scheme scoring an agentic deployment is effectively a one-item scheme**, and this should be disclosed as a scope limitation in the D4 calibration rather than discovered by a reviewer.
+
+### Convergent regulatory evidence
+
+Three independent sources reach the delegation framing without citing each other:
+
+- **[[07_Institutions/Corpus/International/International_35_IMDA_Model_Framework_AI_Verify]]** — pillar 2, "make humans **meaningfully** accountable," paired with an L1–L4 autonomy scale (human-led → collaborative → supervised → autonomous). *As autonomy scales, so must accountability* — an explicit statement that the oversight question changes with the autonomy tier rather than being answered once.
+- **[[05_Concepts/05_Concepts_Standard/Model_Risk]] / SR 26-2** (Fed/OCC/FDIC, April 2026) — carves generative and agentic AI **out of model risk scope**. A supervisor concluding that output-centred validation does not fit agentic systems, and declining to specify what does. The vacancy is the delegation layer.
+- **[[06_Frameworks/SAIL_Secure_AI_Lifecycle]]** and the China CAC agentic guidance ([[04_Knowledge_Products/Wiki_Intake/F139_ConcordiaAI_State_of_AI_Safety_China_2026]]) — the **action control vs access control** pivot, reached from US enterprise-security practice and Chinese state regulation respectively, from opposite baselines. CAC's formulation is closest to the point: clear boundaries between actions an agent may take alone, those requiring user authorisation, and the user's own decisions. **That is a delegation-scope specification, not an oversight specification.**
+
+### India
+
+[[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] calls for "human oversight, especially for medium- and high-risk use cases" for autonomous systems capable of independent financial decision-making. It does not distinguish oversight-of-output from governance-of-delegation, and specifies neither. **No Indian instrument addresses delegation scope, delegation approval, or delegation records** — see the crosswalk at [[04_Knowledge_Products/Minimum_Evidence_Register_Autonomous_AI]], where "delegation approval" is one of four records with no Indian legal hook at all.
+
+### Consequence for D4 calibration
+
+The bespoke Art. 14(4) coding scheme remains the right instrument for the corpus as it stands, because the instruments being coded are themselves written in output-oversight terms. **But record the scope limitation explicitly:** the scheme measures oversight-of-output and is close to silent on governance-of-delegation, so any case whose deployment is agentic will be scored on a dimension its actual governance does not operate on. This compounds the direction-of-bias already disclosed in the Measurement Risk section — instrument text over-estimates real oversight, *and* the scheme measures the wrong kind of oversight for agentic cases. Both cut in the same direction: **scores will be too high, for two independent reasons.**
+
+Disclosing this pre-emptively is a credibility gain. A reviewer who finds it first will treat the whole D4 calibration as unexamined.
+
+**Related:** [[05_Concepts/05_Concepts_Standard/Orchestration_Governance]] governs the layer immediately beneath the delegation grant — what sequences the granted authority may be exercised through. Human Oversight asks whether a person can intervene; Orchestration Governance asks whether the grant was approved and is reconstructable. They are complements, and neither is covered by the other.
+
 ## **Measurement Risk**
 
 No dedicated critique arguing human oversight is unmeasurable was located, which is itself a finding — the construct is under-theorised rather than contested. The nearest critical purchase comes from the automation-bias literature embedded in Art. 14(4)(b) itself: nominal oversight arrangements routinely fail in practice, so any measure scoring instrument text will systematically over-estimate real oversight. **Declare this direction-of-bias explicitly.** It cuts against the thesis's likely findings (it inflates scores for well-drafted regimes), which makes disclosing it a credibility gain rather than a cost.

@@ -32,7 +32,13 @@ tags:
 
 **Primary source link:** CEA draft regulations archive: https://cea.nic.in/regulations-category/draft-regulations/?lang=en (2024 draft text: https://cea.nic.in/wp-content/uploads/notification/2024/08/Draft_CEA_Cyber_Security_in_Power_Sectyor_Regulations_2024_English_Version.pdf)
 
-**⚠ Status flag: this is a draft, not binding law.** Comment deadline passed 7 November 2025; not confirmed as finalised/gazetted as of this intake (2026-08-02). Any PRIS analysis must treat CEA_1 (2021 Guidelines) as the currently operative instrument and this draft as prospective only.
+> ## ✅ STATUS RESOLVED 2026-08-09 — SUPERSEDED BY NOTIFICATION
+>
+> **The draft was notified as the Central Electricity Authority (Cyber Security in Power Sector) Regulations, 2026 on 31 July 2026** (Gazette of India, Extraordinary, Part III—Section 4, No. 484). See **[[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]]** — the notified instrument, Tier A, in force 1 April 2027 with six regulations deferred to separate orders.
+>
+> **This node is retained as the draft-stage antecedent only.** For any current-law claim, cite CEA_3. Two draft-to-final deltas recorded below are now historical and should not be cited as current: the audit cadence (draft: bi-annual IT / annual OT → final: a single annual comprehensive audit across all critical systems, 9–15 month window, reg 5(22)) and commencement (draft: six months after Gazette publication → final: 1 April 2027, roughly eight months post-notification, with staggered commencement for the six costliest obligations).
+
+~~**⚠ Status flag: this is a draft, not binding law.** Comment deadline passed 7 November 2025; not confirmed as finalised/gazetted as of this intake (2026-08-02). Any PRIS analysis must treat CEA_1 (2021 Guidelines) as the currently operative instrument and this draft as prospective only.~~ **Resolved — see above.**
 
 ---
 
@@ -68,6 +74,8 @@ As with CEA_1, no provision in either the 2024 or 2025 draft addresses AI-based 
 
 ### Institution-before-regulation sequencing — a second instance of the pattern
 CSIRT-Power's administrative inauguration (September 2024) preceding its regulatory formalisation (draft Regulations still pending as of November 2025 comment deadline) is structurally identical to the DPDP Board's "stand up the regulator before activating the regime" sequencing already documented in [[06_Frameworks/DPDP_Act_2023]] and [[07_Institutions/Corpus/MeitY/MeitY_8_DPDP_Act_2023]]. This is now a **second confirmed instance** of the same institutional-sequencing pattern in a completely different sector, strengthening the case that this is a general feature of Indian regulatory institution-building rather than a DPDP-specific idiosyncrasy — worth a note in [[05_Concepts/05_Concepts_Standard/Governance_Capacity]].
+
+**Update 2026-08-09 — this instance is now closed and datable end-to-end.** Formal constitution came with [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] Chapter II (31 July 2026), which confers fourteen enumerated functions and binding authority over both entities and vendors. **The sequencing gap measures approximately 22 months** — September 2024 operational, July 2026 formal. This is the only one of the corpus's four institution-before-regulation instances (CSIRT-Power, the AA regime/DEPA, Sahamati, BIS/IS-ISO-IEC-42001 adoption) that can now be dated from both ends, which makes it the reference case for the pattern.
 
 ---
 

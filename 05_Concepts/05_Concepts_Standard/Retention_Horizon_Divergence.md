@@ -81,6 +81,30 @@ CERT_In_3 is the sharpest case: an instrument willing to specify a **twelve-hour
 
 **Reframing.** The construct was originally built around *divergence* between regulators (1 year to 10 years). The 2026 Indian evidence suggests divergence may be the milder pathology. Where retention is stated, an entity can comply with the longest horizon. Where it is universally unstated while evidentiary sufficiency is mandated, there is no horizon to comply with at all — and the obligation becomes unfalsifiable until tested adversarially. **Consider whether the concept should be renamed to cover both limbs**, e.g. *Retention Horizon Indeterminacy*, with divergence and abdication as its two variants. Flagged for decision at the next indexing pass; not renamed unilaterally.
 
+### **The inversion — CEA_3, added 2026-08-09. Abdication is a drafting choice, and here is the proof.**
+
+The abdication argument above rests on an implicit premise worth testing: that something about 2026 Indian cyber instruments — their subject matter, their drafting period, their sectoral character — disposes them against stating retention periods. **[[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] refutes that premise, and does so on the same calendar day as RBI_8.**
+
+The Central Electricity Authority (Cyber Security in Power Sector) Regulations, 2026 were notified **31 July 2026** — the identical date as RBI_8 — and specify **seven distinct retention horizons** in a single instrument:
+
+| Horizon | Record class | Provision |
+|---|---|---|
+| **Not older than one month** | Backup of all critical systems; last two working backups available | reg 8(18), 8(33) |
+| **180 days** | Logs of all ICT systems; OT–IT interconnection logs; forensic records | reg 8(33)(h) |
+| **365 days** | Incident-associated logs, **including 180 days prior and 180 days post**, from occurrence | reg 8(33)(i) |
+| **1 year** | Risk assessment, physical record of approval and logs for each remote access to critical systems; OT remote-operation risk assessment and approval | reg 8(33)(b), (d) |
+| **3 years** | Cyber security audit reports; self-audit reports | reg 8(33)(e), (g) |
+| **4 years** | Certification audit reports | reg 8(33)(f) |
+| **Life of asset** | FAT and SAT reports including cyber security requirement testing | reg 8(33)(c) |
+
+It further makes the **data retention policy itself a mandated component** of the Cyber Security Policy (reg 8(33)), reviewed and updated at least annually, and places twelve document classes in the CISO's custody under a **First Schedule**.
+
+**Why this matters more than the horizons themselves.** Two Indian regulators, same day, same jurisdiction, both governing critical-infrastructure technology estates, both binding, both evidentially motivated — one specifies nothing and delegates to stakeholder consultation, the other specifies seven horizons and a mandatory custody schedule. Sector, period, instrument type and drafting sophistication are all held constant. **What varies is the drafting choice.** This forecloses every structural or temporal excuse for RBI_8's silence and is the strongest available evidence that retention abdication is elective rather than constrained.
+
+It also strengthens the case for the *Retention Horizon Indeterminacy* rename flagged above: the construct now has to hold divergence (1–10 years across regulators), abdication (RBI_8, SEBI_18, CERT_In_3), **and** dense specification (CEA_3) as three positions on one axis.
+
+**Partial relief for the 180-day blocking flag.** The ⚠ VERIFY item below records that the 180-day figure exists in the vault only secondhand, via NCAIC_1's cross-reference to the CERT-In 28 April 2022 Directions, and is blocked for publication-track use pending a primary node. **CEA_3 reg 8(33)(h) supplies 180 days from a gazetted primary instrument** — from CEA rather than CERT-In, so it does not close the CERT-In node gap, but the figure is no longer unsupported in the corpus. **The CERT-In 2022 Directions node should still be created.**
+
 **Watch item.** [[07_Institutions/Corpus/IRDAI/IRDAI_2_Working_Group_AI_Governance_2026]] mandate item 9 requires an AI audit framework covering **pre- and post-deployment** requirements, due ~18 September 2026. Post-deployment audit is impossible without retained inference-time records. This is the most likely place a retention horizon finally appears in an Indian AI instrument.
 
 ### ⚠ VERIFY — figures held secondhand, excluded from the gate

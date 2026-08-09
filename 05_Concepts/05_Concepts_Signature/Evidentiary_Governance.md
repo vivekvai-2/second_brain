@@ -1,11 +1,11 @@
 ---
 type: Signature Concept
-status: candidate
-last_updated: 2026-08-02
+status: active
+last_updated: 2026-08-09
 tags:
   - type/concept-signature
-  - status/candidate
-  - concept-class/candidate
+  - status/active
+  - concept-class/signature
   - paper/p4-primary
   - paper/p3
   - paper/fsqca
@@ -15,7 +15,7 @@ tags:
   - engine/linkedin
   - content/carousel-ready
 concept_class:
-  - candidate
+  - signature
 linked_domains:
   - "[[03_Domains/AI_Governance]]"
   - "[[03_Domains/Cybersecurity_Governance]]"
@@ -28,7 +28,18 @@ linked_projects:
 
 # **Evidentiary Governance**
 
-**Type:** Signature Concept (candidate class) **Status:** Candidate — Three-Instance Gate passed 2026-08-02, elevation to signature pending P4 execution **Last Updated:** 2026-08-02
+**Type:** Signature Concept **Status:** **ELEVATED to signature class 2026-08-09** (was: candidate, pending P4 execution) **Last Updated:** 2026-08-09
+
+> ### Elevation record — 2026-08-09
+>
+> Elevated from candidate to signature class. The prior condition was "pending P4 execution," which was circular: the construct could not be used in P4 while held at candidate class, and could not be elevated until used. The substantive grounds now stand independently of P4:
+>
+> 1. **Gate passed with seven verified corpus instances**, not three — RBI_8, RBI_1, CERT_In_1, MeitY_4, International_22, DHC_1, CEA_3 — spanning four regulators, two jurisdictions, one judgment, and both BFSI and critical-infrastructure sectors.
+> 2. **Its primary contribution candidate (OQ-EG-01) is no longer blocked.** BSA_1 exists; the crosswalk it called for has been performed and is written up at [[06_Frameworks/Evidentiary_Destination_Matrix]], which produced a publishable headline finding — the s.63(4) certificate-readiness column is empty across the entire Indian corpus.
+> 3. **It has generated a downstream framework and a knowledge product** ([[06_Frameworks/Evidentiary_Destination_Matrix]], [[04_Knowledge_Products/Minimum_Evidence_Register_Autonomous_AI]]) and supplies the artefact-class specification for a second concept ([[05_Concepts/05_Concepts_Standard/Orchestration_Governance]]). Generativity of that kind is the practical test of signature status.
+> 4. **The naming collision that muddied it is resolved** (see Intersection section).
+>
+> **Reversible.** If P4 develops without this construct as its organising axis, demote to candidate and record the reason here. The elevation is a working judgment, not a commitment.
 **Theoretical Lineage:** Forensic readiness (Tan 2001; Daubner et al. 2023); assurance-case and safety-case scholarship (ISO/IEC/IEEE 15026; Clymer et al. 2024); AI audit ecosystem (Raji et al. 2024; Goodman & Trehu 2023); institutional decoupling (Meyer & Rowan 1977); electronic-evidence doctrine (Bharatiya Sakshya Adhiniyam 2023, s.63 — ⚠ corpus node not yet created)
 
 ---
@@ -89,7 +100,7 @@ Per [[00_MOC/Workflow_Discipline_Protocol]] CDW-1, entry requires three distinct
 
 **[[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]** — Evidentiary Governance exposes parallelism at a layer the existing matrix does not reach. [[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]] documents parallelism in *rule design*; Evidentiary Governance documents it in *artefact specification*, where four Indian regulators independently mandate functionally equivalent logging without common artefact definitions, formats, or horizons.
 
-**[[05_Concepts/05_Concepts_Signature/Governance_Debt]]** — supplies a new debt variant: *evidentiary-destination debt*, where an instrument mandates retention without specifying whether the retained artefact must satisfy supervisory inspection or legal admissibility, leaving the regulated entity to guess at the standard. This is distinct from the existing evidentiary-debt variant catalogued in Governance_Debt (which concerns absence of primary source in the vault, a research-quality issue) — the naming collision should be resolved at the next indexing pass.
+**[[05_Concepts/05_Concepts_Signature/Governance_Debt]]** — supplies a new debt variant: *evidentiary-destination debt*, where an instrument mandates retention without specifying whether the retained artefact must satisfy supervisory inspection or legal admissibility, leaving the regulated entity to guess at the standard. ✅ **Naming collision resolved 2026-08-09** — Governance_Debt's variant (absence of primary source in the vault, a research-quality issue) has been renamed **Source-Verification Debt**; *evidentiary-destination debt* keeps this name unambiguously and is now operationalised in [[06_Frameworks/Evidentiary_Destination_Matrix]], which finds it universal across the Indian corpus: **not one instrument states what its retained artefacts are for.**
 
 **[[05_Concepts/05_Concepts_Signature/Institutional_Coherence]]** — the strongest coherence test available. Instruments may converge on principle (the Seven Sutras / IOSCO / SEBI convergence documented at [[07_Institutions/Corpus/International/International_19_IOSCO_AI_Capital_Markets_CR_2025]]) while diverging completely on the artefacts that would evidence compliance. Principle-level coherence without artefact-level coherence is coherence that cannot be verified.
 
@@ -151,7 +162,11 @@ The consequence is that **the method of interrogating a system now bears on the 
 
 ## **Open Research Questions**
 
-**OQ-EG-01 (primary contribution candidate).** Would artefacts generated to satisfy EU AI Act Art. 12 logging or ISO/IEC 42001 documented-information requirements satisfy the certification conditions for electronic-record admissibility under Bharatiya Sakshya Adhiniyam s.63(4)? The technical-standards literature and the evidence-law literature do not currently speak to each other. ⚠ **VERIFY / GAP:** no BSA corpus node exists in the vault — s.63 provisions cited here derive from external Deep Research (2026-08-02), not from vault primary-source intake. **A BSA_1 corpus node must be created before this question is used in any publication-track output.**
+**OQ-EG-01 (primary contribution candidate).** Would artefacts generated to satisfy EU AI Act Art. 12 logging or ISO/IEC 42001 documented-information requirements satisfy the certification conditions for electronic-record admissibility under Bharatiya Sakshya Adhiniyam s.63(4)? The technical-standards literature and the evidence-law literature do not currently speak to each other.
+
+> ✅ **BLOCKER CLEARED 2026-08-09.** The original flag read: *"no BSA corpus node exists in the vault — s.63 provisions cited here derive from external Deep Research (2026-08-02), not from vault primary-source intake. A BSA_1 corpus node must be created before this question is used in any publication-track output."* **That node exists** — [[07_Institutions/Corpus/Parliament/BSA_1_Section_63_Admissibility_2023]], created 2026-08-02, the same day this flag was written. The flag was never updated. **OQ-EG-01 is unblocked.**
+>
+> BSA_1's own Log specifies the next step, still not done: *"systematically check RBI_8, CERT_In_2/3, SEBI's AI/ML reporting circulars, and DPDP's breach-notification retention rules against s.63(2)'s four conditions and s.63(4)'s certificate-signatory requirement."* **Add [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] to that list** — as the corpus's most artefact-specified instrument it is the strongest test case, and its silence on admissibility is the most telling.
 
 **OQ-EG-02.** Are Indian sectoral logging mandates (RBI, SEBI, CERT-In) designed with eventual litigation use in mind, or purely for supervisory purposes? Neither [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] nor the SEBI AI instruments reference evidentiary or admissibility standards anywhere in the coded corpus.
 
@@ -166,6 +181,8 @@ The consequence is that **the method of interrogating a system now bears on the 
 ---
 
 ## **Provenance and Correction Record**
+
+> ⚠ **The content side of this correction was not closed until 2026-08-09.** The vault was corrected on 2026-08-02; the carousel carrying the false attribution kept circulating for a further week because nothing linked the corrected concept back to the artefact. Logged as **C-01** in [[11_Content/Content_Correction_Register]], which now exists as the reverse index for exactly this failure mode. Check it before republishing any practitioner artefact.
 
 The construct originated in practitioner content drafted 2026-08-01 and was verified against external Deep Research on 2026-08-02. **One material correction was applied at intake:** the originating draft attributed a "Digital Forensics Artifact Catalog" to NIST. No such NIST publication exists. NIST's actual outputs in this space are CFTT (forensic *tool* reliability testing), CFReDS (reference test datasets), and SP 800-86 (2006, unsuperseded — a four-phase forensic *process* guide: collection, examination, analysis, reporting). The community-maintained ForensicArtifacts/Artifact Definitions repository is the nearest artefact catalogue and has no institutional relationship to NIST. **The forensics-to-AI-oversight structural analogy does not depend on the NIST attribution and survives its removal.** Any downstream content reusing this construct must not repeat the original attribution.
 
@@ -205,6 +222,7 @@ A genuine, citable NIST-to-India evidentiary transmission exists and should be u
 - [[07_Institutions/Corpus/IRDAI/IRDAI_2_Working_Group_AI_Governance_2026]] — pre- and post-deployment AI audit framework mandated, due ~18 Sep 2026 (watch item)
 - [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]] — immutable audit trails at principle level, unspecified at operational level
 - [[04_Knowledge_Products/Wiki_Intake/SCI_1_White_Paper_AI_and_Judiciary_2025]] — Ch. 4.C evidence tampering and deepfakes; the corpus's only judicial-side evidentiary treatment
+- (2026-08-09) [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] — **the corpus's most completely specified instrument on the first two constitutive dimensions.** *Artefact specification:* a **First Schedule** naming twelve mandatory retained document classes (Cyber Security Policy and its procedures, Cyber Crisis Management Plan, Data Retention Policy, ISO 27001/TCC certificate, asset register, Cyber Risk Assessment and Mitigation Plan, Incident Response and Recovery Plan, incident register, **Bill of Materials**, Business Continuity Plan, remote operation procedure, remote access procedure) placed in the CISO's custody by reg 7(3)(i). *Retention horizon:* **seven distinct periods** (see [[05_Concepts/05_Concepts_Standard/Retention_Horizon_Divergence]] §Inversion). *Custody and integrity:* India-resident encrypted storage (reg 5(19)), access restricted to authorised persons under a defined access-control procedure, forensic records retained 180 days and incident-associated logs 365 days spanning ±180 days around the event (reg 8(33)(h)–(i)). Notified the **same day** as RBI_8 and specifying everything RBI_8 delegates — the sharpest available demonstration that the fourth dimension's absence elsewhere is elective. *Evidentiary destination:* still unresolved here too — the instrument nowhere states whether retained artefacts must satisfy supervisory inspection or adversarial legal proof, and does not engage the Bharatiya Sakshya Adhiniyam. **The construct's fourth-dimension gap therefore survives even the corpus's best-specified instrument**, which is a stronger form of the OQ-EG-01 finding than the Indian AI instruments alone supply.
 
 ---
 

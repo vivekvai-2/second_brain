@@ -27,36 +27,15 @@ This session (a Desktop-folder ad hoc intake, not a formal batch) found that `Co
 | MeitY | MeitY_9 |
 | CERT-In (new-style) | CERT_In_4 |
 | IRDAI | IRDAI_3 |
-| Parliament | Parliament_3 (note: BSA_1 also lives in this folder, on its own naming) |
+| Parliament | Parliament_3 |
 | DHC | DHC_2 |
-| **CEA** | **CEA_4** (CEA_3 added this session) |
 | F-series (Wiki Intake) | F142 |
 | International | International_39 |
-| VERIFY flags | **#328 used as of 2026-08-09; next = #329.** Caveat stands for anything earlier — flags are scattered across nodes and the historical trackers are stale. If a precise count is needed, grep the vault for `⚠` / `VERIFY #` patterns directly. |
+| VERIFY flags | Do not trust any running count — flags are scattered across nodes and this file's/Corpus_Index_MOC's trackers are both stale. If a precise count is needed, grep the vault for `⚠` / `VERIFY #` patterns directly. |
 
 ---
 
-## 🔴 Headline this session (2026-08-09): CEA_3 — the power sector's binding cyber regulation is notified, and it is AI-silent
-
-[[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] — **Central Electricity Authority (Cyber Security in Power Sector) Regulations, 2026**, notified **31 July 2026**, Gazette No. 484, in force **1 April 2027** with six regulations deferred to separate Authority orders. Tier A: 17 regulations, 40 definitions, 10 chapters, 2 Schedules. **Not a duplicate** — CEA_2 was the 2025 draft, whose "not confirmed as finalised" flag this closes.
-
-**Why it matters more than anything else processed today:**
-
-1. **Zero AI provisions — and this time it is not lag.** CEA legislated afresh, published a draft for comment 7 Oct 2025, considered objections, and had on-record notice from its own parent ministry (Rajya Sabha, 18 Dec 2023) that Grid-India runs production ML on the national grid. The `Governance_Debt` entry that read "instruments predate machine learning" is now struck and replaced: this is **deliberate omission with notice**, a materially harder finding to explain away and a better one for P4.
-2. **Same-day parallelism with RBI_8.** Both notified 31 July 2026. Both binding, both comprehensive over their sector's technology estate, both six-hour dual-channel incident reporting, both AI-silent, neither citing the other. Same-day issuance forecloses every sequencing explanation available for the corpus's other convergences. Mechanism inferred, not established (⚠#311).
-3. **The retention inversion.** CEA_3 specifies **seven retention horizons** and a twelve-item mandatory custody schedule; RBI_8, the same day, specifies none and delegates to stakeholder consultation. Sector, period and instrument type held constant — **what varies is the drafting choice**. This is the strongest available refutation of any structural excuse for RBI_8's abdication, and it is recorded as a new section in `Retention_Horizon_Divergence`.
-4. **M1 upgraded to an N-regulator hub.** Reg 7(3)(a) mandates six-hour reporting to CERT-In *and* CSIRT-Power (constituted as "an extended arm of CERT-In"). This answers Future Research item 2 in `Cross_Regulator_Coordination_Pattern_Matrix` outright, from a sector that matrix never covered.
-5. **ISO 27001 is mandated (reg 5(24))** — which narrows `ISO_IEC_42001`'s "no Indian regulator recognises certification" finding to be specific to ISO 42001, and sharpens the "certification without recognition" paper thesis by making the contrast internal to India.
-
-Also: the CSIRT-Power **institution-before-regulation instance closes at ≈22 months** — the only one of the corpus's four such instances now datable from both ends. MeitY concurrence appears on the instrument's face while MeitY is the ministry that issued the IndiaAI Governance Guidelines: procedural coherence with substantive silence.
-
-**Downstream corrections applied:** CEA_2, `Power_Grid_Critical_Infrastructure_Governance` (its *technology-lag* framing explicitly flagged as not surviving), `Governance_Debt`, `Retention_Horizon_Divergence`, `ISO_IEC_42001`, `Evidentiary_Governance`, `Cross_Regulator_Coordination_Pattern_Matrix`, `Institutional_Coherence`, `Governance_Capacity`, `Assurance_Reuse_Gap`, `07_Institutions/CEA`, `_Institutions_MOC`, `Corpus_Index_MOC`.
-
-**⚠ Six new VERIFY flags, #309–#314, none HIGH.** The two that matter: the AI null finding rests on a term sweep of a bilingual Gazette extraction with Devanagari OCR corruption in the Hindi portion (English extracted cleanly and is the basis for every provision cited) — **re-run the sweep against the CEA-hosted PDF before publishing the null finding as a headline claim** (#310); and six regulations have no commencement date, so no compliance-burden analysis should treat them as in force on 1 April 2027 (#312).
-
----
-
-## Also this session (2026-08-09) — Desktop-folder ad hoc intake
+## This session (2026-08-09) — Desktop-folder ad hoc intake
 
 Not a formal Policy Dump batch. Vivek asked for all files in `/Users/vivek/Desktop/` to be triaged and, on confirmation, a small batch processed. Full triage report: `Desktop_Intake_Triage_20260809.md` (in the Obsidian Vault Housekeeping folder, not the vault itself).
 
@@ -75,31 +54,6 @@ Parliament_2 states, on the ministerial record (5 Aug 2026), that NABCB has an o
 
 ### Indexing pass completed this session
 "Instances in Corpus" entries added to [[05_Concepts/05_Concepts_Standard/Governance_Capacity]], [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]], [[05_Concepts/05_Concepts_Signature/Governance_Debt]]. `_Institutions_MOC.md` Research Corpus Mapping table: new Parliament row added. Full detail logged in `Corpus_Index_MOC.md`'s new "Ad Hoc Batch — 2026-08-09" section at the end of that file.
-
----
-
-## Also this session (2026-08-09) — full H1–H4 / S1–S5 synthesis sequence run
-
-Five synthesis artefacts built **entirely from material already in the vault** — no new sourcing — plus four hygiene resolutions. Full detail in `Corpus_Index_MOC.md` §Synthesis Pass.
-
-| Artefact | What it establishes |
-|---|---|
-| [[06_Frameworks/Evidentiary_Destination_Matrix]] | Seven instruments crosswalked against BSA s.63. **The s.63(4) certificate-readiness column is empty across the entire Indian corpus.** This is P4's contribution claim, and it is now documentary. |
-| [[05_Concepts/05_Concepts_Standard/Orchestration_Governance]] | The layer that sequences models and agents. **US excludes by judgment (SR 26-2), China includes and is mandating, India has not reached the question** — a regulatory-lag argument that does not depend on the India-lags-the-West narrative. |
-| [[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]] | Your own Release 0.1 framework, gated across **four sectors**. Explains what `Governance_Debt`'s infrastructure-layer sub-pattern only catalogues. |
-| [[04_Knowledge_Products/Minimum_Evidence_Register_Autonomous_AI]] | Six-record register crosswalked against Indian law: **four of six have no Indian legal hook.** |
-| [[11_Content/Content_Correction_Register]] | Reverse index closing the loop between vault corrections and circulating content. |
-
-**Hygiene:** H1 BSA blocker cleared · H2 naming collision resolved (Governance_Debt's variant → *Source-Verification Debt*) · H3 NIST attribution logged as C-01 with the verified replacement anchor · **H4 `Evidentiary_Governance` elevated to signature class** (reversible; grounds recorded in-note). S5 added a *Delegation as the Control Point* section to `Human_Oversight` recording that Art. 14(4) collapses to effectively one item for agentic deployments — a D4 calibration scope limitation.
-
-### 🔴 The four flags to resolve before any of this goes external
-
-| Flag | Issue | Why it matters |
-|---|---|---|
-| **#320** | The Microsoft AI-native security architecture underlying `Orchestration_Governance` **has no corpus node** — the six-layer taxonomy is quoted from your own carousel, not from a primary Microsoft document | The construct's originating source is uncited. Create a Wiki Intake node before citing the taxonomy |
-| **#322** | `Decision_Infrastructure`'s NPCI gate instance rests on trade reporting, not a primary instrument | **The gate passes without it** — either create an NPCI corpus node or drop the instance |
-| **#324** | `Decision_Infrastructure`'s novelty claim (OQ-DI-02: does any jurisdiction govern decision chains as such?) is **unchecked and load-bearing** | If one does, the contribution weakens from "identifies an ungoverned layer" to "documents India's absence." Check before framing an abstract |
-| **#326** | The Minimum Evidence Register's ❌ codings assert corpus-wide absence | High confidence for records 1/3/4, but confirm against IRDAI WG-AI (due ~18 Sep 2026) and SEBI_15 CSCRF |
 
 ---
 
@@ -132,13 +86,10 @@ CERT-In legacy/new naming unification (cosmetic); Karnataka_Govt_2 AI policy pub
 
 ## Recommended Next Session Options
 
-0. **Re-run the CEA_3 AI term sweep against a clean CEA-hosted PDF (⚠#310)** — the null finding is the node's headline contribution and currently rests on an OCR-degraded bilingual Gazette extraction. Low effort, removes the only real risk attached to the session's most valuable finding.
-0b. **Write the CERT-In 28 April 2022 Directions corpus node.** Flagged as blocking in `Retention_Horizon_Divergence` since 2026-08-02. CEA_3 has now supplied a first-party binding 180-day figure, which relieves the pressure but does not close the gap — the 2022 Directions remain the most-cited log-retention obligation in Indian practice and their absence is conspicuous. Also create a node for CERT-In's "15 Elemental Cyber Defense Controls for MSMEs," cited by CEA_3 reg 2(1)(a) and absent from the vault (⚠#314).
-1. **Resolve the NABCB/ISO 42006 contradiction (HIGH, new this session)** — check NABCB's own site/gazette before either the Parliament_2 or ISO_IEC_42001 finding is used in any publication-track output. **Now also relevant to CEA_3's Technical Criteria Certificate** (reg 3(1)(jj)), a second Indian accreditation-of-certifiers regime that may share an accreditation body.
+1. **Resolve the NABCB/ISO 42006 contradiction (HIGH, new this session)** — check NABCB's own site/gazette before either the Parliament_2 or ISO_IEC_42001 finding is used in any publication-track output.
 2. Backfill Corpus_Index_MOC.md's batch log for the un-logged nodes (RBI_8–13, SEBI_18, IRDAI_2, CERT_In_3, DHC_1, Parliament_1, DPB_1, BIS_1, International_33–38, F131–F141) — or formally accept the gap and rely on folder listings.
 3. Continue the `LI July 26/` Desktop subfolder — first-pass scan (this session) found ~6 more third-party AI-governance documents not yet processed (Director's Guide to AI Governance, China country profile, India digital sovereignty, AI insurance stack, "Operationalizing AI Guidance," two agentic/offensive-cyber pieces not yet text-extracted). See `Desktop_Intake_Triage_20260809.md` §3 for the list.
-3b. ~~Two synthesis notes are now materially stronger and were already scoped~~ **✅ DONE — the full H1–H4 / S1–S5 sequence was run this session.** See the synthesis section above. What remains from that scope: **S2's #320** (Microsoft architecture corpus node) and **S3's #322/#324** (NPCI primary source; novelty check) — both are follow-through on artefacts now written, not new work.
-4. Resolve Records_Rules_Asymmetry via Option B (ADICO-code MeitY_4). **Note:** CEA_3 is also a high-yield ADICO target — 17 regulations with enumerated deontic-explicit sub-clauses, reg 5 carrying 42 and reg 8 carrying 33.
+4. Resolve Records_Rules_Asymmetry via Option B (ADICO-code MeitY_4).
 5. Force-materialise any remaining Policy Dump Future iCloud placeholders (host-side Finder action) and resume formal batch intake.
 6. Address the two P2_References.md citation bugs (Vivek's call).
 

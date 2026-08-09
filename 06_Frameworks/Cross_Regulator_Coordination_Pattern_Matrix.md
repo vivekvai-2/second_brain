@@ -86,6 +86,29 @@ The separation is a choice, not an omission. RBI_8 specifies six-hour incident r
 
 ---
 
+## Cross-Sector Extension — CEA_3, added 2026-08-09
+
+Two additions from [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] (Central Electricity Authority (Cyber Security in Power Sector) Regulations, 2026), the matrix's first non-BFSI instrument.
+
+| Pair | Cross-reference | Evidence | Pattern |
+|---|---|---|---|
+| **CEA_3 ↔ RBI_8** | **None — notified the same day, 31 July 2026** | Two binding technology-risk frameworks for two critical sectors, gazetted on the identical date. Both comprehensive over their technology estates. Both impose **six-hour dual-channel incident reporting**. Both contain **zero AI provisions**. Neither cites the other, and no coordinating instrument names both. | **Same-day parallelism** — a new and stronger variant. Every other convergence in this matrix admits a sequencing explanation (transposition lag, diffusion, learning). Same-day issuance forecloses all of them. |
+| **CEA_3 ↔ CERT-In** | **Mandatory, and doubled** | Reg 7(3)(a) requires reporting within **six hours to CSIRT-Power *and* CERT-In**, with 24 hours for cyber sabotage in critical systems. CSIRT-Power is itself constituted at reg 3(1)(g) as "an extended arm of Indian Computer Emergency Response Team (CERT-In)." Reg 4(2)(e) requires CSIRT-Power to develop SOPs and benchmarks *in consultation with* CERT-In, NCIIPC, sub-sectoral CSIRTs and Electricity Regulatory Commissions. | **M1, third sector — and the answer to Future Research item 2 below.** |
+
+### M1 upgrades from a two-regulator pattern to an N-regulator hub
+
+Future Research item 2 (below) asks whether an equivalent mandatory-reporting-to-CERT-In clause exists outside RBI, and states that finding one "would upgrade this from a two-regulator to an N-regulator coordination hub finding, with CERT-In as the common node." **CEA_3 answers it affirmatively**, from a sector this matrix did not previously cover.
+
+CERT-In is now the common node across three binding regimes — RBI (§27(d), RBI_8 para 182), CEA (reg 7(3)(a)), and SEBI via the empanelled-auditor chain in [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] — with CEA additionally building a **sub-sectoral CSIRT layer beneath it** (reg 4(4): generation, transmission, distribution, grid operation, and any other sub-sector).
+
+**The asymmetry noted for RBI persists and is worth recording as general.** CEA, like RBI, specifies its own channel with precision (CSIRT-Power, named, with defined functions and collection powers) and treats the CERT-In leg as a parallel obligation rather than a co-design relationship. In neither case does the sectoral regulator subject its own rule-making to CERT-In. The hub is a **reporting** hub, not a **rule-design** hub — which is exactly the limitation the Key Tensions section already identifies for RBI, now confirmed as structural rather than RBI-specific.
+
+This strengthens the *horizontal infrastructure coherence* limb of [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]]'s two-layer model: shared incident-reporting and audit infrastructure at the base, uncoordinated sectoral rule-making above it, now confirmed across three sectors rather than inferred from two.
+
+⚠ The same-day CEA_3/RBI_8 convergence is documented; the common-shock mechanism suggested at CEA_3 §S5.2 is **inferred**. Neither instrument names a trigger. Do not present causation as established without a third same-period instance.
+
+---
+
 ## Key Tensions & Gaps
 
 The matrix shows a consistent asymmetry: **RBI is the "silent" party in every cross-regulator pairing** where it appears (vs. SEBI, vs. CERT-In-adjacent AIBOM territory, vs. MeitY) — it issues technology-neutral instruments and does not cross-reference sector peers who have gone AI-explicit, even when the underlying entities and risks substantially overlap. The sole exception is the RBI↔CERT-In incident-reporting channel, which is **mandated by regulation** (§27d), not voluntarily coordinated — meaning India's only confirmed formal cross-regulator coordination mechanism for AI/IT-adjacent governance in this matrix is a downstream *reporting obligation*, not an upstream *rule-design* collaboration. No joint circular, MOU, or formally negotiated cross-regulator AI standard appears anywhere across the six populating nodes plus MeitY_4.
@@ -117,7 +140,7 @@ The matrix shows a consistent asymmetry: **RBI is the "silent" party in every cr
 ## Future Research
 
 1. This matrix was built entirely from six (now seven, with MeitY_4) corpus nodes that happened to forward-reference it — not from a systematic sweep of all RBI/SEBI/CERT-In/MeitY/IRDAI instruments. A dedicated pass reading RBI_6, IRDAI_1, and SEBI_8 directly (rather than via secondary citation in other nodes) would likely surface additional pairs and could revise the "RBI is always silent" finding if RBI_6 shows different behaviour.
-2. The RBI↔CERT-In §27(d) mandatory reporting chain is the strongest quantifiable M1 evidence in the corpus — worth checking whether an equivalent mandatory-reporting-to-CERT-In clause exists in any SEBI or IRDAI instrument (would upgrade this from a two-regulator to an N-regulator coordination hub finding, with CERT-In as the common node).
+2. ~~The RBI↔CERT-In §27(d) mandatory reporting chain is the strongest quantifiable M1 evidence in the corpus — worth checking whether an equivalent mandatory-reporting-to-CERT-In clause exists in any SEBI or IRDAI instrument (would upgrade this from a two-regulator to an N-regulator coordination hub finding, with CERT-In as the common node).~~ **ANSWERED 2026-08-09 — see the CEA_3 section above.** CEA reg 7(3)(a) mandates six-hour reporting to CERT-In and CSIRT-Power; the upgrade to an N-regulator hub finding is made. **Residual question:** the check was answered from the power sector, not from SEBI or IRDAI as originally posed — whether [[07_Institutions/Corpus/SEBI/SEBI_15]] CSCRF or [[07_Institutions/Corpus/IRDAI/IRDAI_1_Maintenance_and_Sharing_of_Information_Regulations_2025]] carry an equivalent clause remains unchecked and would take the hub from three regimes to five.
 3. Candidate fsQCA condition: "presence/absence of AI-specific reporting obligation" as a configurational variable, using this matrix's regulator-pair rows as cases — RBI (0), SEBI (1, then upgraded to accountability), CERT-In (1, general-purpose not sector-specific), MeitY (0, data-fiduciary framing rather than AI-system framing).
 
 ---

@@ -50,6 +50,7 @@ These are PRIS-internal analytical structures, not issued instruments, and are n
 |---|---|---|---|
 | Cross-Regulator Coordination Pattern Matrix | [[Cross_Regulator_Coordination_Pattern_Matrix]] | Identifies and characterises coordination/parallelism patterns across regulator pairs | ✅ Populated 2026-07-31 |
 | Manifestation Evidence Layer | [[Manifestation_Evidence_Layer]] | P3 empirical evidence layer (SOM Tables S17–S21) substantiating coordination-pattern claims M1–M5 | 🟡 **Partial (2026-08-02)** — intent confirmed; M1 populated; **M2–M5 not recorded anywhere in vault**, must be transcribed from SOM. ⚠ Do not confuse with [[Evidentiary_Governance]] — different sense of "evidence". |
+| **Evidentiary Destination Matrix** | [[Evidentiary_Destination_Matrix]] | Crosswalks seven Indian and EU logging/retention instruments against **Bharatiya Sakshya Adhiniyam s.63(2)(a)–(d) and s.63(4)** — operationalises the fourth dimension of [[Evidentiary_Governance]] and closes the method step OQ-EG-01 called for | ✅ **Created 2026-08-09.** Headline: **the s.63(4) certificate-readiness column is empty across the entire Indian corpus** — not one instrument requires an entity to be able to certify a retained artefact for production. Secondary: retention density and admissibility-readiness are uncorrelated; s.63(2)(d) unaddressed everywhere; s.63(2)(c)'s deterministic theory of error has no purchase on hallucination. DHC_1 confirms the two bodies of law have not yet met. ⚠ #315–#318 |
 
 ---
 
