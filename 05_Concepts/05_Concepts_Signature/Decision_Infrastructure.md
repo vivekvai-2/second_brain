@@ -163,6 +163,7 @@ The construct's prescriptive content, kept deliberately short because it is the 
 
 ## **Instances in Corpus**
 
+- [[07_Institutions/Corpus/RBI/RBI_15_Utkarsh_2.0_Medium_Term_Strategy_2023_25]] — background dating evidence only, not a governance instance. Vision 1 item 17 ("Adoption of emerging SupTech solutions for effective supervision") is the earliest dated institutional signal in the corpus (Dec 2022) that RBI intended to move toward automated supervision tooling, but carries no operational or deontic content — the strategic-intent bullet exists years before any instrument that could be assessed against H1–H4.
 - [[07_Institutions/Corpus/Grid_India/Grid_India_1_AI_Grid_Operations_2025]] + [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] — estate governed comprehensively, decisions ungoverned; the construct's binding-instrument evidence
 - [[07_Institutions/Corpus/ICMR/ICMR_1]] — seven stakeholder categories, no enforcement, nothing at the recommendation→decision handoff
 - [[07_Institutions/Corpus/SEBI/SEBI_14]] / [[07_Institutions/Corpus/RBI/RBI_7]] — non-delegable entity accountability over an ungoverned chain; the liability asymmetry

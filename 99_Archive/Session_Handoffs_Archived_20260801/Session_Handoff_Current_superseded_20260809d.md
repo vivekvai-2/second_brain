@@ -10,7 +10,7 @@ tags:
 
 # Session Handoff — Current State
 
-**This is the single rolling handoff file.** At the end of each session, **overwrite this file** with current state — do not create a new dated file. Before overwriting, the outgoing version is copied to `99_Archive/Session_Handoffs_Archived_20260801/Session_Handoff_Current_superseded_[YYYYMMDD][suffix].md` (done for this update: `..._superseded_20260809d.md`). This file is read by Cowork, ChatGPT, and NotebookLM alike to resume work — keep it self-contained and current, not a historical log.
+**This is the single rolling handoff file.** At the end of each session, **overwrite this file** with current state — do not create a new dated file. Before overwriting, the outgoing version is copied to `99_Archive/Session_Handoffs_Archived_20260801/Session_Handoff_Current_superseded_[YYYYMMDD].md` (done for this update: `..._superseded_20260809.md`). This file is read by Cowork, ChatGPT, and NotebookLM alike to resume work — keep it self-contained and current, not a historical log.
 
 ---
 
@@ -22,7 +22,7 @@ This session (a Desktop-folder ad hoc intake, not a formal batch) found that `Co
 
 | Series | Next available (folder-confirmed) |
 |---|---|
-| RBI | **RBI_16** (RBI_14, RBI_15 added this session) ⚠ RBI_3 and RBI_13 are duplicates of each other — flagged, not merged |
+| RBI | **RBI_15** (RBI_14 added this session) ⚠ RBI_3 and RBI_13 are duplicates of each other — flagged, not merged |
 | SEBI | SEBI_19 |
 | MeitY | MeitY_9 |
 | CERT-In (new-style) | CERT_In_4 |
@@ -32,7 +32,7 @@ This session (a Desktop-folder ad hoc intake, not a formal batch) found that `Co
 | **CEA** | **CEA_4** (CEA_3 added this session) |
 | F-series (Wiki Intake) | **F143** (F142 added this session) |
 | International | **International_39** (International_38 upgraded to primary text this session — no new node) |
-| VERIFY flags | **#344 used as of 2026-08-09; next = #345.** (#339–#343 raised in the WDR2026 primary-text pass; #344 raised on RBI_15/Utkarsh 2.0.) Caveat stands for anything earlier — flags are scattered across nodes and the historical trackers are stale. If a precise count is needed, grep the vault for `⚠` / `VERIFY #` patterns directly. |
+| VERIFY flags | **#343 used as of 2026-08-09; next = #344.** (#339–#343 raised in the WDR2026 primary-text pass.) Caveat stands for anything earlier — flags are scattered across nodes and the historical trackers are stale. If a precise count is needed, grep the vault for `⚠` / `VERIFY #` patterns directly. |
 
 ---
 
@@ -224,29 +224,6 @@ Title is ***The Promise of Artificial Intelligence***; "Decoding AI" is the titl
 9. **Create a Bradford (2023) *Digital Empires* node** — the comparative-regulation frame P1 sits in, absent from the vault, now with a World Bank counter-position to read it against.
 10. **Consider a Framework node for Box 8.3's project/product model** — no vault equivalent, and it restates Governance_Debt in the terms budget officials actually use.
 11. **Peru Law 31814 + Supreme Decree 115-2025-PCM** as a corpus node (⚠#343) — mandatory digital-security audits of public-administration AI, structurally close to RBI_14.
-
----
-
-## Fifth addendum, same day — RBI_15: Utkarsh 2.0, and a lineage question narrowed but not closed
-
-**New node.** [[07_Institutions/Corpus/RBI/RBI_15_Utkarsh_2.0_Medium_Term_Strategy_2023_25]] — full text supplied by Vivek. Not a duplicate; no prior Utkarsh node existed.
-
-**What it is.** RBI's internal Medium-Term Strategy Framework for 2023–25 (Governor's Foreword dated 30 December 2022). Deliberately scoped thin in the node itself: this is institutional strategy, not a regulatory instrument — no obligations on regulated entities, no enumerated regulatory units, no P3/IG2.0 coding value.
-
-**Why intake anyway.** Three reasons, none of them large on their own: (1) it bears on ⚠#335 — RBI_14 cites "paragraph I.10 of Utkarsh 2029" as the source of a deferred AI-model-requirements commitment, and Utkarsh 2029 is not in the vault. **This document confirms it is not Utkarsh 2029** — it is an earlier, distinct edition. The lineage is now three generations deep: Utkarsh 2022 (launched July 2019, not held) → Utkarsh 2.0 (this node, 2023–25) → Utkarsh 2029 (cited in RBI_14, June 2026, still unsourced). That the 2029 edition is simply the *next* one in sequence is a plausible but **unconfirmed** inference — this document names no successor. New flag **⚠#344** raised for it. (2) Para III.6 is a dated, primary-text RBI self-commitment to AI/ML adoption. (3) Vision 1 items 15–18 (FinTech, CBDC, SupTech, RegTech) are the strategic-intent layer that plausibly authorises RBI_9/RBI_14/RBI_FREE_AI_2025.
-
-**Two findings, both modest:**
-
-1. **[[05_Concepts/05_Concepts_Signature/Governance_Debt]]** — Deontic-Placement Debt now has a strategy-document-level starting point at year scale, not week scale. RBI committed to AI/ML and named SupTech/RegTech as priorities in December 2022, roughly three and a half years before RBI_8's zero-AI binding instrument (31 Jul 2026).
-2. **[[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]]** — Vision 1 item 17 (SupTech) is the earliest dated institutional signal in the corpus pointing toward automated supervision tooling. Recorded explicitly as background dating evidence, not counted as a governance instance.
-
-**Files touched:** RBI_15 (new) · Governance_Debt · Decision_Infrastructure · _Institutions_MOC · Corpus_Index_MOC · this handoff.
-
-**Numbering after this addition:** RBI → **RBI_16** next; VERIFY → #344 (next = **#345**).
-
-**Added to the next-session queue:**
-
-12. **Source Utkarsh 2029 directly** (⚠#344) — the three-generation lineage (2022 → 2.0 → 2029) is inferred, not confirmed. If Vivek has or can obtain it, this closes both #344 and the remainder of #335.
 
 ---
 

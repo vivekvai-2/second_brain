@@ -1327,4 +1327,21 @@ Title confirmed as ***The Promise of Artificial Intelligence*** — "Decoding AI
 
 ---
 
+## 2026-08-09 (same session, later still) — RBI_15: Utkarsh 2.0 Medium-Term Strategy Framework (2023-25)
+
+**New node.** [[07_Institutions/Corpus/RBI/RBI_15_Utkarsh_2.0_Medium_Term_Strategy_2023_25]] — full text supplied by Vivek. **Not a duplicate**; no prior Utkarsh node existed. Deliberately scoped thin: this is an internal RBI institutional strategy document (Foreword dated 30 December 2022, covering 2023–25), not a regulatory instrument — no deontic content directed at regulated entities, no enumerated regulatory units, no P3/IG2.0 coding value beyond dating evidence.
+
+**Why it was worth intake despite thin content.** Three reasons: (1) it partially resolves ⚠#335 — RBI_14's citation of "paragraph I.10 of Utkarsh 2029" as a forward reference for deferred AI-model requirements. **This document confirms Utkarsh 2.0 (2023-25) and Utkarsh 2029 are distinct editions** — the lineage is now three generations deep (Utkarsh 2022, launched July 2019 → Utkarsh 2.0, this node → Utkarsh 2029, still unsourced). That the 2029 edition is the *next* one after this, on a roughly three-year cadence, is a plausible inference, not a sourced fact — new flag ⚠#344 raised for it. (2) Para III.6 is a dated, primary-text RBI self-commitment to AI/ML adoption for its own data-analysis function. (3) Vision 1 items 15–18 (FinTech framework, phased CBDC, SupTech adoption, RegTech facilitation) are the strategic-intent layer plausibly authorising later AI-adjacent instruments.
+
+**Two findings, both modest and both downstream-applied:**
+
+1. **[[05_Concepts/05_Concepts_Signature/Governance_Debt]] — Deontic-Placement Debt gets a strategy-document-level starting point, at year scale rather than week scale.** RBI committed to AI/ML adoption and named SupTech/RegTech as priorities in December 2022, roughly three and a half years before RBI_8 (31 Jul 2026, binding, zero AI provisions). The existing three-instrument instance of this sub-pattern (RBI_9/RBI_14 → RBI_8, six weeks) now has a background anchor showing the lag was already present, at a much longer timescale, before any of those three instruments existed.
+2. **[[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]] — a dated strategic-authorisation anchor for SupTech, carrying no operational content.** Recorded as background dating evidence only, explicitly not counted as a governance instance against the construct's H1–H4 handoffs.
+
+**Downstream updates applied:** [[05_Concepts/05_Concepts_Signature/Governance_Debt]] (new Deontic-Placement Debt paragraph + Instances-in-Corpus entry), [[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]] (Instances-in-Corpus entry, explicitly non-counting), `_Institutions_MOC` RBI row.
+
+**Vault numbering after this addition:** RBI → **RBI_16** next; VERIFY → #344 (next = **#345**).
+
+---
+
 _Back to [[PRIS_Master_MOC]]_
