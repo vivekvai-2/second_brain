@@ -1152,4 +1152,32 @@ See [[Bidirectional_Linking_Convention]] for the standing workflow applied to th
 
 ---
 
+## Ad Hoc Batch — 2026-08-09 (Cowork Desktop-folder intake)
+
+⚠ **Log-continuity note:** this file's running batch log above stops at F130 (2026-07-20); the vault folder listing shows corpus nodes and Wiki Intake notes have continued to be added through at least F139, RBI_8/RBI_9, SEBI_18, IRDAI_2, CERT_In_3, DHC_1, Parliament_1, DPB_1, BIS_1, and International_33–38 without a corresponding log entry here — consistent with the "not yet added to Corpus_Index_MOC.md" gap already flagged for International_25/International_38 in `Session_Handoff_Current.md`. This entry logs only the present session's additions; backfilling F131–F139 and the other un-logged nodes is a separate, larger indexing task not attempted here.
+
+**Source:** Ad hoc Cowork session, triaging `/Users/vivek/Desktop/` for PRIS-relevant documents (not a formal Policy Dump batch). Full triage report: `Desktop_Intake_Triage_20260809.md` (Obsidian Vault Housekeeping folder).
+
+**Nodes written (3):**
+
+| Node | Title | Institution | Wiki Section | Tier | Key Concepts | Key Projects | ⚠VERIFY |
+|---|---|---|---|---|---|---|---|
+| [[07_Institutions/Corpus/Parliament/Parliament_2_Unstarred_Question_2988_Institutional_Framework_Auditing_AI_2026]] | Lok Sabha Unstarred Question No. 2988 — Institutional Framework for Auditing AI (5 Aug 2026) | Parliament / MeitY | S1/S2 | B | [[Governance_Capacity]], [[Institutional_Coherence]], [[Accountability]] | P1, P4 | 3 open (1 HIGH) |
+| [[04_Knowledge_Products/Wiki_Intake/F140_Joshi_Preventing_AI_Assisted_Cyber_Attacks_ISC2_Keynote_2026]] | Preventing AI-Assisted/Led Cyber Attacks (Joshi, ISC2 keynote, 2026) | — (practitioner) | S5/S6 | — | [[Governance_Debt]], [[Regulatory_Parallelism]], [[Agentic_AI_Governance]] | P3, P4 | 2 open |
+| [[04_Knowledge_Products/Wiki_Intake/F141_HUX_AI_Kiris_Can_ISO_42001_Cheat_Sheet_2026]] | ISO 42001 Cheat Sheet — A Founder's Guide (Kırış Can/techletter.co, 2026) | — (practitioner) | S6/S8 | — | [[Evidentiary_Governance]], [[Accountability]] | P3, P4 | 1 open |
+
+**Duplicate confirmed, no action:** `RBI Cybersecurity Jul 26.pdf` (the Desktop copy) matches the already-deployed [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] node exactly (same source PDF, same reference RBI/DoS/2026-27/410, same 31 July 2026 date). Per the standing duplicate protocol (2026-07-16): reported only, zero editing action taken.
+
+**Two files could not be read — iCloud placeholders.** `AI Decision Infrastructure V1.pdf` and `file_E9CC4A8A-6C62-49B4-B871-4AD0BF30B6B7.pdf` both failed with "Resource deadlock avoided," the same undownloaded-iCloud-placeholder signature already documented for the Policy Dump Future folder. Vivek supplied both documents' text by paste mid-session: the first confirmed as Vivek's own "Decision Infrastructure Series" framework (own content, not intake); the second was the Lok Sabha Unstarred Question 2988 content used to write Parliament_2 above.
+
+**Unresolved contradiction surfaced (HIGH priority for next session):** Parliament_2 states NABCB has an operational AIMS accreditation framework against ISO/IEC 42006:2025; [[06_Frameworks/ISO_IEC_42001]] (created 2026-08-02, three days earlier) states this is a confirmed gap, independently sourced via UKAS. Both nodes now cross-link and flag this (VERIFY #304 on Parliament_2; addendum on ISO_IEC_42001's India section). **Resolve by checking NABCB's own website/gazette for a dated, named AIMS accreditation scheme document before either finding is cited in publication-track output.**
+
+**New VERIFY flags this session:** #303–#308 (six total; one HIGH — #304, the NABCB contradiction above). All logged in-node; not yet rolled into a separate consolidated-tracker table in this file (none exists at file-level beyond the per-batch entries themselves — consistent with existing practice).
+
+**Indexing pass completed:** "Instances in Corpus" entries added to [[05_Concepts/05_Concepts_Standard/Governance_Capacity]], [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]], and [[05_Concepts/05_Concepts_Signature/Governance_Debt]]. `_Institutions_MOC.md` Research Corpus Mapping table: new Parliament row added (Parliament_1, Parliament_2). `_Concepts_MOC.md` Cross-Concept Applications table not extended this session (no single cross-concept finding rose to that table's bar beyond what the concept-file entries already capture).
+
+**Vault numbering state, this addition (2026-08-09):** Parliament → Parliament_3 next; F-series → F141 (next = **F142**); VERIFY → #308 (next = **#309**, but see log-continuity note above — this file's own tracker has not been kept current against the true vault state for some time; treat as this-session-only, not authoritative for the full vault).
+
+---
+
 _Back to [[PRIS_Master_MOC]]_

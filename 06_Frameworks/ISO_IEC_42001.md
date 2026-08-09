@@ -16,7 +16,7 @@ tags:
 
 # ISO/IEC 42001 — AI Management System Standard
 
-**Type:** Framework **Status:** Active **Last Updated:** 2026-08-02 (created — 32 referencing notes, no node)
+**Type:** Framework **Status:** Active **Last Updated:** 2026-08-09 (addendum — unresolved NABCB/ISO 42006 contradiction flagged, see India section; originally created 2026-08-02, 32 referencing notes, no node)
 
 ---
 
@@ -81,6 +81,8 @@ Three layers, and only two are built:
 India has adopted an AI management-system standard and is training lead auditors against it, with no confirmed national accreditation scheme for the certification bodies those auditors would work for, and no regulator that treats the resulting certificate as meaning anything. **A fourth instance of the "institution before regulation" sequencing pattern** already recorded for CSIRT-Power, the AA regime, and Sahamati — here in the form *standard before scheme before recognition*.
 
 ⚠ The IS/ISO/IEC 42001 adoption is confirmed from a BIS-hosted NITS course brochure, not from a gazette or catalogue entry. **The exact adoption date is not pinned.** Verify against Manakonline before citing a date.
+
+> ⚠ **ADDENDUM (2026-08-09) — unresolved contradiction, do not silently update the table above.** [[07_Institutions/Corpus/Parliament/Parliament_2_Unstarred_Question_2988_Institutional_Framework_Auditing_AI_2026]] (Lok Sabha answer, 5 August 2026 — three days after this node's "confirmed gap" finding) states as government fact that "National Accreditation Board for Certification Bodies (NABCB)... has developed accreditation framework for Artificial Intelligence Management System (AIMS) certification as per ISO/IEC 42001:2023," accrediting bodies "as per ISO/IEC 17021-1:2015 and ISO/IEC 42006:2025" — which would mean both the NABCB accreditation scheme *and* ISO/IEC 42006 itself are further along than this node's UKAS-sourced finding shows. **This directly contradicts the "❌ confirmed gap" row above and is not yet resolved.** Do not treat either source as settling the question; check NABCB's own website/gazette for a dated, named AIMS accreditation scheme document before revising the table. See VERIFY #304 on the Parliament_2 node for the full reasoning.
 
 ## Assurance Quality Gap
 
