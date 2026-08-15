@@ -1,0 +1,470 @@
+
+---
+type: Project
+tags:
+  - type/project
+  - status/drafting
+  - phase/q3-2026
+  - paper/p2-primary
+  - paper/fsqca
+  - gate/open
+  - engine/phd
+  - engine/linkedin
+  - content/carousel-ready
+  - content/wiki-entry
+---
+
+# P2_State.md — DPI Governance → JSIS Special Issue
+
+> **Purpose:** Operational state file for Paper P2. Tracks current draft state, gaps, action plan, and session log. Updated weekly or per working session.
+>
+> **Last Updated:** 14 April 2026
+> **Tier:** 3 (Per-Paper State)
+> **Companion files:** `VV_Publication_Pipeline_v3.md` Section 5.1 (strategic profile) · `VV_Life_Roadmap_v2.md` Section 5 (quarterly milestones) · `CFP-JSIS-Special-Issue.pdf` · `DPI_GIQ_V1.docx` · `dpi_jsis_plan.pdf`
+
+---
+
+## 0. Quick Reference Header
+
+```
+PAPER ID        : P2
+TARGET JOURNAL  : Journal of Strategic Information Systems (JSIS)
+SPECIAL ISSUE   : "India at the Intersection: Reconfiguring Commerce,
+                  Capabilities and Culture in Age of Technological Acceleration"
+ABDC RANK       : A* (AIS Senior Scholars' Basket of 8)
+CURRENT STATUS  : GIQ draft exists (~10,000 words). JSIS reframing in progress.
+                  Phase 0 (setup/reading) underway. Extended abstract not yet drafted.
+NEXT ACTION     : Test records–rules reframing against coded data → draft 1,000-word
+                  extended abstract → submit JSIS portal by 1 May 2026
+```
+
+> 🔴 **CRITICAL DEADLINE: 1 May 2026 — Extended abstract (1,000 words) — 17 days away as of 14 Apr 2026.**
+> The abstract is technically optional per CFP but is strategically non-negotiable. It is the fit-check with the guest editors AND the forcing function for locking the narrative spine before full-paper drafting begins. Do not skip it.
+
+> 🔴 **TAC MEETING: May Week 1, 2026.** Present P2 extended abstract (forwarded) + DPI rewrite plan to Prof Panigrahi and committee.
+
+---
+
+## 1. Context Pointer
+
+This file tracks the operational state of P2. For the strategic rationale — why JSIS, why this sequence, why this paper contributes to the PhD defence gate — read `VV_Publication_Pipeline_v3.md` **Section 5.1**.
+
+P2 is the **first paper in the publication sequence** (P2 → P3 → P4 → P1) and the **earliest potential ABDC-A signal for the PhD defence gate**. The JSIS special issue has a locked, published editor calendar, making it the most predictable acceptance pathway in the entire portfolio.
+
+**Critical path logic:** JSIS first feedback is expected **31 January 2027**. If that feedback is a strong R&R or acceptance, it triggers the PhD defence sequence. Nothing in 2026 is more consequential than getting P2 submitted to JSIS by 30 September 2026.
+
+**The GIQ rejection context:** `DPI_GIQ_V1.docx` was originally drafted for *Government Information Quarterly* and desk-rejected on 14 April 2026 by Editor-in-Chief Panos Panagiotopoulos on grounds of narrative architecture failure. The substance was not the problem — the framing and structure were. This paper must not repeat that failure. The Drafting Discipline Protocol (v3 Section 3) is binding from this session forward.
+
+---
+
+## 2. Where I Am Now
+
+### 2.1 Current Draft
+
+| Attribute | Status |
+|---|---|
+| **Source file** | `DPI_GIQ_V1.docx` |
+| **Word count** | ~10,038 words (full paper, GIQ-targeted version) |
+| **Working title** | *"Governance in Digital Public Infrastructure: A Rule Level Analysis of Welfare Systems in India"* |
+| **Overall draft quality** | All sections drafted to near-submission quality — for GIQ. For JSIS, the theoretical front-end requires reframing; the strategic IS framing does not yet exist. |
+| **Original target journal** | Government Information Quarterly (GIQ) — desk-rejected 14 Apr 2026 |
+| **Reframing decision** | Records–rules asymmetry framing (JSIS-appropriate IS theoretical grammar) — **data test pending** |
+| **JSIS extended abstract** | Not drafted |
+| **Narrative spine (JSIS)** | Not locked |
+| **Phase 0 reading tasks** | Partially complete — Seidel/Frick/vom Brocke 2025, Kallinikos et al. 2013, Butler/Gozman/Lyytinen 2023 to be read/confirmed |
+
+### 2.2 Empirical Base (Locked — Not Changing)
+
+| Attribute | Detail |
+|---|---|
+| **Cases** | 4: PM-KISAN (eligibility determination), Aadhaar Face Authentication (identity verification), Account Aggregator / AI credit assessment (decision support), PM-JAY fraud analytics (post-hoc enforcement) |
+| **Corpus** | 248 coded institutional statements across 12 governance documents (11 yielded codable statements) |
+| **Coding method** | Institutional Grammar 2.0 (ADICO syntax) |
+| **Key empirical finding** | Of 11 Rules in the corpus, 0 govern citizen-facing fallback procedures, language provisions, or intermediary accountability. System-facing governance is thick; citizen-facing governance is structurally thin or absent. |
+| **Construct 1** | Technical–citizen rule allocation asymmetry: enforceable obligations cluster on system performance; citizen-facing provisions are sparsely formalised and weakly sanctioned |
+| **Construct 2** | Distributive rule density: measures concentration of enforceable rules within governance domains; establishes the absence is structural, not incidental |
+| **Directionality finding** | In 3 of 4 cases (Aadhaar, PM-KISAN, AA Credit), procedural consequences of system failure fall on the beneficiary, not the system. PM-JAY is the exception (consequences fall on hospitals). |
+
+### 2.3 What Exists That Is Salvageable for JSIS
+
+| Section | GIQ Version Status | JSIS Reusability |
+|---|---|---|
+| Abstract | Drafted (GIQ framing) | Rewrite entirely — JSIS requires strategic IS hook |
+| Introduction (Sec 1) | Drafted — contribution-first, two constructs introduced | Partially salvageable; IS hook paragraph missing; records–rules reframing not yet in |
+| Theoretical framework (Sec 2) | Procedural justice + administrative burden + IG 2.0 | Substantially rewrite — data-as-records lineage and IS infrastructure theory must replace or augment policy-theory front-end |
+| Case selection (Sec 3) | Fully drafted, theoretically grounded | Largely salvageable; minor IS framing additions needed |
+| Coding protocol (Sec 4) | ADICO syntax, codebook, intra-coder consistency | Largely salvageable; abductive framing (Sætre & Van de Ven 2021) to be added |
+| Findings (Sec 5) | Three analytical themes: device/connectivity, language, customisation | Largely salvageable; re-read through records–rules lens and add cross-case synthesis paragraph |
+| Discussion (Sec 6) | Technical–citizen asymmetry theorised against procedural justice | Substantially rewrite — must position against Seidel et al. 2025; strategic implications for organisational actors must be added |
+| Conclusion (Sec 7) | Drafted | Rewrite to front-load contribution and IS lineage |
+
+### 2.4 Reframing Hypothesis (Phase 1 Data Test Required)
+
+> The regulatory architecture of Indian DPI welfare cases inscribes citizens into records but not into rules — they appear in the system as data subjects but not as rights-bearing parties in the enforceable obligations.
+
+This is the records–rules asymmetry framing. It has four components, all requiring data verification before the extended abstract is drafted:
+
+1. Citizens are inscribed as records (data subjects) — **likely confirmed** by existing corpus (Aadhaar, AA, PM-KISAN, PM-JAY all do this)
+2. Citizens are not inscribed as rule-bearing parties in enforceable obligations — **confirmed by existing finding** (0 of 11 Rules govern citizen-facing dimensions)
+3. Pattern holds across all four cases — **requires explicit tabulation** (rerun existing coded output: count statements where citizen is Attribute in ADICO terms vs. statements where citizen appears as data attribute)
+4. The records–rules framing is more illuminating than the current technical-citizen framing — **judgement call after steps 1–3**
+
+If 4/4 components hold → proceed with records–rules framing.
+If 3/4 hold → proceed with conservative framing; exception becomes a boundary condition.
+If ≤2/4 hold → retain original technical-citizen rule allocation asymmetry framing. Plan still works.
+
+---
+
+## 3. Where I Want To Be (Target State)
+
+**Submission-ready JSIS paper by 15 September 2026** (internal target; hard deadline 30 September 2026).
+
+| Attribute | Target State |
+|---|---|
+| **Working title** | To be confirmed after Phase 0 reading — must foreground the IS contribution and the Indian DPI context |
+| **Word count** | 10,000–12,000 words (JSIS typical range) |
+| **Extended abstract** | 1,000 words submitted to JSIS portal by **1 May 2026** |
+| **Theoretical front-end** | Data-as-records lineage (Kallinikos/Aaltonen/Marton 2013; Alaimo/Kallinikos) + IS infrastructure theory (Tilson/Lyytinen/Sørensen; Henfridsson/Bygstad) as primary IS scaffolding. Positioned against Seidel/Frick/vom Brocke 2025 as complementary extension, not competition. Avgerou 2019 for contextual theorisation. |
+| **Methods section** | Abductive framing (Sætre & Van de Ven 2021); two-order Gioia structure; 20% second-coder subsample with reported Cohen's kappa or percentage agreement |
+| **Findings section** | Retained and re-read through records–rules lens; cross-case synthesis paragraph strengthened |
+| **Discussion section** | Strategic implications for 4 organisational actor groups (lending institutions, hospitals, CSCs/intermediaries, UIDAI/RBI/NHA as architects); positioning against Seidel et al. 2025 |
+| **Narrative spine** | Locked before any drafting begins (DDP Rule 1) |
+| **Contribution claim** | In Section 1, before the end of the first 500 words (DDP Rule 2) |
+| **Section structure** | 5–6 substantive sections, no fragmented small blocks (DDP Rule 3) |
+| **Cover letter** | Specifically addresses the JSIS special issue by name; notes May 1 extended abstract submission and any editor response |
+| **Second coder** | Identified, briefed, and results integrated into methods section |
+
+---
+
+## 4. Gap Analysis
+
+Gaps between current state (Section 2) and target state (Section 3), tagged by type.
+
+| # | Gap | Type | Urgency |
+|---|---|---|---|
+| G-01 | Records–rules reframing hypothesis not yet tested against coded data | **Empirical** | 🔴 CRITICAL — blocks extended abstract |
+| G-02 | JSIS narrative spine not locked | **Structural** | 🔴 CRITICAL — blocks all drafting |
+| G-03 | Extended abstract (1,000 words) not drafted | **Structural** | 🔴 CRITICAL — 17 days to deadline |
+| G-04 | Phase 0 reading incomplete (Seidel 2025, Kallinikos 2013, Butler 2023, Park/Fiss/El Sawy 2020) | **Theoretical** | 🔴 HIGH — blocks front-end rewrite |
+| G-05 | Theoretical front-end (Sec 1–2) requires IS-specific reframe; data-as-records lineage absent | **Theoretical** | 🔴 HIGH — blocks full paper quality |
+| G-06 | "Why IS scholars?" paragraph does not exist in current draft | **Structural** | 🔴 HIGH — JSIS fit test requirement |
+| G-07 | Second coder not identified; 20% subsample not selected | **Methodological** | 🟡 MEDIUM — needed before methods section is finalised |
+| G-08 | Strategic implications section (800–1,200 words) for 4 organisational actor groups does not exist | **Structural** | 🟡 MEDIUM — Phase 3 deliverable |
+| G-09 | Positioning against Seidel/Frick/vom Brocke 2025 not drafted | **Theoretical** | 🟡 MEDIUM — Phase 2 deliverable |
+| G-10 | Methods section lacks abductive framing and two-order Gioia structure | **Methodological** | 🟡 MEDIUM — Phase 3 deliverable |
+| G-11 | Cover letter not written | **Administrative** | 🟢 LOW — Phase 5 deliverable |
+| G-12 | Co-author not identified | **Strategic** | 🟢 LOW — see Open Questions |
+| G-13 | Contribution claim placement: verify it appears in Section 1 before 500 words | **Structural** | 🟡 MEDIUM — audit existing draft |
+
+---
+
+## 5. How To Get There — Action Plan
+
+> **Rule:** Narrative spine must be locked before any section rewriting begins. This is DDP Rule 1. Do not skip it.
+> **Rule:** Section 6 (Narrative Spine) must be populated before Section 5 milestones past Action 3 are executed.
+
+### Phase 0 — Setup and Reading (Now → ~21 Apr 2026, ~1 week)
+
+| # | Action | Hours | Output |
+|---|---|---|---|
+| A-01 | Re-run coded data against records–rules hypothesis: tabulate (a) citizen-as-record statements, (b) citizen-as-Attribute-in-Rule statements, (c) ratio per case | 4h | Data test result: records–rules holds in N/4 cases |
+| A-02 | Read Seidel, Frick & vom Brocke (2025) "Regulating Emerging Technologies," MIS Quarterly — twice | 4h | Positioning notes: where this paper agrees, extends, or complicates Seidel et al. |
+| A-03 | Read Kallinikos, Aaltonen & Marton (2013) "The Ambivalent Ontology of Digital Artifacts," MIS Quarterly | 3h | Notes on records-vs-rules theoretical grammar |
+| A-04 | Read Butler, Gozman & Lyytinen (2023), JIT — IS-canonical framing for regulation of/through IT | 2h | Reference list anchor; theoretical positioning notes |
+| A-05 | Skim guest editors' 3 most recent papers each (Setia, Seetharaman, Kathuria, Marabelli) — identify theoretical grammar they speak | 3h | Style calibration notes for abstract |
+| A-06 | Make Phase 0 exit decision: is there a viable path forward with records–rules framing? If Seidel et al. have already made the core argument → stop and reconsider | 1h | **Go / Reconsider** decision logged in Section 12 |
+| **Phase 0 total** | | **~17h** | |
+
+> **Phase 0 Exit Criterion (gate before Phase 1):** You must be able to state in one paragraph, without hedging: (a) which IS theoretical lineage the reframed paper belongs to; (b) which MISQ/JSIS paper it is positioned against; (c) what the guest editors' own recent work suggests they value. If you cannot state all three clearly, Phase 0 is not complete. Do not draft the abstract until this criterion is met.
+
+### Phase 1 — Reframing Test and Extended Abstract (22 Apr → 1 May 2026, ~10 days)
+
+| # | Action | Hours | Output |
+|---|---|---|---|
+| A-07 | Based on A-01 data test: select reframing (records–rules OR original technical-citizen framing) and lock in Section 6 of this file | 1h | **Narrative spine locked** |
+| A-08 | Draft 1,000-word extended abstract — structure: phenomenon → violated belief → analytical move → finding → theoretical contribution → strategic implications | 4h | Extended abstract draft |
+| A-09 | Run four-test fit check on abstract before submitting: (1) IS discourse test, (2) IS hook test, (3) digital artefact test, (4) sociotechnical orientation test | 2h | Fit check passed / failed logged |
+| A-10 | 48-hour cooling period: set aside abstract, re-read cold | — | Abstract reviewed fresh |
+| A-11 | **Submit extended abstract to JSIS portal by 1 May 2026** | 1h | ✅ Submission confirmed |
+| A-12 | Prepare TAC presentation: forward P2 extended abstract + summarise DPI rewrite plan for Prof Panigrahi | 2h | TAC briefing pack |
+| **Phase 1 total** | | **~10h** | |
+
+### Phase 2 — Rebuild Theoretical Front-End + Parallel Workstreams (May → ~20 Jun 2026, ~5–7 weeks)
+
+> Three workstreams run concurrently. Do not attempt them sequentially — the timeline will not allow it.
+
+**Workstream A: Theoretical front-end rewrite**
+
+| # | Action | Hours | Output |
+|---|---|---|---|
+| A-13 | Draft new literature review and theoretical framework section using data-as-records lineage + IS infrastructure theory as primary scaffolding | 12h | New Sections 1–2 draft |
+| A-14 | Write "why IS scholars?" paragraph (150–250 words) — argue IS lens is required to see the records–rules pattern; public admin lens cannot see it | 2h | IS hook paragraph |
+| A-15 | Write paragraph-one hook — testable opening sentence; reader should be able to state the paper's claim after reading it | 1h | Paragraph-one hook |
+| A-16 | Write explicit contribution statement: (a) empirical — records–rules asymmetry across 4 cases; (b) theoretical — data-as-records lineage extended to welfare infrastructure; (c) strategic — implications for organisational actors | 2h | Contribution statement |
+
+**Workstream B: Second coder recruitment and briefing**
+
+| # | Action | Hours | Output |
+|---|---|---|---|
+| A-17 | Identify second coder: doctoral student in IS or public policy; 8–15 hours availability; no prior exposure to findings (see Open Questions OQ-01) | 2h | Second coder identified |
+| A-18 | Prepare coding package: codebook + 3–5 worked examples + 20% subsample (~50 statements) selected strategically (include both unambiguous and ambiguous calls, proportional across 4 cases) | 4h | Coding package ready |
+| A-19 | Brief second coder: 60–90 min call; leave coder with package; set deadline ~3–4 weeks out | 1.5h | Coder briefed |
+
+**Workstream C: Strategic implications material**
+
+| # | Action | Hours | Output |
+|---|---|---|---|
+| A-20 | Write 2–3 sentence working note for each of 4 actor groups: (a) lending institutions / AA framework; (b) hospitals / PM-JAY; (c) CSCs / intermediaries; (d) UIDAI/RBI/NHA as architects — what does records–rules asymmetry mean for their strategic exposure? | 3h | Strategic implications raw notes |
+
+**Phase 2 total: ~27.5h**
+
+> **Phase 2 Exit Criterion (gate before Phase 3):** (a) Theoretical front-end is in draft — re-read cold: does this read like a JSIS paper or still a public admin paper lightly retouched? If the latter, another pass is needed before Phase 3 begins. (b) Second coder has been briefed and is coding. (c) Strategic implications raw notes exist for all 4 actor groups. All three must be true before Phase 3 starts.
+
+### Phase 3 — Writing the Rewrite (Jul → ~30 Aug 2026, ~6–10 weeks)
+
+| # | Action | Hours | Output |
+|---|---|---|---|
+| A-21 | Write Introduction (hook, IS hook paragraph, RQ, contribution preview) — write this first, even though intros are often written last | 4h | Section 1 locked |
+| A-22 | Polish theoretical front-end from Phase 2 | 4h | Sections 1–2 polished |
+| A-23 | Rewrite methods section: abductive framing; two-order Gioia structure; intercoder reliability from second coder results; acknowledge single-coder history on full corpus | 6h | Section 3 (methods) |
+| A-24 | Re-read findings through records–rules lens; add cross-case synthesis paragraph | 4h | Section 4 (findings) |
+| A-25 | Write theoretical discussion: extension of data-as-records lineage; position against Seidel et al. 2025; make IG 2.0 contribution explicit | 5h | Section 5 (discussion) |
+| A-26 | Write strategic implications (800–1,200 words): 4 actor groups, clear strategic takeaways, no hedging | 4h | Section 6 (implications) |
+| A-27 | Write limitations, future research, conclusion: frame document-only design as Stage 1; cite ethnographic Stage 2 models; name P3/P4/fsQCA as programmatic agenda | 3h | Section 7 |
+| **Phase 3 total** | | **~30h** | |
+
+> **Phase 3 Exit Criterion (gate before Phase 4):** (a) Full draft exists — every section has substantive content; paper can be read end-to-end without gaps. (b) Paragraph-one hook still matches the contribution statement — hooks written early and papers written over months drift; re-read both together. (c) Word count is within JSIS target range (10,000–14,000 words) — if significantly over, identify cuts before entering Phase 4.
+>
+> **Slippage rule:** If Phase 3 slips, sacrifice Phase 4 polish time — not Phase 2 or Phase 3 rewrite time. Polish on top of a weak reframe does not save a paper. The 15 Sep internal target exists to protect Phase 4. If Phase 3 is not complete by 20 Aug, reduce Phase 4 to essential checks only and submit by 30 Sep regardless.
+
+### Phase 4 — Polish and Pre-Submission Review (1–25 Sep 2026, ~3–4 weeks)
+
+| # | Action | Hours | Output |
+|---|---|---|---|
+| A-28 | Full cold read-through (48h after finishing Phase 3): check framing drift, unclear claims, argument gaps, IG 2.0 jargon that will lose reviewers | 3h | Annotated revision list |
+| A-29 | Run four-test fit check on full paper: IS discourse / IS hook / digital artefact / sociotechnical orientation | 1h | All four tests pass |
+| A-29b | Hemingway pass: run full manuscript through Hemingway Editor or equivalent — identify passive voice, complex sentences, unnecessary hedges. Do not blindly accept suggestions; use it to flag sentences worth revisiting | 2h | Readability-flagged draft |
+| A-29c | Re-read paper specifically against Seidel/Frick/vom Brocke (2025): is positioning clear and fair? Is this extending their argument rather than competing with it? This matters — Seidel edits the MISQ special issue your BFSI paper may also target; the regulatory-architecture IS community is small | 1h | Positioning confirmed |
+| A-30 | Run `ai-cadence-elimination` skill on **whole paper** (not section-by-section) | 3h | Cadence-clean manuscript |
+| A-31 | Reference list audit: all citations present; load-bearing IS citations confirmed (Berente 2021, Seidel 2025, Butler/Gozman/Lyytinen 2023, Kallinikos 2013, Tilson 2010, Henfridsson/Bygstad 2013, Park/Fiss/El Sawy 2020, Gioia 2013, Walsham, Avgerou, Marabelli/Davison, Parthiban) | 2h | Clean reference list |
+| A-32 | Advisor read-through: send to Prof Panigrahi; allow 1 week for response | — (wait) | Advisor feedback |
+| A-33 | Write cover letter specifically for JSIS special issue: name SI by title; state fit in 2–3 sentences; mention May 1 abstract submission and editor response | 1h | Cover letter |
+| A-34 | 48-hour cooling period before final submission check | — | — |
+| **Phase 4 total** | | **~10h active** | |
+
+### Phase 5 — Submission (25–30 Sep 2026)
+
+| # | Action | Hours | Output |
+|---|---|---|---|
+| A-35 | Final formatting check against JSIS author guidelines | 1h | Formatted manuscript |
+| A-36 | Final proofread: typos, citation errors, formatting | 1h | Clean final version |
+| A-37 | **Submit via JSIS portal by 30 Sep 2026** (internal target: 15 Sep) | 1h | ✅ Submission confirmed + receipt email |
+| A-38 | Version-control: save dated copy of submitted manuscript + cover letter | 0.5h | Submission archive |
+| **Phase 5 total** | | **~3.5h** | |
+
+> **After submission — do not sit idle.** P3 (BFSI/JEIM) and P4 (CLSR) active drafting begins. Additionally, the rewrite plan flags a decision window: **MISQ Ethics/Regulation/Policy special issue (November 1–13, 2026 window)**. This is a potential additional outlet relevant to the broader AI governance programme. Decision required in Q4 2026 — flag this as Open Question OQ-05 and review in October 2026 after P2 submission.
+
+---
+
+## 6. Narrative Spine
+
+> **Status: ⏳ PLACEHOLDER — to be locked after Phase 0 exit decision and Phase 1 data test.**
+> DDP Rule 1: the spine must be locked before any section rewriting begins. Populate this section as Action A-07.
+
+**Template (complete after A-07):**
+
+> *"This paper argues [**X** — records–rules asymmetry / technical-citizen rule allocation asymmetry], because [**Y** — IG 2.0 coding of 248 institutional statements across 12 governance documents reveals that of 11 Rules, 0 govern citizen-facing dimensions], demonstrated through [**Z** — four DPI welfare cases (PM-KISAN, Aadhaar Face Auth, AA Credit, PM-JAY) representing four distinct positions in algorithmic decision chains], contributing [**W** — extension of the data-as-records lineage to welfare infrastructure governance / a replicable diagnostic for a structural governance property that principle-based and risk-classification frameworks are not designed to detect] to the field of [Strategic Information Systems / Digital Governance]."*
+
+**Reframing decision (to be entered after A-01 and A-06):**
+
+| Option | Trigger Condition | Status |
+|---|---|---|
+| **A — Records–rules asymmetry** (JSIS-preferred, IS-theorised) | Records–rules hypothesis holds in ≥3/4 cases after data test | ⏳ Pending A-01 |
+| **B — Technical-citizen rule allocation asymmetry** (original, fallback) | Records–rules holds in ≤2/4 cases | ⏳ Pending A-01 |
+
+---
+
+## 7. Drafting Discipline Checklist (P2-Specific)
+
+Per `VV_Publication_Pipeline_v3.md` Section 3.2 — binding for P2.
+
+| # | Check | Status |
+|---|---|---|
+| DDP-01 | Narrative spine written and locked before drafting started | ⏳ Pending A-07 |
+| DDP-02 | Contribution claim appears in Section 1 (Introduction), before 500 words | ⏳ Pending A-21 |
+| DDP-03 | 3–5 substantive sections; no fragmented small blocks; each section ≥600 words | ⏳ Pending Phase 3 |
+| DDP-04 | Every section ends with forward-referencing transition | ⏳ Pending Phase 3 |
+| DDP-05 | Whole-paper coherence pass completed (read end-to-end, argument flow only) | ⏳ Pending Phase 4 |
+| DDP-06 | Narrative reader review completed by a non-technical reader | ⏳ Pending — **reader not yet identified** (OQ-03) |
+| DDP-07 | `ai-cadence-elimination` skill run on whole paper (not section-by-section) | ⏳ Pending A-30 |
+| DDP-08 | Contribution restatable in one sentence after reading full paper | ⏳ Pending Phase 4 |
+| DDP-09 | Pre-submission read-through by Prof Panigrahi | ⏳ Pending A-32 |
+| DDP-10 | 48-hour cooling period observed between "finished" and "submitted" | ⏳ Pending A-34 |
+
+> **GIQ lesson:** The desk rejection diagnosed exactly DDP-02 (contribution buried after framework), DDP-03 (small fragmented sections), and DDP-04 (no transitions). Every one of these checks has a specific memory attached to it.
+
+---
+
+## 8. Source Files and Artefacts
+
+| File | Type | Purpose in P2 |
+|---|---|---|
+| `DPI_GIQ_V1.docx` | Working draft (~10,038 words) | Base manuscript; GIQ-targeted; requires JSIS reframe |
+| `dpi_jsis_plan.pdf` | Rewrite plan (5-phase) | The operational plan this action table is built from; read before each phase |
+| `CFP-JSIS-Special-Issue.pdf` | Journal CFP | Guest editors, topic list, important dates, review board — mandatory reading before abstract submission |
+
+> **JSIS Review Board (from CFP) — relevant for co-author and reviewer awareness:**
+> India-anchored reviewers include: Amit Prakash (IIIT Bangalore), Rahul De (IIM Bangalore), Saji K Mathew (IIT Madras), Samrat Gupta (IIM Ahmedabad), Satish Krishnan (IIM Kozhikode), Soumyakanti Chakraborty (IIM Calcutta), Sumeet Gupta (IIM Raipur), Swanand Deodhar (IIM Ahmedabad). Internationally, Silvia Masiero (Oslo) and Atta Addo (Surrey) have published on welfare/DPI systems — their work should appear in the reference list if relevant. Rahul De (IIM Bangalore) is a strong co-author candidate given his publication record on Indian IS and governance.
+| Seidel, Frick & vom Brocke (2025) | Target paper to position against | MIS Quarterly; "Regulating Emerging Technologies"; prospective sensemaking construct |
+| Kallinikos, Aaltonen & Marton (2013) | Data-as-records lineage | MIS Quarterly; "Ambivalent Ontology of Digital Artifacts"; theoretical grammar for records–rules framing |
+| Butler, Gozman & Lyytinen (2023) | IS-canonical regulation framing | JIT; regulation of and through IT |
+| Park, Fiss & El Sawy (2020) | Style exemplar | MIS Quarterly; methodologically innovative IS sociotechnical paper — learn the moves |
+
+> **Note:** Seidel 2025, Kallinikos 2013, Butler 2023, and Park/Fiss/El Sawy 2020 need to be downloaded and queued for Phase 0 reading (Action A-02 to A-05). These are not yet in the working folder.
+
+---
+
+## 9. Theoretical Scaffold
+
+**Primary theoretical anchors for JSIS version:**
+
+| Theory / Author | Role in Paper | Status |
+|---|---|---|
+| **Data-as-records lineage** — Kallinikos/Aaltonen/Marton (2013); Alaimo/Kallinikos | Primary IS theoretical grammar; provides the "records" side of the records–rules asymmetry | Must read (A-03) |
+| **IS digital infrastructure theory** — Tilson/Lyytinen/Sørensen (2010); Henfridsson/Bygstad (2013) | How infrastructures inscribe participants; provides the IS home for DPI governance question | Load-bearing reference list citations |
+| **Seidel/Frick/vom Brocke (2025)** | Position against: their paper = prospective construction of regulatory frameworks; this paper = structural absences those frameworks contain. Complementary, not competitive. | Must read (A-02) |
+| **Avgerou (2019)** | Contextual theorisation; location-specific IS research agenda; justifies India as theoretical context | Already referenced in CFP — use it |
+| **Seetharaman/Cranefield (2019)** | India's digital revolution trajectory; frames the DPI context in IS terms | CFP-referenced; include |
+| **Seetharaman, Mathew & De' (2024)** | "Does location matter in IS research?" ISJ — directly validates India-as-context positioning for JSIS; the guest editor Seetharaman is a co-author | Cite in contextual theorisation section; signals awareness of editor's own framework |
+| **Shirish et al. (2025)** | Government-orchestrated digital transformation among microbusiness sector; published in JSIS 2025 — directly precedent for India DPI + IS governance combination | Published in same journal; cite to signal journal familiarity |
+| **Setia (2024)** | Guest editor's own framework; "Purpose" — digital transformation of individuals, organisations, societies | Read before abstract to calibrate to editor's grammar |
+| **Walsham / Marabelli & Davison** | IS research in Global Majority contexts; Indian contextual theorisation | Load-bearing reference list |
+| **Parthiban et al. (2024)** | DPI and rural micro-entrepreneurs; published in JSIS — shows the journal's appetite for India DPI research | Direct JSIS precedent; must cite |
+
+**Theories retained from GIQ version (receded to supporting role):**
+- Procedural justice (Tyler 2006) — retained as evaluative lens, not primary theory
+- Administrative burden (Herd & Moynihan 2019) — retained, receded
+- Throughput legitimacy (Scharpf 1999) — retained, receded
+
+> **Open Question OQ-01:** Which IS theoretical anchor takes primary position — data-as-records lineage (Kallinikos) alone, or combined with IS infrastructure theory (Tilson/Lyytinen)? Resolve after Phase 0 reading.
+
+---
+
+## 10. Reviewer / Co-Author / Advisor Conversations Log
+
+| Date | Party | Content | Action Required |
+|---|---|---|---|
+| 14 Apr 2026 | GIQ — Editor-in-Chief Panos Panagiotopoulos | Desk rejection of `GIQ_V13` / DPI paper (GIQ-D-26-00417). Reason: *"issues of clarity and contribution … difficult to follow and presented in small sections with insufficient connection to an overall narrative … no opportunity to outline the significance and contribution."* Diagnosis: narrative architecture failure, not substance failure. | ✅ Diagnosed. Drafting Discipline Protocol locked. Paper rerouted to JSIS. |
+| May Week 1, 2026 (scheduled) | TAC — Prof Prabin Panigrahi (Chair) | Present P2 extended abstract (forwarded after May 1 submission) + DPI rewrite plan | ⏳ Prepare TAC briefing pack (Action A-12) |
+
+> **Editor relationships:** No prior interaction with JSIS guest editors Setia, Seetharaman, Kathuria, or Marabelli. Cold submission. Cover letter must do the relationship-establishment work.
+
+> **Co-author status:** Not identified. See Open Question OQ-02. An India-based IS scholar with prior JSIS publications would provide editor familiarity and signal IS community legitimacy.
+
+---
+
+## 11. Risks and Blockers
+
+**Current Blockers:**
+
+| ID | Blocker | Impact | Resolution |
+|---|---|---|---|
+| BL-01 | 🔴 Narrative spine not locked | Cannot begin any section rewriting | Action A-07 (after A-01 data test) |
+| BL-02 | 🔴 Records–rules data test not run | Cannot lock reframing decision; cannot draft abstract | Action A-01 — run first |
+| BL-03 | 🔴 Phase 0 reading incomplete | Theoretical front-end cannot be rewritten credibly | Actions A-02 to A-05 |
+| BL-04 | 🟡 Second coder not identified | Methods section cannot claim intercoder reliability | Action A-17 — initiate Phase 2 |
+
+**Known Risks:**
+
+| Risk | Probability | Impact | Mitigation |
+|---|---|---|---|
+| Records–rules reframing fails data test (holds in ≤2/4 cases) | Low-Medium | Medium | Fallback: original technical-citizen framing. Plan is still viable. Abstract still submittable. |
+| Seidel et al. (2025) has already made the core argument | Low | High | Phase 0 Decision exit criterion: if they have → stop and reconsider before committing to full rewrite. Two weeks lost, not six months. |
+| Sep 30 JSIS deadline collides with CISSP retake (if Jul exam failed) | Low | Medium | Sep internal target (15 Sep) provides buffer. CISSP retake window is ~45 days; manageable in parallel. |
+| Same narrative architecture failure as GIQ recurs | Medium | High | DDP is binding. Abstract is the first test — if the abstract cannot pass the four-test fit check, the paper will not pass either. |
+| No editor response to extended abstract | Medium | Low | No response is neutral — proceed to full paper. The abstract's strategic value is forcing the narrative spine lock, not the response. |
+| Guest editor theoretical grammar mismatch | Low-Medium | Medium | Mitigated by Phase 0 reading of their own papers (A-05). Abstract is the fit-check. |
+
+**Collision map (from `VV_Life_Roadmap_v2.md` Section 17):**
+
+| Date | Collision |
+|---|---|
+| Apr 21 – May 1 | Abstract drafting + TAC prep + CISSP ramp — concurrent (Q2 pinch point) |
+| Jul–Sep 2026 | P2 full paper rewrite + CISSP exam — concurrent (Q3 peak load) |
+| Sep 30, 2026 | P2 JSIS hard deadline + Q4 2026 PhD/AIGP prep beginning |
+
+---
+
+## 12. Session Log
+
+> Format: `YYYY-MM-DD: One-line entry. Hours worked. Outcome.`
+
+| Date | Entry |
+|---|---|
+| 2026-04-14 | P2_State.md initialised from `VV_Publication_Pipeline_v3.md` Section 5.1, `dpi_jsis_plan.pdf`, `DPI_GIQ_V1.docx`, and handoff brief. GIQ rejection received and diagnosed same day. Rewrite plan (5-phase) adopted as operational action table. Awaiting Phase 0 data test (A-01) to lock reframing decision. 0 hrs drafting. Context-freeze session. |
+
+---
+
+## 13. Open Questions for Advisor (TAC)
+
+Items requiring Prof Panigrahi's input. Bring to May Week 1 TAC meeting.
+
+| ID | Question | Why It Matters | Meeting |
+|---|---|---|---|
+| OQ-01 | **Primary IS theoretical anchor:** data-as-records lineage alone (Kallinikos), or combined with IS infrastructure theory (Tilson/Lyytinen/Sørensen)? | Determines the theoretical identity of the reframed paper; affects positioning against Seidel et al. | May 2026 TAC |
+| OQ-02 | **Co-author recommendation:** India-based IS scholar with prior JSIS publications — does the advisor have a specific recommendation? | Editor familiarity; credibility signal for JSIS guest editors | May 2026 TAC |
+| OQ-03 | **Narrative reader identification:** Who will serve as the non-technical narrative reader for P2 before submission (DDP Rule 5)? | Mandatory per Drafting Discipline Protocol | May 2026 TAC |
+| OQ-04 | **Case structure confirmation:** The 4 cases (PM-KISAN, Aadhaar, AA, PM-JAY) are set. Does the advisor see any reason to add, drop, or reframe one case for JSIS? | Structural commitment before full rewrite begins | May 2026 TAC |
+| OQ-05 | **MISQ Ethics/Regulation/Policy special issue (Nov 1–13, 2026 window):** Should this outlet be pursued for a derivative paper after P2 submission, given that Seidel (a MISQ editor) is being cited as a position paper? | Potential additional outlet for the AI governance programme; decision needed Q4 2026 | October 2026 review |
+
+---
+
+*End of P2_State.md. For strategic rationale, see `VV_Publication_Pipeline_v3.md` Section 5.1. For career context, see `VV_Life_Roadmap_v2.md` Section 5 (Q2 and Q3 2026). For fsQCA thesis chapter state, see `fsQCA_Thesis_Chapter_State.md`.*
+
+---
+
+## Graph Seeds
+*Forward links seeding Obsidian graph view. Unresolved links activate as notes are created.*
+
+### Strategy & Navigation
+- [[Research_MOC]]
+- [[Projects_MOC]]
+- [[Publication_Pipeline]]
+- [[Life_Roadmap]]
+
+### Sibling Projects
+- [[P3_BFSI_JEIM]]
+- [[P4_Doctrinal_IJLIT]]
+- [[fsQCA_Thesis_Chapter]]
+- [[Thesis_Architecture]]
+
+### Domains
+- [[DPI_Governance]]
+- [[AI_Governance]]
+- [[Privacy_DataProtection]]
+
+### Signature Concepts
+- [[Institutional_Coherence]]
+
+### Standard Concepts
+- [[Accountability]]
+- [[Legitimacy]]
+- [[Transparency]]
+
+### Frameworks
+- [[IndiaAI_Framework]]
+- [[OECD_AI_Principles]]
+- [[UNESCO_Recommendation]]
+
+### Institutions
+- [[UIDAI]]
+- [[MeitY]]
+- [[TRAI]]
+
+### Methods
+- [[Institutional_Grammar_IG2]]
+- [[SLR_Protocol]]
+
+### Knowledge Products
+- [[AI_Governance_Wiki]]
+- [[DPDP_Playbook]]

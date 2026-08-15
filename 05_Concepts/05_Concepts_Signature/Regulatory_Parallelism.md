@@ -159,6 +159,8 @@ Regulatory Parallelism functions as the primary upstream cause of [[Governance_D
 - (Ad hoc, 2026-07-20 — Jurisdictional-seam variant: same physical asset straddling two regulatory instruments) [[04_Knowledge_Products/Wiki_Intake/F129_Pandey_Kumar_Shore_to_Core_Subsea_Networks_2025]] — India's submarine cable landing stations exist in a jurisdictional seam between the IT Act 2000 (whose "Protected Systems" provisions cover critical information infrastructure but do not explicitly name cable landing stations) and the Telecommunications (Critical Telecommunication Infrastructure) Rules 2024 (which define the telecom CII designation framework but lack confirmed coverage of subsea landing stations). The report recommends closing this seam via explicit classification — but as of October 2025 the classification gap persists, meaning the same physical asset sits in a zone of regulatory ambiguity across two instruments. A **jurisdictional-seam** variant of Regulatory_Parallelism: the pattern operates not through duplicative obligations but through a coverage gap at the boundary between two instruments governing the same physical infrastructure — complementing the corpus's usual "too many regulators, same obligation" variant with a "no clear regulator, one asset" variant.
 - (2026-07-16 — Global-scale convergence extended to 200-document/2.4x scale, plus a rare meta-level parallelism instance) [[04_Knowledge_Products/Wiki_Intake/F121_Correa_Kluge_Worldwide_AI_Ethics_200_Guidelines_2023|F121]] — Corrêa et al. (*Patterns*, Cell Press, 2023) extend F094's global principle-convergence-without-coordination finding from 84 to 200 documents (2.4x), quantifying the form of that convergence precisely: 98% of the 200 documents are soft-law/non-binding, and only 18.7% originate from binding government regulation. The paper's explicit meta-comparison of its own findings against three prior independent landscape studies (Jobin/F094 2019, Hagendorff 2020, Fjeld et al. 2020) is itself a rare **meta-level** parallelism instance — four independently-conducted research efforts converging on overlapping principle taxonomies (5→8→17 principles as sample size grows) without inter-team coordination, mirroring at the research level the same convergence-without-coordination pattern the corpus documents at the regulatory-instrument level.
 
+- (2026-08-15 — Theoretical counterpart, inter-jurisdictional scale) [[04_Knowledge_Products/Wiki_Intake/F143_Bradford_Digital_Empires_2023]] — Bradford's American/Chinese/European three-model taxonomy theorises regulatory divergence **between** jurisdictions competing to export models. This construct theorises divergence **within** a jurisdiction between co-equal regulators with no export ambition. Not rivals, and the second is not reducible to the first — a contribution-framing point for P1 worth stating explicitly. Contested from 2026 by [[07_Institutions/Corpus/International/International_38_World_Bank_WDR2026_AI_Governance]] Box 9.4. ⚠ Node is a flagged placeholder (⚠#351) — no primary text consulted.
+
 See [[Corpus_Index_MOC]] for full node index.
 
 ## **Feeds Into**
@@ -210,9 +212,58 @@ Parallelism as currently operationalised in this note does not distinguish these
 
 **Related:** [[Institutional_Coherence]] — the floor concept is a coherence mechanism operating at the international rather than intra-state scale. [[06_Frameworks/ISO_IEC_42001]] — the standards channel through which a floor would in practice be built, and where the same participation asymmetry recurs (one-third developing-country membership on ISO/IEC AI committees).
 
+
+## **🔷 Recode: Substantive Divergence vs Floor Divergence (2026-08-15)**
+
+Executes the first Future Research item below, which the 2026-08-09 WDR pass opened but did not action. Every instance recoded here is already recorded in *Instances in Corpus* above; nothing new is sourced.
+
+### Coding rule
+
+| Code | Test | Normative status per WDR 2026 |
+|---|---|---|
+| **S — substantive divergence** | Both regulators agree an obligation is owed on this behavioural domain; they specify it differently (format, threshold, channel, timing) | Acceptable, arguably desirable — regulatory pluralism |
+| **F — floor divergence** | One regulator imposes an obligation on the domain; the other imposes **none**, having had the opportunity | Not acceptable — this is the race-to-the-bottom mechanism |
+| **X — contradiction** | The two obligations cannot both be discharged | Outside the WDR frame entirely; a separate pathology |
+
+The **opportunity** qualifier in F does the work. Silence by a regulator with no jurisdiction over the domain is not floor divergence. Silence by a regulator that legislated afresh over the same technology estate, with notice, is.
+
+### Recoded Indian instances
+
+| # | Instance | Code | Basis |
+|---|---|---|---|
+| 1 | [[07_Institutions/Corpus/RBI/RBI_1]] (IT Governance MD 2023, **0 AI-specific RUs**) ↔ [[07_Institutions/Corpus/SEBI/SEBI_9]]/[[07_Institutions/Corpus/SEBI/SEBI_10]]/[[07_Institutions/Corpus/SEBI/SEBI_17]] (2019 AI/ML reporting) | **F** | SEBI held AI-system reporting owed from Jan 2019. RBI's comprehensive IT-governance instrument four years later imposes none. Not a difference of form. |
+| 2 | [[07_Institutions/Corpus/RBI/RBI_2]] (IT Outsourcing MD 2023) ↔ [[07_Institutions/Corpus/SEBI/SEBI_11]] (Responsibility for AI Tools 2024-25) | **F** | SEBI extends AI responsibility to third-party-procured tools; RBI's third-party framework carries no AI vendor-accountability provision. |
+| 3 | [[07_Institutions/Corpus/RBI/RBI_7]] (Digital Lending Directions 2025, LSP due diligence) ↔ [[07_Institutions/Corpus/SEBI/SEBI_14]] Reg. 16C (sole responsibility, Feb 2025) | **S** | Both impose non-delegable accountability for AI-assisted outputs. The attribution design differs — chain-of-due-diligence vs sole-responsibility — but the floor is common. Corroborated internationally by [[07_Institutions/Corpus/International/International_19_IOSCO_AI_Capital_Markets_CR_2025]]. |
+| 4 | Four-regulator Board-approved-policy convergence — [[07_Institutions/Corpus/RBI/RBI_6_AIFI_Outsourcing_Directions_2025]] / [[07_Institutions/Corpus/SEBI/SEBI_13_Regulatory_Sandbox_Framework_2021]] / [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] / [[07_Institutions/Corpus/IRDAI/IRDAI_1_Maintenance_and_Sharing_of_Information_Regulations_2025]] | **S** | Four regulators independently reach the same governance floor by four drafting routes. This is the construct's cleanest pluralism instance and it is **not** a governance failure. |
+| 5 | Incident-reporting triad — RBI DAKSH / CERT-In directions / SEBI CSCRF, per [[07_Institutions/Corpus/International/International_15]] | **S** | All three require reporting of the same class of event. Channel, format and clock differ. Real compliance cost; no protection gap. |
+| 6 | [[07_Institutions/Corpus/CERT_In/CERT_In_1_Comprehensive_Cyber_Security_Audit_Policy_Guidelines_2025]] ↔ [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]] (operative vs proposed AI audit / AIBOM) | **S** | Temporal, not normative — the proposed framework does not lower the operative floor. |
+| 7 | [[07_Institutions/Corpus/ICMR/ICMR_1]] (advisory, unenforceable) + [[04_Knowledge_Products/Wiki_Intake/MoHFW_1_SAHI_Healthcare_AI_Strategy_2026]] (strategy, no instrument) ↔ binding BFSI regime | **F** | Healthcare AI carries no enforceable Indian obligation. A patient and a borrower are owed materially different protection from the same class of system. |
+| 8 | Sub-national triad — [[07_Institutions/Corpus/TN_Govt/TN_Govt_1]] (ethics-first) / [[07_Institutions/Corpus/Telangana_Govt/Telangana_Govt_1]] (growth-first) / [[04_Knowledge_Products/Wiki_Intake/Karnataka_Govt_1]] (prohibition-first) | **F** | The three states disagree on whether prohibition of specified uses is owed at all — the definitional floor question, at sub-national scale. |
+| 9 | [[07_Institutions/Corpus/RBI/RBI_8]] (binding, 31 Jul 2026, **no retention horizons**) ↔ [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] (binding, **31 Jul 2026**, seven retention horizons + twelve-item custody schedule) | **F** | Same day, same instrument class, same technology estate. The retention inversion recorded in [[Retention_Horizon_Divergence]] is floor divergence in its purest available form: sector and period held constant, **only the drafting choice varies**. |
+| 10 | [[07_Institutions/Corpus/TRAI/TRAI_1]] (UCC 2026 — mandates DLT sharing of flagged numbers) ↔ [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] | **X** | Per `Cross_Institutional_Mandate_Comparison` §10.1 the two cannot both be discharged. Neither WDR category applies. |
+
+### Finding — the 2026-08-09 "honest reading" does not survive its own recode
+
+That block predicted *"most Indian instances recorded in this note are substantive divergence rather than floor divergence, which makes them a compliance-burden finding rather than a rights-protection finding."*
+
+**On this coding the split is 5 F : 4 S : 1 X.** Floor divergence is not the minority case in the Indian corpus — it is the modal case, and it clusters on a single axis: **wherever RBI is one side of the pair, the code is F** (instances 1, 2, 9). RBI's AI-silence is repeatedly a position that no AI-specific obligation is owed, taken by the regulator with the widest binding perimeter, against sister regulators that have taken the opposite position on the same domain. Where RBI has legislated AI-adjacent obligations (instance 3), the code flips to S immediately.
+
+This is a **stronger** claim than the one it replaces, and it is the rights-protection framing rather than the compliance-burden framing. It also converges with [[Governance_Debt]]'s Deontic-Placement Debt from an independent direction: that construct observes that RBI's *strongest-deontic* instrument has the *narrowest AI perimeter*; this recode observes that the same instrument is where the floor drops.
+
+**What it costs.** The WDR pluralism defence is not neutralised — it is conceded for instances 3–6, which is a real narrowing. The construct can no longer claim that Indian parallelism is uniformly pathological. It can claim something more precise and more defensible: **Indian parallelism is pluralist where regulators have both acted, and floor-divergent where one has declined to.**
+
+### ⚠ Flags raised by this recode
+
+| Flag | Issue |
+|---|---|
+| **⚠#347 — MEDIUM** | The S/F/X coding is **this session's analytical judgment**, not an inter-coder-verified scheme. No second coder has applied it; no reliability statistic exists. Do not report the 5:4:1 split as a coded result in P1/P3 without either a stated single-coder limitation or a second pass. Contrast the P3 pair-coding, which claims 90% intercoder agreement. |
+| **⚠#348 — MEDIUM** | The **opportunity** qualifier is doing decisive work in instances 1, 2 and 9 and is not independently operationalised. Instance 9 is well evidenced (same-day notification, CEA's on-record notice of Grid-India ML use). Instances 1 and 2 rest on the weaker premise that a comprehensive IT-governance or outsourcing instrument constitutes an opportunity to legislate on AI. Defensible, but it is an inference. |
+| **⚠#349 — LOW** | Instance 7 compares an advisory (ICMR_1) against binding BFSI instruments. The floor-divergence code assumes the relevant comparison is *protection owed to the affected person*, not *instrument class*. An alternative coding treating cross-sector comparison as out-of-scope would remove this instance and shift the split to 4 F : 4 S : 1 X. |
+| **⚠#350 — LOW** | Ten instances recoded out of the twenty-three coordination pairs in the original P3 evidence base. The remaining thirteen are not individually recorded in this note at pair level and have not been recoded. **The split is over a subset, not the full base.** |
+
 ## **Future Research and Reuse Opportunities**
 
-- **Operationalise the substantive-divergence / floor-divergence distinction** introduced above, and recode the existing Indian instances against it. This is a bounded, high-value task and it materially sharpens what the construct claims.
+- ~~**Operationalise the substantive-divergence / floor-divergence distinction** and recode the Indian instances against it.~~ **✅ DONE 2026-08-15** — see the Recode section above. Result: 5 F : 4 S : 1 X over ten instances; the predicted "mostly substantive" reading did not survive. Residual work: recode the remaining thirteen P3 coordination pairs (⚠#350) and second-coder verification (⚠#347).
 - Cross-sector replication studies examining whether Regulatory Parallelism appears in healthcare AI governance, defence procurement governance, and Digital Public Infrastructure governance.
 - International comparative analysis assessing whether Parallelism emerges within dual-regulated sectors across the European Union, United Kingdom, Singapore, and other multi-regulator jurisdictions.
 - Executive and graduate teaching cases using Indian BFSI governance as an archetypal example of Parallelism in practice.

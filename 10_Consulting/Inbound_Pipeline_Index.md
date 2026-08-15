@@ -20,7 +20,7 @@ tags:
 
 This folder holds intelligence notes on unsolicited inbound opportunities from founders and startups seeking advisory involvement, market introductions, or governance input from VV. Each note records what the startup does, what they are asking for, the conflict/gate assessment, and the future leverage opportunities linked to indexed vault nodes.
 
-**Operating rule:** Nothing progresses from this folder to an active engagement without a conflict clearance entry in `12_Decision Journal`. Defence-adjacent opportunities require explicit legal/service conduct assessment before any response beyond acknowledgement.
+**Operating rule:** Nothing progresses from this folder to an active engagement without a conflict clearance entry in `12_Decision_Journal`. Defence-adjacent opportunities require explicit legal/service conduct assessment before any response beyond acknowledgement.
 
 ---
 

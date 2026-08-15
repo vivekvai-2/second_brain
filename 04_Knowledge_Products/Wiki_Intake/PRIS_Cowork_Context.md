@@ -61,7 +61,7 @@ The vault is an Obsidian knowledge base. Every note is a Markdown file. Notes li
 09_Teaching/     — Teaching assets (currently empty — populate when relevant)
 10_Consulting/   — Active consulting intelligence and inbound opportunities
 11_Content/      — LinkedIn and thought leadership content briefs
-12_Decision Journal/ — Strategic decision log
+12_Decision_Journal/ — Strategic decision log
 99_System_Templates/ — Note format templates
 ```
 
@@ -463,7 +463,7 @@ Handoff note updated in:
 
 ### Handoff note format (single rolling file — do NOT create a new dated file)
 
-**As of 2026-08-01, the vault uses one rolling handoff file, not one-per-session.** Per DJ-11 (`12_Decision Journal/Decision_Journal.md`), the 31 accumulated per-session handoff files were consolidated and archived because they were duplicating what `Corpus_Index_MOC.md` and the concept files already track, while carrying real ongoing housekeeping cost.
+**As of 2026-08-01, the vault uses one rolling handoff file, not one-per-session.** Per DJ-11 (`12_Decision_Journal/Decision_Journal.md`), the 31 accumulated per-session handoff files were consolidated and archived because they were duplicating what `Corpus_Index_MOC.md` and the concept files already track, while carrying real ongoing housekeeping cost.
 
 At the end of every session: **overwrite** `/Users/vivek/Documents/Second Brain/00_MOC/Session_Handoffs/Session_Handoff_Current.md` with current state. Before overwriting, copy the outgoing version to `99_Archive/Session_Handoffs_Archived_20260801/Session_Handoff_Current_superseded_[YYYYMMDD].md` (the vault is not git-tracked, so this is the only recovery path). Keep the file self-contained — it should read like "what does the next session, in any tool, need to know to continue," not a historical log of every past session. Update:
 

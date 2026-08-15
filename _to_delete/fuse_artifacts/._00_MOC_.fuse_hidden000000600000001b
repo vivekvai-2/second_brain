@@ -1,0 +1,185 @@
+---
+type: MOC
+tags:
+  - type/moc
+  - status/active
+  - engine/phd
+---
+
+# Corpus Index MOC — Policy Dump Intake (Batches 1–3)
+
+**Status:** Active | **Last Updated:** 2026-06-14
+**Scope:** Index of corpus nodes written from the "Policy Dump" intake (`/Users/vivek/Documents/EDPMG/AI Driven Investment platforms/Policy Dump`), governed by [[PRIS_Cowork_Context]]. This MOC is the **bidirectional backlink hub** — every corpus node below links outward to concepts/projects/institutions, and every concept/project/institution page listed in "Linked From" sections elsewhere in the vault should have a corresponding entry here.
+
+---
+
+## How to use this index
+
+- **By Wiki Section (S1–S9):** find which corpus nodes feed which AI Governance Wiki section.
+- **By Project:** find which corpus nodes are candidate evidence for P1–P4 / fsQCA.
+- **By Concept:** find which corpus nodes instantiate a signature/standard concept (cross-reference with each concept's "Instances in Corpus" section).
+- **Governance debt tracker:** consolidated list of open ⚠VERIFY flags — treat as vault governance debt requiring periodic resolution (see [[Governance_Debt]]).
+
+---
+
+## Master Table — Batches 1–3 (12 nodes)
+
+| Node | Title | Institution | Wiki Section | Tier | Key Concepts | Key Projects | ⚠VERIFY |
+|---|---|---|---|---|---|---|---|
+| [[07_Institutions/Corpus/MeitY/MeitY_1]] | DPDP Rules, 2025 | MeitY | S2 | A | [[Governance_Debt]] (vs MeitY_3) | [[P2_DPI_JSIS]] | 2 open |
+| [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] | FREE-AI Committee Report | RBI | S4/S2 | A | [[Regulatory_Parallelism]], [[Institutional_Coherence]] (sutra lineage → MeitY_2), [[Agentic_AI_Governance]] | [[P3_BFSI_JEIM]], [[fsQCA_Thesis_Chapter]] | 1 open |
+| [[07_Institutions/Corpus/MeitY/MeitY_2]] | India AI Governance Guidelines | MeitY | S1/S2 | A | [[Institutional_Coherence]] (sutra lineage ← RBI_FREE_AI_2025), [[Regulatory_Parallelism]] | [[P1_SLR_RG]], [[P2_DPI_JSIS]] | 1 open |
+| [[07_Institutions/Corpus/RBI/RBI_3]] | Draft Circular — Model Risk in Credit | RBI | S2/S6 | B | [[Regulatory_Parallelism]], [[Agentic_AI_Governance]] (RU RBI_3_RU_004, cited in P3 §7.1) | [[P3_BFSI_JEIM]] | 1 open |
+| [[07_Institutions/Corpus/SEBI/SEBI_12]] | AI/ML Reporting for Intermediaries (2019) | SEBI | S2 | A | [[Regulatory_Parallelism]] (timeline anchor) | [[P3_BFSI_JEIM]], [[fsQCA_Thesis_Chapter]] | — |
+| [[07_Institutions/Corpus/RBI/RBI_4]] | WG on FinTech & Digital Banking (2017) | RBI | S2 | C | [[Governance_Capacity]] (opportunity-framing baseline) | [[P3_BFSI_JEIM]], [[fsQCA_Thesis_Chapter]] | — |
+| [[07_Institutions/Corpus/International/International_1]] | OECD Gen AI Policy Considerations | International (OECD) | S3 | C | [[Institutional_Coherence]] (comparator) | [[P1_SLR_RG]] | — |
+| [[07_Institutions/Corpus/International/International_2]] | BIS Gen AI & Cyber Security | International (BIS) | S5 | C | — | [[P1_SLR_RG]] | — |
+| [[07_Institutions/Corpus/International/International_4]] | MAS FEAT Principles (2019) | International (MAS, Singapore) | S3/S1 | A | [[Institutional_Coherence]], [[Accountability]], [[Transparency]], [[Legitimacy]] | [[P1_SLR_RG]], [[fsQCA_Thesis_Chapter]] | 1 open |
+| [[07_Institutions/Corpus/International/International_3]] | MAS AI Risk Mgmt Consultation (2025) | International (MAS, Singapore) | S3 | A | [[Regulatory_Parallelism]] (international case, ↔ RBI_FREE_AI_2025), [[Institutional_Coherence]], [[Governance_Capacity]] | [[P3_BFSI_JEIM]], [[fsQCA_Thesis_Chapter]] | — |
+| [[07_Institutions/Corpus/NITI_Aayog/NITI_7]] | National Strategy for AI #AIforAll (2018) | NITI Aayog | S1/S2 | B | [[Governance_Capacity]] (India "year zero"), [[Institutional_Coherence]] | [[P1_SLR_RG]], [[P2_DPI_JSIS]] | 1 open |
+| [[07_Institutions/Corpus/MeitY/MeitY_3]] | National Data Governance Framework Policy (Draft) | MeitY | S2/S5 | C | [[Governance_Debt]] (2022 draft, unconfirmed finalisation), [[Institutional_Coherence]] | [[P2_DPI_JSIS]] | 1 open |
+
+---
+
+## Batch 4 — Wiki Intake Notes (10 notes, Format B)
+
+Batch 4 comprises Industry/Big4 reports and an academic 3LoD/AI-risk cluster, routed to Format B (Wiki Intake Notes) in `04_Knowledge_Products/Wiki_Intake/` rather than Format A corpus nodes.
+
+| File ID | Title | Source | Wiki Section | ⚠VERIFY |
+|---|---|---|---|---|
+| F001 | [[04_Knowledge_Products/Wiki_Intake/NASSCOM_RAI_India_2023]] | NASSCOM (2023) | S2/S7 | 1 open |
+| F002 | [[04_Knowledge_Products/Wiki_Intake/EY_IIF_Global_Bank_Risk_Survey_2026]] | EY/IIF (2026) | S3/S7 | 1 open |
+| F003 | [[04_Knowledge_Products/Wiki_Intake/IIA_Three_Lines_Model_2024]] | IIA (2024) | S6/S1 | 1 open |
+| F004 | [[04_Knowledge_Products/Wiki_Intake/AFM_Algorithmic_Trading_Governance_2021]] | AFM, Netherlands (2021) | S6/S3 | — |
+| F005 | [[04_Knowledge_Products/Wiki_Intake/FCA_Algorithmic_Trading_Compliance_2018]] | FCA, UK (2018) | S6/S3 | 1 open |
+| F006 | [[04_Knowledge_Products/Wiki_Intake/Fed_OCC_SR11-7_Model_Risk_Management_2011]] | Fed/OCC, US (2011) | S6 | — |
+| F007 | [[04_Knowledge_Products/Wiki_Intake/Schuett_Three_Lines_Defense_AI_2023]] | Schuett, Oxford GovAI (2023) | S4/S6 | — |
+| F008 | [[04_Knowledge_Products/Wiki_Intake/Davies_Zhivitskaya_3LoD_2018]] | Davies & Zhivitskaya, Sciences Po (2018) | S6 | 1 open |
+| F009 | [[04_Knowledge_Products/Wiki_Intake/Bantleon_et_al_3LoD_Coordination_2020]] | Bantleon et al. (2020/2021) | S6 | 1 open |
+| F010 | [[04_Knowledge_Products/Wiki_Intake/Arndorfer_Minto_Four_Lines_Defence_2015]] | Arndorfer & Minto, BIS FSI (2015) | S6 | — |
+
+**Thematic note:** F003, F006–F010 form a coherent 3-Lines-of-Defence / Model-Risk-Management doctrinal lineage (SR 11-7 2011 → Davies & Zhivitskaya 2018 → FCA 2018 → Bantleon et al. 2020 → AFM 2021 → IIA 2024 → Schuett 2023/2025 applies 3LoD to AI) that materially strengthens [[Institutional_Coherence]] and [[Agentic_AI_Governance]] evidence bases for P3/P4/fsQCA.
+
+---
+
+## Batch 5 — Wiki Intake Notes (10 notes, Format B)
+
+Batch 5 comprises India-BFSI AI-governance academic papers (cluster1 shortlist Priority-A/B candidates) plus comparative/doctrinal legal papers, routed to Format B (Wiki Intake Notes) in `04_Knowledge_Products/Wiki_Intake/`.
+
+| File ID | Title | Source | Wiki Section | ⚠VERIFY |
+|---|---|---|---|---|
+| F011 | [[04_Knowledge_Products/Wiki_Intake/Rajesh_Nimbagal_Karadi_AI_Governance_Risk_Nexus_2026]] | Rajesh, Nimbagal & Karadi (2026) | S2/S6 | — |
+| F012 | [[04_Knowledge_Products/Wiki_Intake/Arner_Barberis_Buckley_RegTech_2017]] | Arner, Barberis & Buckley (2017) | S5/S2/S3 | — |
+| F013 | [[04_Knowledge_Products/Wiki_Intake/Kurshan_Shen_Chen_AI_Model_Governance_2020]] | Kurshan, Shen & Chen (2020) | S6/S4 | 1 open |
+| F014 | [[04_Knowledge_Products/Wiki_Intake/McLemore_Mihov_AI_Operational_Losses_2025]] | McLemore & Mihov (2025) | S6/S2 | — |
+| F015 | [[04_Knowledge_Products/Wiki_Intake/Roy_Ghose_AI_Finance_Bibliometric_2025]] | Roy, Ghose, Singh, Tyagi & Vasudevan (2025) | S1/S7 | — |
+| F016 | [[04_Knowledge_Products/Wiki_Intake/Deepthi_Gupta_Rai_Arora_AI_Indian_Banking_Dynamics_2022]] | Deepthi, Gupta, Rai & Arora (2022/2026) | S2/S6/S5 | 1 open |
+| F017 | [[04_Knowledge_Products/Wiki_Intake/Raju_GenAI_Indian_Financial_Services_2025]] | Raju (2025) | S2/S4/S5/S3 | — |
+| F018 | [[04_Knowledge_Products/Wiki_Intake/Saurabh_SEBI_MCA_AI_Compliance_2025]] | Saurabh (2025) | S2/S3/S1 | 1 open |
+| F019 | [[04_Knowledge_Products/Wiki_Intake/Thomas_AI_Regulatory_Frontier_India_EU_2026]] | Thomas (2026) | S5/S3/S2 | — |
+| F020 | [[04_Knowledge_Products/Wiki_Intake/Sejwal_Gupta_ADM_Indian_Credit_Scoring_2026]] | Sejwal & Gupta (2026) | S2/S5/S6 | 1 open |
+
+**Thematic note:** F011 (India BFSI governance-risk nexus) and F014 (US BHC AI-operational-loss empirics) form a strong cross-jurisdictional pair for fsQCA — both demonstrate that AI investment without mature risk governance amplifies operational risk. F019 and F020 (same ICSLIAI 2026 proceedings) form a macro/micro pair on DPDP Act adequacy — F019 cross-jurisdictional (India/EU), F020 sectoral (credit scoring/RBI). F013 extends the Batch 4 3LoD/model-risk doctrinal lineage to AI-specific governance debt.
+
+---
+
+## Batch 6 — Raw-Corpus Selection (3 net new nodes + 2 confirmed duplicates), Format A/B
+
+Batch 6 sourced documents directly from the raw 187-PDF corpus at `/Users/vivek/Documents/LinkedIn/Policy Dump/PDFs/`, prioritising 3LoD/Model-Risk/Agentic-AI and India-BFSI themes. Five candidates were processed; two (F027, F028) were found to be **confirmed duplicates** of existing Batch 5 nodes (F011, F016 respectively) and were merged/superseded rather than retained as standalone files. RBI_5 uses RBI institution-series numbering (per handoff note instruction) rather than continuing the F0XX sequence, as it is a Format A Corpus Node (primary RBI instrument via secondary commentary), not a Format B Wiki Intake Note.
+
+| File ID | Title | Source | Format | Wiki Section | ⚠VERIFY |
+|---|---|---|---|---|---|
+| F021 | [[04_Knowledge_Products/Wiki_Intake/Tammenga_AI_3LoD_Banks_2020]] | Tammenga (2020) | B | S6/S1 | 1 open |
+| F022 | [[04_Knowledge_Products/Wiki_Intake/Addae_Mota_Moreira_Risk_Governance_SLR_2023]] | Addae, Mota & Moreira (2023) | B | S1/S6 | 1 open |
+| F023 | SKIPPED — confirmed duplicate of F013 (Kurshan, Shen & Chen 2020) | — | — | — | — |
+| F024 | [[04_Knowledge_Products/Wiki_Intake/Rao_Scepanovic_AI_Model_Risk_Catalog_2025]] | Rao & Scepanović (AAAI 2025 / arXiv) | B | S3/S6 | 2 open |
+| F025 | [[04_Knowledge_Products/Wiki_Intake/AgenticRisks_Enterprise_Wide_Agentic_AI_Risk_Controls_2025]] | AgenticRisks.com, v3.0 (2025) | B | S4/S1 | 3 open |
+| F026 | [[04_Knowledge_Products/Wiki_Intake/Eisenberg_Gamboa_Sherman_Unified_Control_Framework_2025]] | Eisenberg, Gamboa & Sherman (Credo AI, 2025 arXiv) | B | S1/S3/S4/S6 | 3 open |
+| F027 | SKIPPED — confirmed duplicate of F011 (Rajesh, Nimbagal & Karadi 2026); addendum merged into F011 | — | — | — | — |
+| F028 | SKIPPED — confirmed duplicate of F016 (Deepthi, Gupta, Rai & Arora 2022/2026); addendum merged into F016 | — | — | — | — |
+| RBI_5 | [[07_Institutions/Corpus/RBI/RBI_5_Operational_Risk_Management_Resilience_NBFC_Guidance_2024]] | RBI Guidance Note (via Vinod Kothari Consultants commentary, 2024) | A | S1/S6/S5 | 4 open |
+| F030 | [[04_Knowledge_Products/Wiki_Intake/Danielsson_Macrae_Uthemann_AI_Systemic_Risk_2022]] | Daníelsson, Macrae & Uthemann, *JBF* 140 (2022) | B | S3/S6/S1 | 4 open |
+
+**Thematic note:** F021/F022 extend the Batch 4 3LoD/model-risk-management doctrinal lineage with AI-specific (F021) and general risk-governance (F022) treatments. F024/F025/F026 form a 2025 "risk taxonomy + control library" cluster (empirical classification, agentic-specific controls, and unified enterprise framework respectively) — together the most structurally complete agentic-AI-governance evidence base in the corpus to date. RBI_5 is the first corpus node to document RBI's 3LoD/OORF operational-risk architecture, providing a direct India-regulatory comparator for F021/F025. F030 supplies a foundational macro/micro-AI risk-taxonomy frame (2022, *Journal of Banking and Finance*) that retroactively classifies most of the corpus's BFSI-AI-adoption literature (F011, F016, F021, F027/F028 duplicates) as "micro AI" evidence, while highlighting "macro AI"/systemic-risk as a corpus-wide gap.
+
+---
+
+## By Wiki Section
+
+| Section | Nodes |
+|---|---|
+| S1 (Governance Fundamentals) | MeitY_2, International_4, NITI_7, F015, F018, F021, F022, F025, F026, RBI_5, F030 |
+| S2 (India Regulatory Framework) | MeitY_1, MeitY_2, RBI_3, RBI_4, SEBI_12, NITI_7, MeitY_3, RBI_FREE_AI_2025, F011, F012, F014, F016, F017, F018, F019, F020 |
+| S3 (International Regulatory Context) | International_1, International_3, International_4, F012, F017, F018, F019, F024, F026, F030 |
+| S4 (Agentic AI Governance) | RBI_FREE_AI_2025, F013, F017, F025, F026 |
+| S5 (Data, Privacy & Security) | International_2, MeitY_3, F012, F016, F017, F019, F020, RBI_5 |
+| S6 (Model Risk) | RBI_3, F011, F013, F014, F016, F020, F021, F022, F024, F026, RBI_5, F030 |
+| S7 (Research Methods) | F015 |
+
+---
+
+## By Project / fsQCA Relevance
+
+| Project | Candidate nodes |
+|---|---|
+| [[P1_SLR_RG]] | MeitY_2, International_1, International_2, International_4, NITI_7, F012, F015, F019, F020, F022, F026, F030 |
+| [[P2_DPI_JSIS]] | MeitY_1, MeitY_2, MeitY_3, NITI_7, F017 |
+| [[P3_BFSI_JEIM]] | RBI_FREE_AI_2025, RBI_3, SEBI_12, RBI_4, International_3, F011, F012, F013, F014, F016, F017, F021, RBI_5, F030 |
+| [[P4]] | F012, F013, F018, F019, F020, F025, F026, F030 |
+| [[fsQCA_Thesis_Chapter]] | RBI_FREE_AI_2025, SEBI_12, RBI_4, International_3, International_4, F011, F013, F014, F017, F018, F019, F020 |
+
+**Regulatory evolution timeline (P3/fsQCA):** RBI_4 (2017) → SEBI_12 (2019) → International_4 FEAT (2019) → RBI_3 (2024) → RBI_FREE_AI_2025 / International_3 (Nov 2025, near-contemporaneous, no cross-reference — international Regulatory Parallelism case).
+
+---
+
+## ⚠ VERIFY BEFORE PUBLISHING — Consolidated Tracker (Governance Debt)
+
+35 open flags (8 from Batches 1–3, 5 from Batch 4, 4 from Batch 5, 18 new from Batch 6). Treated as vault governance debt — resolve in a dedicated verification pass before any node content is cited externally (LinkedIn, papers, consulting decks).
+
+| # | Node | Flag |
+|---|---|---|
+| 1 | MeitY_1 | Exact rule commencement dates/tranches under DPDP Rules 2025 |
+| 2 | MeitY_1 | 72-hour breach notification trigger to Data Protection Board (exact wording/threshold) |
+| 3 | MeitY_2 | Exact six "pillar" names (Part 2) not captured in extraction |
+| 4 | RBI_3 | Confirm whether Aug 2024 draft circular has been finalised |
+| 5 | RBI_FREE_AI_2025 | Confirm whether any RBI Master Direction has converted "should" → "shall" |
+| 6 | International_4 | FEAT→India-sutras lineage is structural-similarity only — do not assert direct influence without confirmed citation |
+| 7 | NITI_7 | "Five focus sectors" / specific recommendation wording not fully captured |
+| 8 | MeitY_3 | Entire node based on garbled OCR extraction — re-extract clean copy before citing IDMO/India Datasets details |
+| 9 | F001 NASSCOM_RAI_India_2023 | Exact wording/denominator of the 49%/59% confidence-vs-compliance finding |
+| 10 | F002 EY_IIF_Global_Bank_Risk_Survey_2026 | Exact jurisdictions cited as "loosening" vs "tightening" regulatory examples |
+| 11 | F003 IIA_Three_Lines_Model_2024 | corpus_intake_table_v2 (P86) dates this "2020 update"; PDF metadata says "Sept. 2024 Update" — confirm correct edition/date |
+| 12 | F005 FCA_Algorithmic_Trading_Compliance_2018 | Link to RBI_FREE_AI_2025 flag #5 (should→shall) not yet substantiated — confirm before asserting parallel |
+| 13 | F008/F009 Davies_Zhivitskaya_2018 / Bantleon_et_al_2020 | US sub-$10bn risk-committee threshold (Davies, citing FIS 2016) and exact journal/year for Bantleon et al. not confirmed |
+| 14 | F013 Kurshan_Shen_Chen_AI_Model_Governance_2020 | cluster1 shortlist cites third author as "Yu"; PDF confirms "Jiahao Chen" (J.P. Morgan AI Research) — likely citation error in cluster1, confirm before using cluster1's author list |
+| 15 | F016 Deepthi_Gupta_Rai_Arora_AI_Indian_Banking_Dynamics_2022 | PDF header shows conflicting dates ("© 2022 MDI" vs "Vision 30(2), 2026" issue) — confirm actual publication year before citing |
+| 16 | F018 Saurabh_SEBI_MCA_AI_Compliance_2025 | Confirm SEBI PR No. 34/2024 (21 Dec 2024, AI-tool responsibility assignment) details independently against SEBI primary source |
+| 17 | F020 Sejwal_Gupta_ADM_Indian_Credit_Scoring_2026 | "$500bn+ outstanding digital lending debt, >25%/year growth" statistic (footnote [1], unconfirmed source) — verify against RBI/industry data before citing |
+| 18 | F021 Tammenga_AI_3LoD_Banks_2020 | Confirm whether Tammenga (2020) has been cited by F007/F013 — if not, treat doctrinal lineage as thematic/structural similarity only |
+| 19 | F022 Addae_Mota_Moreira_Risk_Governance_SLR_2023 | India "5 studies" figure (Table 6) — confirm relevance of these 5 as P3 precedent citations |
+| 20 | F024 Rao_Scepanovic_AI_Model_Risk_Catalog_2025 | Zotero key not assigned |
+| 21 | F024 Rao_Scepanovic_AI_Model_Risk_Catalog_2025 | Confirm final venue/proceedings citation (AAAI conference vs. workshop; arXiv 2508.16672v1) |
+| 22 | F025 AgenticRisks_Enterprise_Wide_Agentic_AI_Risk_Controls_2025 | Zotero key not assigned; confirm item type (industry whitepaper, not journal article) |
+| 23 | F025 AgenticRisks_Enterprise_Wide_Agentic_AI_Risk_Controls_2025 | Not peer-reviewed — frame as "industry practitioner framework" evidence only; do not present 5/30/242 counts as empirically validated |
+| 24 | F025 AgenticRisks_Enterprise_Wide_Agentic_AI_Risk_Controls_2025 | Confirm current framework version (v3.0 vs. v4.0+) at agenticrisks.com before long-lead citation; respect single-use licensing |
+| 25 | F026 Eisenberg_Gamboa_Sherman_Unified_Control_Framework_2025 | Zotero key not assigned |
+| 26 | F026 Eisenberg_Gamboa_Sherman_Unified_Control_Framework_2025 | arXiv preprint from AI governance vendor (Credo AI) — confirm whether peer-reviewed/AAAI/FAccT 2025 version exists; frame as industry research pending confirmation |
+| 27 | F026 Eisenberg_Gamboa_Sherman_Unified_Control_Framework_2025 | "42 controls / 50 risk scenarios / 13/14 Colorado AI Act requirements" figures are self-reported, not independently audited |
+| 28 | RBI_5 Operational_Risk_Management_Resilience_NBFC_Guidance_2024 | Zotero key not assigned |
+| 29 | RBI_5 Operational_Risk_Management_Resilience_NBFC_Guidance_2024 | Node based on secondary advisory commentary (VKC) only — primary RBI Guidance Note (30 April 2024) not independently sourced; cross-check before quotation |
+| 30 | RBI_5 Operational_Risk_Management_Resilience_NBFC_Guidance_2024 | Exact RBI circular/notification reference number not confirmed |
+| 31 | RBI_5 Operational_Risk_Management_Resilience_NBFC_Guidance_2024 | Status of "new framework for financial services outsourcing... in the pipeline" (footnote 3) — confirm if finalised; possible follow-up node |
+| 32 | F030 Danielsson_Macrae_Uthemann_AI_Systemic_Risk_2022 | Zotero key not assigned |
+| 33 | F030 Danielsson_Macrae_Uthemann_AI_Systemic_Risk_2022 | Paper pre-dates LLM/agentic-AI wave (2017-2021) — note temporal/technological gap when citing alongside F024-F026 |
+| 34 | F016 Deepthi_Gupta_Rai_Arora_AI_Indian_Banking_Dynamics_2022 | (Batch 6 addendum) Table 13 B-coefficient/Sig. row-label inconsistency in source PDF — recheck against version of record before quoting coefficients |
+| 35 | RBI_5 Operational_Risk_Management_Resilience_NBFC_Guidance_2024 | VKC's enforceability interpretation (guidance note vs. binding instrument) is informed commentary, not authoritative legal interpretation — flag if cited in P4 doctrinal work |
+
+---
+
+## Linking Convention
+
+See [[Bidirectional_Linking_Convention]] for the standing workflow applied to this index and to concept/project "Instances in Corpus" sections for Batches 4–11 onward.
+
+---
+
+_Back to [[PRIS_Master_MOC]]_

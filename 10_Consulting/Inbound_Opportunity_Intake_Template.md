@@ -86,7 +86,7 @@ List every wikilink used above, grouped by type (Domains / Knowledge Products / 
 
 ## 7. Decision Journal Entry
 
-Per the Inbound Pipeline Index operating rule: **nothing progresses from this folder to an active engagement without a conflict clearance entry in `12_Decision Journal`.** Log the assessed conflict tier and recommended action there in the same session this note is created.
+Per the Inbound Pipeline Index operating rule: **nothing progresses from this folder to an active engagement without a conflict clearance entry in `12_Decision_Journal`.** Log the assessed conflict tier and recommended action there in the same session this note is created.
 
 ---
 
@@ -95,7 +95,7 @@ Per the Inbound Pipeline Index operating rule: **nothing progresses from this fo
 1. Add a row to [[Inbound_Pipeline_Index]] Pipeline Status table (Startup | Domain | Ask | Conflict Flag | Gate | Status).
 2. Add rows to the Leverage Map — Vault Connections table for each concept/framework touched.
 3. If defence-adjacent, add to the Post-Superannuation Opportunity Queue.
-4. Log the conflict clearance decision in `12_Decision Journal`.
+4. Log the conflict clearance decision in `12_Decision_Journal`.
 
 ---
 

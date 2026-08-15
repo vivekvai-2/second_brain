@@ -1,0 +1,107 @@
+---
+type: Signature Concept
+tags:
+  - type/concept-signature
+  - status/active
+  - paper/p2
+  - paper/p4-primary
+  - paper/fsqca-primary
+  - gate/open
+  - engine/phd
+  - engine/linkedin
+  - engine/consulting
+  - content/carousel-ready
+  - content/thought-leadership
+---
+
+# **Institutional Coherence**
+
+**Type:** Signature Construct**Status:** Active**Last Updated:** 2026-06-12
+
+---
+
+## **Definition (Researcher’s Formulation)**
+
+Institutional Coherence is a property of regulatory architecture defined as the degree to which AI governance instruments within a jurisdiction are internally consistent, mutually referencing, and non-contradictory in their allocation of obligations, enforcement responsibilities, and accountability structures. The construct operates at the level of governance systems rather than organisations, firms, or individual regulators. Unlike organisational or policy coherence, Institutional Coherence concerns the structural design of regulatory instruments and the relationships among them, rather than the alignment of organisational activities or policy objectives.
+
+## **Dimensions**
+
+1. **Cross-referencing** — Governance instruments explicitly cite, defer to, or acknowledge related instruments operating within the same regulatory domain.
+2. **Jurisdictional clarity** — Enforcement responsibilities and regulatory authority are allocated clearly, without significant overlap, ambiguity, or governance gaps.
+3. **Obligation consistency** — Comparable governance requirements employ consistent terminology, scope definitions, thresholds, and compliance expectations across instruments.
+4. **Coordination mechanisms** — Formal arrangements exist to facilitate regulatory coordination, including joint circulars, unified governance codes, inter-agency bodies, or equivalent mechanisms.
+
+## **Role in fsQCA Model**
+
+Institutional Coherence corresponds to the Systemic Regulatory (SR) condition within the approved four-condition fsQCA model comprising EA × SR × RL × SI. The construct is calibrated using four anchor points: 0.00 where no coherence indicators are present, 0.33 where only partial cross-referencing exists, 0.67 where cross-referencing and jurisdictional clarity are present, and 1.00 where all four coherence dimensions are observable. Within the fsQCA design, Institutional Coherence is treated as a causal condition whose configurational relationship with legitimate AI governance outcomes remains to be established empirically. Whether the construct functions as a necessary condition, a sufficient condition, or a component of multiple sufficient configurations remains explicitly open pending completion of the analysis.
+
+## **Empirical Application**
+
+Institutional Coherence serves as a unifying construct across multiple components of the research programme. In P2, the records-rules asymmetry identified within India’s Digital Public Infrastructure governance architecture is interpreted as evidence of reduced coherence in citizen-facing governance arrangements, where participants are heavily represented as records but weakly represented as rule-bearing actors. In P4, the construct functions as a normative benchmark against which the Indian BFSI AI governance architecture is evaluated, with the absence of cross-references between RBI and SEBI instruments indicating a significant coherence deficit. Within the fsQCA chapter, Institutional Coherence is operationalised as a calibrated causal condition across ten jurisdictional cases, enabling comparative analysis of how regulatory architecture contributes to legitimate governance outcomes.
+
+## **Distinction From Adjacent Constructs**
+
+|**Construct**|**Defining Feature**|**Key Difference From Institutional Coherence**|
+|---|---|---|
+|Policy Coherence|Alignment of policy goals across government departments|Institutional Coherence is regulatory-instrument-level, not policy-goal-level; it concerns obligation structure, not intent|
+|Regulatory Convergence|Regulators producing equivalent outcomes through independent action|Convergence is an outcome; Institutional Coherence is a structural property that enables or prevents coordination|
+|Coordination|Active regulatory collaboration mechanisms|Coordination is one dimension of Institutional Coherence, not a synonym; a system can have coordination mechanisms without achieving coherence|
+
+## **Theoretical Positioning**
+
+Institutional Coherence engages directly with Institutional Grammar 2.0 by identifying a structural property that can be assessed through ADICO-based analysis of governance instruments. The presence or absence of cross-references between coded institutional statements provides a direct empirical indicator of coherence within a regulatory architecture. The construct also draws on regulatory governance theory, particularly scholarship concerned with jurisdictional boundary design and the allocation of regulatory authority. It complements regime complexity theory by providing a domestic-level analytical construct for evaluating interactions between governance instruments within a single jurisdiction. Across the PRIS research programme, Institutional Coherence functions as the normative benchmark against which [[Regulatory_Parallelism]] and [[Governance_Debt]] are interpreted as structural deficits in regulatory design.
+
+## **Instances in Corpus**
+
+- [[07_Institutions/Corpus/MeitY/MeitY_2]] ← [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] — India AI Governance Guidelines explicitly states its seven cross-sectoral "sutras" were adapted from RBI FREE-AI's Seven Sutras. **Strongest documented Institutional Coherence / regulatory-diffusion evidence in the corpus to date** — a confirmed (cited) cross-instrument lineage, not merely structural similarity.
+- [[07_Institutions/Corpus/International/International_4]] — MAS FEAT Principles (2019) vs. RBI FREE-AI / MeitY_2 sutras: structural convergence on a Fairness/Ethics/Accountability/Transparency-type taxonomy across jurisdictions and 6–7 years, **without demonstrated citation** (⚠VERIFY) — contrast case against the confirmed MeitY_2/RBI_FREE_AI_2025 lineage above.
+- [[07_Institutions/Corpus/NITI_Aayog/NITI_7]] — National Strategy for AI (2018), India's earliest AI policy artefact; establishes the pre-coherence baseline (opportunity-framing, no governance architecture) against which later coherence/incoherence in MeitY_1/2 and RBI_FREE_AI_2025 can be assessed.
+- [[07_Institutions/Corpus/MeitY/MeitY_3]] — proposed India Data Management Office structurally mirrors RBI_FREE_AI_2025's and MeitY_2's proposed coordinating bodies (AIGG, AISI, TPEC) — a recurring "new coordinating body" institutional-design pattern worth coding across the corpus.
+- (Batch 6) [[07_Institutions/Corpus/RBI/RBI_5_Operational_Risk_Management_Resilience_NBFC_Guidance_2024]] — internal coherence question between this Guidance Note's BCP/change-management/third-party provisions and the existing IT Master Directions (explicitly discussed in source) is a worked example of multi-instrument coherence within a single regulator's framework; methodologically relevant to Institutional Grammar (ADICO) coding of overlapping RBI instruments.
+- (Batch 6) [[04_Knowledge_Products/Wiki_Intake/Eisenberg_Gamboa_Sherman_Unified_Control_Framework_2025]] (F026) — the single Colorado AI Act validation gap (mandatory disclosure of discovered algorithmic discrimination, CO-DEPLOYER.C7) is a precise instance of risk-taxonomy/regulatory-requirement misalignment — risk-derived control libraries do not automatically anticipate procedural/disclosure obligations regulators add.
+- (Batch 6) [[04_Knowledge_Products/Wiki_Intake/Danielsson_Macrae_Uthemann_AI_Systemic_Risk_2022]] (F030) — argument that macro AI cannot replicate "modular organisational structures with formal/informal communication channels" for objective-setting is a theoretical anchor for why institutional/organisational governance structures remain necessary alongside algorithmic ones.
+- [[04_Knowledge_Products/Wiki_Intake/IIA_Three_Lines_Model_2024]] — 2024 reframing of "defence" lines into a principles-based "model" offers a structural-coherence template (six principles, defined role relationships) against which India's emerging AI governance coordinating bodies (AIGG, AISI, TPEC) can be assessed.
+- [[04_Knowledge_Products/Wiki_Intake/Fed_OCC_SR11-7_Model_Risk_Management_2011]] — 2011 US doctrinal origin of model risk governance (development/validation/governance triad); establishes the institutional ancestry against which RBI_3's 2024 model-risk circular can be assessed for coherence/adaptation.
+- [[04_Knowledge_Products/Wiki_Intake/Schuett_Three_Lines_Defense_AI_2023]] — proposes a 3LoD-mapped AI-company org chart and catalogues 3LoD independence/expertise critiques directly transferable to assessing coherence of proposed Indian AI coordinating bodies.
+- [[04_Knowledge_Products/Wiki_Intake/Davies_Zhivitskaya_3LoD_2018]] — three-tier (global standard-setter / national regulator / board) reform-recommendation template, reusable for structuring coherence arguments about India's multi-regulator AI governance landscape.
+- [[04_Knowledge_Products/Wiki_Intake/Bantleon_et_al_3LoD_Coordination_2020]] — 415-CAE survey evidence that 3LoD coordination quality varies by determinant/stakeholder, supporting a configurational (fsQCA) rather than uniform view of institutional coherence.
+- [[04_Knowledge_Products/Wiki_Intake/Arndorfer_Minto_Four_Lines_Defence_2015]] — proposes extending internal 3LoD with an external "fourth line" (auditors/supervisors); flags information-flow risk as a coherence failure mode relevant to third-party AI assurance proposals under RBI FREE-AI.
+- [[04_Knowledge_Products/Wiki_Intake/AFM_Algorithmic_Trading_Governance_2021]] — anchors algorithmic-trading governance to MAR Art.13/18, a precedent for extending existing market-conduct coherence frameworks to AI-driven trading systems.
+- [[04_Knowledge_Products/Wiki_Intake/NASSCOM_RAI_India_2023]] — 2023 sectoral RAI maturity gradient (BFSI 38% / TMT 30% / healthcare 21%) provides an industry self-assessment baseline against which formal coherence of 2025 instruments (RBI_FREE_AI_2025, MeitY_2) can be measured.
+
+See [[Corpus_Index_MOC]] for full node index.
+
+## **Appears In**
+
+- [[P2_DPI_JSIS]]
+- [[P4_Doctrinal_IJLIT]]
+- [[fsQCA_Thesis_Chapter]]
+
+## **Feeds Into**
+
+- [[AI_Governance_Wiki]]
+- [[Regulatory_Complexity_Handbook]]
+- [[Regulatory_Parallelism]]
+- [[Governance_Debt]]
+
+## **Linked Domains**
+
+- [[AI_Governance]]
+- [[DPI_Governance]]
+- [[BFSI_Governance]]
+
+## **Linked Methods**
+
+- [[fsQCA]]
+- [[Institutional_Grammar_IG2]]
+
+## **Future Research and Reuse Opportunities**
+
+- Cross-jurisdictional comparative studies examining how Institutional Coherence combines with other governance conditions within fsQCA configurations to produce legitimate AI governance outcomes.
+- Executive education and graduate teaching cases contrasting Indian BFSI governance as a low-coherence architecture with more highly coordinated regulatory designs such as the EU AI governance framework.
+- Development of a regulatory architecture coherence audit tool for consulting engagements involving governance redesign, regulatory mapping, and compliance transformation.
+- Extension of the construct beyond AI governance to evaluate whether Institutional Coherence predicts the emergence of Governance Debt in domains such as financial regulation, environmental governance, telecommunications, and digital infrastructure policy.
+
+---
+
+_Back to [[_Concepts_MOC]]_

@@ -49,7 +49,7 @@ Not stated explicitly — inferred from India DRDO/IDEX mention and the pitch de
 
 **Defence/DRDO/IDEX angle:** This requires explicit assessment. Providing introductions to DRDO or iDEX ecosystem contacts, advising on defence procurement positioning, or facilitating India defence market entry while serving as CSO Southern Command creates a potential conflict of interest under service conduct rules and potentially SCOMET/export control frameworks if technical details of defence-relevant AI are shared.
 
-**Recommended action:** Respond to the commercial/legal AI framing only. Explicitly defer any DRDO or iDEX conversation to post-superannuation. Log this decision in `12_Decision Journal`.
+**Recommended action:** Respond to the commercial/legal AI framing only. Explicitly defer any DRDO or iDEX conversation to post-superannuation. Log this decision in `12_Decision_Journal`.
 
 ---
 

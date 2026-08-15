@@ -1,0 +1,90 @@
+---
+type: Project
+tags:
+  - type/project
+  - status/deferred
+  - phase/post-defence
+  - paper/p1-primary
+  - paper/fsqca
+  - gate/phd-defence
+  - engine/phd
+  - engine/linkedin
+  - content/thought-leadership
+---
+
+# P1_State.md — AI Governance SLR → Regulation & Governance
+
+> **Purpose:** Operational state file for Paper P1. Deferred post-defence — this file is a placeholder stub. Activate Q3 2027.
+>
+> **Last Updated:** 2026-06-12  
+> **Tier:** 3 (Per-Paper State)  
+> **Companion files:** `VV_Publication_Pipeline_v3.md` Section 5.4 · `GIQ_V13.docx` (49-instrument SLR corpus, ~10,500 words) · `V12_SOM.docx`
+
+---
+
+## 0. Quick Reference Header
+
+```
+PAPER ID          : P1
+TARGET JOURNAL    : Regulation & Governance (Wiley)
+                    ABDC-A; interdisciplinary governance / IS / policy
+CURRENT STATUS    : DEFERRED — explicitly decoupled from defence gate.
+                    GIQ_V13.docx exists as near-publication draft (desk-rejected
+                    at GIQ on fit grounds, not substance — 14 Apr 2026).
+                    Corpus: 49 instruments (F1–F49), coded in NVivo.
+                    Typology: 9 archetypes × 3 dimensions (RL, SR, SI).
+ACTIVATION DATE   : Q3 2027 — post-defence
+SUBMIT TARGET     : Q1–Q2 2028
+FIRST DECISION    : Q2–Q3 2028 (estimated)
+```
+
+> ⏳ **STUB STATUS: Do not activate before PhD defence (Q3–Q4 2027). GIQ_V13.docx is the source manuscript. Primary reframing work required: contribution-first narrative spine; Fiss (2011) typology-validation logic; R&G editorial fit alignment.**
+
+---
+
+## 1. Context Pointer
+
+P1 is the **fourth and final paper in the publication sequence** (P2 → P3 → P4 → P1). It is explicitly post-defence because:
+
+1. It is decoupled from defence — the defence gate requires ≥1 ABDC-A acceptance or strong R&R from P2 or P3, not P1.
+2. The GIQ desk rejection (14 Apr 2026) diagnosed a narrative architecture failure, not a substance failure. Reframing requires focused attention not available during the P2/P3/P4 drafting window.
+3. P1's typology (9 archetypes × 3 dimensions) is used as *scaffolding* inside the fsQCA thesis chapter — it cannot be published before the chapter uses it without creating a priority conflict.
+
+**Key distinction from fsQCA chapter:**
+
+| Deliverable | Contribution | Method | Status |
+|---|---|---|---|
+| **P1** | Descriptive typology — what archetypes of AI governance frameworks exist | SLR (PRISMA) | Deferred |
+| **fsQCA Chapter** | Causal configurations — what conditions are sufficient for legitimate outcomes | fsQCA | ~25% complete |
+
+---
+
+## 2. Pre-Activation Checklist (complete before Q3 2027)
+
+- [ ] Re-read GIQ_V13.docx in full — assess salvageability for R&G register
+- [ ] Confirm R&G editorial scope alignment (interdisciplinary governance + IS theory)
+- [ ] Apply Drafting Discipline Protocol (DDP) — narrative spine before any drafting
+- [ ] Contribution claim: typology as explanatory architecture, not literature catalogue
+- [ ] Fiss (2011) framing: SLR builds typology; fsQCA chapter validates configurations
+- [ ] OSCOLA vs APA: confirm R&G citation style requirements
+- [ ] Consider co-author for IS-governance bridge credibility
+
+---
+
+## 3. Linked Nodes
+
+**Linked Projects:** [[fsQCA_Thesis_Chapter]]
+
+**Linked Domains:** [[AI_Governance]]
+
+**Linked Concepts:** [[Legitimacy]], [[Accountability]], [[Institutional_Coherence]]
+
+**Linked Frameworks:** [[OECD_AI_Principles]], [[UNESCO_Recommendations]], [[NIST_AI_RMF]], [[EU_AI_Act]], [[IndiaAI_Framework]], [[RBI_FREE_AI]], [[SEBI_AI_Circular]]
+
+**Linked Methods:** [[SLR_Protocol]], [[fsQCA]], [[Institutional_Grammar_IG2]]
+
+**Linked Knowledge Products:** [[AI_Governance_Wiki]], [[Regulatory_Complexity_Handbook]]
+
+---
+
+_Back to [[Projects_MOC]]_

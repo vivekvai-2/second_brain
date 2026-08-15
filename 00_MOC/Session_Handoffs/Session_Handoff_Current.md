@@ -1,7 +1,7 @@
 ---
 type: Session Handoff
 status: active
-last_updated: 2026-08-09
+last_updated: 2026-08-15
 tags:
   - type/session-handoff
   - status/active
@@ -9,6 +9,73 @@ tags:
 ---
 
 # Session Handoff — Current State
+
+---
+
+## 🧹 Latest session — 2026-08-15, vault housekeeping (no Policy Dump batch)
+
+Outgoing version archived to `99_Archive/Session_Handoffs_Archived_20260801/Session_Handoff_Current_superseded_20260815.md`.
+
+### Integrity audit — all 528 notes swept
+
+| Check | Result |
+|---|---|
+| Broken wikilinks | **32** (not the ~90 an earlier pass suggested — see correction below). **9 genuinely broken, all fixed.** Remainder are illustrative placeholders inside protocol docs (`[[Note_Name]`, `[[FolderName/NoteName]`) or live in `99_Archive/`. |
+| Orphan notes (zero inbound links) | **8**, of which **6** are Wiki Intake F-notes orphaned because they were never indexed — now linked from the Backfill Register. |
+| Duplicate stems | 1 — `NIST_AI_RMF`, unresolved, see below |
+| Notes without YAML `status:` **or** `status/` tag | 6 (all in `01_Strategy/VV_Governance_Advisory/` and `gemini-scribe/`) |
+| Git working tree | Clean before session; auto-commit system functioning |
+
+**⚠ Methodological correction worth carrying.** A first audit pass reported ~90 broken links and 29 orphans in `10_Consulting/VV_Advisory_Outreach_Templates/`. **That was a false positive** — the link parser did not handle ``[[Note\|Alias]``, which is *correct* Obsidian syntax for wikilink aliases inside markdown tables (the pipe must be escaped or it terminates the table cell). `VV_Advisory_BD_Authority_Index.md` uses it correctly throughout. **Had the "fix" been applied it would have broken every table in that file.** Any future link-hygiene tooling must treat `\|` inside `[[...]]` as an alias separator.
+
+### Fixes applied
+
+| # | Fix | Detail |
+|---|---|---|
+| 1 | **Ellipsis project links** | `[[02_Projects/P1…]]` ×5 and `[[02_Projects/P4…]]` ×2 — a template artefact left unresolved across six live nodes (SCI_1, IRDAI_1, CERT_In_1, NCAIC_1, MeitY_5, MeitY_6). Resolved to `P1_SLR_RG` / `P4_Doctrinal_IJLIT` from each link's own parenthetical gloss. |
+| 2 | **Skill-name leak** | `[[contribution-framing]` ×2 (Legitimacy, International_24) — an authoring-tool skill name that had become a wikilink to a note that does not and should not exist. De-linked to plain text. |
+| 3 | **Folder naming** | `12_Decision Journal/` → `12_Decision_Journal/`, matching the ontology's own DJ-06 references. **14 files** carried the space-form path and were updated; `99_Archive/` deliberately left as-is. |
+| 4 | **Stray files cleared** | 3 empty scaffolds (`Untitled.canvas`, `Untitled 1.canvas`, `Untitled.base`) and **160 `.fuse_hidden*` mount artefacts (1.5 MB)** moved to `_to_delete/`. **Vivek: delete `_to_delete/` when convenient — this session could not remove files, only move them.** |
+| 5 | **Corpus_Index_MOC Backfill Register** | See below. |
+
+### 🔴 Corpus_Index_MOC backfill — the gap was double the estimate
+
+A filesystem sweep found **64 nodes on disk with no entry anywhere in `Corpus_Index_MOC.md`**, against the ~30 this handoff previously estimated. A **Backfill Register** is now appended to that file: every field extracted **verbatim from each node's own header block**, nothing reconstructed.
+
+**Series present on disk and absent from every numbering table in this vault:** `UIDAI_1`, `Grid_India_1`, `Sahamati_1`, `BIS_1`, `DPB_1`, `NCIIPC_1`, `CEA_1`, `SEBI_19`, `IRDAI_3`, `IRDAI_4`, `MeitY_8`, `RBI_10`, `RBI_11`, `RBI_12`, `International_23`–`International_37`, `Parliament_1`, `BSA_1`, `NITI_1`, `F074`–`F078`, `F120`–`F139`.
+
+**⚠ Note for Records_Rules_Asymmetry (Must-Read item 4): a UIDAI corpus node now exists** — `UIDAI_1_Circular_8_2025_Data_Vaults_HSM`. Remediation Option A ("create real UIDAI/MeitY corpus nodes and re-run the gate") is **partly satisfied already** and nobody noticed, because the node was never indexed. MeitY corpus now runs to MeitY_8. Worth re-checking the gate before pursuing Option B.
+
+**What the register does not do:** it restores navigational and numbering integrity only. It does **not** reconstruct which session wrote each node or why — that would require re-reading 64 nodes against archived handoffs, and an honest gap is preferable to a plausible invention. Four residual gaps are recorded as **B1–B4** at the end of the register.
+
+### Synthesis work — queue items 8 and 9 executed
+
+| Item | Outcome |
+|---|---|
+| **8 — substantive-vs-floor divergence recode** ([[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]) | Ten Indian instances recoded S / F / X. **5 F : 4 S : 1 X.** The 2026-08-09 prediction that instances would be "mostly substantive divergence... a compliance-burden finding rather than a rights-protection finding" **does not survive.** Floor divergence is modal and clusters entirely on pairs where **RBI** is one side; where RBI has legislated AI-adjacent obligations the code flips to S. Independently converges with Deontic-Placement Debt in [[Governance_Debt]]. New flags ⚠#347–#350. |
+| **9 — Bradford node** | [[04_Knowledge_Products/Wiki_Intake/F143_Bradford_Digital_Empires_2023]] created as a **deliberately flagged placeholder**. Metadata verified against the OUP catalogue; **no primary text consulted**; ⚠#351 (HIGH) gates the whole node; `gate/restricted`, `status: pending`. Closes the "Bradford appears nowhere in the vault" gap for graph and search without asserting unextracted content. |
+
+### 🟡 Open — needs Vivek's decision
+
+| # | Item | Why it needs you |
+|---|---|---|
+| **D1** | **`[[NIST_AI_RMF]]` is ambiguous — 44 bare links** | Two notes share the stem: `02_Projects/Shared_Anchors/NIST_AI_RMF` (citation record) and `06_Frameworks/NIST_AI_RMF` (analytical node). Obsidian resolves all 44 to the **Shared Anchor**, which is probably not what most of them intend. Three options: (a) rename the anchor to `NIST_AI_RMF_2023_Anchor` so bare links land on the Framework node; (b) path-qualify all 44 individually; (c) accept. **Not actioned — this is an ontology call, not housekeeping.** A third node, `International_24_NIST_AI_RMF_2023`, is correctly distinct. |
+| **D2** | `_to_delete/` removal | 163 files staged for deletion; this session can move but not delete. |
+| **D3** | `Wiki_Intake_Index.md` is stale | Last updated 2026-06-12 and is a *how-to* document, not an index — 161 Wiki Intake notes exist, none listed. Either repoint it at the Backfill Register or rebuild it. |
+| **D4** | 24 of the 64 backfilled nodes carry **no Wiki section and/or no Tier classification** | They cannot be routed into the AI Governance Wiki until classified. Mostly the 2026-08-02 missing-institutions sourcing pass. Register item **B1**. |
+
+### 📋 Resolution register — start here next session
+
+**[[04_Knowledge_Products/Wiki_Intake/Open_Flag_Resolution_Register_2026-08-15]]** compiles every open ⚠ flag, decision item and standing task onto three channels: **11 external sourcing prompts (P-01…P-14, ready to paste into Perplexity Deep Research)**, **8 vault-internal briefs (V-01…V-08)**, and **8 Vivek-only actions (X-01…X-08)**, with a sequencing section and a four-condition closure protocol.
+
+**The four this week:** X-01 (C-02 circulation check — a known-false claim may already be outside the vault) · X-04 (fsQCA 10-case lock, **17 days**) · P-02 (CEA_3 clean text) · P-01 (NABCB/ISO 42006 contradiction).
+
+### Answer to "is more synthesis needed?"
+
+**Not in the S1–S5 sense — that queue closed on 2026-08-09 and all five artefacts exist.** The binding constraint on the vault is no longer *generating* synthesis; it is **verification and indexing of synthesis already written**. Fifteen open flags now gate publication-track use of the newest constructs (#320, #322, #324, #326, #339, #347–#353), and 64 nodes were invisible to the index until today. Writing more constructs against an unverified base would compound the problem rather than advance it. The three highest-value next actions are all closure, not creation: **⚠#339 (C-02 circulation check)**, **⚠#310 (CEA_3 term sweep)**, and the **NABCB/ISO 42006 contradiction**.
+
+---
+
 
 **This is the single rolling handoff file.** At the end of each session, **overwrite this file** with current state — do not create a new dated file. Before overwriting, the outgoing version is copied to `99_Archive/Session_Handoffs_Archived_20260801/Session_Handoff_Current_superseded_[YYYYMMDD][suffix].md` (done for this update: `..._superseded_20260809e.md`). This file is read by Cowork, ChatGPT, and NotebookLM alike to resume work — keep it self-contained and current, not a historical log.
 

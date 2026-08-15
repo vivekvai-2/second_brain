@@ -57,7 +57,7 @@ Stated as: "Happy to align this further to specific non-sensitive environments a
 
 **Defence angle (DDIL, autonomous systems, intelligence workflows):** Requires caution. The defence scenarios cited — electronic warfare, autonomous weapons testing, intelligence admissibility — position AEGIS OS squarely in defence AI governance. Advisory input from a serving CSO on defence AI control architectures, even framed as "non-sensitive environments," could be read as endorsing a specific vendor's architecture for defence-adjacent use cases.
 
-**Recommended action:** Respond acknowledging the commercial AI governance positioning. Explicitly frame any advisory input around BFSI and enterprise use cases. Defer defence scenario discussions to post-superannuation. Log scope boundary in `12_Decision Journal`.
+**Recommended action:** Respond acknowledging the commercial AI governance positioning. Explicitly frame any advisory input around BFSI and enterprise use cases. Defer defence scenario discussions to post-superannuation. Log scope boundary in `12_Decision_Journal`.
 
 ---
 

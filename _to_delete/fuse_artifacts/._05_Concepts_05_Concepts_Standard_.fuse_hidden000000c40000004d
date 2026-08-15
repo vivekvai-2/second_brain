@@ -1,0 +1,115 @@
+---
+type: Standard Concept
+tags:
+  - type/concept-standard
+  - status/active
+  - paper/p3
+  - paper/p4
+  - paper/fsqca
+  - gate/open
+  - engine/phd
+  - engine/linkedin
+  - engine/consulting
+  - content/carousel-ready
+  - content/checklist
+---
+
+# **Governance Capacity**
+
+**Type:** Standard Concept  
+**Status:** Active  
+**Last Updated:** 2026-06-12  
+**Theoretical Lineage:** Regulatory governance; institutional theory; public administration
+
+---
+
+## **Definition**
+
+Governance Capacity is the degree to which regulatory institutions and governed enterprises possess the authority, resources, processes, and technical competence required to implement, monitor, and enforce AI governance obligations effectively. Within this research programme, the construct is distinct from governance design, which concerns the structure of governance requirements, and from governance compliance, which concerns whether those requirements are followed in practice. Governance Capacity operates at both regulatory and enterprise levels, although the capabilities required at each level differ substantially in terms of authority, enforcement powers, organisational processes, and technical infrastructure.
+
+## **Application in This Research**
+
+Within [[fsQCA_Thesis_Chapter]], Governance Capacity underpins the Enforcement Architecture (EA) condition, where jurisdictions are evaluated based on the authority, resources, and demonstrated enforcement capability of their governance institutions. Within [[AI_Governance]], the governance maturity framework operationalises capacity at the organisational level, with most regulated Indian organisations assessed as operating between Levels 2 and 3 while regulators increasingly expect Level 3 capability as a minimum threshold. Within [[P3_BFSI_JEIM]], Governance Capacity is indirectly implicated through the absence of effective coordination between RBI and SEBI, suggesting limitations in cross-regulator governance capability despite strong sectoral authority. Within [[P4_Doctrinal_IJLIT]], Governance Capacity functions as a normative requirement because the proposed redesign of AI governance and Three Lines of Defence structures assumes capabilities that many existing BFSI governance architectures do not yet possess.
+
+## **Governance Maturity Levels**
+
+|**Level**|**Label**|**Description**|
+|---|---|---|
+|1|Initial|Unpredictable, poorly controlled processes|
+|2|Managed|Basic governance artefacts exist (policy, register)|
+|3|Defined|Standardised processes; decision authority clear|
+|4|Quantitatively Managed|Measured and controlled; metrics track effectiveness|
+|5|Optimised|Continuous improvement; proactive adaptation|
+
+## **Boundary Conditions**
+
+- Governance Capacity is a property of institutions, governance systems, and organisational arrangements rather than of individual compliance officers or governance professionals.
+- Capacity at the regulator level concerns authority, resources, supervisory capability, and enforcement effectiveness, whereas capacity at the enterprise level concerns governance processes, skills, controls, and supporting infrastructure.
+- High Governance Capacity is necessary but not sufficient for legitimate governance outcomes because factors such as [[Institutional_Coherence]] also influence governance performance and legitimacy.
+
+## **Theoretical Positioning**
+
+Governance Capacity is theoretically grounded in regulatory governance scholarship, particularly the capability-based frameworks developed by Lodge and Wegrich (2012), who distinguish between regulatory delivery capacity, coordination capacity, and analytical capacity as distinct institutional properties. Institutional theory contributes through its attention to the organisational fields and resource environments within which regulatory bodies develop or fail to develop effective enforcement capabilities. Within information systems research, governance capacity connects to IT governance maturity models, particularly the CMMI and COBIT lineages, which operationalise capacity as a progression from ad hoc to optimised governance practice. The five-level maturity framework reproduced in this note synthesises these traditions into a diagnostic instrument applicable at both the regulatory and enterprise levels. Within PRIS, the construct performs a bridging function: it connects the structural diagnosis of Regulatory Parallelism and Governance Debt to the organisational reality that reducing those structural burdens requires capacity that many Indian BFSI institutions do not yet possess.
+
+## **Future Reuse Opportunities**
+
+- Develop a Governance Capacity diagnostic instrument for BFSI consulting engagements, mapping regulated entities against the five-level maturity framework and identifying the gap between current capability and regulatory expectation.
+- Use the fsQCA Enforcement Architecture (EA) condition calibration to test empirically whether regulatory-level governance capacity is a necessary condition for legitimate AI governance outcomes across the ten-case corpus.
+- Incorporate governance capacity assessment into the BFSI AI Governance Handbook as the opening diagnostic chapter, establishing the baseline against which the handbook's implementation roadmap is calibrated.
+- Develop comparative research examining how governance capacity at the regulatory level — supervisory staffing, technical expertise, examination capability — shapes the effectiveness of binding AI governance instruments across RBI, SEBI, and international comparators.
+
+## **Instances in Corpus**
+
+- [[07_Institutions/Corpus/NITI_Aayog/NITI_7]] — National Strategy for AI #AIforAll (2018), India's "year zero" for AI policy: opportunity/inclusion framing with no governance-capacity architecture, establishing the baseline against which 2024–25 capacity-building instruments (RBI_FREE_AI_2025, MeitY_1/2) can be measured.
+- [[07_Institutions/Corpus/International/International_3]] — MAS AI Risk Management Consultation (2025) represents the culmination of a 7-year incremental capacity-building lineage (FEAT 2018 → Veritas 2019 → MindForge → AI MRM 2024 → AIRG 2025), contrasted with RBI_FREE_AI_2025's single-step committee-report approach — a direct "incremental vs compressed institutionalisation" capacity comparator for the fsQCA EA condition.
+- [[04_Knowledge_Products/Wiki_Intake/NASSCOM_RAI_India_2023]] — 2023 survey evidence that workforce-development investment (89% of RAI-mature firms, 60%+ of less-mature firms) functions as a leading indicator of governance capacity, ahead of formal regulatory instruments.
+- [[04_Knowledge_Products/Wiki_Intake/EY_IIF_Global_Bank_Risk_Survey_2026]] — 2026 global CRO survey evidence of a structural shift from compliance-driven to strategy-driven risk management capacity, usable as an international capacity-maturity comparator.
+- [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] — FREE-AI Committee Report (2025) is the capacity-maturity bookend to NITI_7's 2018 baseline, completing an 8-year India AI-governance-capacity arc: opportunity/inclusion framing with no governance architecture (2018) → sectoral committee-based capacity architecture with Seven Sutras (2025). Useful as the spine for a P1 narrative arc or LinkedIn/teaching content on India's AI-governance trajectory.
+
+See [[Corpus_Index_MOC]] for full node index.
+
+## **Linked Projects**
+
+[[fsQCA_Thesis_Chapter]]
+
+[[P3_BFSI_JEIM]]
+
+[[P4_Doctrinal_IJLIT]]
+
+## **Linked Domains**
+
+[[AI_Governance]]
+
+[[BFSI_Governance]]
+
+## **Linked Signature Concepts**
+
+[[Institutional_Coherence]]
+
+[[Governance_Debt]]
+
+## **Linked Standard Concepts**
+
+[[Accountability]]
+
+## **Linked Frameworks**
+
+[[NIST_AI_RMF]]
+
+[[IndiaAI_Framework]]
+
+## **Linked Institutions**
+
+[[RBI_Free_AI.md]]
+
+[[SEBI]]
+
+[[MeitY]]
+
+## **Linked Methods**
+
+[[fsQCA]]
+
+---
+
+_Back to [[_Concepts_MOC]]_

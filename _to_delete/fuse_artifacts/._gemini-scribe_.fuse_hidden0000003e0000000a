@@ -1,0 +1,26 @@
+# PRIS Vault Memory & Ontology Overview
+
+The PRIS (Personal Regulatory Intelligence System) vault is a highly structured research and consulting production engine with 96 active files.
+
+## Core Knowledge Hierarchy:
+`Strategy` -> `Projects` -> `Knowledge Products` -> `Domains` -> `Concepts` -> `Frameworks` -> `Institutions` -> `Methods` -> `Evidence`
+
+## Key Folders & Note Counts:
+- **00_MOC** (10 notes): Central indexes and Map of Content files, including [[PRIS_Master_MOC.md]] and [[PRIS_Ontology_Overview]].
+- **01_Strategy** (2 notes): High-level roadmaps and pipelines, e.g., [[VV_Publication_Pipeline_v3.md]] and `VV_Life _Roadmap_V2.md`.
+- **02_Projects** (24 notes): Active academic papers, literature anchors, and state files (e.g., [[P2_DPI_JSIS.md]] and [[P3_BFSI_JEIM.md]]).
+- **03_Domains** (5 notes): High-level thematic synthesis notes (e.g., [[AI_Governance.md]], [[DPI_Governance.md]]).
+- **04_Knowledge_Products** (13 notes): Commercial and public-facing playbooks, wikis, and an intake folder for report summaries.
+- **05_Concepts** (7 notes): Divided into Signature (original constructs, e.g., [[Governance_Debt.md]]) and Standard (established constructs, e.g., [[Accountability.md]]).
+- **06_Frameworks** (7 notes): Deep-dive analyses of policy/legal frameworks (e.g., [[RBI_Free_AI.md]], [[EU_AI_Act.md]]).
+- **07_Institutions** (7 notes): Intelligence profiles of regulatory actors (e.g., [[RBI.md]], [[SEBI.md]]).
+- **08_Methods** (4 notes): Research methods and coding protocols (e.g., [[fsQCA.md]], [[Institutional_Grammar_IG2.md]]).
+- **10_Consulting** (7 notes): Client engagements and inbound pipeline management.
+- **11_Content** (1 note): Short-form presentations and communication keynotes.
+- **12_Decision Journal** (1 note): Strategic pivots and design freezes.
+- **99_System_Templates** (5 notes): Notes for standardizing creations.
+
+## Critical LLM Operational Notes:
+1. **Double Extension Anomaly:** Many files in this vault use the `.md.md` suffix (e.g., `P2_DPI_JSIS.md.md`). Always verify the exact path of a file before modifying or linking to it. Refer to [[PRIS_Ontology_Overview]] for details.
+2. **Drafting Discipline Protocol (DDP):** Strict rules govern the progression of academic papers, including locking the narrative spine first, placing the contribution claim in Section 1 before 500 words, and maintaining structural coherence with sections ≥600 words.
+3. **Continuous Compounding Loop:** Real-world consulting pain points feed into Concepts, which are packaged into Knowledge Products and academic Projects, creating a self-reinforcing intellectual system.

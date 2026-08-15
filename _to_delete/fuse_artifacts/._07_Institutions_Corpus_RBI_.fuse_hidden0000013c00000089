@@ -1,0 +1,79 @@
+# RBI_4 — Report of the Working Group on FinTech and Digital Banking
+
+**Type:** Corpus Node
+**Vault path:** `07_Institutions/Corpus/RBI/RBI_4.md`
+**Institution:** [[07_Institutions/RBI.md]]
+**Issuing body:** Reserve Bank of India, Central Office, Mumbai
+**Document date:** November 2017
+**Pages:** ~75 (incl. annexes and bibliography)
+**Domain:** [[03_Domains/AI_Governance]] | [[03_Domains/BFSI_Governance]]
+
+---
+
+## Instrument Identity
+
+**Full title:** Report of the Working Group on FinTech and Digital Banking
+**Type:** Working Group Report (non-binding, foundational/contextual)
+**Target entities:** RBI internal policy audience; informs subsequent FinTech-related regulation
+**Legal basis:** Constituted by RBI Central Office
+**Companion documents:** [[07_Institutions/Corpus/RBI/RBI_3]], [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] (this 2017 report is the earliest AI-adjacent reference point in the RBI corpus, predating FREE-AI by 8 years)
+
+**Duplicate note:** Identical file "WGFR68AA1890D7334D8F8F72CC2399A27F4A.PDF" present in source corpus — not separately noded.
+
+---
+
+## Analytical Classification
+
+**Wiki section:** S2 (India Regulatory Framework, BFSI) — historical/contextual baseline
+**Jurisdiction:** India
+**Confidence:** Low-Medium (2017 working group report — pre-dates virtually all AI-specific governance discourse; useful for historical framing only)
+**AI explicit:** Partial (AI mentioned descriptively as an emerging technology trend, not as a governance object)
+**Tier classification:** Tier C — AI-adjacent governance (technology landscape report, not a governance instrument)
+**AI Governance Wiki relevance:** LOW — primarily useful as a historical baseline showing RBI's framing of AI as a "competitive edge" / innovation technology in 2017, prior to any risk-governance framing.
+
+---
+
+## Substantive Content
+
+This 2017 report surveys the FinTech landscape across consumer, payments, lending, and digital banking domains, with AI/ML appearing only descriptively:
+
+- **Section 2.1.5.5 "Artificial Intelligence (AI) & Robotics"**: frames AI as a competitive-edge technology requiring firms to address "implications of machines that can learn, conduct human interactions, and engage in [decision-making]" (text truncated).
+- **Robo-advisory**: described as a fast-growing segment using "client information and algorithms to develop automated portfolio allocation and investment recommendations," noting robo-advisors "are regulated just like independent advisors" — i.e., **no AI-specific regulatory category existed at this point**, advisors were regulated by function/activity rather than by technology.
+- **Digital banking transformation**: AI identified as one of three technology pillars (alongside Blockchain and IoT) expected to drive BFSI transformation, with AI/ML described in terms of "self-learning and evolving" capability.
+- Mutual fund/wealth management processes (onboarding, risk profiling, portfolio analysis, asset allocation, rebalancing) noted as increasingly "online and driven by technology."
+
+No model governance, risk management, explainability, or accountability provisions for AI are present — consistent with a pre-AI-governance-era document.
+
+---
+
+## Analytical Significance for PRIS Research
+
+### For P3 (BFSI AI Governance Regulatory Parallelism, JEIM) and fsQCA — historical baseline
+This document establishes the **"year zero" reference point** for the BFSI AI governance timeline: in 2017, AI was framed purely as a competitive/innovation opportunity with robo-advisors regulated under existing activity-based categories (no technology-specific rules). Useful as a contrast anchor against SEBI_12/SEBI_9 (2019, first mandatory AI/ML reporting) and RBI_FREE_AI_2025 (2025, first RBI AI governance framework) — demonstrating an 8-year evolution from "AI as innovation" to "AI as supervised risk."
+
+### Coordination / Parallelism Pattern
+Not applicable — pre-dates the governance instruments being compared.
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]], [[07_Institutions/Corpus/RBI/RBI_3]], [[07_Institutions/Corpus/SEBI/SEBI_12]], [[07_Institutions/Corpus/SEBI/SEBI_9]]
+**Related concepts:** [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]
+**Related frameworks:** —
+**Related projects:** [[02_Projects/P3_BFSI_JEIM]], [[02_Projects/fsQCA_Thesis_Chapter]] (historical baseline/timeline anchor only)
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
+**Related consulting:** —
+
+---
+
+## Coding Status
+
+- **P3 NVivo:** Not applicable / low priority — historical context only, unlikely to contribute coded RUs to the AI governance configuration analysis
+- **Wiki intake status:** Pending (low priority)
+
+---
+
+## Log
+
+- 2026-06-14: Corpus node created. Batch 2. Cowork session. Source: "RBI  FinTech Report.PDF" (primary); "WGFR68AA1890D7334D8F8F72CC2399A27F4A.PDF" confirmed identical, not separately noded.

@@ -29,7 +29,7 @@ The vault changes through exactly two channels — Cowork sessions and the Gemin
 |---|---|
 | **Local repository** | `/Users/vivek/Documents/Second Brain/.git` — full commit history lives here |
 | **Remote (backup)** | Private GitHub repo: `https://github.com/vivekvai-2/second_brain.git` |
-| **Tracked scope** | All content folders (`00_MOC` through `12_Decision Journal`, `99_Archive`, `gemini-scribe`, etc.) |
+| **Tracked scope** | All content folders (`00_MOC` through `12_Decision_Journal`, `99_Archive`, `gemini-scribe`, etc.) |
 | **Excluded** (`.gitignore`) | `.obsidian/` (app config, plugin binaries, workspace state), `.DS_Store`, `.fuse_hidden*`, lock/tmp files |
 | **Auto-commit script** | `~/Scripts/second_brain_autocommit.sh` |
 | **Scheduler** | `~/Library/LaunchAgents/com.vivek.secondbrain.autocommit.plist` (macOS `launchd`, runs every 60s) |

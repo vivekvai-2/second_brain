@@ -118,7 +118,7 @@ PRIS/
 ├── 09_Teaching/
 ├── 10_Consulting/
 ├── 11_Content/
-├── 12_Decision Journal/
+├── 12_Decision_Journal/
 ├── 99_Archive/
 └── 99_System_Templates/
 ```

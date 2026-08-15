@@ -1,0 +1,87 @@
+# **Institutions — Map of Content**
+
+**Type:** MOC  
+**Status:** Active  
+**Last Updated:** 2026-06-14
+
+---
+
+## **Institution Index**
+
+| **Institution** | **File** | **Type** | **PRIS Role** | **Consulting Gate** |
+|---|---|---|---|---|
+| RBI | [[RBI]] | Central bank / financial regulator | P3 primary corpus; P4 fragmentation anchor; fsQCA case | PhD preferred / P3 submission |
+| SEBI | [[SEBI]] | Securities market regulator | P3 primary corpus; P4 fragmentation anchor; fsQCA case | Publication (P3/P1) |
+| CERT-In | [[CERT_IN]] | National cybersecurity agency | P3 corpus; cross-reference asymmetry finding | No gate — Phase 0 |
+| MeitY | [[MEITY]] | Digital governance ministry | P2 (DPI governance); P4 (IndiaAI); post-PhD institutional target | No gate — Phase 0 |
+| UIDAI | [[UIDAI]] | Biometric identity authority | P2 primary empirical case (Aadhaar face authentication) | Post-publication |
+| TRAI | [[TRAI]] | Telecom regulator | Forward intelligence — potential P5 extension | No gate — Phase 0 |
+| International (OECD, BIS, MAS) | — | Cross-jurisdictional comparators | P1 (SLR comparators); P3/fsQCA international parallelism case (International_3 ↔ RBI_FREE_AI_2025) | No gate — research only |
+| NITI Aayog | — | National AI strategy body | P1 (historical AI policy anchor); P2 | No gate — research only |
+
+---
+
+## **Institutional Relationships**
+
+```
+MeitY
+  ├── CERT-In (nodal cybersecurity agency)
+  ├── UIDAI (Aadhaar / DPI infrastructure)
+  └── IndiaAI Mission (national AI strategy)
+
+RBI ←——— zero cross-reference ———→ SEBI
+  │                                    │
+  └── CERT-In (0 cross-refs)          └── CERT-In (3 cross-refs)
+
+Data Protection Board (under MeitY) — DPDP enforcement
+```
+
+---
+
+## **Research Corpus Mapping**
+
+| **Institution** | **P2** | **P3** | **P4** | **fsQCA** |
+|---|---|---|---|---|
+| RBI | — | ✅ Primary; RBI_5 (Batch 6) extends operational-risk/3LoD architecture to NBFC-BL | ✅ Primary | ✅ Case |
+| SEBI | — | ✅ Primary | ✅ Primary | ✅ Case |
+| CERT-In | — | ✅ Supporting | ✅ Supporting | — |
+| MeitY | ✅ DPI governance | — | ✅ IndiaAI | — |
+| UIDAI | ✅ Aadhaar case | — | — | — |
+| TRAI | — | — | — | — |
+| International (OECD/BIS/MAS) | ✅ SLR comparators | ✅ MAS AIRG parallelism case | — | ✅ Capacity comparator |
+| NITI Aayog | ✅ Policy timeline anchor | — | — | — |
+| Industry/Standard-Setters (NASSCOM, EY/IIF, IIA, AFM, FCA, Fed/OCC) | — | ✅ 3LoD/model-risk doctrinal lineage (Batch 4) | ✅ Doctrinal precedent for AI model-risk governance | ✅ India RAI maturity baseline (NASSCOM 2023) — see [[Corpus_Index_MOC]] Batch 4 |
+| Academic (Batch 5: AIJMR, F1000Research, ACM ICAIF, Northwestern JILB, Vision/SAGE, SSRN, ICSLIAI 2026) | ✅ F017 GenAI on DPI (UPI/Aadhaar) | ✅ F011/F014/F016 governance-risk nexus (India + US BHC); F012/F013 RegTech/AI-model-governance doctrine | ✅ F018/F019/F020 SEBI-MCA, DPDP-vs-EU, DPDP-vs-RBI doctrinal gaps | ✅ F011/F014 cross-jurisdictional governance-risk nexus pair; F015 field-maturity baseline |
+| Federal Reserve Bank of Richmond / US BHC supervisory data | — | ✅ F014 — 24% operational-loss increase per SD AI-investment, cross-validates F011 | — | ✅ US BHC as cross-jurisdictional comparator case |
+| Academic (Batch 6: arXiv, SSRN, Credo AI, JBF — F021/F022/F024/F025/F026/F030) | — | ✅ F021/F022 3LoD-for-AI role allocation; F024 AI model-risk documentation-quality decline; RBI_5 NBFC operational-risk/3LoD extension | ✅ F025 (242-control agentic taxonomy)/F026 (42-control UCF, Colorado AI Act validation) — agentic/enterprise control architecture | ✅ F030 macro/micro-AI systemic-risk dichotomy as corpus-wide classification frame; F011/F016 addenda (Batch 6) |
+
+> **Corpus node detail:** For Batch 1–3 intake nodes (RBI, SEBI, MeitY, International, NITI Aayog series), see [[Corpus_Index_MOC]] for the full node-level index by Wiki section and project. For Batch 5 (F011–F020 academic/legal papers) and Batch 6 (F021–F030, RBI_5), see [[Corpus_Index_MOC]] Batch 5/6 tables. Note: F027 and F028 (Batch 6 candidates) were identified during indexing as confirmed duplicates of F011 and F016 respectively; their content was merged as addenda into F011/F016 and the duplicate files marked SUPERSEDED.
+
+---
+
+## **Consulting Pathway Summary**
+
+| **Phase** | **Institution** | **Entry Point** |
+|---|---|---|
+| Phase 0 (now) | CERT-In | Empanelment application |
+| Phase 0 (now) | MeitY | Consultation responses; IndiaAI events |
+| Phase 0 (now) | TRAI | Consultation responses |
+| Post-P3 submission | SEBI | Consultation paper responses; working groups |
+| Post-PhD | RBI | IDRBT network; affiliated working groups |
+| Post-publication | UIDAI | DPI governance advisory |
+
+---
+
+## **Missing Institution Nodes**
+
+The following institutions are wikilinked across the vault but do not yet have dedicated files in `07_Institutions`:
+
+- `[[IRDAI]]` — referenced in domain notes as excluded from P3 corpus but relevant to BFSI landscape
+- `[[PFRDA]]` — referenced similarly; pension fund regulator
+- `[[Data_Protection_Board]]` — enforcement authority under DPDP Act; relevant to P2 and P4
+
+These are deferred stubs — create when research or consulting engagement makes them active.
+
+---
+
+_Back to [[PRIS_Master_MOC]]_

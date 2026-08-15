@@ -1,0 +1,81 @@
+# NITI_7 — National Strategy for Artificial Intelligence (#AIforAll)
+
+**Type:** Corpus Node
+**Vault path:** `07_Institutions/Corpus/NITI_Aayog/NITI_7.md`
+**Institution:** [[07_Institutions/NITI_Aayog]]
+**Issuing body:** NITI Aayog
+**Document date:** June 2018
+**Pages:** Not fully determinable (discussion paper, ~100+)
+**Domain:** [[03_Domains/AI_Governance]] | [[03_Domains/Digital_Public_Infrastructure]]
+
+---
+
+## Instrument Identity
+
+**Full title:** National Strategy for Artificial Intelligence — #AIforAll: Technology Leadership for Inclusive Growth
+**Type:** Discussion Paper (explicitly a "pre-read" — non-binding, agenda-setting)
+**Target entities:** Government of India ministries/departments; general policy audience
+**Legal basis:** NITI Aayog discussion paper, not a statutory instrument
+**Companion documents:** [[07_Institutions/Corpus/NITI_Aayog/NITI_3]], [[07_Institutions/Corpus/NITI_Aayog/NITI_6]] (later/more developed NITI Aayog AI governance outputs)
+
+---
+
+## Analytical Classification
+
+**Wiki section:** S1 (Governance Fundamentals — earliest India AI policy artefact) and S2 (India Regulatory Framework — historical anchor)
+**Jurisdiction:** India
+**Confidence:** High (explicitly self-described as preliminary/non-binding "pre-read")
+**AI explicit:** Yes
+**Tier classification:** Tier B — strategic/agenda-setting, technology-neutral on enforcement
+**AI Governance Wiki relevance:** HIGH (historically) — this is the **earliest identified India AI policy document** in the corpus (2018), predating MeitY_1/MeitY_2/RBI_FREE_AI_2025 by 6-7 years, and likely the conceptual ancestor of NITI_3 and NITI_6.
+
+---
+
+## Substantive Content
+
+### Framing
+Explicitly positioned as a "pre-read" — an input to a broader, evolving National AI Strategy process, not a finalised policy. Recommendations are described as preliminary.
+
+### "#AIforAll" framing
+The strategy frames India's AI approach around inclusive growth — AI as a tool for development across sectors (health, agriculture, education, smart mobility/transport, smart cities) rather than primarily as an industrial-competitiveness play (contrast with how some other jurisdictions framed early AI strategy around economic competition).
+
+### Structural themes (as discernible from extraction)
+- Sector-wise application areas for AI (the "five focus sectors" approach commonly associated with #AIforAll: healthcare, agriculture, education, smart cities/mobility, smart infrastructure).
+- Barriers to AI adoption identified, including data access/quality, skilling, and research ecosystem gaps.
+- Recommendations framed as inputs for further deliberation, not binding commitments.
+
+⚠ VERIFY BEFORE PUBLISHING — exact wording of the "five focus sectors" and specific named recommendations was not fully captured in extraction; confirm against full text before citing specific sector names or recommendation numbers.
+
+---
+
+## Analytical Significance for PRIS Research
+
+### For P1 (AI Governance SLR) and P2 (DPI Governance, JSIS)
+NITI_7 (2018) represents **India's "year zero" for AI policy** — analogous to RBI_4 (2017) as the BFSI sector's "year zero." Both show technology framed initially around opportunity/inclusion rather than risk/governance, with risk-based framing emerging only in 2024-2025 instruments (RBI_3, RBI_FREE_AI_2025, MeitY_1, MeitY_2). This 2018→2025 arc (opportunity framing → risk/governance framing) is a useful narrative spine for P1's historical contextualisation of India's AI governance evolution.
+
+### Coordination / Parallelism Pattern
+Existing nodes: [[07_Institutions/Corpus/NITI_Aayog/NITI_3]], [[07_Institutions/Corpus/NITI_Aayog/NITI_6]]. Pattern: **Sequential evolution (intra-institution)** — NITI_7 (2018, strategy/discussion paper) likely precedes and informs NITI_3/NITI_6 (later, more developed outputs); exact relationship to be confirmed in a future session by reading NITI_3/NITI_6 content against NITI_7.
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/NITI_Aayog/NITI_3]], [[07_Institutions/Corpus/NITI_Aayog/NITI_6]], [[07_Institutions/Corpus/RBI/RBI_4]], [[07_Institutions/Corpus/MeitY/MeitY_2]]
+**Related concepts:** [[05_Concepts/05_Concepts_Standard/Governance_Capacity]], [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]]
+**Related frameworks:** —
+**Related projects:** [[02_Projects/P1_SLR_RG]], [[02_Projects/P2_DPI_JSIS]]
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
+**Related consulting:** —
+
+---
+
+## Coding Status
+
+- **P3 NVivo:** Not applicable (not BFSI-specific; useful as background/timeline reference for P1/P2)
+- **Wiki intake status:** Pending
+
+---
+
+## Log
+
+- 2026-06-14: Corpus node created. Batch 3. Cowork session. Source: Natl Strategy AI.pdf. Originally proposed for "International frameworks" batch — rerouted to NITI_Aayog/ on confirming this is an Indian (NITI Aayog) instrument, not international.

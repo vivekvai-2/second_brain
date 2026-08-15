@@ -8,3 +8,6 @@
 # Editor/lock files
 *.tmp
 *~
+
+# Staged for deletion by housekeeping passes
+_to_delete/

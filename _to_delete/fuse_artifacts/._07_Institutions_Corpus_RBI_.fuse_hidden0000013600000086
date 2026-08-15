@@ -1,0 +1,162 @@
+# RBI_2 — Master Direction on Outsourcing of Information Technology Services (2023)
+
+**Type:** Corpus Node  
+**Vault path:** `07_Institutions/Corpus/RBI/RBI_2.md`  
+**Institution:** [[07_Institutions/RBI.md]]  
+**Issuing body:** Reserve Bank of India (RBI), Department of Supervision  
+**Document date:** April 10, 2023  
+**Circular reference:** RBI/2023-24/102; DoS.CO.CSITEG/SEC.1/31.01.015/2023-24  
+**Pages:** 31  
+**Domain:** [[03_Domains/BFSI_Governance]] | [[03_Domains/AI_Governance]]  
+
+---
+
+## Instrument Identity
+
+**Full title:** Reserve Bank of India (Outsourcing of Information Technology Services) Directions, 2023  
+**Short form:** RBI IT Outsourcing Master Direction 2023  
+**Type:** Master Direction (binding statutory directions)  
+**Target entities:** Scheduled Commercial Banks (excl. RRBs), Local Area Banks, Small Finance Banks, Payments Banks, Primary (Urban) Co-operative Banks, NBFCs, Credit Information Companies, All India Financial Institutions  
+**Signatory:** T.K. Rajan, Chief General Manager  
+**Effective date:** October 1, 2023  
+**Companion direction:** [[07_Institutions/Corpus/RBI/RBI_1]] — RBI Master Direction on IT Governance, Risk, Controls (November 2023)
+
+---
+
+## Analytical Classification
+
+**P3 corpus role:** SCREENING CORPUS — included in 17-document screening pass. Contributes to third-party/outsourcing domain saturation. Technology-neutral; contains Tier B potential RUs (third-party AI governance via outsourcing framework).  
+**P4 corpus relevance:** HIGH — IT outsourcing governance is foundational for BFSI legal analysis of AI vendor contracts  
+**AI Governance Wiki relevance:** MEDIUM-HIGH — Creates the regulatory framework within which AI vendors interact with BFSI entities; de facto AI supply chain governance  
+**Tier classification (potential):** Tier B (technology-neutral with AI application through interpretation)
+
+---
+
+## Substantive Content
+
+### Foundational Principle (§3)
+"The underlying principle of these Directions is to ensure that outsourcing arrangements neither diminish REs' ability to fulfil their obligations to customers and regulators nor impede effective supervision by the Reserve Bank of India."
+
+**Key governance principle:** Outsourcing does not transfer regulatory accountability — the Regulated Entity (RE) remains fully accountable for all outsourced activities.
+
+### Governance Framework (Chapter III)
+
+**Board-Level IT Outsourcing Policy (§9):**
+- Comprehensive Board-approved policy required
+- Must cover: roles of Board, Board Committees, Senior Management, IT function, business function, oversight and assurance functions
+- Criteria for selection of activities and service providers; exit strategies and business continuity
+
+**Role of the Board (§10):**
+- Framework for approval of IT outsourcing based on risks and materiality
+- Prior and periodic evaluation of prospective and existing outsourcing arrangements
+- Business continuity plans for all disruptive scenarios including service provider exit
+- Effective oversight over third-party data confidentiality
+- Independent review and audit on periodic basis
+
+**Inventory of Outsourced Services (§8):**
+- REs must create inventory of services (including key supply chain entities)
+- Map dependency on third parties; periodically evaluate information received from service providers
+
+### Due Diligence on Service Providers (Chapter IV, §13–14)
+
+**Risk-based due diligence covering:**
+- Technical capability and capacity; financial soundness
+- Business reputation, compliance history, outstanding litigations; conflict of interest
+- External factors (political, economic, social, legal jurisdiction environment)
+- Technology, infrastructure stability, security and internal control
+- Audit coverage, reporting and monitoring procedures; data backup, BCP/DR
+- Capability to identify and segregate RE's data
+- **Information/cyber security risk assessment**
+- Data protection controls; ability to enforce agreements
+
+### Outsourcing Agreement (Chapter V, §15–16)
+
+**Minimum agreement provisions include:**
+- Effective RE access to all data, books, records, logs, alerts, and business premises
+- Regular monitoring and assessment by RE
+- Material adverse event reporting to RE (data breaches, denial of service, service unavailability)
+- Compliance with IT Act 2000
+- Service Level Agreements (SLAs)
+- **Data storage only in India** (per extant regulatory requirements)
+- Sub-contractor engagement requires prior RE approval
+- RBI's right to inspect service provider and sub-contractors (§16o)
+- Termination rights and orderly transfer capability
+
+### Risk Management (Chapter VI, §17)
+
+**Data Protection Requirements:**
+- RE responsible for confidentiality and integrity of customer data at service provider
+- Access on need-to-know basis with appropriate controls
+- Multiple RE scenario: No combining of information, documents, records, assets between REs
+
+**Cyber Incident Reporting (§17h):**
+"The RE shall ensure that cyber incidents are reported to the RE by the service provider without undue delay, so that the incident is reported by the RE to the RBI within 6 hours of detection by the TPSP." — KEY M1 EVIDENCE
+
+**Concentration Risk (§17j):**
+- Assess impact of multiple outsourcing to same service provider
+- Assess concentration risk from outsourcing critical/material functions to limited providers
+
+### Cross-Border Outsourcing (Chapter IX, §21)
+- Country risk management required for service providers in different jurisdictions
+- Monitor government policies, political/social/economic/legal conditions
+- Contingency and exit strategies for cross-border arrangements
+
+---
+
+## Analytical Significance for PRIS Research
+
+### P3 — Third-Party AI Governance via Technology-Neutral Framework
+
+RBI_2 is technology-neutral but has significant AI governance implications:
+- AI vendors providing services to BFSI entities are governed under this framework
+- Due diligence requirements (§13–14) apply to AI vendor selection and ongoing monitoring
+- SLAs (§16f) must cover AI system performance — but no AI-specific metrics required
+- This creates Tier B potential RUs: Technology-neutral outsourcing framework applying to AI vendors without naming them
+
+**Gap:** No AI-specific outsourcing requirements for BFSI entities (contrast: EU AI Act Article 28 on deployers' obligations when using third-party AI)
+
+### Manifestation Layer Evidence (M1 — Three-Level Reporting Chain)
+
+§17(h) combined with RBI_1 §27(d) creates a three-level incident reporting requirement for outsourced systems:
+1. Service provider → RE (without undue delay)
+2. RE → RBI (within 6 hours of TPSP detection)
+3. RE → CERT-In (per regulatory requirements under RBI_1 §27d)
+
+This is a concrete M1 pattern manifestation: same incident reported through multiple parallel channels to multiple regulators. Strong Manifestation Evidence Layer evidence.
+
+### Regulatory Parallelism (P3 — Third-Party Outsourcing Domain)
+
+**Cross-regulator gap:** SEBI has no equivalent IT outsourcing direction for securities market entities at the same level of detail as RBI_2. This creates a Tier B parallelism gap — RBI governs IT outsourcing for banking entities; SEBI entities are governed differently or by general SEBI operational requirements.
+
+### AI Supply Chain Governance (P4)
+
+For doctrinal legal analysis:
+- §16(o): RBI or authorised persons may access RE's IT infrastructure at service providers — extends regulatory oversight to AI vendors
+- §17(j): Concentration risk in AI vendor supply chains not yet explicitly addressed
+- Data sovereignty requirement (§16g, India-only data storage) applies to AI training data processed by foreign cloud vendors
+- §16(p): Service provider contractually liable for sub-contractor performance — AI model builders using open-source components are within scope
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/RBI/RBI_1]] | [[07_Institutions/Corpus/SEBI/SEBI_9]] | [[07_Institutions/Corpus/SEBI/SEBI_10]] | [[07_Institutions/Corpus/CERT_In/CERT_4]]  
+**Related concepts:** [[05_Concepts/Signature/Regulatory_Parallelism]] | [[05_Concepts/Signature/Governance_Debt]]  
+**Related frameworks:** [[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]] | [[06_Frameworks/Manifestation_Evidence_Layer]]  
+**Related projects:** [[02_Projects/Active/P3_BFSI_JEIM_Project_State]] | [[02_Projects/Active/P4_BFSI_Legal_Project_State]]  
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]  
+**Zotero key:** RBI_MD_IT_Outsourcing_2023
+
+---
+
+## Coding Status
+
+- **P3 NVivo coding:** In screening corpus — technology-neutral IT outsourcing framework. Tier B potential. Formal RU count pending.
+- **Manifestation Layer (M1):** §17(h) three-level incident reporting = strong M1 evidence for outsourced systems
+- **P4 relevance:** Foundational for BFSI AI vendor contract governance analysis
+
+---
+
+## Log
+
+- 2026-06-13: Corpus node created from source extraction. S5 session.

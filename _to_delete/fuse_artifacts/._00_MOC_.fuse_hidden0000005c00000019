@@ -1,0 +1,158 @@
+# PRIS Daily Dashboard
+
+**Last Updated:** 2026-06-12  
+**Purpose:** Single-screen operational view across PhD, LinkedIn, and Consulting engines. Open this first every working session.
+
+---
+
+## 🔴 Critical Path — Q3 2026
+
+*P2 submission by 30 Sep · fsQCA case list locked · P3 scaffold begins*
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Node",
+  type AS "Type",
+  status AS "Status"
+FROM ""
+WHERE contains(file.tags, "phase/q3-2026")
+SORT status ASC
+```
+
+---
+
+## 🎓 PhD Engine — Active Work
+
+*Papers and methods currently in motion — excludes reference nodes*
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Node",
+  type AS "Type",
+  status AS "Status"
+FROM ""
+WHERE contains(file.tags, "engine/phd")
+AND (contains(file.tags, "status/drafting") OR contains(file.tags, "status/pre-draft"))
+SORT status ASC
+```
+
+---
+
+## 📱 LinkedIn Content Queue — Ready to Post
+
+*All nodes with extractable carousel or wiki content and no gate blocking*
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Node",
+  type AS "Type",
+  file.folder AS "Folder"
+FROM ""
+WHERE contains(file.tags, "content/carousel-ready")
+AND contains(file.tags, "gate/open")
+SORT type ASC
+```
+
+---
+
+## 🏢 Consulting — Actionable Now
+
+*Engagements and assessed inbound opportunities with no gate*
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Node",
+  type AS "Type",
+  status AS "Status"
+FROM ""
+WHERE contains(file.tags, "engine/consulting")
+AND contains(file.tags, "gate/open")
+SORT status ASC
+```
+
+---
+
+## 📦 Knowledge Products Pipeline
+
+*What exists · what each gate unlocks*
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Product",
+  type AS "Type",
+  status AS "Status"
+FROM "04_Knowledge_Products"
+SORT status ASC
+```
+
+---
+
+## ⚠️ Conflict Hold — Do Not Engage
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Node",
+  type AS "Type",
+  status AS "Status"
+FROM ""
+WHERE contains(file.tags, "gate/conflict-hold")
+```
+
+---
+
+## 🔒 Post-Army / Post-Defence Queue
+
+*Parked until May 2027 exit or PhD defence — visible but not actionable*
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Node",
+  type AS "Type",
+  status AS "Status"
+FROM ""
+WHERE contains(file.tags, "gate/army-exit")
+  OR (contains(file.tags, "status/deferred") AND contains(file.tags, "type/project"))
+SORT status ASC
+```
+
+---
+
+## 📚 Reference Layer — Placeholders Needing Zotero Completion
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Reference File",
+  type AS "Type"
+FROM "02_Projects/References"
+WHERE contains(file.tags, "ref/placeholder")
+SORT file.name ASC
+```
+
+---
+
+## 🔗 Shared Anchors — Cross-Paper Theoretical Foundations
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Anchor",
+  type AS "Type"
+FROM "02_Projects/Shared_Anchors"
+SORT file.name ASC
+```
+
+---
+
+## 📊 Projects — Full Pipeline View
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Paper / Deliverable",
+  type AS "Type",
+  status AS "Status"
+FROM "02_Projects"
+SORT status ASC
+```
+
+---
+
+_Back to [[PRIS_Master_MOC]]_

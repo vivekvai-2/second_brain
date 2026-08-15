@@ -1,0 +1,84 @@
+# Session Handoff — S5 — 2026-06-13
+
+**Session:** S5  
+**Date:** 2026-06-13  
+**Duration focus:** Corpus node build — 10 priority instruments  
+**Status:** COMPLETE — all 10 corpus nodes written directly to vault
+
+---
+
+## What Was Built This Session
+
+Ten corpus nodes written to `07_Institutions/Corpus/` in the vault:
+
+| # | File | Instrument | RU Status | Notes |
+|---|------|-----------|-----------|-------|
+| 1 | CERT_In/CERT_4.md | CERT-In Technical Guidelines SBOM/AIBOM/HBOM/QBOM/CBOM v2.0 (Jul 2025) | Not in P3 corpus | HIGH relevance P4 + Wiki; AIBOM = new AI transparency standard |
+| 2 | CERT_In/CERT_1.md | CERT-In Advisory CIAD-2023-0015 (AI LLM Security, May 2023) | Screening; 0 analytical RUs | Tier C; first Indian LLM advisory; chronology anchor |
+| 3 | CERT_In/CERT_2.md | CERT-In Advisory CIAD-2025-0013 (GenAI Best Practices, Mar 2025) | Screening; 0 analytical RUs | Tier C; adversarial AI taxonomy; still advisory-only |
+| 4 | NITI_Aayog/NITI_6.md | NITI Aayog Draft Enforcement Mechanisms for #AIforAll (Jan 2021 draft) | Not in P3 corpus | Working draft that became NITI_3; CET proposal origin |
+| 5 | NITI_Aayog/NITI_3.md | NITI Aayog Responsible AI Part 2 (Aug 2021) | Not in P3 corpus | Foundational governance architecture; fsQCA case evidence |
+| 6 | SEBI/SEBI_9.md | SEBI AI/ML Reporting Circular for MIIs (Jan 2019) | Screening; ~13 RUs uncoded | Companion to SEBI_10; first SEBI AI circular |
+| 7 | SEBI/SEBI_10.md | SEBI AI/ML Reporting Circular for Mutual Funds (May 2019) | IN CANONICAL CORPUS: 13 RUs, all Tier A (RU_079–RU_091) | Cluster C09; confirmed from SOM |
+| 8 | RBI/RBI_1.md | RBI Master Direction IT Governance, Risk, Controls (Nov 2023) | Screening; 0 analytical RUs | Null finding; M1 evidence §27(d) |
+| 9 | RBI/RBI_2.md | RBI Master Direction Outsourcing of IT Services (Apr 2023) | Screening; Tier B potential | M1 evidence §17(h); AI vendor supply chain governance |
+| 10 | SEBI/SEBI_11.md | SEBI Board Memo: Assigning AI Responsibility (2024–25) | Post-corpus; not in canonical corpus | Critical regulatory development; shift from inventory to accountability |
+
+Also created: `07_Institutions/NITI_Aayog.md` institution stub (new — not previously in vault)
+
+---
+
+## Key Analytical Discoveries This Session
+
+### 1. CERT_4 is the Most Significant New Document
+CERT-In's July 2025 AIBOM Technical Guidelines represents India's most detailed AI transparency standard. Creates binding AIBOM mandate for government AI procurement; 18 minimum AIBOM elements; VEX documentation required; extends to QBOM/CBOM and HBOM. Creates potential new parallelism layer with SEBI AI reporting regime.
+**Flag for P4:** AIBOM creates a new compliance layer for BFSI AI that neither RBI nor SEBI has addressed.
+
+### 2. SEBI_11 Marks Governance Inflection Point
+SEBI's 2024–25 Board Memo marks the shift from AI inventory (2019) to AI accountability/responsibility (2024–25). Creates legal duty for AI responsibility applicable to third-party AI tools. No equivalent in RBI framework — cross-regulator gap persists. Cite in P3 discussion section.
+
+### 3. NITI_3 + NITI_6 Confirm fsQCA Evidence
+NITI Aayog's 2021 documents explicitly acknowledge the multi-regulator coordination problem and propose CET as the coordination mechanism. CET was never established — definitional Governance Debt. India's governance configuration confirmed: advisory + voluntary self-regulation (general) + mandate for high-risk only.
+
+### 4. Dual-Channel Incident Reporting (M1 Evidence Confirmed)
+RBI_1 §27(d) requires CERT-In + RBI notification for cyber incidents. RBI_2 §17(h) requires service provider → RE → RBI within 6 hours. Combined: three-level reporting chain for outsourced IT cyber incidents = strong M1 Manifestation Evidence Layer.
+
+---
+
+## Open Questions (Carried Forward)
+
+| ID | Question | Status | Deadline |
+|----|---------|--------|----------|
+| OQ-09 | fsQCA 10-case list locked? | Revised TAC deadline: 01 Sep 2026 | 01 Sep 2026 |
+| OQ-10 | P2 second coder identified? | OVERDUE | 15 Jul 2026 |
+| SEBI_3 | Exact instrument title confirmed? | Functionally confirmed: SEBI AI/ML MII Master Circular | Before P3 submission |
+| Aadhaar Auth Regs 2016 | Missing corpus document — add before P2 submission? | Open | Before P2 submission |
+
+---
+
+## Next Session Prompt
+
+```
+PRIS Project S6. Read handoff at 00_MOC/Session_Handoff_S5_2026-06-13.md.
+
+Priority 1: Update _Institutions_MOC.md — add NITI_Aayog section with NITI_3 and NITI_6.
+Priority 2: Update Research_MOC.md — add CERT_4 (AIBOM) and SEBI_11 (AI accountability).
+Priority 3: Add backlinks in existing SEBI_8.md to SEBI_9 and SEBI_10 (Cluster C09).
+Priority 4: Build remaining corpus nodes: CERT_3, CERT_5, CERT_6 from /mnt/project/.
+Priority 5: Confirm vault note count (target: 71+ notes after S5 additions).
+```
+
+---
+
+## Session Statistics
+
+- Documents read: 10 (full text extraction from ZIP archives containing JPEG + TXT pages)
+- Corpus nodes built and written to vault: 10
+- New institution folder created: NITI_Aayog/
+- New institution stub created: 07_Institutions/NITI_Aayog.md
+- Critical discoveries: 4
+- New open questions: 0 (all carried forward from prior sessions)
+
+---
+
+*Session S5 handoff — 2026-06-13 — PRIS vault build*

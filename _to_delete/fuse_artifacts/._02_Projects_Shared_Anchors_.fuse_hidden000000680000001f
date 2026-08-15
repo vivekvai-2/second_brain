@@ -1,0 +1,63 @@
+---
+type: Shared Anchor
+tags:
+  - type/reference
+  - status/active
+  - paper/fsqca-primary
+  - paper/p1
+  - ref/complete
+  - gate/open
+  - engine/phd
+---
+
+# Fiss (2011)
+
+**Full citation:** Fiss, P. C. (2011). Building better causal theories: A fuzzy set approach to typologies in organization research. *Academy of Management Journal*, *54*(2), 393–420.  
+**Zotero key:** `fiss_2011`  
+**Journal:** Academy of Management Journal (ABDC-A*)
+
+---
+
+## Core Argument
+
+Typologies in organisation research describe *what configurations of attributes co-occur* across cases (descriptive contribution). fsQCA identifies *what configurations of conditions are sufficient for outcomes* (causal contribution). These are complementary, not competing, contributions. The optimal research programme uses SLR to build the typology and fsQCA to test which configurations are causally sufficient — the typology provides the analytical vocabulary; the causal analysis provides the explanatory mechanism.
+
+---
+
+## Why This Work Matters to PRIS
+
+Fiss (2011) is the **theoretical bridge** connecting P1 (the SLR-derived AI governance typology) and the fsQCA empirical thesis chapter (causal configurations for legitimate outcomes). It provides the logical architecture that makes the two-paper design coherent: P1 is not just a literature review — it is the typology-building stage of a configurational research programme. The fsQCA chapter is not just an empirical analysis — it is the causal-testing stage.
+
+This logic also rescued the GIQ paper from narrative architecture failure: the GIQ desk rejection was partly attributable to framing the SLR as a standalone descriptive contribution rather than as the first stage of a Fiss-logic configurational programme. The R&G resubmission of P1 must foreground the Fiss logic explicitly.
+
+---
+
+## How Each Paper Uses It
+
+| Paper | Section | Specific Use | What the argument depends on |
+|---|---|---|---|
+| fsQCA Chapter | §2 (Theoretical scaffolding) | Fiss (2011) logic provides the bridge between P1 typology and the causal configurations — the typology is the descriptive stage; the configurations are the causal stage | Without Fiss, the relationship between P1 and the fsQCA chapter is a historical accident rather than a designed programme |
+| fsQCA Chapter | §4 (Method justification) | Design rationale — why fsQCA is the appropriate method for the causal stage given the P1 typology | |
+| P1 (future, post-defence) | §1 (Introduction + contribution) | P1 must frame its SLR-derived typology as the first stage of a Fiss-logic programme, not as a standalone literature review | The GIQ rejection lesson — contribution framing must lead with the typology's explanatory potential, not the SLR process |
+
+---
+
+## Relationship to Ragin (2008)
+
+Ragin (2008) provides the fsQCA *method*. Fiss (2011) provides the *theoretical rationale* for why fsQCA is the right tool for the causal stage of a typology-building research programme. Together they are the methodological foundation of the fsQCA chapter.
+
+---
+
+## GIQ Rejection Lesson
+
+The GIQ desk rejection (14 April 2026) was diagnosed as a narrative architecture failure. One contributing factor was that P1's SLR was framed as a literature contribution rather than as the first stage of a Fiss-logic configurational programme. When P1 is reactivated for R&G submission (Q3 2027), the Fiss (2011) logic must be foregrounded in §1 — the typology's value is its explanatory potential in the configurational analysis, not the systematic literature review process that generated it.
+
+---
+
+## Papers Linking Here
+
+[[fsQCA_References]]
+
+---
+
+_Back to [[_Concepts_MOC]]_

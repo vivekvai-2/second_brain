@@ -1,0 +1,61 @@
+---
+type: Wiki Intake Note
+tags:
+  - type/wiki-intake
+  - status/pending
+  - paper/p3
+  - paper/p4
+  - content/wiki-entry
+  - gate/open
+  - engine/knowledge-product
+---
+
+# Kurshan, Shen & Chen (2020) — Towards Self-Regulating AI: Challenges and Opportunities of AI Model Governance in Financial Services — Intake Note
+
+**Source:** Eren Kurshan (Columbia), Hongda Shen (Univ. Alabama), Jiahao Chen (J.P. Morgan AI Research)
+**Year:** 2020 (Oct 15–16)
+**Full title:** "Towards Self-Regulating AI: Challenges and Opportunities of AI Model Governance in Financial Services"
+**Venue:** ACM International Conference on AI in Finance (ICAIF '20), DOI 10.1145/3383455.3422564
+**File ID:** F013
+**Zotero key:** Kurshan_ICAIF_2020 *(confirm in Zotero)*
+**Wiki section(s):** S6 (Model Risk); S4 (Agentic AI Governance)
+**Confidence:** High — peer-reviewed ACM conference paper, J.P. Morgan AI Research co-authorship
+**Jurisdiction:** Global / US-centric (OCC regulatory examples)
+
+## Classification
+
+- **Document type:** Conceptual / systems-design paper, peer-reviewed (ACM ICAIF)
+- **Primary audience:** AI/ML model-risk practitioners, regulators, technologists
+- **AI explicit:** Yes — entirely focused on AI/ML model governance distinct from traditional model risk management
+
+## 3–5 Reusable Findings
+
+1. Diagnoses a fundamental mismatch: traditional MRM frameworks (built around OCC/CRD IV/CRR-style transparent models with clear parameter–output dependencies) cannot adequately govern AI/ML models whose "intrinsically encoded data representations" lack explicit, auditable dependencies (feeds S6).
+2. Documents that current AI model governance relies on "complex review flows" and "heavily manual steps," creating effectiveness, cost, complexity, and speed problems that worsen as model complexity grows — direct evidence for the [[Governance_Debt]] construct applied to AI/ML specifically (feeds S6).
+3. The COVID-19 pandemic served as a real-world "natural stress test": AI models in financial services experienced serious accuracy/reliability degradation, and firms struggled to recalibrate/retrain at speed — a citable empirical instance of model-risk crystallisation (feeds S6).
+4. Proposes a system-level "self-regulation" framework integrating continuous monitoring, management, and mitigation — explicitly NOT full automation, but an augmentation of governance via system design, positioned as a third lever alongside policy and process (feeds S4/S6).
+5. Frames OCC's risk-tiered periodic review cadence (quarterly/semi-annual/annual by model-risk classification) as the baseline regulatory expectation that AI governance frameworks (incl. RBI's draft MRM circular, [[07_Institutions/Corpus/RBI/RBI_3]]) must adapt for AI-specific risk characteristics (feeds S6).
+
+## Consulting / Teaching Reuse
+
+- The "traditional model transparency vs. AI opacity" framing is a strong slide-level explainer for why legacy 3LoD/MRM frameworks (cf. F006 SR 11-7, F003 IIA Three Lines Model) need AI-specific adaptation — directly supports AEGIS_OS's "runtime enforcement" pitch.
+- The COVID stress-test example is a ready-made case study for board-level risk-committee briefings on AI model fragility.
+
+## Cross-Links
+
+- **Wiki sections:** S6, S4
+- **Concepts:** [[Governance_Debt]] (AI-specific manual-review bottleneck as governance debt), [[Institutional_Coherence]] (continues Batch 4's 3LoD/model-risk doctrinal lineage — extends [[04_Knowledge_Products/Wiki_Intake/Fed_OCC_SR11-7_Model_Risk_Management_2011]] (F006) to AI-specific governance), [[Agentic_AI_Governance]] (self-regulation/continuous-monitoring framework directly relevant)
+- **Corpus nodes:** [[07_Institutions/Corpus/RBI/RBI_3]] (Draft Circular on Model Risk in Credit — AI-specific adaptation gap this paper diagnoses), [[04_Knowledge_Products/Wiki_Intake/Fed_OCC_SR11-7_Model_Risk_Management_2011]] (F006), [[04_Knowledge_Products/Wiki_Intake/Schuett_Three_Lines_Defense_AI_2023]] (F007 — complementary 3LoD-to-AI mapping)
+- **Knowledge products:** [[P3_BFSI_JEIM]], [[P4]] (doctrinal diagnosis), [[fsQCA_Thesis_Chapter]]
+
+## Processing Status
+
+- [x] PDF extracted (pdftotext, first 15 pages)
+- [x] Findings extracted (5 reusable insights)
+- [x] Wiki section mapped (S6/S4)
+- [x] Cross-links to existing nodes identified — extends the Batch 4 3LoD/model-risk doctrinal lineage
+- [ ] Status to be updated to `status/processed` after indexing pass
+
+## Log
+
+- 2026-06-14: Intake note created (Batch 5, File ID F013). Source: "Towards Self-Regulating AI- Challenges and Opportunities of AI Model Governance in Financial Services.pdf" (duplicate lowercase-titled copy also present in Policy Dump — same document, no separate node needed). No VERIFY flags. ⚠ Note: cluster1 shortlist cites third author as "Yu" — PDF confirms third author is **Jiahao Chen** (J.P. Morgan AI Research), not Yu; cluster1 citation appears to have an author-name error.

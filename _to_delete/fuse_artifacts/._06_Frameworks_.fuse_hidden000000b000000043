@@ -1,0 +1,112 @@
+
+---
+type: Framework
+tags:
+  - type/framework
+  - status/active
+  - paper/p1
+  - paper/p4
+  - paper/fsqca
+  - gate/open
+  - engine/phd
+  - engine/linkedin
+  - content/wiki-entry
+  - content/carousel-ready
+---
+
+# NIST AI RMF
+
+**Type:** Framework **Status:** Active **Last Updated:** 2026-06-12
+
+---
+
+## Core Synthesis
+
+The NIST AI Risk Management Framework (AI RMF 1.0, 2023) is the United States federal government's primary voluntary framework for operationalising AI risk management — structurally distinct from both binding regulation (EU AI Act) and international normative principles (OECD, UNESCO) by its focus on enterprise-level risk practices rather than regulatory obligations or governance values. Within PRIS, it anchors a third archetype in the comparative framework set: the voluntary but operationally detailed risk-management standard, positioned between the OECD's normative abstraction and the EU's binding prescription. For the fsQCA model, the AI RMF is analytically significant as a case with high SR (detailed stakeholder-role specification within the Govern-Map-Measure-Manage architecture) but low RL (entirely voluntary, no enforcement). This SR-high/RL-low combination may generate a distinct configuration in the truth table.
+
+## Framework Identity
+
+- **Issuing body:** National Institute of Standards and Technology (NIST), U.S. Department of Commerce
+- **Instrument type:** Voluntary framework / risk management standard
+- **Jurisdiction:** United States; voluntary adoption internationally (widely referenced in India, Singapore, Australia)
+- **Binding status:** Non-binding; voluntary for private sector; increasingly expected for US federal agency AI procurement
+- **Key dates:**
+    - January 2023: AI RMF 1.0 published
+    - 2023–2024: Companion resources published (Playbook, Generative AI Profile, TEVV guidance)
+    - Ongoing: Sector-specific profiles under development _(verify current profile status via Perplexity)_
+
+## Structural Overview
+
+The AI RMF is organised around a **four-function core**: Govern, Map, Measure, and Manage. This is not a sequential compliance checklist but a cyclical risk-management architecture intended to be applied iteratively across the AI system lifecycle.
+
+**Govern** establishes the organisational policies, processes, and accountability structures for AI risk management — the strategic and cultural layer. It is the function most directly relevant to SR, as it specifies roles and accountability structures across the AI lifecycle. **Map** identifies the context, stakeholders, and risk categories relevant to a specific AI system — the situational-awareness function. **Measure** operationalises risk assessment through quantitative and qualitative methods, including bias testing, performance benchmarking, and impact assessment. **Manage** prioritises and responds to risks identified through Map and Measure, including risk treatment decisions, incident response, and residual risk acceptance.
+
+Layered over the core functions are **profiles** (adaptations for specific sectors or use cases) and **tiers** (maturity levels from partial to adaptive). The Generative AI Profile (NIST AI 600-1) extends the framework to foundation model and GPAI risks.
+
+The structural logic — risk management as an organisational practice rather than a regulatory compliance obligation — is what distinguishes NIST AI RMF from the EU model. It is enterprise-facing, process-oriented, and agnostic about enforcement. This makes it analytically useful as a comparison point for India's developing enterprise governance frameworks.
+
+## Regulatory Position & Comparative Significance
+
+Within the PRIS framework set, NIST AI RMF occupies the **US voluntary enterprise-governance** position — non-binding at the regulatory level but operationally detailed at the enterprise level. Against the EU AI Act, it illustrates the US preference for enabling infrastructure over binding prescription. Against IndiaAI, it shows what a voluntary framework looks like when it operationalises enterprise roles and processes rather than stating national principles. For P4's Three-Level Governance Alignment Model, the NIST RMF's Govern function (role specification, accountability structures, board-level oversight) provides a design reference for the enterprise-level layer of the proposed Indian model, even though the jurisdictional context differs.
+
+## IG 2.0 Coding Summary
+
+Full ADICO-level coding is in NVivo. At the construct level, the AI RMF is expected to generate the PRIS framework set's highest **Attribute** and **Condition** specification density — the four-function architecture explicitly assigns responsibilities to AI actors, operators, deployers, and users in defined contexts. **Deontic** content is predominantly enabling and recommending rather than obligating (should/consider/implement where applicable). **Or-else** components are absent by design. The governance function is likely to show the strongest SR signal in the coding — a prior with direct implications for fsQCA calibration.
+
+## fsQCA Calibration
+
+This framework is a candidate case in the 10-case fsQCA model. Case-level calibration is pending NVivo IG 2.0 coding (Q3 2026). Anchors: 0.00 / 0.33 / 0.67 / 1.00.
+
+|Condition|Score|Status|
+|---|---|---|
+|EA — Ethical Alignment|⏳|Pending Q3 2026|
+|SR — Stakeholder Role Clarity|⏳|Pending Q3 2026|
+|RL — Regulatory Logic|⏳|Pending Q3 2026|
+|SI — Stakeholder Inclusion|⏳|Pending Q3 2026|
+
+_Prior (to be confirmed against coded data, not a result):_ Expected high SR (explicit role specification across the four-function architecture), moderate EA (trustworthy AI properties articulated but not operationalised as hard obligations), low RL (entirely voluntary, no enforcement mechanism), moderate SI (multi-stakeholder development process but no institutionalised participation mechanism). The SR-high/RL-low configuration is analytically distinctive and may generate a unique configuration in the fsQCA truth table.*
+
+## Coordination Pair Classification
+
+Not applicable. The NIST AI RMF sits outside the P3 Indian BFSI corpus. It enters PRIS as a US voluntary-standard comparator in P1 and the fsQCA model.
+
+## Key Tensions & Gaps
+
+The core tension in the NIST AI RMF is its voluntary status in a context where the US federal government increasingly expects RMF-aligned risk management from agencies and contractors without mandating it — creating a de facto obligation that is not legally formalised. This ambiguity between "voluntary" and "expected" is analytically significant: it produces a form of regulatory pressure without the transparency of a binding obligation, and it creates compliance costs for enterprises operating across jurisdictions (EU binding + US voluntary-but-expected + India sectoral). A secondary gap is the sector-profile lag: the AI RMF's horizontal architecture requires sector-specific translation that is proceeding slowly relative to the pace of AI deployment in regulated sectors, including financial services — the exact dynamic that Indian sectoral regulators have experienced.
+
+## Linked Projects
+
+- [[P1_SLR_RG]]
+- [[P4_Doctrinal_IJLIT]]
+- [[fsQCA_Thesis_Chapter]]
+
+## Linked Domains
+
+- [[AI_Governance]]
+- [[BFSI_Governance]]
+
+## Linked Concepts
+
+- [[Accountability]]
+- [[Transparency]]
+- [[Governance_Capacity]]
+
+## Linked Frameworks
+
+- [[EU_AI_Act]]
+- [[OECD_AI_Principles]]
+- [[IndiaAI_Framework]]
+- [[RBI_FREE_AI]]
+
+## Linked Methods
+
+- [[Institutional_Grammar_IG2]]
+- [[fsQCA]]
+
+## Future Research / Reuse Opportunities
+
+In the fsQCA truth table, NIST AI RMF's expected SR-high/RL-low calibration profile will test whether high role clarity is sufficient for legitimate AI governance outcomes without binding enforcement — a directly policy-relevant configuration for jurisdictions designing voluntary frameworks. For P4, the Govern function's role-specification architecture is a design reference for the enterprise layer of the Three-Level Governance Alignment Model. For the AI Governance Wiki (Section 3.2), NIST AI RMF is the primary US instrument reference. For the BFSI AI Governance Handbook, the four-function core provides a reusable enterprise risk-management scaffold that BFSI practitioners can adapt. Perplexity monitoring target: financial-sector profile completion and any movement toward binding status for federal AI procurement.
+
+---
+
+_Back to [[_Frameworks_MOC]]_

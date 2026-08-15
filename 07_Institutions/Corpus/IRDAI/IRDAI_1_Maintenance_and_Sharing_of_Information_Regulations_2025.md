@@ -94,7 +94,7 @@ The explicit inter-regulator data-sharing provision (IRDAI ↔ SEBI/RBI for over
 **Related corpus nodes:** [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] (data governance/localisation/Board-policy parallel; explicitly cross-referenced by the source document itself re: SDF compliance), [[07_Institutions/Corpus/RBI/RBI_6_AIFI_Outsourcing_Directions_2025]] (data localisation/Board-policy/audit-access parallel)
 **Related concepts:** [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]] (cross-regulator data-governance template convergence), [[05_Concepts/05_Concepts_Signature/Institutional_Coherence]] (explicit inter-regulator data-sharing provision — tentative positive instance), [[05_Concepts/05_Concepts_Standard/Accountability]], [[05_Concepts/05_Concepts_Standard/Transparency]] (public-disclosure provisions for non-confidential data), [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]
 **Related frameworks:** None yet in `06_Frameworks` — IRDAI is a new institutional track; no framework synthesis yet
-**Related projects:** [[02_Projects/P3_BFSI_JEIM]] (new BFSI regulator track), [[02_Projects/P4...]] (BFSI doctrinal — insurance-sector data governance)
+**Related projects:** [[02_Projects/P3_BFSI_JEIM]] (new BFSI regulator track), [[02_Projects/P4_Doctrinal_IJLIT]] (BFSI doctrinal — insurance-sector data governance)
 **Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]] (S2/S5 — pending primary-source upgrade)
 **Related consulting:** **PrivacyWeave** — the IRDAI regulation's reported alignment with DPDP SDF obligations (explicitly cross-referenced in the source) may be relevant to PrivacyWeave engagements involving insurance-sector clients; flag as provisional pending primary verification.
 

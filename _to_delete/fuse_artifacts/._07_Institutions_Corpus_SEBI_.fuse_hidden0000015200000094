@@ -1,0 +1,120 @@
+# SEBI_9 — Reporting for AI and ML Applications and Systems Offered and Used by Market Infrastructure Institutions (MIIs)
+
+**Type:** Corpus Node  
+**Vault path:** `07_Institutions/Corpus/SEBI/SEBI_9.md`  
+**Institution:** [[07_Institutions/SEBI.md]]  
+**Issuing body:** Securities and Exchange Board of India (SEBI), Market Regulation Department  
+**Document date:** January 31, 2019  
+**Circular reference:** SEBI/HO/MRD/DOP1/CIR/P/2019/24  
+**Pages:** 4  
+**Domain:** [[03_Domains/AI_Governance]] | [[03_Domains/BFSI_Governance]]  
+
+---
+
+## Instrument Identity
+
+**Full title:** Reporting for Artificial Intelligence (AI) and Machine Learning (ML) applications and systems offered and used by Market Infrastructure Institutions (MIIs)  
+**Type:** Regulatory Circular (binding on addressed entities)  
+**Target entities:** All Recognised Stock Exchanges, Clearing Corporations, Depositories  
+**Signatory:** Amit Tandon, Deputy General Manager, Market Regulation Department  
+**Legal basis:** Section 11(1) of SEBI Act 1992, read with Section 10 of Securities Contracts (Regulation) Act, 1956  
+**Companion circular:** [[07_Institutions/Corpus/SEBI/SEBI_10]] (May 2019 circular for Mutual Funds — same framework, different entities)
+
+---
+
+## Analytical Classification
+
+**P3 corpus role:** SCREENING CORPUS — included in 17-document screening pass (SOM Table S2); classified as an early MII-facing inventory circular. Not in the canonical 91-RU analytical corpus because its primary function is inventory/reporting rather than substantive AI governance mandate.  
+**Note:** The Mutual Fund equivalent (SEBI_10) IS in the canonical corpus with 13 RUs (Tier A) — SEBI_9 and SEBI_10 are functionally equivalent circulars for different entity classes.  
+**AI Governance Wiki relevance:** HIGH — First SEBI circular on AI governance (January 2019); establishes the foundational AI taxonomy for Indian securities markets  
+**Tier classification (if coded):** Tier A — explicit AI/ML regulation
+
+---
+
+## Substantive Content
+
+### Regulatory Purpose (§1)
+SEBI is conducting survey and creating inventory of AI/ML landscape in Indian financial markets to:
+- Gain in-depth understanding of AI/ML adoption in markets
+- Ensure preparedness for any AI/ML policies that may arise in the future
+- Survey is foundational; reporting is a precondition to policy-making
+
+### Scope Definition (§2–3)
+
+**In scope:** Any applications/software/programs/executables/systems for compliance operations/activities where AI/ML is used for compliance or management purposes. Also includes FinTech and RegTech initiatives by MIIs involving AI/ML.
+
+**AI/ML Technology Categories (Annexure A — six categories):**
+1. **NLP, sentiment analysis, text mining** — Voice-to-text, text-to-intelligence, robo chatbots, big data intelligence systems
+2. **Neural Networks** — Any system using nodes mimicking natural neural networks (Recurrent NN, Deep Learning NN)
+3. **Machine Learning (supervised/unsupervised)** — Decision tree, random forest, K-means, Markov decision process, Gradient boosting
+4. **Statistical heuristics / clustering without predefined categories** — Non-procedural algorithmic approaches
+5. **Feedback mechanism systems** — Systems that improve parameters through iterative feedback
+6. **Knowledge representation systems** — Systems that maintain a knowledge base
+
+### Regulatory Requirements (§4)
+- **Mandatory quarterly reporting** (within 15 days of quarter expiry)
+- Submission emails: AI_MII_SE@sebi.gov.in / AI_MII_DEP@sebi.gov.in / AI_MII_CC@sebi.gov.in
+- Effective from: Quarter ending March 31, 2019
+
+### Reporting Form (Annexure B — 13 data fields)
+Entity details, application name, date used from, area of use (order execution/surveillance/compliance/other), tool name, implementation model (internal/provider/joint), SEBI cybersecurity circular alignment, system audit inclusion (Yes/No), application description, safeguards against abnormal behaviour
+
+---
+
+## Analytical Significance for PRIS Research
+
+### Foundational AI Governance Moment (India BFSI)
+- January 2019: First binding AI/ML regulatory instrument in Indian BFSI sector
+- Establishes the definitional taxonomy for AI/ML that all subsequent SEBI circulars build on (same six-category Annexure A appears in SEBI_10, May 2019)
+- Survey-driven approach: SEBI does not know the AI/ML landscape and mandates reporting to build knowledge — unusual regulatory sequencing (inventory before rules)
+
+### Regulatory Parallelism Evidence
+- SEBI_9 (January 2019, MIIs) and SEBI_10 (May 2019, Mutual Funds) are parallel instruments with identical AI taxonomy (Annexure A) for different entity classes within SEBI
+- This constitutes Cluster C09 in the P3 coordination pattern matrix: "Intra-SEBI: AI inventory and taxonomy convergence"
+- RBI has no equivalent inventory/reporting mandate for banks on AI/ML as of 2019 — creates cross-regulator coordination gap
+
+### Temporal Significance for fsQCA
+- 2019 = earliest AI-specific regulatory intervention in India (predates EU AI Act proposal by 2 years)
+- Positions India as early mover on AI reporting (not governance) — important fsQCA configuration variable
+- But reporting ≠ governance: Survey/inventory approach without substantive requirements is a "preparedness" rather than "regulation" configuration
+
+### ADICO Analysis
+- §4 reporting requirement: Deontic = "Shall" (mandatory) → strongest obligation
+- Aim = "fill in the AI/ML reporting form and submit"
+- Conditions = "in respect of the AI or ML based applications or systems as defined in Annexure A"
+- Or else: Not specified in this circular — enforcement gap; relies on SEBI's general powers
+
+---
+
+## Coordination Pattern in P3 Corpus
+
+| Pattern | Evidence |
+|---------|----------|
+| Intra-SEBI Convergence (C09) | SEBI_9 and SEBI_10 use identical six-category AI taxonomy (Annexure A) |
+| Cross-regulator gap | No RBI equivalent AI inventory mandate (2019); no CERT-In AI mandate |
+| Unidirectional (SEBI → other) | NITI Aayog cited SEBI AI circular as model in NITI_3 — SEBI as AI governance pioneer in BFSI |
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/SEBI/SEBI_10]] | [[07_Institutions/Corpus/SEBI/SEBI_11]] | [[07_Institutions/Corpus/NITI_Aayog/NITI_3]] | [[07_Institutions/Corpus/RBI/RBI_1]]  
+**Related concepts:** [[05_Concepts/Signature/Regulatory_Parallelism]] | [[05_Concepts/Signature/Governance_Debt]]  
+**Related frameworks:** [[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]]  
+**Related projects:** [[02_Projects/Active/P3_BFSI_JEIM_Project_State]]  
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]  
+**Zotero key:** SEBI_CIR_2019_24_AI_MII
+
+---
+
+## Coding Status
+
+- **P3 NVivo:** In screening corpus (Table S2); MII-facing inventory circular. SEBI_10 is the mutual fund equivalent that IS in the canonical 91-RU corpus.
+- **RU count:** Not formally coded in P3 canonical corpus for this specific circular; approximately 13 RUs expected based on equivalence with SEBI_10
+- **Coordination cluster:** C09 (intra-SEBI taxonomy convergence with SEBI_10)
+
+---
+
+## Log
+
+- 2026-06-13: Corpus node created from source extraction. S5 session.

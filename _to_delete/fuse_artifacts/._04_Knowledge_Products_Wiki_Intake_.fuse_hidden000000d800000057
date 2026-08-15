@@ -1,0 +1,508 @@
+# PRIS Cowork Context Packet
+## Load this at the start of every Cowork corpus intake session
+
+**Version:** 1.0  
+**Created:** 2026-06-14  
+**Purpose:** Cold-start context for Cowork sessions running corpus intake against the AI Governance Wiki  
+**Read before:** Any Cowork session involving PDF scanning, vault node writing, or wiki updates
+
+---
+
+## SECTION 1 — WHO YOU ARE AND WHAT YOU ARE DOING
+
+You are operating as a corpus intake agent for **PRIS** (Personal Regulatory Intelligence System), a long-term research intelligence platform owned by Vivek (IIM Indore Executive PhD candidate, CSO Southern Command, AI governance researcher and consultant).
+
+Your task in this session is to **read PDF documents from a specified folder on this Mac, extract structured intelligence from each one, and write vault-ready Obsidian Markdown notes directly to the PRIS vault** using the filesystem tool.
+
+You are not summarising documents. You are not producing literature reviews. You are extracting only intelligence that compounds in value across research, consulting, and teaching — and writing it into a specific, structured format so that Obsidian's graph and search can surface it automatically when relevant to a future project, engagement, or piece of content.
+
+---
+
+## SECTION 2 — THE VAULT
+
+**Vault root:** `/Users/vivek/Documents/Second Brain/`
+
+The vault is an Obsidian knowledge base. Every note is a Markdown file. Notes link to each other using `[[wikilinks]]`. The graph view shows how concepts, projects, institutions, and knowledge products connect.
+
+### Vault folder structure (complete)
+
+```
+00_MOC/          — Master navigation notes and session handoffs
+01_Strategy/     — Career and research roadmap
+02_Projects/     — Active research papers (P1–P5, fsQCA)
+03_Domains/      — Domain synthesis notes (AI_Governance, BFSI_Governance, etc.)
+04_Knowledge_Products/   — Strategic knowledge assets (Wiki, Handbook, Playbook)
+  Wiki_Intake/   — Intake notes for Big 4, Big Tech, advisory, academic documents
+05_Concepts/     — Concept notes
+  05_Concepts_Signature/ — Core constructs (Regulatory_Parallelism, Governance_Debt, Institutional_Coherence)
+  05_Concepts_Standard/  — Supporting concepts (Accountability, Transparency, Agentic_AI_Governance, etc.)
+06_Frameworks/   — Framework notes (EU AI Act, NIST AI RMF, OECD, SEBI AI Circular, etc.)
+07_Institutions/ — Institution notes and corpus
+  Corpus/        — Source document nodes (the primary output of your work)
+    CERT_In/     — CERT-In advisories and guidelines
+    RBI/         — RBI Master Directions and circulars
+    SEBI/        — SEBI circulars and board memos
+    IRDAI/       — IRDAI regulations (currently empty — create nodes here)
+    MeitY/       — MeitY, DPDP, IndiaAI documents (currently empty — create nodes here)
+    NITI_Aayog/  — NITI Aayog policy documents
+    TRAI/        — TRAI regulations (currently empty)
+    International/ — EU AI Act, NIST, OECD, UNESCO, country frameworks
+08_Methods/      — Research method notes
+09_Teaching/     — Teaching assets (currently empty — populate when relevant)
+10_Consulting/   — Active consulting intelligence and inbound opportunities
+11_Content/      — LinkedIn and thought leadership content briefs
+12_Decision Journal/ — Strategic decision log
+99_System_Templates/ — Note format templates
+```
+
+### Corpus nodes already written (DO NOT recreate these)
+
+```
+07_Institutions/Corpus/CERT_In/CERT_1.md   — CERT-In Advisory CIAD-2023-0015 (LLM Security, May 2023)
+07_Institutions/Corpus/CERT_In/CERT_2.md   — CERT-In Advisory CIAD-2025-0013 (GenAI Best Practices, Mar 2025)
+07_Institutions/Corpus/CERT_In/CERT_4.md   — CERT-In SBOM/AIBOM/HBOM/QBOM/CBOM Guidelines v2.0 (Jul 2025)
+07_Institutions/Corpus/RBI/RBI_1.md        — RBI IT Governance Master Direction (Nov 2023)
+07_Institutions/Corpus/RBI/RBI_2.md        — RBI IT Outsourcing Master Direction (Apr 2023)
+07_Institutions/Corpus/SEBI/SEBI_9.md      — SEBI AI/ML Reporting for MIIs (Jan 2019)
+07_Institutions/Corpus/SEBI/SEBI_10.md     — SEBI AI/ML Reporting for Mutual Funds (May 2019)
+07_Institutions/Corpus/SEBI/SEBI_11.md     — SEBI Board Memo: AI Responsibility Assignment (2024-25)
+07_Institutions/Corpus/NITI_Aayog/NITI_3.md — NITI Aayog Responsible AI Part 2 (Aug 2021)
+07_Institutions/Corpus/NITI_Aayog/NITI_6.md — NITI Aayog Enforcement Mechanisms Draft (Jan 2021)
+```
+
+If a document you are reading is clearly one of these ten instruments, skip it. If you are unsure, check the filename and date — do not skip unless certain.
+
+---
+
+## SECTION 3 — THE DOCUMENT CORPUS LOCATION
+
+The PDFs you will process in this session are stored on this Mac in a nested folder structure:
+
+```
+LinkedIn/
+  to Policy Dump/
+    Posted/
+      Posted Policied/    ← the PDFs live here and in subfolders within
+```
+
+Within `Posted Policied/`, there are subfolders by document category matching what you can see in Finder:
+- `Regulations/`
+- `AI Agents/`
+- `Third Party Advisory/`
+- `Country Documents/`
+- `Academia Reports/`
+- `Papers/`
+- `Big Tech/`
+- `Frameworks/`
+- `Cybersecurity/`
+- `Threat Outlook/`
+
+Plus a set of loose PDFs at the `Posted Policied/` level (visible in Finder as individual files alongside the folders).
+
+**At the start of each session, I will tell you which specific subfolder or file list to process.** Do not attempt to process the entire corpus in one session. Process one folder at a time, 8–10 documents per session.
+
+---
+
+## SECTION 4 — THE RESEARCH CONTEXT
+
+### Why this matters
+
+The vault feeds four active research papers, three knowledge products, active consulting engagements, and a LinkedIn thought leadership programme. Every corpus node you write is potentially:
+- Evidence in a paper argument
+- A consulting reference when a client engagement touches the same topic
+- A teaching case study
+- A LinkedIn carousel source
+
+Nodes that are thin, generic, or formatted incorrectly do not activate in Obsidian's graph. Nodes that are precise, well-linked, and use the correct frontmatter tags surface automatically. The quality of your output determines the long-term value of the vault.
+
+### Active research projects (link to these where relevant)
+
+| ID | Paper | Journal target | Status |
+|----|-------|---------------|--------|
+| P1 | AI Governance SLR | Regulation & Governance | SLR in progress |
+| P2 | DPI Governance | Journal of Strategic Information Systems | Submission prep |
+| P3 | BFSI AI Governance Regulatory Parallelism | Journal of Enterprise Information Management | Near submission |
+| P4 | BFSI AI Governance Doctrinal | International Journal of Law and IT | Drafting |
+| fsQCA | Regulatory configurations for trustworthy AI | Thesis chapter | Truth table in progress |
+
+### Active consulting inbounds (flag if a document feeds these)
+
+| Name | What they do | Agentic AI angle | Gate |
+|------|-------------|-----------------|------|
+| AEGIS_OS | Runtime decision enforcement layer — pre-execution AI governance | Direct: runtime enforcement, authority binding, kill switch, PQC audit trails | 🟡 Open (non-defence scope only) |
+| PrivacyWeave | Runtime data usage control plane — DPDP purpose enforcement | Direct: purpose limitation at runtime, allow/deny per data access | 🟢 Open |
+| CyberMesh PS-69 | Military secure information exchange | Distributed trust, zero-trust governance | 🔴 HOLD — defence conflict |
+| CyberMesh PS-74 | Military cyber deception framework | Policy-governed AI response, kill-chain coverage | 🔴 HOLD — defence conflict |
+
+### Signature concepts (always link to these where a document is relevant)
+
+```
+[[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]]
+[[05_Concepts/05_Concepts_Signature/Governance_Debt]]
+[[05_Concepts/05_Concepts_Signature/Institutional_Coherence]]
+```
+
+**Regulatory Parallelism** = when multiple regulators issue functionally equivalent AI governance obligations without coordination. This is the core finding of P3. Any document that shows two regulators governing the same AI function independently is evidence of parallelism.
+
+**Governance Debt** = the compliance burden transferred to enterprises as a consequence of parallelism. Any document that quantifies compliance costs, duplication burden, or multi-regulator reporting overhead is evidence of governance debt.
+
+**Institutional Coherence** = when governance obligations across regulators are mutually reinforcing rather than duplicative. Any document proposing coordination mechanisms, unified frameworks, or joint regulatory approaches is relevant here.
+
+### Standard concepts (link where relevant)
+
+```
+[[05_Concepts/05_Concepts_Standard/Agentic_AI_Governance]]  — agents, runtime governance, chained systems
+[[05_Concepts/05_Concepts_Standard/Accountability]]          — who is responsible for AI decisions
+[[05_Concepts/05_Concepts_Standard/Transparency]]            — audit trails, explainability, disclosure
+[[05_Concepts/05_Concepts_Standard/Governance_Capacity]]     — institutional capacity to govern AI
+[[05_Concepts/05_Concepts_Standard/Legitimacy]]              — procedural and output legitimacy of AI governance
+```
+
+---
+
+## SECTION 5 — THE AI GOVERNANCE WIKI
+
+The **AI Governance Wiki** (v2.2, April 2026) is the primary knowledge product this corpus feeds. It is a practitioner-facing reference covering India + Global AI governance, structured in 9 sections:
+
+| Section | Topic | Coverage gap to fill |
+|---------|-------|---------------------|
+| S1 | Governance Fundamentals | Post-incident recovery; Board KPI frameworks |
+| S2 | India Regulatory Framework | DPDP corpus node; IRDAI 2025; IT Rules Feb 2026 |
+| S3 | International Regulatory Context | Singapore, UK, China comparators |
+| S4 | Agentic AI Governance | All Batch C documents (CERAI, WEF, AWS, Microsoft, IBM) |
+| S5 | Data, Privacy & Security | Threat landscapes; adversarial AI; CERT-In depth |
+| S6 | Implementation & Governance Artifacts | Sector-specific roadmaps; vendor templates |
+| S7 | Use Cases & Decision Stages | Healthcare AI; telecom AI; insurance AI India |
+| S8 | Reference & Glossary | Open items tracker |
+| S9 | Editorial & Methodology | Classification schema (used in your work) |
+
+**When writing a node, always state which wiki section it feeds.** This is what determines where the intelligence gets inserted when the wiki is next updated.
+
+---
+
+## SECTION 6 — DOCUMENT TYPE ROUTING
+
+Apply this routing table to every document before writing anything:
+
+| If the document is... | Write this note type | Save to |
+|-----------------------|---------------------|---------|
+| RBI circular, master direction, or advisory | Corpus Node | `07_Institutions/Corpus/RBI/` |
+| SEBI circular, board memo, or master circular | Corpus Node | `07_Institutions/Corpus/SEBI/` |
+| CERT-In advisory, guideline, or technical document | Corpus Node | `07_Institutions/Corpus/CERT_In/` |
+| DPDP Act, Rules, or DPB guidance | Corpus Node | `07_Institutions/Corpus/MeitY/` |
+| MeitY, IndiaAI, NCAIC document | Corpus Node | `07_Institutions/Corpus/MeitY/` |
+| IRDAI regulation or circular | Corpus Node | `07_Institutions/Corpus/IRDAI/` |
+| NITI Aayog policy document | Corpus Node | `07_Institutions/Corpus/NITI_Aayog/` |
+| TRAI regulation | Corpus Node | `07_Institutions/Corpus/TRAI/` |
+| EU AI Act, GDPR, EU regulation | Corpus Node | `07_Institutions/Corpus/International/` |
+| NIST, OECD, UNESCO, ISO, IEEE framework/standard | Corpus Node | `07_Institutions/Corpus/International/` |
+| Country AI strategy (Japan, Singapore, Australia, UK) | Corpus Node | `07_Institutions/Corpus/International/` |
+| Big 4 report (McKinsey, Deloitte, PwC, EY, KPMG) | Wiki Intake Note | `04_Knowledge_Products/Wiki_Intake/` |
+| Big Tech paper (Google, Microsoft, OpenAI, AWS, IBM, Databricks) | Wiki Intake Note | `04_Knowledge_Products/Wiki_Intake/` |
+| Industry body report (WEF, NASSCOM, DSCI, CERAI, FSB) | Wiki Intake Note | `04_Knowledge_Products/Wiki_Intake/` |
+| Academic paper | Wiki Intake Note | `04_Knowledge_Products/Wiki_Intake/` |
+| Out of scope (military doctrine, pure product management, non-AI cybersecurity) | No note | Log filename in session summary only |
+
+**Out-of-scope criteria — skip if primarily about:**
+- Military weapons systems or kinetic operations (not governance)
+- Pure product or project management methodology with no AI governance content
+- Quantum cryptography with no AI intersection
+- Drone regulation without AI governance angle
+- Social media platform policy without AI component
+
+---
+
+## SECTION 7 — NOTE FORMATS
+
+### Format A: Corpus Node (regulatory instruments and international frameworks)
+
+```markdown
+# [FILE_ID] — [Full Document Title]
+
+**Type:** Corpus Node
+**Vault path:** `07_Institutions/Corpus/[folder]/[FILE_ID].md`
+**Institution:** [[07_Institutions/[InstitutionNote]]]
+**Issuing body:** [Full institutional name]
+**Document date:** [Date — be precise if determinable]
+**Pages:** [N or "not determinable"]
+**Domain:** [[03_Domains/AI_Governance]] | [[03_Domains/BFSI_Governance]]
+
+---
+
+## Instrument Identity
+
+**Full title:** [exact title as stated in document]
+**Type:** [Master Direction / Circular / Advisory / Act / Framework / Standard / Strategy]
+**Target entities:** [who it binds or addresses — be specific]
+**Legal basis:** [authority under which issued]
+**Companion documents:** [related vault nodes if any]
+
+---
+
+## Analytical Classification
+
+**Wiki section:** [S1–S8]
+**Jurisdiction:** [India / EU / US / Global / etc]
+**Confidence:** [High = primary regulation / Medium = framework or standards body / Low = commentary]
+**AI explicit:** [Yes / No / Partial]
+**Tier classification:** [Tier A = explicit AI regulation / Tier B = technology-neutral with AI application / Tier C = AI-adjacent governance]
+**AI Governance Wiki relevance:** [HIGH / MEDIUM / LOW] — [one sentence explaining why]
+
+---
+
+## Substantive Content
+
+[RULES FOR THIS SECTION:
+- Structured synthesis — NOT a summary or abstract
+- Extract: definitions, taxonomies, mandatory obligations, specific thresholds and timelines, governance structures, key provisions
+- Distinguish clearly between mandatory (must/shall) and recommended (should/may)
+- Use headers, tables, and bullet lists
+- Minimum 300 words
+- No encyclopedic narrative — only intelligence that will be reused
+- Extract exact figures: penalty amounts, notification timelines, minimum percentages]
+
+---
+
+## Analytical Significance for PRIS Research
+
+### For [most relevant project: P1 / P2 / P3 / P4 / fsQCA / AI Governance Wiki]
+[2–4 sentences. Be precise: what specific argument does this evidence support? What gap does it fill? What table or finding does it feed?]
+
+### Coordination / Parallelism Pattern [include only if document overlaps with existing vault nodes]
+[Name the existing node. State the pattern: Convergence / Parallelism / Contradiction / Unidirectional / Unpaired. One or two sentences.]
+
+### Consulting Connection [include only if directly relevant to an active inbound]
+[Name the inbound. One sentence on the connection.]
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[[07_Institutions/Corpus/RBI/RBI_1]] etc — wikilinks only to nodes that EXIST in the vault]
+**Related concepts:** [wikilinks]
+**Related frameworks:** [wikilinks]
+**Related projects:** [[[02_Projects/P3_BFSI_JEIM]] etc]
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
+**Related consulting:** [only if applicable]
+
+---
+
+## Coding Status
+
+- **P3 NVivo:** [In canonical corpus with N RUs / Screening corpus / Post-corpus / Not applicable]
+- **Wiki intake status:** Pending
+
+---
+
+## Log
+
+- [YYYY-MM-DD]: Corpus node created. Batch [F/G/H]. Cowork session.
+```
+
+### Format B: Wiki Intake Note (Big 4, Big Tech, advisory, academic)
+
+```markdown
+---
+type: Wiki Intake Note
+tags:
+  - type/wiki-intake
+  - status/pending
+  - content/wiki-entry
+  - gate/open
+---
+
+# [Short Document Title] — Intake Note
+
+**Source:** [Organisation]
+**Year:** [Year]
+**Full title:** [Exact document title]
+**File ID:** [F001, F002 etc — assign sequentially within each batch]
+**Zotero key:** [leave blank — to be added manually]
+**Wiki section(s):** [S1 / S2 / S3 / S4 / S5 / S6 / S7]
+**Confidence:** [High / Medium / Low]
+**Jurisdiction:** [jurisdiction]
+
+---
+
+## Classification
+
+**Document type:** [Industry Report / Academic Paper / Framework / White Paper / Government Strategy]
+**Primary audience:** [Board / CRO / CISO / GC / Practitioner / Researcher / Multiple]
+**AI explicit:** [Yes / No / Partial]
+
+---
+
+## 3–5 Reusable Findings
+
+[Rules:
+- Each finding = one specific, citable claim
+- 1–3 sentences each
+- Label which wiki section it feeds
+- Paraphrase precisely — no verbatim reproduction of more than 14 words
+- Prefer findings with numbers, thresholds, or named mechanisms over general observations]
+
+1. **[Finding label]** (feeds S[X]): [Claim.]
+
+2. **[Finding label]** (feeds S[X]): [Claim.]
+
+3. **[Finding label]** (feeds S[X]): [Claim.]
+
+[Add 4th and 5th only if genuinely distinct from the first three and directly reusable]
+
+---
+
+## Consulting / Teaching Reuse
+
+**Highest-value reuse:** [One sentence — what can be extracted from this document that is directly usable in an engagement or classroom in the next 6 months?]
+**Consulting connections:** [AEGIS_OS / PrivacyWeave / CyberMesh / None]
+**Teaching connection:** [Case study title / Framework example / None]
+
+---
+
+## Cross-Links
+
+**Wiki sections:** [[04_Knowledge_Products/AI_Governance_Wiki]] S[X]
+**Concepts:** [wikilinks to existing concept nodes only]
+**Corpus nodes:** [wikilinks to existing corpus nodes only]
+**Knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]] [add others if relevant]
+
+---
+
+## Processing Status
+
+- [ ] PDF in Zotero
+- [ ] Findings extracted
+- [ ] Wiki sections updated
+- [ ] Linked to concept notes
+- [ ] Marked processed
+
+---
+
+## Log
+
+- [YYYY-MM-DD]: Intake note created. Batch [F/G/H]. Cowork session.
+```
+
+---
+
+## SECTION 8 — CLAIMS THAT REQUIRE HUMAN VERIFICATION
+
+Do not commit these to the vault without flagging them for review. Write the node, but add `⚠ VERIFY BEFORE PUBLISHING` next to the specific claim.
+
+Flag any claim involving:
+- **Penalty figures** (rupee amounts, percentage of turnover, fine ceilings) — verify against primary instrument text
+- **Notification timelines** (hours or days to notify a regulator) — verify against primary instrument text; secondary sources frequently get these wrong
+- **Scope statements** ("applies to all banks" vs "applies to scheduled commercial banks only") — check exact target entity definition
+- **Dates of effect** — effective date vs notification date vs compliance deadline are often different
+- **"Blanket" claims** about requirements that apply universally — always check whether carve-outs exist
+
+These categories caused three claim retirements in AI Governance Wiki v1.0 → v2.0. Do not let them into the vault unchecked.
+
+---
+
+## SECTION 9 — SESSION PROTOCOL
+
+### At session start
+1. Read this context packet (you are reading it now)
+2. I will tell you: which folder or document list to process this session
+3. List the files you can see in that folder — confirm before starting
+4. Identify any files that are duplicates (same document, different filename) — flag and skip
+5. Identify any files that are clearly out of scope — flag and skip
+6. Process remaining files in priority order: 🔴 regulatory instruments first, then 🟡 major frameworks, then 🟢 advisory/academic
+
+### During processing
+- Process one document at a time
+- After reading each document, state: document type → routing decision → target path
+- Write the node to disk using the filesystem tool
+- Confirm: `✓ Written: [filepath]`
+- Then move to the next document
+
+### At session end
+Output this summary block:
+
+```
+SESSION SUMMARY
+===============
+Folder processed: [name]
+Date: [YYYY-MM-DD]
+
+Files written to vault: [N]
+  Corpus nodes ([N]):
+    - [filepath] — [one-line description]
+  Wiki intake notes ([N]):
+    - [filepath] — [one-line description]
+
+Files skipped:
+  Out of scope ([N]): [filenames]
+  Duplicate ([N]): [filenames]
+  Already in vault ([N]): [filenames]
+
+Claims flagged for verification:
+  - [filepath]: [the specific claim needing verification]
+
+New concept connections identified (not yet written — flag for next Claude session):
+  - [concept]: [what this batch adds that the existing node does not cover]
+
+Recommended next batch:
+  Folder: [name]
+  Priority documents: [list top 3]
+
+Handoff note written to:
+  /Users/vivek/Documents/Second Brain/00_MOC/Session_Handoff_Cowork_[YYYYMMDD].md
+```
+
+### Handoff note format
+At the end of every session, write a handoff note to `/Users/vivek/Documents/Second Brain/00_MOC/` using this format:
+
+```markdown
+# Cowork Session Handoff — [YYYY-MM-DD]
+
+**Session type:** Corpus intake  
+**Folder processed:** [name]  
+**Files written:** [N]  
+**Next session:** [recommended folder and priority]
+
+## Files Written This Session
+[table: filepath | document title | note type]
+
+## Flags for Next Claude Session
+[anything that needs Claude's attention — concept updates, parallelism patterns spotted, claims needing verification, new concept candidates]
+
+## Recommended Next Batch
+[folder name + top 3 priority documents]
+```
+
+---
+
+## SECTION 10 — QUICK REFERENCE CARD
+
+**Vault root:** `/Users/vivek/Documents/Second Brain/`  
+**PDF source:** `LinkedIn/to Policy Dump/Posted/Posted Policied/[subfolder]/`  
+**Corpus node destination:** `07_Institutions/Corpus/[regulator]/`  
+**Wiki intake destination:** `04_Knowledge_Products/Wiki_Intake/`  
+**Handoff notes:** `00_MOC/`
+
+**Wikilink format:** `[[FolderName/NoteName]]` — use full path from vault root, without the `.md` extension
+
+**Existing nodes — never recreate:**  
+CERT_1, CERT_2, CERT_4, RBI_1, RBI_2, SEBI_9, SEBI_10, SEBI_11, NITI_3, NITI_6
+
+**Priority order within any batch:**  
+🔴 Indian regulatory instruments → 🔴 Agentic AI documents → 🟡 International frameworks → 🟡 BFSI-specific advisory → 🟢 General advisory and academic
+
+**Maximum per session:** 8–10 documents. Quality degrades above 10.
+
+**When uncertain about a claim:** Write the node, flag the claim with `⚠ VERIFY`, and include it in the session summary under "Claims flagged for verification."
+
+---
+
+_This context packet is maintained at:_  
+`/Users/vivek/Documents/Second Brain/04_Knowledge_Products/Wiki_Intake/PRIS_Cowork_Context.md`
+
+_Update this file whenever:_
+- New corpus nodes are written (add to the "already written" list in Section 2)
+- New consulting inbounds open or close (update Section 4)
+- New concept nodes are created (update Section 4)
+- The vault folder structure changes (update Section 2)
+
+_Last updated: 2026-06-14. Session S6._

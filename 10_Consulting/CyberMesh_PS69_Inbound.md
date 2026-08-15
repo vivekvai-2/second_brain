@@ -49,7 +49,7 @@ Three compounding risk dimensions:
 
 **3. Technical sensitivity:** The proposal involves SAG-grade cryptography integration requirements and IAF communication infrastructure. Even informal technical commentary from a serving CISO on a classified-adjacent procurement could attract scrutiny under OSA/service conduct frameworks.
 
-**Recommended action:** Acknowledge receipt, do not provide any feedback, review, or introduction. Log in `12_Decision Journal`. Revisit post-superannuation if iDEX engagement aligns with post-Army advisory positioning.
+**Recommended action:** Acknowledge receipt, do not provide any feedback, review, or introduction. Log in `12_Decision_Journal`. Revisit post-superannuation if iDEX engagement aligns with post-Army advisory positioning.
 
 ---
 

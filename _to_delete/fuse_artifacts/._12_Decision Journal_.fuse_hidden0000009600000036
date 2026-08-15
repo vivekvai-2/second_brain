@@ -1,0 +1,107 @@
+# Decision Journal
+
+**Type:** Decision Log  
+**Status:** Active  
+**Last Updated:** 2026-06-12  
+**Purpose:** Records strategic decisions, conflict boundary determinations, and pre-committed responses. Per PRIS_Master_MOC, this is the authoritative change log for the vault and the conflict clearance register for consulting engagements.
+
+---
+
+## How to Use
+
+Each entry follows the format:
+
+```
+## DJ-[NN] · [Date] · [Decision Title]
+Context: one sentence on why this decision arose
+Decision: what was decided
+Rationale: why
+Constraints: what this forecloses
+Review trigger: when to revisit
+```
+
+Entries are numbered sequentially. Never delete an entry — annotate if superseded.
+
+---
+
+## DJ-01 · 2026-06-12 · CyberMesh PS-69 Conflict Boundary
+
+**Context:** Black Aegis Private Limited (founder Sanket Nadagouda) shared the CyberMesh SIEPMU proposal for DISC 14 Problem Statement 69 (IAF) and sought advisory input or introductions.
+
+**Decision:** No engagement of any kind. Acknowledge receipt only. No technical review, no feedback, no introduction to IAF/MoD contacts, no iDEX process advisory.
+
+**Rationale:** PS-69 is an active open iDEX/DISC 14 defence procurement process. VV serves as CSO Southern Command. Any advisory input — however informal — from a serving officer to an active bidder in a defence procurement constitutes a conflict of interest under service conduct rules, regardless of compensation. The proposal also involves SAG-grade cryptography requirements and IAF communication infrastructure, making even informal technical commentary sensitive under OSA/service conduct frameworks.
+
+**Constraints:** This decision forecloses all engagement with CyberMesh PS-69 until post-superannuation. It also forecloses any engagement with Black Aegis Private Limited on any iDEX or defence procurement matter until Army exit.
+
+**Review trigger:** May 2027 (Army exit) — reassess iDEX ecosystem advisory positioning at that time. Check whether PS-69 award has been made; if CyberMesh won, assess whether residual conflict applies before any engagement.
+
+**Linked note:** [[CyberMesh_PS69_Inbound]]
+
+---
+
+## DJ-02 · 2026-06-12 · CyberMesh PS-74 Conflict Boundary
+
+**Context:** Same founder and company as DJ-01. Black Aegis Private Limited shared the CyberMesh Cyber Deception Framework proposal for DISC 14 Problem Statement 74 (IAF) alongside PS-69.
+
+**Decision:** No engagement of any kind. Same boundary as DJ-01. The joint-company assessment means engagement with either PS-69 or PS-74 constitutes engagement with both.
+
+**Rationale:** Identical to DJ-01, with an additional dimension: PS-74 involves active cyber deception techniques deployed against IAF network infrastructure. Serving CISO advisory input on active deception architecture for a live defence environment is particularly sensitive beyond ordinary procurement conflict.
+
+**Constraints:** Forecloses all Black Aegis / CyberMesh engagement on any iDEX or defence matter until Army exit. The PS-74 cyber deception scope adds an additional reason to ensure post-superannuation residual conflict is assessed before any technical engagement even then.
+
+**Review trigger:** May 2027 (Army exit) — reassess jointly with DJ-01.
+
+**Linked note:** [[CyberMesh_PS74_Inbound]]
+
+---
+
+## DJ-03 · 2026-06-12 · Offline Intelligence Scope Boundary
+
+**Context:** Akhil Pamarthy (Offline Intelligence) shared a seed-stage pitch for sovereign AI infrastructure. The pitch explicitly references DRDO and iDEX engagement in the go-to-market Phase 2.
+
+**Decision:** Engage on commercial/legal AI angle only. Explicitly defer DRDO and iDEX conversations to post-superannuation. Any response to Akhil Pamarthy must clearly state this boundary. No introductions to DRDO contacts, no India defence market advisory, no iDEX positioning advice.
+
+**Rationale:** The commercial sovereign AI angle (DPDP-aligned data sovereignty, legal AI compliance architecture, enterprise air-gapped deployment) carries no serving-officer conflict and is within VV's advisory positioning. The DRDO/iDEX angle creates the same conflict risk as CyberMesh — serving officer advisory input on defence market entry while in uniform is a conduct risk regardless of whether the product is dual-use.
+
+**Constraints:** This decision forecloses DRDO introductions and iDEX advisory until Army exit. It does not foreclose: informal advisory on commercial AI governance framing, DPDP positioning, and data sovereignty (non-defence) — subject to normal service conduct norms for personal advisory activity.
+
+**Review trigger:** May 2027 (Army exit) — reassess DRDO/iDEX advisory positioning. Before then, if Offline Intelligence requests any India defence market input, decline and log.
+
+**Linked note:** [[Offline_Intelligence_Inbound]]
+
+---
+
+## DJ-04 · 2026-06-12 · AEGIS OS Scope Boundary
+
+**Context:** AEGIS OS was pitched directly to VV ("Hi Vivek") as a sovereign runtime decision control layer with explicit defence scenarios (DDIL, autonomous weapons testing, intelligence admissibility). The sender appears to have a prior connection to VV.
+
+**Decision:** Engage on commercial AI governance framing (BFSI, DPDP, enterprise) only. Any advisory input must be explicitly scoped to non-defence use cases in writing before engagement begins. Defer defence scenario discussions — electronic warfare, autonomous systems, intelligence workflows — to post-superannuation.
+
+**Rationale:** AEGIS OS's commercial positioning as a runtime AI governance enforcement layer is directly within VV's advisory positioning and carries no serving-officer conflict. However, the defence scenarios cited in the pitch (DDIL, autonomous weapons testing, intelligence admissibility) position the product in defence AI governance. Advisory input from a serving CSO on defence AI control architectures — even framed as "non-sensitive environments" — risks being read as endorsing a specific vendor architecture for defence use.
+
+**Constraints:** Before any engagement, obtain written scope confirmation from the AEGIS OS founder that advisory input is limited to commercial AI governance (BFSI, enterprise, DPDP) and does not extend to defence scenarios. If scope cannot be confirmed, defer entirely to post-superannuation.
+
+**Review trigger:** Q3 2026 — if scope is confirmed in writing as commercial-only, limited advisory can begin. May 2027 (Army exit) — reassess defence scenario advisory.
+
+**Linked note:** [[AEGIS_OS_Inbound]]
+
+---
+
+## DJ-05 · 2026-06-12 · PrivacyWeave — No Conflict
+
+**Context:** PrivacyWeave pitch deck received — runtime data usage control plane for commercial data governance, DPDP compliance, and SOC2 audit readiness. No defence angle. No government procurement.
+
+**Decision:** No conflict. Limited informal advisory on DPDP positioning and India GTM framing is permissible now. Active consulting arrangement (equity or retainer) deferred to post-May 2027 for clean separation from serving status.
+
+**Rationale:** PrivacyWeave operates entirely in commercial data governance. The product is directly relevant to DPDP Act 2023 compliance — an area within VV's academic research and advisory positioning. No SCOMET, no iDEX, no defence procurement exposure.
+
+**Constraints:** No equity or retainer arrangements until post-Army exit. BFSI client introductions preferred post-P3 submission to preserve academic independence on BFSI governance research. If PrivacyWeave is cited in academic work, disclose advisory relationship.
+
+**Review trigger:** May 2027 (Army exit) — activate formal advisory arrangement if still relevant. P3 submission (Feb–Mar 2027) — reassess BFSI introduction gate.
+
+**Linked note:** [[PrivacyWeave_Inbound]]
+
+---
+
+_Back to [[PRIS_Master_MOC]]_

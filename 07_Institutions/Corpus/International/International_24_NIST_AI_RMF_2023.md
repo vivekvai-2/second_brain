@@ -81,7 +81,7 @@ No formal, peer-reviewed, or government-issued comparative analysis explicitly j
 The NIST-authored crosswalk (OECD/EU/EO13960) directly supports the framework note's SR-high/RL-low prior by giving an independent, non-PRIS-authored confirmation that these frameworks are commensurable on trustworthiness characteristics despite differing enforcement postures — strengthening the methodological defensibility of treating them as comparable fsQCA cases.
 
 ### Confirmed research gap for original contribution
-The absence of any existing NIST RMF vs. IndiaAI/RBI FREE-AI comparative study is a genuine white space — worth flagging explicitly in [[contribution-framing]] work as a defensible original-comparison claim, since the primary documents on both sides are now independently confirmed and coded in this corpus.
+The absence of any existing NIST RMF vs. IndiaAI/RBI FREE-AI comparative study is a genuine white space — worth flagging explicitly in contribution-framing work as a defensible original-comparison claim, since the primary documents on both sides are now independently confirmed and coded in this corpus.
 
 ---
 

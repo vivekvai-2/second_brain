@@ -1,0 +1,82 @@
+---
+type: Standard Concept
+tags:
+  - type/concept-standard
+  - status/active
+  - paper/fsqca-primary
+  - paper/p1
+  - gate/open
+  - engine/phd
+  - engine/linkedin
+  - content/thought-leadership
+---
+
+# **Legitimacy**
+
+**Type:** Standard Concept  
+**Status:** Active  
+**Last Updated:** 2026-06-12  
+**Theoretical Lineage:** Suchman (1995); institutional theory; regulatory governance
+
+---
+
+## **Definition**
+
+Legitimacy in this research programme is treated as a property of AI governance frameworks and regulatory architectures rather than of individual AI systems, organisations, or decisions. Drawing on Suchman’s distinction between pragmatic, cognitive, and moral legitimacy, the construct captures the degree to which governance arrangements are perceived as appropriate, desirable, and institutionally acceptable within a given jurisdictional context. Within the fsQCA research design, legitimacy functions as the primary outcome condition to be explained: the central analytical question is which configurations of governance conditions generate legitimate AI governance outcomes across jurisdictions.
+
+## **Application in This Research**
+
+Within [[fsQCA_Thesis_Chapter]], legitimacy serves as the outcome variable against which combinations of Enforcement Architecture (EA), Systemic Regulatory conditions (SR), Regulatory Logic (RL), and Stakeholder Inclusion (SI) are evaluated for sufficiency. Within [[P1_SLR_RG]], legitimacy functions as the contribution anchor through which governance typologies are assessed and validated. Across the SLR corpus, legitimacy is consistently articulated as a governance objective by AI governance frameworks, providing the conceptual foundation for comparative analysis. The construct is theoretically linked to [[Institutional_Coherence]], which is hypothesised to contribute positively to legitimate governance outcomes by reducing structural ambiguity and coordination failures.
+
+## **Operationalisation in fsQCA**
+
+Legitimacy is calibrated using external implementation evidence rather than the same ADICO-derived indicators used to measure the causal conditions. This separation is a deliberate methodological choice designed to avoid circularity between explanatory variables and outcome measures. Calibration draws upon implementation trajectories, post-2024 amendments, evidence of institutional adoption, enforcement activity, and broader governance acceptance signals. Calibration anchors are defined as 0.00 for no external legitimacy indicators, 0.33 for partial adoption signals, 0.67 for demonstrated implementation evidence, and 1.00 for multiple strong legitimacy indicators including international adoption, demonstrated enforcement activity, or sustained post-hoc institutional validation.
+
+## **Boundary Conditions**
+
+- Legitimacy is distinct from compliance; compliance reflects behavioural conformity with rules, whereas legitimacy reflects institutional and societal acceptance of governance arrangements.
+- Legitimacy is distinct from effectiveness; a governance framework may be widely accepted yet ineffective in practice, or effective without broad institutional acceptance.
+- Legitimacy functions exclusively as the outcome condition within the fsQCA model and is not treated as a causal condition in the configurational analysis.
+
+## **Theoretical Positioning**
+
+Legitimacy is theoretically anchored in Suchman's (1995) tripartite framework distinguishing pragmatic legitimacy (stakeholder utility), cognitive legitimacy (taken-for-granted acceptance), and moral legitimacy (normative appropriateness). Within regulatory governance scholarship, legitimacy is treated as a relational property of governance arrangements rather than an intrinsic characteristic of rules or institutions — it must be earned through demonstrated performance, procedural fairness, and institutional acceptance. Black (2008) extends this by distinguishing input legitimacy (participation and process) from output legitimacy (effectiveness and outcomes), a distinction with direct relevance to how the fsQCA model calibrates legitimacy as an outcome condition. Within information systems research, legitimacy connects to technology acceptance and institutional adoption frameworks that examine how governance arrangements become embedded in organisational practice. The deliberate separation of legitimacy from compliance and effectiveness in this research — treating a framework as legitimate when it is institutionally accepted, not merely when it is followed or when it produces good outcomes — reflects Suchman's foundational distinction and disciplines the fsQCA calibration accordingly.
+
+## **Future Reuse Opportunities**
+
+- Use the fsQCA legitimacy outcome calibration as the empirical foundation for a P1 typology of AI governance frameworks, classifying frameworks by the configuration of conditions that generates legitimate governance outcomes across jurisdictions.
+- Develop executive education content contrasting legitimacy with compliance and effectiveness, using Indian BFSI governance as a case where instruments may be followed without being institutionally accepted as appropriate governance arrangements.
+- Extend the legitimacy construct into the Regulatory Complexity Handbook as a normative benchmark, arguing that governance architectures characterised by high Regulatory Parallelism generate lower output legitimacy because enterprises cannot discern coherent regulatory intent.
+- Use India's RAM submission to UNESCO and the IndiaAI principles adoption trajectory as empirical material for thought-leadership content examining how principles-based governance frameworks acquire or fail to acquire legitimacy over time.
+
+## **Linked Projects**
+
+[[fsQCA_Thesis_Chapter]]
+
+[[P1_SLR_RG]]
+
+## **Linked Domains**
+
+[[AI_Governance]]
+
+## **Linked Signature Concepts**
+
+[[Institutional_Coherence]]
+
+## **Linked Frameworks**
+
+[[OECD_AI_Principles]]
+
+[[UNESCO_Recommendation]]
+
+[[EU_AI_Act]]
+
+[[IndiaAI_Framework]]
+
+## **Linked Methods**
+
+[[fsQCA]]
+
+---
+
+_Back to [[_Concepts_MOC]]_

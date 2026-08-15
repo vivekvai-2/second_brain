@@ -47,7 +47,7 @@ The same three conflict dimensions apply: active procurement conflict, procureme
 
 **Additional note:** Both PS-69 and PS-74 are from the same founder and company. Any engagement with one effectively constitutes engagement with both. The conflict assessment is joint.
 
-**Recommended action:** Same as PS-69 — acknowledge receipt, provide no feedback, log in `12_Decision Journal`.
+**Recommended action:** Same as PS-69 — acknowledge receipt, provide no feedback, log in `12_Decision_Journal`.
 
 ---
 

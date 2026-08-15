@@ -1,0 +1,78 @@
+# International_2 — BIS: Generative Artificial Intelligence and Cyber Security in Central Banking
+
+**Type:** Corpus Node
+**Vault path:** `07_Institutions/Corpus/International/International_2.md`
+**Institution:** [[07_Institutions/International]] (Bank for International Settlements)
+**Issuing body:** Bank for International Settlements, Monetary and Economic Department (BIS Papers No. 145)
+**Document date:** May 2024
+**Pages:** Not fully determinable
+**Domain:** [[03_Domains/AI_Governance]] | [[03_Domains/Cybersecurity_Governance]] | [[03_Domains/BFSI_Governance]]
+
+---
+
+## Instrument Identity
+
+**Full title:** Generative artificial intelligence and cyber security in central banking (BIS Papers No. 145)
+**Type:** Research Paper (survey-based, non-binding)
+**Target entities:** Central banks (cyber security functions)
+**Legal basis:** BIS research publication — views are authors' own, not official BIS positions
+**Authors:** Iñaki Aldasoro, Sebastian Doerr, Leonardo Gambacorta, Sukhvir Notra, Tommaso Oliviero, David Whyte
+**Companion documents:** [[07_Institutions/Corpus/International/International_1]] (OECD Gen AI risk taxonomy); [[07_Institutions/Corpus/CERT_In/CERT_2]] (GenAI Best Practices, India)
+
+---
+
+## Analytical Classification
+
+**Wiki section:** S5 (Data, Privacy & Security) — feeds the "threat landscapes" gap identified for S5
+**Jurisdiction:** Global (central banking community)
+**Confidence:** Medium (survey-based research, not a binding standard)
+**AI explicit:** Yes (Generative AI specifically)
+**Tier classification:** Tier C — AI-adjacent governance (research evidence base for future policy)
+**AI Governance Wiki relevance:** MEDIUM — provides empirical (survey) evidence of central-bank gen AI adoption intentions and risk perceptions, useful for benchmarking RBI's own survey findings in FREE-AI Committee Report.
+
+---
+
+## Substantive Content
+
+### Survey-based findings
+Based on a survey of cyber security experts at major central banks:
+- Most central banks have **already adopted or plan to adopt** gen AI tools for cyber security, with perceived benefits outweighing risks.
+- Experts foresee gen AI **improving cyber threat detection** and **reducing response time** to cyber attacks.
+- Gen AI simultaneously **increases risks** of: (a) social engineering attacks (AI-enhanced phishing/deepfake-based attacks), and (b) unauthorised data disclosure (e.g., through gen AI tool usage leaking sensitive information).
+
+### Human capital implications
+To mitigate risks and capture benefits, central banks anticipate needing **substantial investment in human capital** — specifically staff with combined expertise in cyber security AND AI/programming (a dual-skill profile). Respondents expect gen AI to automate routine tasks while also **supporting human experts in oversight roles** — i.e., gen AI augments rather than replaces human oversight of AI models, a "human-in-the-loop for AI oversight of AI" framing.
+
+---
+
+## Analytical Significance for PRIS Research
+
+### For P3/fsQCA and Governance Capacity concept
+This paper provides a direct **comparator data point** to RBI FREE-AI's domestic survey (20.8% AI adoption across 612 REs, low adoption among smaller institutions). The BIS survey of central banks (a more sophisticated institutional population than commercial REs) shows near-universal gen AI adoption intent specifically for cyber security — suggesting a **capability gradient**: central banks (regulators) may be adopting gen AI for their own operations faster than the regulated entities they supervise are adopting AI generally. This is relevant to the [[05_Concepts/05_Concepts_Standard/Governance_Capacity]] construct — regulators' own AI capacity may outpace their regulatory frameworks for supervising AI in regulated entities.
+
+### Coordination / Parallelism Pattern
+Existing node: [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]]. Pattern: **Unpaired** — no evidence RBI's FREE-AI survey addressed RBI's own (central bank) internal gen AI/cybersecurity adoption in the way this BIS paper surveys central banks generally; a potential blind spot in the Indian framework (regulator's own AI governance vs. regulated entities' AI governance).
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/International/International_1]], [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]], [[07_Institutions/Corpus/CERT_In/CERT_2]]
+**Related concepts:** [[05_Concepts/05_Concepts_Standard/Governance_Capacity]], [[05_Concepts/05_Concepts_Standard/Agentic_AI_Governance]]
+**Related frameworks:** —
+**Related projects:** [[02_Projects/P3_BFSI_JEIM]]
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
+**Related consulting:** AEGIS_OS (gen AI for cyber threat detection/response is directly relevant to runtime governance/enforcement use cases)
+
+---
+
+## Coding Status
+
+- **P3 NVivo:** Screening corpus (candidate — useful as comparator/benchmark rather than core BFSI-AI-governance instrument)
+- **Wiki intake status:** Pending
+
+---
+
+## Log
+
+- 2026-06-14: Corpus node created. Batch 3. Cowork session. Source: BIS Generative AI.pdf.

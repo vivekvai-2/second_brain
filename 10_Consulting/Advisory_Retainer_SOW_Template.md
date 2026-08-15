@@ -19,7 +19,7 @@ tags:
 
 ## Purpose
 
-A one-page scope document that can be sent to a prospective retainer client without a full legal SOW drafting cycle — it fixes the commercial and scope boundaries before legal drafts the binding agreement, and it forces the scope/conflict discipline this vault already requires (per [[Inbound_Pipeline_Index]]'s operating rule: nothing progresses without a conflict clearance entry in `12_Decision Journal`) into a single reusable document rather than an ad hoc email thread.
+A one-page scope document that can be sent to a prospective retainer client without a full legal SOW drafting cycle — it fixes the commercial and scope boundaries before legal drafts the binding agreement, and it forces the scope/conflict discipline this vault already requires (per [[Inbound_Pipeline_Index]]'s operating rule: nothing progresses without a conflict clearance entry in `12_Decision_Journal`) into a single reusable document rather than an ad hoc email thread.
 
 ---
 
@@ -31,7 +31,7 @@ A one-page scope document that can be sent to a prospective retainer client with
 | Advisor | Vivek Vaidyanathan |
 | Engagement type | Advisory retainer (ongoing) / Fixed-term advisory (specify end date) |
 | Start date | |
-| Conflict clearance reference | [[12_Decision Journal/Decision_Journal]] entry # — do not proceed without this |
+| Conflict clearance reference | [[12_Decision_Journal/Decision_Journal]] entry # — do not proceed without this |
 
 ---
 
@@ -75,9 +75,9 @@ List concrete, named deliverables — avoid open-ended "ongoing advice" as the o
 
 | Situation | Escalation |
 |---|---|
-| Scope-boundary question arises mid-engagement | Pause and log in `12_Decision Journal` before proceeding |
+| Scope-boundary question arises mid-engagement | Pause and log in `12_Decision_Journal` before proceeding |
 | Client requests defence-adjacent input | Hard stop — decline, log the request, do not informally advise |
-| Advisor identifies a conflict with an existing engagement | Disclose to client immediately; consult `12_Decision Journal` precedent |
+| Advisor identifies a conflict with an existing engagement | Disclose to client immediately; consult `12_Decision_Journal` precedent |
 
 ---
 
@@ -121,7 +121,7 @@ Per the standing rule in [[Inbound_Pipeline_Index]]: any defence, defence-procur
 
 **Templates:** [[Governance_Diagnostic_Report_Template]], [[Agentic_AI_Security_Diagnostic_Template]], [[Board_AI_Risk_Oversight_Checklist]], [[Executive_Board_Briefing_Deck_Template]], [[Workshop_Masterclass_Curriculum_Template]]
 
-**Decision log:** [[12_Decision Journal/Decision_Journal]]
+**Decision log:** [[12_Decision_Journal/Decision_Journal]]
 
 ---
 

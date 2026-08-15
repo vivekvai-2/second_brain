@@ -1,0 +1,94 @@
+
+# **Domains — Map of Content**
+
+**Type:** MOC**Status:** Active**Last Updated:** 2026-06-11
+
+---
+
+## **Domain Index**
+
+|**Domain**|**File**|**Linked Projects**|**Linked Knowledge Products**|
+|---|---|---|---|
+|AI Governance|[[AI_Governance]]|P1, P2, P3, P4, fsQCA|[[AI_Governance_Wiki]]|
+|DPI Governance|[[DPI_Governance]]|P2|[[DPDP_Playbook]]|
+|BFSI Governance|[[BFSI_Governance]]|P3, P4|[[BFSI_AI_Governance_Handbook]]|
+|Privacy & Data Protection|[[Privacy_DataProtection]]|P2, P4|[[DPDP_Playbook]]|
+|Cybersecurity Governance|[[Cybersecurity_Governance]]|P3, P4|[[BFSI_AI_Governance_Handbook]]|
+
+---
+
+## **Domain Notes**
+
+### **[[AI_Governance]]**
+
+Ethical, regulatory, and institutional governance of AI systems — Indian and comparative
+
+Linked Projects: P1, P2, P3, P4, fsQCA
+
+[[AI_Governance_Wiki]]
+
+### **[[DPI_Governance]]**
+
+Governance of India Stack (Aadhaar, UPI, Account Aggregator, ONDC) and welfare delivery
+
+Linked Projects: P2
+
+[[DPDP_Playbook]]
+
+### **[[BFSI_Governance]]**
+
+AI governance in banking, financial services, and insurance — RBI and SEBI regulatory architecture
+
+Linked Projects: P3, P4
+
+[[BFSI_AI_Governance_Handbook]]
+
+### **[[Privacy_DataProtection]]**
+
+DPDP Act 2023, consent frameworks, data fiduciary obligations, cross-border data flows
+
+Linked Projects: P2, P4
+
+[[DPDP_Playbook]]
+
+### **[[Cybersecurity_Governance]]**
+
+Enterprise cyber risk, CERT-In obligations, information assurance, BFSI cyber resilience
+
+Linked Projects: P3, P4
+
+[[BFSI_AI_Governance_Handbook]]
+
+---
+
+## **Cross-Domain Concepts**
+
+### **Signature Constructs**
+
+[[Regulatory_Parallelism]] — AI Governance, BFSI Governance, Cybersecurity Governance
+
+[[Governance_Debt]] — BFSI Governance, AI Governance
+
+[[Institutional_Coherence]] — AI Governance, DPI Governance, BFSI Governance
+
+### **Standard Concepts**
+
+[[Accountability]] — AI Governance, DPI Governance, BFSI Governance
+
+[[Legitimacy]] — AI Governance, DPI Governance
+
+[[Transparency]] — AI Governance, BFSI Governance, Privacy & Data Protection
+
+[[Governance_Capacity]] — AI Governance, BFSI Governance
+
+---
+
+## **Cross-Domain Frameworks**
+
+AI Governance: [[OECD_AI_Principles]] | [[UNESCO_Recommendations]] | [[NIST_AI_RMF]] | [[EU_AI_Act]] | [[IndiaAI_Framework]]
+
+BFSI Governance: [[RBI_FREE_AI]] | [[SEBI_AI_Circular]]
+
+---
+
+_Back to [[PRIS_Master_MOC]]_

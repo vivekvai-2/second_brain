@@ -1,0 +1,157 @@
+# NITI_6 — Enforcement Mechanisms for Responsible #AIforAll (Draft Working Document)
+
+**Type:** Corpus Node  
+**Vault path:** `07_Institutions/Corpus/NITI_Aayog/NITI_6.md`  
+**Institution:** [[07_Institutions/NITI_Aayog]]  
+**Issuing body:** NITI Aayog, Government of India  
+**Document date:** Draft for discussion (consultation deadline January 15, 2021)  
+**Pages:** 35  
+**Domain:** [[03_Domains/AI_Governance]]  
+
+---
+
+## Instrument Identity
+
+**Full title:** Enforcement Mechanisms for Responsible #AIforAll — Working Document, Draft for Discussion  
+**Type:** Policy discussion paper / pre-consultation draft  
+**Status:** Draft (not final policy). Preceded the August 2021 finalised Responsible AI Part 2 document (see [[07_Institutions/Corpus/NITI_Aayog/NITI_3]])  
+**Relationship:** This is the working/consultation draft that preceded NITI_3 (Responsible AI Part 2, August 2021). The two documents share substantial content; NITI_3 is the finalised version.
+
+---
+
+## Analytical Classification
+
+**P1 / SLR corpus relevance:** HIGH — Constitutes a primary Indian policy document on responsible AI governance framework design  
+**AI Governance Wiki relevance:** HIGH — Captures India's early deliberation on enforcement mechanisms, oversight body design, and sectoral coordination  
+**fsQCA relevance:** MEDIUM — Contains qualitative evidence on India's governance configuration choices (advisory vs. regulatory approach)  
+**Tier classification:** Tier A policy framework (explicit AI governance design document)
+
+---
+
+## Substantive Content
+
+### Core Governance Architecture Proposed
+
+**Oversight Body — Council for Ethics and Technology (CET):**
+- Independent, multi-disciplinary advisory body at apex level
+- Mandate covers entire digital sector (not limited to AI)
+- Seven operational functions:
+  1. Manage and update Principles for Responsible AI
+  2. Research technical, legal, policy, societal AI issues
+  3. Provide clarity on responsible behaviour (design structures, standards, guidelines)
+  4. Enable access to Responsible AI tools and techniques
+  5. Education and awareness on Responsible AI
+  6. Coordinate with sectoral regulators; identify gaps; harmonise policies
+  7. Represent India in international AI dialogue
+
+**Proposed Composition of CET:**
+- Computer Science and AI experts
+- Legal experts
+- Relevant sectoral experts
+- Civil societies
+- Humanities and Social Science experts
+- Industry representatives
+- Standards setting body representatives
+- Government support for inter-ministry interfacing
+
+### Risk-Based Regulatory Framework
+- High-risk use cases: Mandatory adherence (self-declaration or independent third-party audit depending on risk level)
+- Low-risk AI applications: Voluntary self-regulation; market forces
+- Unknown-risk cases: Policy sandboxes and controlled deployments
+- Principle: Greater potential for harm → more stringent requirements → more regulatory intervention
+
+### Institutional Structures for Enforcement
+
+**Public Sector Procurement:**
+- Ethical Committee requirement for procurement, development, and operations phases of AI systems
+- Model Terms of Reference for Ethical Committees:
+  - Assess "potential for harm" and benefits
+  - Evaluate risk mitigation plan
+  - Ensure grievance redressal mechanisms
+  - Whistleblower protection structures
+  - Documented SOP with periodic review
+  - Documented minutes of all EC reviews
+
+**Ethical Committee Composition (model):**
+- Chairperson (nodal point, ensures participation)
+- Member Secretary (institutional representative)
+- Data Science/AI expert (identify procedural/technical risks across lifecycle)
+- Sector expert (safety, reliability, access, affordability of grievance redressal)
+- Legal expert (rules, regulations relevant to AI system)
+- Social scientist/ethicist (community, socio-cultural, religious, philosophical context)
+- Representative of stakeholder community
+
+**Private Sector:**
+- General: Encourage voluntary self-regulation via ethics-by-design structures
+- High-risk use cases: Mandate adherence through guidelines and standards; international standards may not be fully applicable to Indian context
+- Compliance mechanisms: Assign ethics accountability to leadership; open training materials; open tools and techniques
+
+**Research Institutions:**
+- Model ToR for AI research ethics committees developed by CET
+- Augment existing Institute Review Boards with AI ethics expertise
+- Journals/conferences: Mandate "Statement of Ethical Consideration" in all AI submissions
+- Government AI funding: Mandate institutional adherence to responsible AI structures
+
+### Standards and Guidelines
+- Leverage international standards where applicable (in consultation with BIS and sectoral regulators)
+- Create/augment standards for Indian context when required
+- Oversight body to identify design standards and acceptable benchmarks for priority use cases
+- Guidelines for Model AI Procurement RFP covering: risk assessment, lifecycle best practices, responsibility/liability/IP considerations
+
+### Coordination Mechanism
+- CET coordinates across multiple sectoral regulators (SEBI, PFRDA, IRDAI named for financial sector; NeHA, NMC, DCG for healthcare)
+- Prevent inconsistent policies and ambiguity, especially for cross-sectoral AI use cases
+- Risk identification support for sectoral regulators
+- Policy monitoring in collaboration with civil society, research institutions, industry bodies
+
+---
+
+## Analytical Significance for PRIS Research
+
+### Regulatory Coordination Architecture (P3/P4)
+- NITI_6 explicitly identifies the coordination problem: "Multiple regulators across sectors are regulating data and AI. This requires coordination to prevent inconsistent policies and ambiguity, especially for cross sectoral AI use cases."
+- This is the empirical anchor for the Regulatory Parallelism construct — NITI Aayog itself recognised the parallelism problem as early as 2020/2021 and proposed a coordination mechanism (CET) that was never enacted
+- Governance Debt evidence: CET proposed in 2021 draft; as of 2025, no equivalent body exists; coordination gap persists
+
+### Governance Configuration (fsQCA)
+- India's chosen configuration: Advisory + voluntary self-regulation (general) + mandate only for high-risk (limited)
+- Contrasts with EU: Mandatory risk-based regulation across all tiers
+- Contrasts with Singapore: Sector-specific guidance via IMDA (cited in document)
+- This configuration is the fsQCA case for India's "soft governance" pathway
+
+### Institutional Grammar (ADICO) Evidence
+- The "Ethical Committee" model Terms of Reference contain multiple ADICO-codeable statements
+- "EC should" = Deontic (Should) — recommendation-level obligation
+- "EC must" = Deontic (Must) — mandatory obligation
+- Conditions: "depending on use case" — contextual activation conditions
+- Or else: Not specified — enforcement gap visible at the drafting stage
+
+### Sectoral Regulator Reference
+- Document explicitly cites SEBI AI/ML reporting circular (footnote 24) as an example of existing AI regulatory intervention
+- Demonstrates awareness of SEBI's 2019 circulars at national policy level
+- CERT-In, RBI not mentioned as AI governance actors — gap in 2020 thinking
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/NITI_Aayog/NITI_3]] | [[07_Institutions/Corpus/SEBI/SEBI_9]] | [[07_Institutions/Corpus/SEBI/SEBI_10]] | [[07_Institutions/Corpus/SEBI/SEBI_11]]  
+**Related concepts:** [[05_Concepts/Signature/Regulatory_Parallelism]] | [[05_Concepts/Signature/Governance_Debt]]  
+**Related domains:** [[03_Domains/AI_Governance]]  
+**Related projects:** [[02_Projects/Active/P3_BFSI_JEIM_Project_State]] | [[02_Projects/Active/fsQCA_Project_State]]  
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]  
+**Zotero key:** NITI_Aayog_ResponsibleAI_EnforcementMechanisms_2021_Draft
+
+---
+
+## Coding Status
+
+- **P3 NVivo:** Not in P3 primary corpus (policy document, not regulatory mandate on BFSI entities). Useful as contextual evidence.
+- **fsQCA:** Candidate document for India case qualitative evidence
+- **IG 2.0 (ADICO):** Ethical Committee ToR sections are rich targets for ADICO coding — collect institutional statements
+
+---
+
+## Log
+
+- 2026-06-13: Corpus node created from source extraction. S5 session.

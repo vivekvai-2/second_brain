@@ -1,0 +1,103 @@
+
+# **Projects — Map of Content**
+
+**Type:** MOC**Status:** Active**Last Updated:** 2026-06-11
+
+---
+
+## **Project Folder Index**
+
+### **Active**
+
+|**File**|**Journal**|**ABDC**|**Deadline**|
+|---|---|---|---|
+|[[P2_DPI_JSIS]]|JSIS Special Issue|A*|30 Sep 2026|
+|[[P3_BFSI_JEIM]]|JEIM|A|Feb–Mar 2027|
+|[[P4_Doctrinal_IJLIT]]|IJLIT / ICTL|B|Mar–Apr 2027|
+|[[fsQCA_Thesis_Chapter]]|IIM Indore thesis|N/A|Q2 2027|
+
+### **Deferred**
+
+|**File**|**Journal**|**ABDC**|**Activation**|
+|---|---|---|---|
+|[[P1_SLR_RG]]|Regulation & Governance|A|Q3 2027 post-defence|
+
+### **Thesis**
+
+|**File**|**Purpose**|
+|---|---|
+|[[Thesis_Architecture]]|Chapter map: P2 + P3 + P4 + fsQCA + Binding Integrative Chapter|
+
+---
+
+## **Bandwidth Model**
+
+|**Metric**|**Value**|
+|---|---|
+|Gross capacity|30 hrs/week|
+|Productive ceiling|25 hrs/week|
+|Quarterly capacity|~325–390 hrs (13 weeks × 25–30 hrs)|
+|Weekly allocation: Paper drafting (active)|12–15 hrs|
+|Weekly allocation: Certification prep|8–10 hrs|
+|Weekly allocation: LinkedIn / brand|4–5 hrs|
+|Weekly allocation: fsQCA coding (background)|2–3 hrs|
+|Weekly allocation: Family wealth coordination|1–2 hrs|
+|Sleep floor (hard constraint)|6 hours minimum|
+
+---
+
+## **Kill-Switch Registry**
+
+|**ID**|**Trigger**|**Pre-committed Response**|**Status**|
+|---|---|---|---|
+|KS-01|P3 drafting behind schedule at October 2026 checkpoint|Defer AIGP to Jan/Feb 2027. No deliberation required.|⚡ Locked|
+|KS-02|CISSP July 2026 prep collides with P2 drafting|**UNDEFINED** — options: (a) defer CISSP to Sep/Oct 2026; (b) reduce P2 drafting hours 3 weeks; (c) proceed at 80% prep. Define before end Q2 2026.|⚠️ Open|
+
+---
+
+## **Pinch Points**
+
+|**Quarter**|**Pinch Point**|**Pre-committed Response**|
+|---|---|---|
+|Q2 2026 (Apr–May)|P2 abstract + TAC prep + CISSP ramp concurrent|Reduced LinkedIn output (1 carousel/week for 2 weeks); no new commitments|
+|Q3 2026 (Jul–Sep)|CISSP exam + P2 full paper drafting concurrent|Sleep floor enforced; zero new brand experiments; family wealth actions minimised|
+|Q4 2026 (Oct–Dec)|P3 drafting + AIGP prep concurrent|KS-01 checkpoint October|
+|Q5 2027 (Jan–May)|P3 submission + P2 R&R + P4 start + Army exit logistics|LinkedIn reduces to 1 carousel/week peak weeks; sleep floor non-negotiable|
+
+---
+
+## **Defence Gate**
+
+|**Requirement**|**Status**|
+|---|---|
+|≥1 ABDC-A acceptance or strong R&R|Pending — earliest signal 31 Jan 2027 (P2 JSIS)|
+|Thesis chapters 1–10 drafted|Q2–Q3 2027|
+|fsQCA empirical chapter complete|Q1 2027|
+|Binding integrative chapter complete|Q2 2027|
+|Committee approval to defend|Q3 2027|
+|Defence window|Q3 2027 (earliest) → Q4 2027 (latest acceptable)|
+
+---
+
+## **Risk Register**
+
+|**Risk**|**Probability**|**Impact**|**Mitigation**|
+|---|---|---|---|
+|Health sustainability failure (sleep, overload)|Medium|High|Sleep floor 6h enforced; kill-switches pre-committed; bandwidth reviewed monthly|
+|Zero validation signals by May 2027 (Phase 0 cold-start)|Medium|High|Begin outreach Q4 2026; use P2 submission as credibility anchor|
+|Narrative architecture failure repeats in P3/P4|Medium|High|Drafting Discipline Protocol binding on all papers — non-negotiable|
+|Zero warm contacts at target institutions|High|Medium|LinkedIn engagement with IS faculty Q3 2026; formal outreach Q1 2027|
+|CISSP and AIGP timing collision with P3 drafting|Medium|Medium|KS-01 pre-committed; KS-02 to be defined end Q2 2026|
+|P2 JSIS receives no-revise-no-accept (Jan 2027)|Low-Medium|High|Submit immediately to fallback journal (ISJ or ISR); P3 and P4 unaffected|
+
+---
+
+## **Strategy Links**
+
+- [[Life_Roadmap]] — Six pillars, hard dates, kill-switches, North Star 2026–2036
+- [[Publication_Pipeline]] — Paper sequencing, DDP rules, thesis architecture
+- [[Phase0_Gate]] — Validation signal tracker; GO/SLOW/NO-GO logic
+
+---
+
+_Back to [[PRIS_Master_MOC]]_

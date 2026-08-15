@@ -1,0 +1,199 @@
+
+# **PRIS — Master Map of Content**
+
+**Type:** MOC**Status:** Active**Last Updated:** 2026-06-11**Version:** Ontology v1.0
+
+---
+
+## **What PRIS Is**
+
+PRIS (Personal Regulatory Intelligence System) is a Research Intelligence Platform designed to convert academic literature, regulatory analysis, coding outputs, consulting insights, and AI-generated analysis into reusable intellectual assets that compound over a twenty-year horizon. It is not a second brain and not a note collection. PRIS exists to support the systematic production of Research, Teaching, Consulting, Thought Leadership, and Knowledge Products through a structured knowledge architecture linking strategy, projects, concepts, frameworks, and outputs.
+
+---
+
+## **Knowledge Hierarchy**
+
+```text
+Strategy
+    ↓
+Projects
+    ↓
+Knowledge Products
+    ↓
+Domains
+    ↓
+Concepts
+    ↓
+Frameworks
+    ↓
+Evidence  ← lives in Zotero, not Obsidian
+```
+
+---
+
+## **Critical Dates**
+
+|**Milestone**|**Date**|
+|---|---|
+|P2 JSIS full paper|30 Sep 2026|
+|CISSP exam|July 2026|
+|AIGP certification|December 2026|
+|Army exit|May 2027|
+|PhD defence window|Q3–Q4 2027|
+
+---
+
+## **Strategic Layer**
+
+- [[Life_Roadmap]] — Long-horizon personal, academic, and professional transition roadmap.
+- [[Publication_Pipeline]] — Portfolio management of current and future publication streams.
+- [[Phase0_Gate]] — Strategic prioritisation and sequencing mechanism for major initiatives.
+
+---
+
+## **Section Maps**
+
+- [[Research_MOC]] — Navigation layer for research programmes, thesis work, and publication projects.
+- [[Domains_MOC]] — Navigation layer for domain-level synthesis and subject matter areas.
+- [[Knowledge_Products_MOC]] — Navigation layer for reusable intellectual assets and derivative outputs.
+- [[Projects_MOC]] — Navigation layer for active, deferred, and thesis-related projects.
+- [[Corpus_Index_MOC]] — Index of Policy Dump corpus-intake nodes (Batches 1–11), by Wiki section, institution, and project relevance; bidirectional backlink hub per [[Bidirectional_Linking_Convention]].
+
+---
+
+## **Vault Index**
+
+|**Folder**|**Purpose**|
+|---|---|
+|00_MOC|Index and navigation notes for the entire vault.|
+|01_Strategy|Strategic reference notes guiding long-term direction and priorities.|
+|02_Projects|Project execution notes covering active, deferred, and thesis work.|
+|03_Domains|Domain-level synthesis of research and practice areas.|
+|04_Knowledge_Products|Architecture and management of reusable intellectual assets.|
+|05_Concepts|Conceptual notes covering both original and established constructs.|
+|06_Frameworks|Analytical frameworks used for research, governance, and evaluation.|
+|07_Institutions|Intelligence notes on institutions and governance actors.|
+|08_Methods|Applied research methods and methodological learning.|
+|09_Teaching|Teaching materials, course structures, and educational assets.|
+|10_Consulting|Consulting frameworks, engagements, and client-facing assets.|
+|11_Content|Articles, presentations, posts, and derivative communication outputs.|
+|12_Decision_Journal|Strategic decisions, rationale, and learning records.|
+|99_Archive|Archived material retained for historical reference.|
+
+---
+
+## **System Boundaries**
+
+|**System**|**Authoritative For**|**Never Replicate**|
+|---|---|---|
+|Zotero|Literature corpus and references|Full bibliographies|
+|NVivo|IG 2.0 coding and ADICO nodes|Coding trees and node structures|
+|iCloud PDFs|Regulatory documents and source materials|Document content and full-text extracts|
+
+---
+
+## **Ontology Version**
+
+**Frozen:** June 2026  
+**Next review:** Post-P2 submission (Sep 2026) or post-defence (Q3–Q4 2027)  
+**Change log:** [[12_Decision_Journal]]
+
+---
+
+## **Graph Seeds**
+
+Forward links seeding Obsidian graph view. Unresolved links activate as notes are created.
+
+### **Active Projects**
+
+[[P2_DPI_JSIS]]
+
+[[P3_BFSI_JEIM]]
+
+[[P4_Doctrinal_IJLIT]]
+
+[[fsQCA_Thesis_Chapter]]
+
+[[P1_SLR_RG]]
+
+[[Thesis_Architecture]]
+
+### **Domains**
+
+[[AI_Governance]]
+
+[[DPI_Governance]]
+
+[[BFSI_Governance]]
+
+[[Privacy_DataProtection]]
+
+[[Cybersecurity_Governance]]
+
+### **Signature Concepts**
+
+[[Regulatory_Parallelism]]
+
+[[Governance_Debt]]
+
+[[Institutional_Coherence]]
+
+### **Standard Concepts**
+
+[[Accountability]]
+
+[[Legitimacy]]
+
+[[Transparency]]
+
+[[Governance_Capacity]]
+
+### **Knowledge Products**
+
+[[AI_Governance_Wiki]]
+
+[[DPDP_Playbook]]
+
+[[BFSI_AI_Governance_Handbook]]
+
+[[Regulatory_Complexity_Handbook]]
+
+### **Frameworks**
+
+[[OECD_AI_Principles]]
+
+[[UNESCO_Recommendations]]
+
+[[NIST_AI_RMF]]
+
+[[EU_AI_Act]]
+
+[[IndiaAI_Framework]]
+
+[[RBI_FREE_AI]]
+
+[[SEBI_AI_Circular]]
+
+### **Institutions**
+
+[[RBI_Free_AI.md]]
+
+[[SEBI]]
+
+[[MeitY]]
+
+[[CERT_In]]
+
+[[UIDAI]]
+
+[[TRAI]]
+
+### **Methods**
+
+[[fsQCA]]
+
+[[Institutional_Grammar_IG2]]
+
+[[Doctrinal_Analysis]]
+
+[[SLR_Protocol]]

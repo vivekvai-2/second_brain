@@ -1,0 +1,614 @@
+# VV Life Roadmap v2.0
+
+> **Purpose:** Single source of truth for career transition, brand architecture, certifications, family wealth, Phase 0 validation, and personal sustainability. Papers are referenced by ID only — all paper-level detail lives in `VV_Publication_Pipeline_v3.md` (Tier 2) and per-paper state files (Tier 3).
+>
+> **Last Updated:** 14 April 2026
+> **Owner:** Col Vivek Vaidyanathan (FPM Candidate, IIM Indore — Information Systems)
+> **Tier:** 1 (Life)
+> **Companion files:** `VV_Publication_Pipeline_v3.md` (Tier 2) · `P2_State.md`, `P3_State.md`, `P4_State.md`, `P1_State.md`, `fsQCA_Thesis_Chapter_State.md` (Tier 3)
+
+---
+
+## 0. How to Use This File
+
+If you are a Claude instance or Vivek opening this file for the first time in a session:
+
+1. **Read Section 1** to understand who this roadmap belongs to and what's at stake.
+2. **Read Section 5** (Phase 0 Master Timeline) to know where we are right now and what the next action is.
+3. **Read Section 6** (Phase 0 Validation Gate) to know what success looks like at May 2027.
+4. **For any paper detail** — do not look here. Open `VV_Publication_Pipeline_v3.md` and the relevant Tier-3 state file. Papers are referenced here by ID only (P2, P3, P4, P1, fsQCA-Thesis).
+5. **For career, brand, certifications, family wealth, or financial modelling** — this is the right file.
+
+> **Update protocol:** Opportunistic — update when a milestone is hit, a decision changes, or a new risk materialises. No scheduled review cycle. When in doubt, add a one-line entry to Section 20 (Decision Log) and update the relevant section.
+
+---
+
+## 1. Executive Context Block
+
+**The person this file belongs to:**
+
+I'm a serving Army officer with approximately 25 years across Program Management, Operations, Information Security, Governance, IT/Telecom, and R&D leadership. My current role is Product Development Leader managing multiple R&D teams in predictive modelling, statistical analysis, data visualisation, and automation. I am simultaneously an FPM (Executive PhD) candidate at IIM Indore in Information Systems, under the supervision of Prof Prabin Panigrahi.
+
+**What's at stake:**
+
+I exit the Army in **May 2027** — a hard date. Between now and then, I need to complete a doctoral defence, build a credible public brand, generate at least two Phase 0 validation signals from zero, and position for concurrent institutional + advisory work on exit. This is a 13-month conversion sprint under a fixed deadline with no margin for strategic drift.
+
+**Household:**
+
+- Wife (contributes ~₹70K/month rental income from her assets; financially independent)
+- Two sons (financially independent)
+- Mother (property consolidation in progress; see Section 13)
+- Location: Chennai. Geographic flexibility: Chennai / Bengaluru / Trichy as base, open to commute.
+
+**Health constraint (tactical, not moral):**
+
+Post-angioplasty (two stents, 2019). Asymptomatic. Fitness routine: 35 min × 5 days/week. Sleep: ~5.5 hours average. The 5.5-hour sleep pattern combined with a 30-hour/week academic load, career transition, and family wealth cluster is a real sustainability risk. **Sleep floor: 6 hours minimum during Q3 and Q4 2026 pinch points.** This is a performance constraint, not a lifestyle note.
+
+**Hard dates:**
+
+| Date | Event |
+|---|---|
+| 14 Apr 2026 | GIQ desk rejection received (narrative architecture failure diagnosed) |
+| **1 May 2026** | **P2 extended abstract deadline — JSIS portal (17 days away)** |
+| May Week 1, 2026 | TAC meeting — present P2 extended abstract + DPI rewrite plan |
+| July 2026 | Settlement deed target (Vivek ↔ Sister, amicable) |
+| **July 2026** | **CISSP exam target** |
+| August 2026 | Mother's property renovation completion target |
+| 30 Sep 2026 | P2 full paper deadline — JSIS portal |
+| **December 2026** | **AIGP exam target** |
+| Dec 2026 – May 2027 | Three property sales (mother's estate consolidation) |
+| 31 Jan 2027 | P2 first feedback from JSIS editors |
+| **May 2027** | **Phase 0 Validation Gate — GO / SLOW / NO-GO decision** |
+| **May 2027** | **Army exit (hard date)** |
+| Q3–Q4 2027 | PhD defence window (earliest Q3, latest Q4) |
+| Q3 2027 | Solo consultancy vehicle registration (post-Army exit; cannot register as serving officer) |
+
+---
+
+## 2. North Star (2026–2036)
+
+This is the 10-year horizon that all near-term decisions serve. Reviewed annually; not changed by short-term setbacks.
+
+| Dimension | 2027 Target State | 2032 Target State |
+|---|---|---|
+| **Identity** | Doctoral candidate → credible policy scholar with at least one ABDC-A publication | Recognised AI governance practitioner-scholar with a published body of work |
+| **Public Role** | Think-tank affiliate or invited speaker at one credible forum (ORF / Takshashila / CeRAI / NASSCOM-DSCI or equivalent) | Quoted expert on AI governance, DPI, and cyber risk in policy and media circuits |
+| **Institutional Role** | Adjunct / Professor of Practice / Visiting Faculty appointment at one target institution (IIT-M DoMS / IIM Trichy / Great Lakes / Krea / LIBA / NLU / ISB / IIIT / IIM-B) | 2–3 concurrent institutional affiliations; annual doctoral supervision |
+| **Scholarly Footprint** | 1 ABDC-A acceptance (defence gate cleared); 1 ABDC-B acceptance (P4 / validation signal) | 4–5 publications (P1–P4 in pipeline); monograph or edited volume in progress |
+| **Advisory Practice** | Solo advisory practice operational (post-exit); 1–2 retainer clients; retainers clearing ₹2.3L/month floor | Boutique firm with 2–3 associates; ₹3.5–5 crore annual revenue target |
+| **Financial Floor** | ₹2.3L/month (pension ₹1.6L + wife's rental ₹70K); advisory retainers supplementary | Advisory revenue primary income; pension as stability floor |
+| **Personal** | Sleep floor maintained; fitness routine intact; family wealth consolidation complete | Sustainable practice rhythm; no single-point overload dependency |
+
+---
+
+## 3. Strategic Pillars
+
+Six pillars structure all activity across the roadmap. Each is independently managed but they are interdependent — a collapse in any one creates load on others.
+
+| Pillar | Label | 2027 KPI | 2032 KPI |
+|---|---|---|---|
+| **P1** | Doctoral Completion | PhD defence completed Q3–Q4 2027; at least 1 ABDC-A acceptance or strong R&R | Thesis published / adapted as monograph |
+| **P2** | Publication Pipeline | P2 submitted Sep 2026; P3 submitted Feb–Mar 2027; P4 submitted Apr 2027; P1 post-defence | 4 papers published or in final review; pipeline replenished |
+| **P3** | Public Brand | 5,000+ LinkedIn followers; Top Voice candidacy underway; 1 think-tank affiliation; 2 media citations | Recognised LinkedIn voice on AI governance; regular speaking invitations |
+| **P4** | Advisory Practice | Solo advisory vehicle registered Q3 2027; 1–2 retainer clients secured by Q4 2027; retainers ≥ ₹2.3L/month floor | Boutique firm operational; 3–5 clients; ₹3.5–5 crore revenue |
+| **P5** | Exit Engineering | Army exit logistics complete May 2027; institutional role targeted and outreach underway by Q2 2027 | Concurrent institutional + advisory identity stable |
+| **P6** | Personal Sustainability | Sleep floor enforced; fitness routine intact; family wealth cluster completed by May 2027 | Sustainable long-horizon practice; no chronic overload |
+
+---
+
+## 4. Locked Decisions (Life Level)
+
+These decisions are immutable within this roadmap. Re-litigating them wastes planning bandwidth. If a decision needs to change, log it in Section 20 with date and rationale.
+
+| ID | Decision | Date Locked | Source |
+|---|---|---|---|
+| D-16 | Army exit: **May 2027** (hard date) | — | Institutional |
+| D-17 | Post-exit: institutional role + solo consultancy run **concurrently** (not sequentially) | Apr 2026 | User override of sequential recommendation |
+| D-18 | Phase 0 architecture: Jan 2026 – May 2027 with validation gate | Apr 2026 | Consultancy V2 |
+| D-19 | Phase 0 validation gate requires **≥2 signals** by May 2027 | Apr 2026 | Consultancy V2 |
+| D-20 | Certifications: **CISSP July 2026 + AIGP Dec 2026** (Option D) | Apr 2026 | User choice |
+| D-21 | AIGP kill-switch ⚡ KS-01: defer AIGP to Jan/Feb 2027 if P3 drafting falls behind in Q4 2026 | Apr 2026 | Confirmed |
+| D-22 | Settlement deed (Vivek ↔ Sister) target: **July 2026** | Apr 2026 | Locked |
+| D-23 | Mother's property renovation completion target: **August 2026** | Apr 2026 | Locked |
+| D-24 | Three property sales: **Dec 2026 – May 2027** (Property #3 slip-tolerant to Q3 2027) | Apr 2026 | Locked |
+| D-25 | Mother's wealth consolidation instrument: **Fresh Will** (not trust, not investment restructuring) | Apr 2026 | Locked |
+| D-26 | 5-domain brand: **AI Governance + Cyber Risk + DPI + Defence-Tech + Legal-Tech** | Apr 2026 | User choice |
+| D-27 | Consultancy structure: **solo first, boutique post-2028** | Apr 2026 | User override of sequential |
+| D-28 | Academic landing priority: **Chennai / Bengaluru / Trichy base**, 9 target institutions unranked | Apr 2026 | Locked |
+| D-29 | Household income floor post-Army: **₹2.3L/month** (pension + wife's rental) | Apr 2026 | Locked |
+| D-30 | Tamil cultural identity, Jyotisha timing, and vegan considerations: **excluded from this roadmap** | Apr 2026 | User explicit |
+| D-31 | Solo consultancy vehicle registration: **Q3 2027** (cannot register as serving officer) | Apr 2026 | Regulatory constraint |
+
+---
+
+## 5. Phase 0 Master Timeline (Jan 2026 → May 2027)
+
+> **Design principle:** Each quarter has five layers — Primary Milestones, Buffers, Fallback Routes, Bandwidth Check, and Success Definition. Success Definitions are binary: pass or investigate. Papers appear by ID only.
+
+---
+
+### Q1 2026 (Jan–Mar) — RETROSPECTIVE
+
+**What was planned:**
+- PhD proposal seminar (target: Feb 2026)
+- GIQ typology paper: desk decision window
+- CISSP preparation ramp-up
+
+**What happened:**
+- ✅ PhD proposal seminar completed: **February 2026**. TAC approval received. All seminar feedback closed.
+- ✅ GIQ typology paper (GIQ_V13): submitted to *Government Information Quarterly*
+- ❌ GIQ typology paper: **desk-rejected 14 Apr 2026** by Editor-in-Chief Panos Panagiotopoulos. Diagnosis: narrative architecture failure (not substance failure). This rejection is the origin of the Drafting Discipline Protocol now binding on all papers.
+- ⏳ CISSP preparation: ramp-up status unknown — flag for Q2 review
+
+**Retrospective outcome:** Q1 was a structural success (seminar complete, TAC feedback closed) and a diagnostic event (GIQ rejection revealed a systemic drafting pattern). The GIQ rejection does not gate any forward milestone. The lesson it taught is now institutionalised.
+
+---
+
+### Q2 2026 (Apr–Jun)
+
+**Primary Milestones:**
+- 🔴 **P2 extended abstract (1,000 words) submitted to JSIS portal by 1 May 2026** — 17 days away as of 14 Apr
+- 🔴 **TAC meeting May Week 1** — present P2 extended abstract + DPI rewrite plan. This is the first TAC touchpoint since proposal seminar.
+- Settlement deed (Vivek ↔ Sister) signed — target July 2026 (bleeds into Q3; initiate paperwork in Q2)
+- CISSP preparation: confirm study plan, mock exam schedule, July exam booking
+- LinkedIn cadence: maintain 2 carousels/week; no new content experiments in Q2 (bandwidth constraint)
+
+**Buffers:**
+- P2 extended abstract: zero buffer — May 1 is a hard deadline. The abstract is optional per CFP but strategically non-negotiable (editor fit-check, forces narrative spine lock).
+- Settlement deed: acceptable slip to Aug 2026 without downstream consequences
+- CISSP booking: must be confirmed by end of May to secure July slot
+
+**Fallback Routes:**
+- If P2 extended abstract reveals fundamental reframing failure → do not submit. Use the reframing failure as Phase 1 diagnostic data. Proceed to Phase 2 of rewrite plan with original framing (technical-citizen rule allocation asymmetry). Full paper Sep 30 deadline still reachable.
+- If JSIS editors respond negatively to extended abstract → use their feedback to strengthen the full paper. The abstract is a fit-check, not a gate.
+- If settlement deed paperwork stalls → escalate to family solicitor; do not let this consume academic bandwidth
+
+**Bandwidth Check:**
+- P2 extended abstract: ~15 hours (data re-test + 1,000-word draft)
+- TAC preparation: ~5 hours
+- CISSP study: ~8 hours/week through June = ~48 hours across Q2
+- Settlement deed initiation: ~4 hours
+- LinkedIn: 2 carousels/week at ~3 hours each = ~36 hours across Q2
+- **Estimated Q2 load: ~108 hours academic/professional** across ~65 days. This is ~11 hours/week — within the 25-hour productive ceiling for academic work if LinkedIn and CISSP are counted separately.
+- 🟡 **Pinch point: last 2 weeks of April** — P2 abstract + TAC prep + CISSP ramp all concurrent. Sleep floor must be enforced.
+
+**Success Definition (Q2):**
+- ✅ P2 extended abstract submitted by May 1, 2026
+- ✅ TAC meeting held; DPI rewrite plan presented; no new open feedback items
+- ✅ CISSP July exam booked
+
+---
+
+### Q3 2026 (Jul–Sep)
+
+**Primary Milestones:**
+- 🔴 **CISSP exam — July 2026** (Option D locked, D-20)
+- 🔴 **P2 full paper submitted to JSIS portal by 15 Sep 2026** (internal target; hard deadline 30 Sep)
+- Mother's property renovation completion — August 2026 (D-23)
+- Settlement deed signed — July 2026 (D-22); if slipped from Q2, must complete in Q3
+- P3 background reading and narrative spine work begins (low-intensity, parallel)
+- P4 journal target confirmation: lock CLSR or activate IJLIT/ICTL fallback (deadline: 30 Sep 2026 per v3 OQ-07)
+
+**Buffers:**
+- P2 submission: 15-day internal buffer before 30 Sep hard deadline. Do not sacrifice the buffer for polish — use it for the mandatory 48-hour cooling period and advisor read-through.
+- CISSP: if July exam fails, retake window is ~45 days. This does not gate any other milestone.
+- Renovation completion: slip tolerance ~1 month (Sep 2026 without consequence)
+
+**Fallback Routes:**
+- If P2 is not submission-ready by 15 Sep → submit what exists by 30 Sep. A submitted paper with imperfections is better than a missed ABDC-A deadline.
+- If CISSP fails in July → retake Aug/Sep. AIGP December target unchanged.
+- If renovation stalls past Sep → contractor escalation; budget contingency discussion with family
+
+**Bandwidth Check:**
+- CISSP preparation (Jul): ~10 hours/week through exam
+- P2 full paper drafting/rewriting (Jul–Sep): ~15 hours/week
+- P3 background work: ~3 hours/week
+- LinkedIn: maintain 2 carousels/week
+- 🔴 **Q3 is the highest-load quarter in Phase 0.** CISSP exam + P2 submission are concurrent. Sleep floor non-negotiable. No new commitments.
+
+**Success Definition (Q3):**
+- ✅ CISSP exam attempted (pass preferred; retake acceptable)
+- ✅ P2 full paper submitted to JSIS by 30 Sep 2026
+- ✅ P3 narrative spine drafted (even rough)
+- ✅ P4 journal target confirmed
+
+---
+
+### Q4 2026 (Oct–Dec)
+
+**Primary Milestones:**
+- 🔴 **AIGP exam — December 2026** (subject to KS-01 kill-switch)
+- ⚡ **KS-01 check point — October 2026:** Is P3 drafting on track? If not → activate KS-01: defer AIGP to Jan/Feb 2027.
+- P3 active drafting: Sections 1–4 (Oct–Nov)
+- P4 narrative spine locked; doctrinal analysis refined
+- Property Sale #1 listing initiated (Dec 2026)
+- P2: await JSIS feedback (expected 31 Jan 2027 — no action required in Q4 beyond maintaining readiness for R&R)
+- Phase 0 brand push: targeted outreach to 2–3 think tanks / institutional contacts (first cold contact)
+- LinkedIn: maintain cadence; consider one op-ed or long-form article to build thought leadership anchor
+
+**Buffers:**
+- AIGP: kill-switch KS-01 is pre-committed. No guilt or deliberation required if activated.
+- P3 drafting: Sections 5–7 can slip to Jan 2027 without jeopardising Feb–Mar 2027 submission target
+- Property Sale #1: listing in Dec is target; sale itself expected Q1 2027
+
+**Fallback Routes:**
+- If KS-01 activates (AIGP defers to Jan/Feb 2027) → P3 drafting receives full bandwidth. AIGP Jan/Feb 2027 adds to Q1 2027 load but is manageable with P4 not yet in active drafting.
+- If P3 drafting stalls in Oct–Nov → diagnose: is this a narrative spine problem or a bandwidth problem? Spine problem → revisit contribution framing; bandwidth problem → activate KS-01.
+
+**Bandwidth Check:**
+- P3 active drafting: ~12 hours/week
+- AIGP preparation (if not deferred): ~8 hours/week
+- P4 narrative spine: ~3 hours/week
+- LinkedIn + brand push: ~5 hours/week
+- Property Sale #1 initiation: ~3 hours
+- 🟡 **Q4 is the second-highest-load quarter.** If AIGP is not deferred, total academic/professional load approaches the 25-hour productive ceiling. KS-01 exists precisely for this reason.
+
+**Success Definition (Q4):**
+- ✅ KS-01 check completed in October — decision logged
+- ✅ P3 Sections 1–4 drafted
+- ✅ P4 narrative spine locked
+- ✅ AIGP attempted (or deferral to Jan/Feb 2027 confirmed via KS-01)
+- ✅ At least 1 Phase 0 validation outreach initiated (think-tank / institutional contact)
+
+---
+
+### Q5 2026/27 (Jan–May 2027) — TRANSITION QUARTER
+
+> This is the most complex quarter: P2 R&R likely arrives 31 Jan 2027, P3 submission due Feb–Mar 2027, P4 active drafting begins, Army exit approaches in May, and the Phase 0 Validation Gate is assessed.
+
+**Primary Milestones:**
+- P3 submitted to JEIM — **Feb–Mar 2027**
+- P4 active drafting: Sections 1–4 (Jan–Feb)
+- P2 R&R response: if received 31 Jan 2027, triage and respond within R&R window
+- 🔴 **Phase 0 Validation Gate assessed — May 2027** (see Section 6)
+- If AIGP deferred via KS-01 → AIGP exam Jan/Feb 2027
+- Property Sales #2 and #3 — Jan–May 2027 (Property #3 slip-tolerant to Q3 2027)
+- Army exit logistics: handover planning, clearances, documentation — begin Feb 2027
+- Institutional outreach: formalise contact with 2–3 target institutions (IIT-M DoMS, Great Lakes, Krea as first-tier Chennai/Bengaluru targets)
+
+**Buffers:**
+- P3 submission: Feb 2027 preferred; Mar 2027 acceptable without consequence
+- P2 R&R: typical R&R window is 60–90 days; Jan 31 receipt allows submission by Apr 30 — manageable concurrently with P4 drafting
+- Property Sales: #3 explicitly slip-tolerant to Q3 2027 (D-24)
+
+**Fallback Routes:**
+- If P3 submission slips to Apr 2027 → JEIM first decision shifts to Aug–Sep 2027; still within defence window buffer. Not ideal but not fatal.
+- If Phase 0 gate assessment shows <2 signals → activate SLOW mode: extend institutional outreach timeline, do not register consultancy until signals materialise (the consultancy vehicle was always Q3 2027 post-exit).
+- If P2 R&R arrives with major revision requests → triage with Prof Panigrahi before committing to full rewrite timeline. ABDC-A major R&R is still a strong signal for the defence gate.
+
+**Bandwidth Check:**
+- P3 final polish + submission: ~8 hours/week (Jan–Mar)
+- P2 R&R (if received): ~10 hours/week during response window
+- P4 active drafting: ~8 hours/week
+- Army exit logistics: ~5 hours/week (Feb–May)
+- AIGP (if deferred): ~8 hours/week (Jan–Feb only)
+- 🔴 **Q5 is the most complex quarter.** Multiple concurrent high-stakes actions. Sleep floor non-negotiable. Brand cadence may need to reduce to 1 carousel/week during peak load weeks.
+
+**Success Definition (Q5):**
+- ✅ P3 submitted to JEIM by Mar 2027
+- ✅ P4 Sections 1–4 drafted
+- ✅ Phase 0 Validation Gate assessed with explicit GO / SLOW / NO-GO outcome logged
+- ✅ Army exit logistics in progress
+- ✅ Institutional outreach: at least 2 formal contacts made
+
+---
+
+## 6. Phase 0 Validation Gate (May 2027)
+
+> **All four signal categories start from zero as of April 2026. This is a 13-month cold-start sprint. No signal is easy to obtain. Do not assume any warm path.**
+
+**Gate requirement:** ≥ 2 signals from the list below by May 2027.
+
+**Signal Categories and Current Status:**
+
+| Category | Examples | Status (Apr 2026) | Realistic Path |
+|---|---|---|---|
+| **Academic signals** | ABDC-A acceptance or strong R&R; ABDC-B acceptance | Zero | P2 (JSIS, first feedback 31 Jan 2027); P4 (CLSR, submit Apr 2027) |
+| **Institutional signals** | Adjunct offer / Professor of Practice appointment; advisory panel invitation | Zero | Cold outreach begins Q4 2026; target: 1 positive response by May 2027 |
+| **Think-tank / policy signals** | Invited commentary at ORF / Takshashila / CeRAI / NASSCOM-DSCI / Vidhi / Esya / IDRBT; policy brief published | Zero | Cold outreach begins Q4 2026; no warm contacts at any target |
+| **Public brand signals** | 5,000+ LinkedIn followers; media citation; op-ed in credible outlet | Zero | Organic growth from current 1.7K; requires consistent cadence + quality escalation |
+
+**Decision Criteria (May 2027):**
+
+| Outcome | Criteria | Response |
+|---|---|---|
+| 🟢 **GO** | ≥2 signals achieved; Army exit proceeds as planned; solo advisory vehicle registers Q3 2027 | Launch Phase 1 with confidence |
+| 🟡 **SLOW** | 1 signal achieved; or 2 signals in progress but not confirmed | Proceed with Army exit; delay full advisory launch; extend institutional outreach timeline |
+| 🔴 **NO-GO** | 0 signals; or indicators suggest fundamental positioning problem | Army exit still proceeds (hard date); advisory launch deferred; deep strategy review with advisor or trusted peer before Q4 2027 |
+
+> The NO-GO outcome does not halt the PhD defence or the Army exit. It signals that Phase 1 advisory launch needs a redesign, not that the entire transition is at risk.
+
+---
+
+## 7. Horizon 2 — Phase 1 (Jun 2027 → 2028)
+
+**Theme:** Detachment + positioning. Army identity recedes; scholar-practitioner identity consolidates.
+
+**Key moves:**
+- Army exit completed May 2027. Clearances, handover, documentation complete.
+- Solo consultancy vehicle registered Q3 2027 (post-exit; regulatory constraint D-31).
+- Pricing model: hybrid — retainer + project-based. Retainer threshold: must clear ₹2.3L/month household floor to justify full-time advisory practice.
+- Institutional role: target activation Jun–Sep 2027. Preferred: Adjunct / Professor of Practice / Visiting Faculty at one Chennai/Bengaluru institution. Role runs concurrently with solo advisory (D-17 locked — not sequential).
+- PhD defence: Q3–Q4 2027. Defence is gated on first ABDC-A acceptance or strong R&R (AP-01 in v3). P2 JSIS first feedback expected 31 Jan 2027; P3 JEIM first decision expected Jul–Sep 2027.
+- Post-defence: P1 activation (R&G submission project begins). P4 submit Apr 2027 and await decision.
+
+**Financial logic:**
+- Phase 1 household baseline: ₹2.3L/month (pension + wife's rental) — this is the floor.
+- Advisory retainers supplement the floor. First year target: 1–2 retainers clearing ₹50K–₹1L/month total.
+- Full-time advisory viability threshold: advisory retainers ≥ ₹2.3L/month (meaning pension becomes discretionary income, not survival income).
+
+**Risks in Phase 1:**
+- Identity transition cost: loss of institutional anchoring from Army may create motivation dip. Mitigated by concurrent institutional affiliation (not solo freelancing).
+- Retainer pipeline: cold-start with ~200 BFSI practitioners + ~30 regulators in network. No warm pipeline. Early retainers will come from credibility signals (publication acceptance + LinkedIn visibility), not from relationship mining.
+
+---
+
+## 8. Horizon 3 — Phase 2 (2028 → 2030)
+
+**Theme:** Pivot. Advisory practice becomes primary professional identity. Institutional affiliation provides scholarly anchor.
+
+**Key moves:**
+- Advisory practice: 3–5 clients; retainers comfortably clearing household floor; first evidence of boutique firm viability.
+- Publication pipeline: P1 submitted to R&G (2028); thesis potentially adapted for monograph.
+- Institutional: 2–3 affiliations if first proved productive; doctoral supervision aspirations emerge.
+- Brand: LinkedIn Top Voice candidacy; regular speaking invitations; 1–2 media citations per year.
+- Boutique firm precursor: identify 1–2 potential associates; explore formal partnership structure.
+
+---
+
+## 9. Horizon 4 — Phase 3 (2030 → 2036)
+
+**Theme:** Build. Boutique firm operational. Scholarly footprint established.
+
+**Key moves:**
+- Boutique firm: 2–3 associates; defined service lines (AI Governance advisory, DPI policy, Cyber Risk, Defence-Tech); ₹3.5–5 crore annual revenue target by 2030.
+- Scholarly: monograph or edited volume; active doctoral supervision; conference keynotes.
+- Brand: recognised Indian voice on AI governance at national and international forums.
+- Personal: practice is sustainable — no chronic overload; household finances fully decoupled from pension dependence.
+
+---
+
+## 10. Career Transition Plan
+
+**Army exit logistics (begin Feb 2027):**
+- Handover documentation; clearance processes; pension paperwork
+- Residential arrangements in Chennai (no change expected)
+- Network transition: Army professional network → governance/policy/academic network (active curation from Q2 2026 onwards)
+
+**Institutional landing — 9 target institutions (unranked, all equal priority):**
+
+| Institution | Location | Role Type | Notes |
+|---|---|---|---|
+| IIT Madras DoMS | Chennai | Adjunct / Visiting Faculty | Strong IS/management dept; Chennai-based |
+| IIM Trichy | Trichy | Adjunct / Professor of Practice | IIM credibility; base-city option |
+| IIM Bangalore | Bengaluru | Visiting Faculty | Prestige; geographic stretch but commutable |
+| Great Lakes Chennai | Chennai | Adjunct / Professor of Practice | Practitioner-heavy faculty model; good fit |
+| Krea University | Chennai / Sri City | Visiting Faculty | Interdisciplinary; progressive |
+| LIBA Chennai | Chennai | Adjunct | Jesuit tradition; professional focus |
+| NLU (any location) | Various | Adjunct (Legal-Tech) | Legal-Tech domain; defence and governance |
+| ISB | Hyderabad / Mohali | Visiting Faculty | Prestige; exec education strong |
+| IIIT (any relevant campus) | Various | Visiting Faculty | IS / AI governance coursework potential |
+
+**Cold-start reality:** Zero warm contacts at any of these institutions as of April 2026. Outreach strategy:
+1. Q4 2026: LinkedIn visibility to IS/governance faculty at target institutions; comment on their work.
+2. Q1–Q2 2027: formal outreach email referencing P2 submission and doctoral candidacy.
+3. Q3 2027 (post-exit): in-person visits during conference / Chennai circuit.
+
+**Concurrent-lane logic (D-17):**
+Institutional role + solo advisory are designed to run concurrently, not sequentially. Rationale: institutional affiliation provides scholarly credibility that converts advisory clients; advisory practice provides practitioner currency that makes institutional role valuable. Neither replaces the other. Conflict-of-interest monitoring: avoid advisory work that directly conflicts with institutional employer's interests; disclose affiliations transparently.
+
+---
+
+## 11. 5-Domain Brand Architecture
+
+| Domain | Sub-positioning | Primary Audience | Anchor Output |
+|---|---|---|---|
+| **AI Governance** | Regulatory configuration, ethical alignment, institutional design; India + comparative | Policymakers, MEITY officials, CISOs, regulators | Academic publications (P1–P4); LinkedIn carousels; policy briefs |
+| **Cyber Risk** | Enterprise cyber risk frameworks, DPDP compliance, information assurance | CISOs, BFSI risk officers, GRC professionals | CISSP credential; LinkedIn technical carousels; advisory retainers |
+| **DPI** | Governance of India Stack (Aadhaar, UPI, AA, ONDC); welfare delivery accountability | DPI policymakers, Nilekani-ecosystem practitioners, development sector | P2 (JSIS); conference talks; LinkedIn commentary |
+| **Defence-Tech** | National security implications of AI and digital infrastructure; sovereign tech | Defence practitioners, think-tank researchers, DRDO/NRF ecosystem | Conference papers; think-tank commentary; LinkedIn (curated) |
+| **Legal-Tech** | DPDP Act, IBC/insolvency, BFSI regulatory compliance; AI and law intersection | Law firms, compliance officers, BFSI legal teams | P4 (CLSR); LinkedIn regulatory commentaries |
+
+**LinkedIn feed theme:** *"Bridging the Gap Between Policy and Technology"*
+**LinkedIn goal:** Top Voice status; primary audience = policymakers, regulators, CISOs, BFSI/Defence practitioners.
+**Weekly cadence target:** 2 carousels; 1 commentary post (reactive to news/regulation). Reduce to 1 carousel/week during Q3 2026 and Q5 peak load.
+
+---
+
+## 12. Certification Track
+
+**Option D (locked, D-20):** Both CISSP and AIGP confirmed.
+
+| Certification | Target Date | Status | Kill-Switch |
+|---|---|---|---|
+| **CISSP** | July 2026 | Preparation in progress | ⚠️ **OPEN QUESTION OQ-C01:** CISSP kill-switch not defined. If July 2026 prep collides with P2 drafting — what is the response? Needs definition before end of Q2 2026. |
+| **AIGP** | December 2026 | Not yet started | ⚡ **KS-01 (locked, D-21):** If P3 drafting falls behind in Q4 2026, defer AIGP to Jan/Feb 2027. Decision point: October 2026. |
+
+**Strategic value of certifications:**
+- **CISSP** validates information security governance credibility for BFSI advisory clients and institutional roles. Combined with doctoral candidacy, it signals the practitioner-scholar hybrid identity.
+- **AIGP** (AI Governance Professional, IAPP) directly underpins the primary brand domain. First credentialed wave of practitioners globally. Early adoption = differentiation advantage.
+
+> **Note:** The Opus instance recommended dropping CISSP (Option C). Option D was the user's considered choice. This file does not re-argue that recommendation. Both certifications are committed.
+
+---
+
+## 13. Family Wealth Parallel Track
+
+> All properties belong to Vivek's mother. This is parental estate consolidation, not Vivek's personal wealth. No rental income from these properties appears in the household financial model.
+
+**Properties:** 4 total (1 house + 3 plots of land).
+
+| Milestone | Target Date | Status | Notes |
+|---|---|---|---|
+| Mother's property renovation completion | August 2026 | In progress | Contractor engaged; D-23 |
+| Settlement deed (Vivek ↔ Sister) | July 2026 | Paperwork to initiate Q2 2026 | Amicable; agreed in principle; D-22 |
+| Mother's Fresh Will executed | Post-settlement deed | Dependent on deed | Instrument confirmed: Fresh Will (not trust); D-25 |
+| Property Sale #1 | December 2026 | Listing to begin Q4 2026 | D-24 |
+| Property Sale #2 | Feb–Mar 2027 | Follows #1 | D-24 |
+| Property Sale #3 | Apr–May 2027 (slip-tolerant to Q3 2027) | Follows #2 | D-24; explicitly slip-tolerant |
+
+**Household composition note:** Wife and two sons are financially independent. Mother is not a financial dependency. The family wealth cluster is a management and coordination task, not a financial risk.
+
+---
+
+## 14. LinkedIn / Public Brand Cadence
+
+**Current state (Apr 2026):**
+- Followers: 1,700 (since October 2025 start)
+- Growth rate: ~300/month at current cadence
+- Cadence: 2 carousels/week
+- Media citations: zero
+- Think-tank affiliations: zero
+- Brand-domain carousels: AI Governance, Cyber Risk, DPI, DPDP Act compliance
+
+**Authority Flywheel (from Consultancy V2):**
+```
+Consultation insight → Learning Note (internal) → Carousel post → Follower engagement
+        ↑                                                                   ↓
+        └──────────────── Follow-up DM / retainer enquiry ←────────────────┘
+```
+
+**Milestone targets:**
+
+| Date | Target |
+|---|---|
+| Q3 2026 | 3,000 followers |
+| Q4 2026 | 1 think-tank cold contact made |
+| Q1 2027 | 4,000 followers |
+| May 2027 | 5,000 followers (Phase 0 brand signal) |
+| 2028 | Top Voice candidacy eligible |
+
+**Think-tank cold outreach targets (all zero warm contacts):**
+ORF, VIF, MP-IDSA, CeRAI, Takshashila, Esya, Vidhi, CSTEP, NASSCOM-DSCI, IDRBT. Begin Q4 2026. Strategy: LinkedIn engagement → comment on their publications → one direct outreach per quarter.
+
+---
+
+## 15. Household Financial Model
+
+| Source | Monthly Amount | Notes |
+|---|---|---|
+| Vivek's Army pension (post-exit) | ₹1,60,000 | Index-linked; begins May 2027 |
+| Wife's rental income (her assets) | ₹70,000 | Stable; not dependent on mother's properties |
+| **Household floor** | **₹2,30,000** | **Minimum before advisory income** |
+
+**Advisory retainer threshold logic:**
+- Phase 1 (2027–2028): advisory retainers target ₹50K–₹1L/month. Combined floor + retainers = ₹2.8L–₹3.3L/month.
+- Full-time advisory viability: advisory retainers ≥ ₹2.3L/month (pension becomes discretionary).
+- Boutique firm viability (Phase 3): ₹3.5–5 crore annual revenue = ₹29L–₹42L/month gross. This is the 2030 target.
+
+**Retainer pricing model:** Hybrid — monthly retainer (₹50K–₹2L/month depending on scope) + project-based fees for defined deliverables. No hourly billing.
+
+---
+
+## 16. Bandwidth Model
+
+**Gross academic/professional capacity:** 30 hours/week
+**Productive ceiling:** 25 hours/week (5 hours reserved for friction, recovery, email, administration)
+
+**Load distribution (steady-state Q2–Q3 2026):**
+
+| Lane | Hours/week (approx.) | Notes |
+|---|---|---|
+| Paper drafting (active paper) | 12–15 | P2 is active paper Apr–Sep 2026 |
+| Certification preparation | 8–10 | CISSP Jul 2026; AIGP Dec 2026 |
+| LinkedIn / brand | 4–5 | 2 carousels + 1 commentary |
+| fsQCA coding (background) | 2–3 | Ramps up Q4 2026 |
+| Family wealth coordination | 1–2 | Spike at transaction milestones |
+| **Total** | **~27–35** | **Approaches productive ceiling in Q3 and Q5** |
+
+**Sleep floor:** 6 hours minimum during Q3 2026 and Q5 (Jan–May 2027) pinch points. Below 6 hours, cognitive quality of academic writing degrades measurably. This is a hard constraint, not a preference.
+
+---
+
+## 17. Pinch Points & Kill-Switches
+
+| Quarter | Pinch Point | Pre-committed Response |
+|---|---|---|
+| **Q2 2026 (Apr–May)** | P2 abstract + TAC prep + CISSP ramp concurrent | Accept reduced LinkedIn output (1 carousel/week for 2 weeks); no new commitments |
+| **Q3 2026 (Jul–Sep)** | CISSP exam + P2 full paper drafting concurrent | Sleep floor enforced; zero new brand experiments; family wealth actions minimised |
+| **Q4 2026 (Oct–Dec)** | P3 drafting + AIGP prep concurrent | ⚡ KS-01 checkpoint October: if P3 behind → defer AIGP to Jan/Feb 2027 |
+| **Q5 2027 (Jan–May)** | P3 submission + P2 R&R (if received) + P4 start + Army exit logistics | LinkedIn reduces to 1 carousel/week during peak weeks; family wealth Property Sales #2/#3 managed with minimal personal bandwidth; sleep floor non-negotiable |
+
+**Defined kill-switches:**
+
+| ID | Trigger | Response |
+|---|---|---|
+| ⚡ KS-01 | P3 drafting behind schedule at October 2026 checkpoint | Defer AIGP to Jan/Feb 2027. Locked (D-21). No deliberation required. |
+| ⚠️ KS-02 (open) | CISSP July 2026 prep collides with P2 drafting | **UNDEFINED — needs decision before end of Q2 2026.** Options: (a) defer CISSP to Sep/Oct 2026; (b) reduce P2 drafting hours for 3 weeks; (c) proceed with both at 80% preparation. Recommend defining this before June 2026. |
+
+---
+
+## 18. Risks and Mitigations
+
+| Risk | Probability | Impact | Mitigation |
+|---|---|---|---|
+| Health sustainability failure (sleep, overload) | Medium | High | Sleep floor 6h enforced; kill-switches pre-committed; bandwidth model reviewed monthly |
+| Cold-start Phase 0 — zero validation signals by May 2027 | Medium | High | Begin outreach Q4 2026; use P2 submission as credibility anchor; accept SLOW gate outcome as viable |
+| Narrative architecture failure repeats in P3/P4 | Medium | High | Drafting Discipline Protocol (v3 Section 3) binding on all papers. Non-negotiable. |
+| Zero warm contacts at target institutions | High | Medium | Begin LinkedIn engagement with IS faculty Q3 2026; formal outreach Q1 2027 with publications as credentials |
+| CISSP and AIGP timing collision with P3 drafting | Medium | Medium | KS-01 pre-committed; KS-02 to be defined by end of Q2 2026 |
+| P2 JSIS reframing fails the data test | Low-Medium | High | Fallback: submit with original framing (technical-citizen rule allocation asymmetry); Sep 30 deadline still reachable |
+| Concurrent institutional + advisory conflict of interest post-exit | Low | High | Disclose affiliations; avoid scope overlap between institutional employer interests and advisory clients |
+| Family wealth cluster creates attention spike at key academic milestones | Medium | Medium | Settlement deed (Jul) and property sales (Dec–May) structured around academic calendar; legal/family coordination batched |
+| P2 JSIS receives no-revise-no-accept at first feedback (Jan 2027) | Low-Medium | High | Immediately submit to fallback journal (ISJ or Information Systems Research — Indian DPI context fits both); P3 and P4 are unaffected |
+
+---
+
+## 19. Open Questions
+
+Items that need a decision but have not yet been resolved. Tracked with recommended resolution deadlines.
+
+| ID | Question | Why It Matters | Deadline |
+|---|---|---|---|
+| OQ-C01 | **CISSP kill-switch definition** — what triggers a deferral, and to when? | Prevents reactive panic in Q3 2026 if prep collides with P2 drafting | **End of Q2 2026** |
+| OQ-C02 | Narrative reader identification — who reads P2 (and subsequent papers) for narrative flow before submission? | Drafting Discipline Protocol Rule 5 requires a non-technical narrative reader | Before P2 full paper submission (Aug 2026) |
+| OQ-C03 | Consultancy vehicle name and structure — sole proprietorship vs LLP vs OPC? | Affects registration process in Q3 2027 | Q1 2027 (no urgency until post-exit) |
+| OQ-C04 | Think-tank entry point — which organisation to target first, and via which route? | Concentrated effort beats diffuse outreach | Q3 2026 (before cold outreach begins) |
+| OQ-C05 | Institutional role outreach sequence — which of the 9 institutions to approach first, and in what order? | Concentrated effort beats simultaneous spray | Q1 2027 (before formal outreach begins) |
+
+---
+
+## 20. Decision Log
+
+Timestamped decisions relevant to this file. Academic paper decisions live in `VV_Publication_Pipeline_v3.md` Section 12.
+
+| Date | Decision | Rationale |
+|---|---|---|
+| Feb 2026 | PhD proposal seminar completed; TAC approval received | Seminar submitted on schedule; all feedback closed |
+| Apr 14, 2026 | GIQ desk rejection received and diagnosed | Narrative architecture failure, not substance failure. Drafting Discipline Protocol locked as binding for all papers. |
+| Apr 14, 2026 | Certifications: Option D locked (CISSP July 2026 + AIGP Dec 2026) | User's considered choice. AIGP kill-switch KS-01 locked simultaneously. |
+| Apr 14, 2026 | Consultancy vehicle registration: Q3 2027 (post-Army exit) | Cannot register private firm as serving government employee. |
+| Apr 14, 2026 | Life Roadmap v2.0 created | Supersedes Roadmap v1.0 with Phase 0 exit-gate architecture and post-GIQ strategic updates. |
+
+---
+
+## 21. File Conventions and Update Triggers
+
+**Naming:**
+- This file: `VV_Life_Roadmap_v2.md`
+- Next version (if major restructuring needed): `VV_Life_Roadmap_v3.md`
+
+**What belongs in this file vs. other files:**
+
+| Content Type | Correct File |
+|---|---|
+| Career, brand, certifications, family wealth, financial model, Phase 0 gate | **This file** |
+| Paper strategy, sequencing, deadlines, contribution claims, journal rationale | `VV_Publication_Pipeline_v3.md` |
+| Current draft state, gaps, next actions for a specific paper | `P{n}_State.md` or `fsQCA_Thesis_Chapter_State.md` |
+
+**Update triggers (opportunistic — no scheduled review):**
+- ✅ A Phase 0 validation signal is obtained (update Section 6 signal tracking)
+- ✅ A kill-switch activates (update Section 17 and Decision Log)
+- ✅ A quarterly milestone is hit or missed (update Section 5 exit-gate block)
+- ✅ A life-level decision changes (update Section 4 and Decision Log)
+- ✅ A new open question is identified or resolved (update Section 19)
+- ✅ A quarter ends (brief review of Section 5 actual vs planned)
+
+**Cross-reference rules:**
+- Papers: referenced by ID only (P2, P3, P4, P1, fsQCA-Thesis). Never by topic.
+- To v3: not needed from this file — this file is the career layer; v3 is the paper layer.
+- To Tier-3 files: reference by filename if needed (e.g., `P2_State.md Section 5`).
+## Graph Seeds *Forward links seeding Obsidian graph view. Unresolved links activate as notes are created.* ### Strategy Layer - [[Publication_Pipeline]] - [[Phase0_Gate]] - [[PRIS_Master_MOC]] - [[Projects_MOC]] - [[Research_MOC]] ### Active Projects - [[P2_DPI_JSIS]] - [[P3_BFSI_JEIM]] - [[P4_Doctrinal_IJLIT]] - [[fsQCA_Thesis_Chapter]] - [[P1_SLR_RG]] - [[Thesis_Architecture]] ### Knowledge Products - [[AI_Governance_Wiki]] - [[DPDP_Playbook]] - [[BFSI_AI_Governance_Handbook]] - [[Regulatory_Complexity_Handbook]] ### Domains - [[AI_Governance]] - [[DPI_Governance]] - [[BFSI_Governance]] - [[Privacy_DataProtection]] - [[Cybersecurity_Governance]] ### Signature Concepts - [[Regulatory_Parallelism]] - [[Governance_Debt]] - [[Institutional_Coherence]] ### Institutions - [[RBI_Free_AI.md]] - [[SEBI]] - [[MeitY]] - [[CERT_In]] - [[UIDAI]] - [[TRAI]] ### Decision Journal - [[12_Decision_Journal]]
+---
+
+*End of VV_Life_Roadmap_v2.md. This file is authoritative for all career, brand, certification, family wealth, and personal sustainability decisions. For paper-level strategy, see `VV_Publication_Pipeline_v3.md`. For current paper drafting state, see per-paper Tier-3 files.*

@@ -435,7 +435,7 @@ Additional checks specific to IJLIT's legal law-and-technology register.
 
 **Blockers (pre-activation):**
 
-⚠ **ONE — added 2026-08-02. Scope decision required before activation.** [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] (*ANI Media v. OpenAI*, Delhi HC, 24 July 2026) is India's first judicial determination on LLM training and copyright, and the most doctrinally rich Indian AI instrument in the corpus. **It is copyright/IP, not BFSI — it does not fit P4's locked RBI+SEBI scope.** Either P4 widens (dissolving the focus the contribution framing was built on), or the judgment anchors a separate paper, or it is cited only as comparative context. Logged as **DJ-12 (OPEN)** in [[12_Decision Journal/Decision_Journal]] with options and a recommendation. Blocking dependency: appeal status unverified (⚠ V-DHC1-1). **Resolve before Q4 2026 activation.**
+⚠ **ONE — added 2026-08-02. Scope decision required before activation.** [[07_Institutions/Corpus/DHC/DHC_1_ANI_v_OpenAI_2026]] (*ANI Media v. OpenAI*, Delhi HC, 24 July 2026) is India's first judicial determination on LLM training and copyright, and the most doctrinally rich Indian AI instrument in the corpus. **It is copyright/IP, not BFSI — it does not fit P4's locked RBI+SEBI scope.** Either P4 widens (dissolving the focus the contribution framing was built on), or the judgment anchors a separate paper, or it is cited only as comparative context. Logged as **DJ-12 (OPEN)** in [[12_Decision_Journal/Decision_Journal]] with options and a recommendation. Blocking dependency: appeal status unverified (⚠ V-DHC1-1). **Resolve before Q4 2026 activation.**
 
 **Known Risks:**
 

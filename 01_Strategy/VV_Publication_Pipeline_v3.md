@@ -870,4 +870,4 @@ The following are the foundational documents that informed this pipeline. A fres
 - [[Cybersecurity_Governance]]
 
 ### Decision Journal
-- [[12_Decision Journal/Decision_Journal]]
+- [[12_Decision_Journal/Decision_Journal]]

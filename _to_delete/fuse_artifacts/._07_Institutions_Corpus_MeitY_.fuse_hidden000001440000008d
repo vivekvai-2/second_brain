@@ -1,0 +1,92 @@
+# MeitY_1 — Digital Personal Data Protection Rules, 2025
+
+**Type:** Corpus Node
+**Vault path:** `07_Institutions/Corpus/MeitY/MeitY_1.md`
+**Institution:** [[07_Institutions/MEITY]]
+**Issuing body:** Ministry of Electronics and Information Technology, Government of India
+**Document date:** Notified 13 November 2025 (G.S.R. 846(E)); Corrigendum issued 10 December 2025 (G.S.R. 892(E), minor textual corrections only — folded into this node, not a separate corpus entry)
+**Pages:** ~25 (Rules) — not determinable exactly from extraction
+**Domain:** [[03_Domains/AI_Governance]] | [[03_Domains/Privacy_DataProtection]]
+
+---
+
+## Instrument Identity
+
+**Full title:** Digital Personal Data Protection Rules, 2025
+**Type:** Rules (subordinate legislation under Digital Personal Data Protection Act, 2023)
+**Target entities:** Data Fiduciaries, Significant Data Fiduciaries, Data Processors, Consent Managers, and Data Principals under the DPDP Act, 2023 (22 of 2023)
+**Legal basis:** Issued under sub-sections (1) and (2) of Section 40 of the Digital Personal Data Protection Act, 2023
+**Companion documents:** DPDPA Gazette notification (Hindi/bilingual version of the same notification — duplicate, not separately noded); DPDP Corrigendum, December 2025 (typographical corrections to pages 24, 29, 32, 34, 38 of the Rules — no substantive change)
+
+---
+
+## Analytical Classification
+
+**Wiki section:** S2 (India Regulatory Framework) — fills the explicitly identified DPDP corpus node gap
+**Jurisdiction:** India
+**Confidence:** High (primary subordinate legislation, gazetted)
+**AI explicit:** No (technology-neutral data protection instrument, but directly governs the data lifecycle inputs to AI systems)
+**Tier classification:** Tier B — technology-neutral with direct AI application (data governance obligations apply to any AI system processing personal data)
+**AI Governance Wiki relevance:** HIGH — DPDP Rules are the operative compliance layer referenced by the RBI FREE-AI Committee Report (RBI_FREE_AI_2025) as the applicable data-lifecycle framework for AI systems in financial services; central to S2 and cross-references S4/S5.
+
+---
+
+## Substantive Content
+
+### Commencement structure (staggered, mandatory)
+- Rules 1, 2, and 17–21 commence immediately on publication in the Official Gazette.
+- Rule 4 commences one year after gazette publication (i.e., ~Nov 2026).
+- Rules 3, 5–16, 22 and 23 commence eighteen months after gazette publication (i.e., ~May 2027).
+⚠ VERIFY BEFORE PUBLISHING — exact effective dates for each rule tranche against the primary gazette text before citing in any deliverable.
+
+### Notice requirements (Rule 3) — mandatory ("shall")
+Notice given by a Data Fiduciary to a Data Principal must:
+- Be presentable and understandable independently of any other information made available by the Data Fiduciary.
+- Give, in clear and plain language, a fair account of the details necessary to enable the Data Principal to give specific consent.
+
+### Consent Manager registration and obligations (Rule 4) — mandatory
+- Persons meeting conditions in Part A of the First Schedule may apply to the Data Protection Board for registration as a Consent Manager.
+- The Board may register, reject (with reasons), or — after an opportunity of being heard — suspend or cancel registration, and issue directions to protect Data Principals' interests.
+- Consent Managers have ongoing obligations specified in Part B of the First Schedule.
+
+### State and instrumentalities processing (Rule 5)
+Separate (lighter-touch) processing pathway for personal data processed by the State and its instrumentalities for the provision or issue of subsidies, benefits, services, certificates, licences, or permits.
+
+### Security safeguards and breach obligations (Rule 6–7) — mandatory
+- Data Fiduciaries must implement "reasonable security safeguards" against personal data breach, including at minimum: encryption, obfuscation, masking, or virtual tokenisation of personal data, consistent with the Information Technology Act, 2000.
+- **Intimation to Data Principal on breach (Rule 7(1))**: On becoming aware of a breach, the Data Fiduciary must, "without delay," intimate each affected Data Principal — via their registered user account or other registered communication channel — with: (a) nature/extent/timing of the breach; (b) likely consequences to the individual; (c) mitigation measures taken/underway; (d) protective steps the individual can take; and (e) contact information for a responsible person.
+- **Intimation to the Data Protection Board (Rule 7(2))**: (a) "without delay," a description of the breach including nature, extent, timing, location and likely impact; (b) **within seventy-two hours** [of becoming aware, per the extracted text — ⚠ VERIFY BEFORE PUBLISHING: confirm the 72-hour trigger event and any extension provisions against the full primary text, as the extraction was truncated at this point].
+
+---
+
+## Analytical Significance for PRIS Research
+
+### For P3 (BFSI AI Governance Regulatory Parallelism, JEIM) and fsQCA
+DPDP Rules 2025 is the foundational data-governance layer that the RBI FREE-AI Committee Report explicitly cross-references as the applicable framework for AI "Data Lifecycle Governance" obligations in regulated entities. This creates a direct **parallelism/coordination test case**: RBI (sectoral prudential regulator) issuing AI-specific governance expectations that incorporate, by reference, a horizontal data-protection instrument issued by MeitY (a different regulator, different statutory basis). This is strong evidence for the Regulatory Parallelism construct — two regulators governing overlapping data-handling obligations for AI systems without a single integrated instrument.
+
+### Coordination / Parallelism Pattern
+Existing node: [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]] (this batch). Pattern: **Unidirectional incorporation-by-reference** — RBI's AI governance framework defers to DPDP for data lifecycle compliance but does not itself create enforcement linkage to the Data Protection Board. This is a candidate "governance debt" indicator: regulated entities must satisfy both RBI supervisory expectations and DPDB compliance obligations, assessed independently.
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/RBI/RBI_FREE_AI_2025]]
+**Related concepts:** [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]], [[05_Concepts/05_Concepts_Signature/Governance_Debt]], [[05_Concepts/05_Concepts_Standard/Transparency]], [[05_Concepts/05_Concepts_Standard/Accountability]]
+**Related frameworks:** —
+**Related projects:** [[02_Projects/P3_BFSI_JEIM]], [[02_Projects/fsQCA_Thesis_Chapter]]
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
+**Related consulting:** PrivacyWeave (DPDP purpose-limitation enforcement at runtime is directly downstream of the consent/notice/breach obligations in this instrument)
+
+---
+
+## Coding Status
+
+- **P3 NVivo:** Not applicable (regulatory instrument, not academic literature corpus)
+- **Wiki intake status:** Pending
+
+---
+
+## Log
+
+- 2026-06-14: Corpus node created. Batch 1. Cowork session. Source: DPDP_Rules_2025_English_only.pdf (primary); DPDPA Gazzette.pdf (Hindi/bilingual duplicate of same notification, not separately noded); DPDP Corrigendum Dec 25.pdf (typographical corrigenda, folded in as companion reference).

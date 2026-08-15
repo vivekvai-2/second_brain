@@ -1,0 +1,100 @@
+---
+type: Inbound Opportunity
+tags:
+  - type/consulting
+  - status/hold
+  - gate/conflict-hold
+  - engine/consulting
+---
+
+# CyberMesh PS-69 — Inbound Opportunity
+
+**Type:** Consulting Intelligence — Inbound  
+**Status:** 🔴 HOLD — No engagement until legal clearance  
+**Last Updated:** 2026-06-12  
+**Conflict Flag:** 🔴 Active defence procurement — serving officer conflict  
+**Gate:** Army exit (May 2027) + post-superannuation legal clearance. No engagement of any kind until then.
+
+---
+
+## What They Do
+
+Black Aegis Private Limited (founder: Sanket Nadagouda) has submitted a proposal to DISC 14 Problem Statement 69 (Indian Air Force) for a Secure Information Exchange Platform for Military Units (SIEPMU) over public internet — branded as CyberMesh SIEPMU.
+
+**Core architecture:** Distributed trust model combining sender-side encryption, recipient-side decryption, zero-trust verification at every hop, quorum-governed key recovery (Shamir Secret Sharing, 3-of-5 model), 14-engine metadata-bounded threat detection, role-based and relationship-aware access control, and an adapter-based integration layer for designated IAF systems.
+
+**Key technical differentiators:** No single trust point — trust distributed across identity, policy, key governance, monitoring, and audit services. Relay nodes handle encrypted transport only; they are not content-trust points. Quorum key recovery requires organisational and geographic separation, dual-authorisation, and logged reconstruction events.
+
+**Proposed timeline:** 9 months across 3 phases — platform integration (Months 1–3), detection layer and key control (Months 4–6), representative deployment and handover (Months 7–9).
+
+**iDEX mechanism:** DISC 14 SPARK Grant Agreement; milestone-based funding release.
+
+---
+
+## What They Are Asking For
+
+Inferred: Technical review and validation of the proposal, advisory on iDEX process navigation, or introduction to IAF/MoD evaluation contacts given VV's serving officer status and Agnishodh/IIT Madras R&D background.
+
+---
+
+## Conflict / Gate Assessment
+
+🔴 **Hard conflict. No engagement of any kind until Army exit.**
+
+Three compounding risk dimensions:
+
+**1. Active procurement conflict:** PS-69 is an open iDEX/DISC 14 defence procurement process. VV serves as CSO Southern Command. Providing any advisory, technical review, endorsement, or introduction to an active bidder in an open defence procurement — even informally — constitutes a conflict of interest under service conduct rules, regardless of whether compensation is involved.
+
+**2. Procurement integrity risk:** If CyberMesh wins the DISC 14 PS-69 contract and VV's involvement (however informal) is later disclosed, it creates procurement integrity exposure for both VV and the startup. The iDEX evaluation process is conducted by MoD-designated experts — any serving officer advisory input creates the appearance of insider advantage.
+
+**3. Technical sensitivity:** The proposal involves SAG-grade cryptography integration requirements and IAF communication infrastructure. Even informal technical commentary from a serving CISO on a classified-adjacent procurement could attract scrutiny under OSA/service conduct frameworks.
+
+**Recommended action:** Acknowledge receipt, do not provide any feedback, review, or introduction. Log in `12_Decision Journal`. Revisit post-superannuation if iDEX engagement aligns with post-Army advisory positioning.
+
+---
+
+## Research Leverage — What This Inbound Teaches the Vault
+
+Despite the hard engagement hold, the architecture surfaces ideas directly relevant to the research programme:
+
+| Insight | Research Connection |
+|---|---|
+| Distributed trust as a governance architecture — no single trust anchor | [[Cybersecurity_Governance]] — governance as distributed accountability, not centralised control |
+| Quorum-governed key recovery as an institutional accountability mechanism | [[Accountability]] — governance structures that prevent unilateral action by single actors |
+| 14-engine metadata-bounded detection (effective despite E2E encryption) | [[Cybersecurity_Governance]] — monitoring without payload inspection; audit without undermining confidentiality |
+| Zero Trust as continuous verification, not a policy label | [[AI_Governance]] — governance as ongoing re-earned trust, not static authorisation |
+| Distributed trust vs centralised trust in multi-regulator environments | [[Regulatory_Parallelism]] — the CyberMesh architecture makes visible why distributed governance without coordination fails; each trust domain operates independently |
+| Military communication governance as a use case for IG 2.0 analysis | [[Institutional_Grammar_IG2]] — the PS-69 requirement mapping table is structurally similar to ADICO coding of governance obligations |
+
+**Strongest reuse opportunity:** The quorum-key-recovery governance model (distributed control, no single custodian, logged reconstruction events) is an operational implementation of what Institutional Coherence requires at the governance architecture level. This is worth a footnote in the [[Regulatory_Complexity_Handbook]] as a technical design that achieves what regulatory coordination frameworks often fail to achieve — preventing single-point governance failure.
+
+---
+
+## Future Engagement Options (Post-Superannuation Only)
+
+| Option | Timing | Gate |
+|---|---|---|
+| Advisory on iDEX ecosystem strategy and defence startup positioning | Post-May 2027 | Army exit — hard gate |
+| Technical review of CyberMesh architecture for defence advisory clients | Post-May 2027 | Army exit + legal clearance |
+| Introduction to MoD/DRDO/IAF networks for defence advisory | Post-May 2027 | Army exit; assess residual conflict |
+| Speaking / keynote on defence cybersecurity governance | Post-May 2027 | Army exit |
+
+---
+
+## Linked Vault Nodes
+
+**Linked Domains:** [[Cybersecurity_Governance]], [[AI_Governance]]
+
+**Linked Concepts:** [[Accountability]], [[Governance_Capacity]], [[Institutional_Coherence]], [[Transparency]], [[05_Concepts/05_Concepts_Standard/Agentic_AI_Governance]]
+
+**Linked Frameworks:** [[IndiaAI_Framework]]
+
+**Linked Institutions:** [[CERT_IN]], [[MeitY]]
+
+**Linked Knowledge Products:** [[Regulatory_Complexity_Handbook]], [[AI_Governance_Wiki]]
+
+**Linked Consulting:** [[Inbound_Pipeline_Index]], [[CyberMesh_PS74_Inbound]]
+
+---
+
+_Back to [[Inbound_Pipeline_Index]]_

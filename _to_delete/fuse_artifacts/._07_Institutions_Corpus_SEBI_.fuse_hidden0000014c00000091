@@ -1,0 +1,133 @@
+# SEBI_10 — Reporting for AI and ML Applications and Systems Offered and Used by Mutual Funds
+
+**Type:** Corpus Node  
+**Vault path:** `07_Institutions/Corpus/SEBI/SEBI_10.md`  
+**Institution:** [[07_Institutions/SEBI.md]]  
+**Issuing body:** Securities and Exchange Board of India (SEBI), Investment Management Department  
+**Document date:** May 09, 2019  
+**Circular reference:** SEBI/HO/IMD/DF5/CIR/P/2019/63  
+**Pages:** 6  
+**Domain:** [[03_Domains/AI_Governance]] | [[03_Domains/BFSI_Governance]]  
+
+---
+
+## Instrument Identity
+
+**Full title:** Reporting for Artificial Intelligence (AI) and Machine Learning (ML) applications and systems offered and used by Mutual Funds  
+**Type:** Regulatory Circular (binding on addressed entities)  
+**Target entities:** All Mutual Funds (MFs), Asset Management Companies (AMCs), Trustee Companies, Board of Trustees, AMFI  
+**Signatory:** Jyoti Sharma, General Manager, Investment Management Department  
+**Legal basis:** Section 11(1) of SEBI Act 1992, read with Regulation 77 of SEBI (Mutual Funds) Regulations 1996  
+**Companion circular:** [[07_Institutions/Corpus/SEBI/SEBI_9]] (January 2019 circular for MIIs — same framework, different entities)
+
+---
+
+## Analytical Classification
+
+**P3 corpus role:** IN CANONICAL 91-RU ANALYTICAL CORPUS — 13 RUs, ALL Tier A (explicit AI/ML regulation)  
+**Global RU range:** RU_079 to RU_091 (SEBI_10_RU_001 to SEBI_10_RU_013)  
+**Coordination clusters:** C09 (intra-SEBI AI inventory and taxonomy convergence with SEBI_9, SEBI_8, SEBI_3)  
+**Tier breakdown:** 13 Tier A (100%) — all RUs are explicit AI regulation  
+**Domain:** AI Model Governance (Explicit)
+
+---
+
+## Substantive Content
+
+### Regulatory Purpose (§1–2)
+
+**§1:** Increasing usage of AI/ML as product offerings by market intermediaries and participants (e.g., "robo advisors") in investor/consumer-facing products. SEBI conducting survey to understand AI/ML landscape and ensure preparedness for future policy.
+
+**§2 — Critical AI Governance Rationale:** "As most AI/ML systems are black boxes and their behavior cannot be easily quantified, it is imperative to ensure that any advertised financial benefit owing to these technologies in investor facing financial products offered by intermediaries should not constitute misrepresentation." — First explicit acknowledgement of AI opacity/black-box risk in Indian securities regulation.
+
+### Scope Definition (§3)
+
+**Three-branch scope (broader than SEBI_9):**
+a. Applications offered to investors to facilitate investing/trading OR disseminate investment strategies and advice  
+b. Applications to disseminate investment strategies and advice  
+c. Applications to carry out compliance/operations/activities  
+Where AI/ML is "portrayed as a part of the public product offering or under usage for compliance or management purposes"
+
+**Key scope addition vs. SEBI_9:** Explicit inclusion of investor-facing products ("robo advisors") and investment strategy dissemination
+
+### AI Technology Categories (Annexure B)
+
+Same six-category taxonomy as SEBI_9 (Annexure A):
+1. NLP, sentiment analysis, text mining
+2. Neural Networks (RNN, Deep Learning)
+3. ML (supervised/unsupervised) — Decision tree, random forest, K-mean, Markov, Gradient boosting
+4. Statistical heuristics / clustering without predefined categories
+5. Feedback mechanism improvement systems
+6. Knowledge representation systems
+
+*Identical taxonomy = intentional convergence within SEBI for definitional consistency*
+
+### Regulatory Requirements (§5–8)
+- **Quarterly reporting** from quarter ending June 2019
+- Submission to AMFI (not directly to SEBI); AMFI consolidates and submits within 30 days
+- AMFI must maintain confidentiality of individual MF information
+
+### Reporting Form — Annexure A (14 data fields)
+
+**Additional fields vs. SEBI_9:**
+- 7.a: Does system involve order initiation, routing and execution?
+- 7.b: Does system disseminate investment or trading advice or strategies?
+- 7.c: Is application/system used in cybersecurity to detect attacks?
+- 7.d: What claims have been made regarding AI/ML application/system?
+- 14: Adverse comments in system audit regarding AI/ML system?
+
+---
+
+## Analytical Significance for PRIS Research
+
+### P3 Analytical Corpus — Core Document
+
+**RU_079–RU_091 (13 Tier A units):**
+All 13 RUs are Tier A (explicit AI/ML regulation) — the highest proportion of any document in the canonical corpus. SEBI_10 and SEBI_8 together account for all 26 Tier A units from SEBI.
+
+**Coordination analysis relevance:**
+- SEBI_10 participates in Cluster C09: Intra-SEBI AI inventory and taxonomy convergence
+- RU pairs with SEBI_8: (RU_079, RU_066), (RU_080, RU_067), (RU_082, RU_069), (RU_084, RU_070), (RU_087, RU_071), (RU_091, RU_078)
+
+### Black-Box Problem — First Acknowledgement
+
+§2 of SEBI_10 contains the first explicit regulatory acknowledgement in India that AI/ML systems are black boxes, their behaviour cannot be easily quantified, and this creates misrepresentation risk for investor-facing products.
+
+This is analytically significant for the Governance Debt construct — regulator acknowledges the interpretability problem but responds with inventory/reporting rather than interpretability requirement.
+
+### Investor Protection Frame vs. Systemic Risk Frame
+
+SEBI_10 is framed through investor protection (misrepresentation risk) while SEBI_9 is framed through compliance/management (operational governance). This dual-frame construction within SEBI reflects the beginning of investor-facing vs. operational AI governance divergence that persists in later SEBI instruments.
+
+---
+
+## Coordination Pattern Detail (from SOM)
+
+| Cluster | Pattern | RU pairs |
+|---------|---------|----------|
+| C09 — Intra-SEBI AI inventory and taxonomy | Convergence | (RU_066, RU_079), (RU_067, RU_080), (RU_069, RU_082), (RU_070, RU_084), (RU_071, RU_087), (RU_078, RU_091) |
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/SEBI/SEBI_9]] | [[07_Institutions/Corpus/SEBI/SEBI_11]] | [[07_Institutions/Corpus/RBI/RBI_1]]  
+**Related concepts:** [[05_Concepts/Signature/Regulatory_Parallelism]] | [[05_Concepts/Signature/Governance_Debt]]  
+**Related frameworks:** [[06_Frameworks/Cross_Regulator_Coordination_Pattern_Matrix]]  
+**Related projects:** [[02_Projects/Active/P3_BFSI_JEIM_Project_State]]  
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]  
+**Zotero key:** SEBI_CIR_2019_63_AI_MF
+
+---
+
+## Coding Status
+
+- **P3 NVivo coding:** COMPLETE — 13 RUs coded, all Tier A. RU_079–RU_091. Cluster C09.
+- **Coordination patterns confirmed:** All six cluster C09 pairs verified in SOM Table S15
+- **Kappa verification:** Part of the 91-RU inter-coder reliability dataset (κ = 0.776)
+
+---
+
+## Log
+
+- 2026-06-13: Corpus node created from source extraction. S5 session. RU counts and cluster assignments confirmed from SOM V11/V12.

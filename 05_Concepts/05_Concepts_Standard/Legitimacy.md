@@ -64,7 +64,7 @@ Sourced per [[Thin_Node_Perplexity_Prompts_2026-08-02]] to ground this concept's
 
 ### Confirmed Gap — genuine original-contribution opportunity
 
-**No study specifically and exclusively using an Indian AI or DPI regulator (UIDAI, MeitY, DPB, RBI's AI functions) as the direct empirical subject of a legitimacy-perception study was located.** The closest available material (a UIDAI/RBI/SEBI e-KYC governance case study, 2020) treats Indian regulators structurally rather than measuring legitimacy perceptions empirically. This is a significant, real white space: no existing literature has applied Suchman/Grimmelikhuijsen-style legitimacy-perception measurement to an Indian AI or DPI regulator specifically — a defensible original contribution claim for [[contribution-framing]] work, and a natural extension of this concept's existing fsQCA legitimacy-outcome calibration into a primary-data (survey or interview) component.
+**No study specifically and exclusively using an Indian AI or DPI regulator (UIDAI, MeitY, DPB, RBI's AI functions) as the direct empirical subject of a legitimacy-perception study was located.** The closest available material (a UIDAI/RBI/SEBI e-KYC governance case study, 2020) treats Indian regulators structurally rather than measuring legitimacy perceptions empirically. This is a significant, real white space: no existing literature has applied Suchman/Grimmelikhuijsen-style legitimacy-perception measurement to an Indian AI or DPI regulator specifically — a defensible original contribution claim for contribution-framing work, and a natural extension of this concept's existing fsQCA legitimacy-outcome calibration into a primary-data (survey or interview) component.
 
 ## **Future Reuse Opportunities**
 

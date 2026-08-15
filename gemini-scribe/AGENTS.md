@@ -21,7 +21,7 @@ The vault is meticulously structured around a core knowledge hierarchy (`Strateg
 - **08_Methods** (4 files): Research methodologies and coding protocols (e.g., [[fsQCA]], [[Institutional_Grammar_IG2]], [[SLR_Protocol]], `Doctrinal_Analysis`).
 - **09_Teaching** (0 files): Placeholder for future pedagogical and instructional materials.
 - **10_Consulting** (70 files): Highly developed client engagement resources, featuring a massive `VV_Advisory_Outreach_Templates/` subfolder (54 files) containing templates for opportunity intake, board briefings, masterclass curricula, and diagnostics (e.g., `AR1_AI_Risk_Stack_Anchor_Brief_Outline_Template`, `Agentic_AI_Security_Diagnostic_Template`), alongside active client files (e.g., `ADP_2026`, `AEGIS_OS_Inbound`, `CyberMesh_PS69_Inbound`).
-- **11_Content** (1 file: `ADP_Keynote_2026`), **12_Decision Journal** (1 file), **99_Archive** (4 files: containing stale MOCs, older ontologies, and pre-deployment/pre-population audit files), and **99_System_Templates** (5 files).
+- **11_Content** (1 file: `ADP_Keynote_2026`), **12_Decision_Journal** (1 file), **99_Archive** (4 files: containing stale MOCs, older ontologies, and pre-deployment/pre-population audit files), and **99_System_Templates** (5 files).
 
 ## Key Topics
 

@@ -1,0 +1,89 @@
+---
+type: Standard Concept
+tags:
+  - type/concept-standard
+  - status/active
+  - paper/p3
+  - paper/p4
+  - paper/fsqca
+  - gate/open
+  - engine/phd
+  - engine/linkedin
+  - engine/consulting
+  - content/carousel-ready
+  - content/checklist
+---
+
+# **Transparency**
+
+**Type:** Standard Concept  
+**Status:** Active  
+**Last Updated:** 2026-06-12  
+**Theoretical Lineage:** IS governance; regulatory governance; AI governance frameworks
+
+---
+
+## **Definition**
+
+Transparency in this research programme is defined as the obligation to make the decision logic, data sources, performance characteristics, governance controls, and accountability structures of AI systems accessible to relevant stakeholders in a manner appropriate to their role and the system’s risk level. The concept is distinct from explainability because transparency concerns the visibility and availability of governance information, whereas explainability concerns the interpretability of model outputs and internal logic. It is also distinct from disclosure, which is a discrete act of communication, while transparency is a continuing governance obligation that varies according to stakeholder needs, regulatory requirements, and system risk profiles.
+
+## **Application in This Research**
+
+Within [[P3_BFSI_JEIM]], transparency obligations appear as coded regulatory requirements relating to audit trails, model governance documentation, and supervisory visibility mandated by RBI and SEBI instruments. Within [[P4_Doctrinal_IJLIT]], transparency functions as a normative requirement of the redesigned Three Lines of Defence architecture, with particular emphasis on regulatory auditability of AI-supported decisions and trading systems. Within [[fsQCA_Thesis_Chapter]], transparency is incorporated into the Regulatory Logic (RL) condition, reflecting the expectation that higher-risk AI systems should be subject to stronger transparency obligations than lower-risk systems. Within the [[AI_Governance]] domain and associated governance frameworks, transparency appears as a core governance principle, reflected in the IndiaAI design principles, the transparency obligations of the EU AI Act, and the governance vocabulary of the NIST AI Risk Management Framework.
+
+## **Boundary Conditions**
+
+- Transparency is not equivalent to explainability; an AI system may provide comprehensive governance documentation and audit evidence while remaining technically difficult to interpret.
+- Transparency obligations are risk-proportionate, with higher-risk systems facing stronger requirements for documentation, auditability, reporting, and oversight than lower-risk systems.
+- Transparency directed toward regulators through audit trails and compliance evidence serves a different governance function from transparency directed toward users through disclosures and notices, although both forms may be required simultaneously.
+
+## **Theoretical Positioning**
+
+Transparency draws its theoretical grounding from three distinct but complementary traditions. Within information systems research, transparency connects to concepts of information visibility, algorithmic accountability, and explainability in sociotechnical systems, with Wieringa (2020) and subsequent work on algorithmic auditing providing the most relevant IS-specific framing. Regulatory governance theory treats transparency as a governance instrument rather than a value — Fung, Graham, and Weil's (2007) targeted transparency framework demonstrates that disclosure obligations are effective only when information reaches audiences capable of acting on it, a condition that shapes how transparency obligations are designed in RBI and SEBI instruments. Within AI governance scholarship, the distinction between transparency directed at regulators through audit trails and transparency directed at users through notices and disclosures has become a structuring debate, with the EU AI Act operationalising different transparency obligations for different stakeholder categories. Within PRIS, transparency is treated as a governance observable — its presence or absence in coded regulatory instruments is detectable through ADICO analysis, and its risk-proportionality is a calibrated property of the Regulatory Logic (RL) condition in the fsQCA model.
+
+## **Future Reuse Opportunities**
+
+- Use the distinction between regulator-facing transparency (audit trails, governance documentation) and user-facing transparency (notices, disclosures) as a structuring framework for the BFSI AI Governance Handbook chapter on audit and board oversight.
+- Develop LinkedIn thought-leadership content examining the difference between transparency as a compliance artefact and transparency as a genuine governance mechanism, using RBI FREE-AI's audit trail requirements and SEBI's quarterly reporting obligations as concrete examples.
+- Extend the transparency analysis from P3 and P4 into a comparative study of how different regulatory instruments operationalise transparency obligations — distinguishing disclosure-first architectures (SEBI 2019 circular) from risk-management architectures (NIST AI RMF Govern function).
+- Incorporate the risk-proportionality of transparency obligations as a calibration criterion within the fsQCA Regulatory Logic (RL) condition, testing whether higher transparency obligation specificity correlates with legitimate governance outcomes across the ten-case corpus.
+
+## **Linked Projects**
+
+[[P3_BFSI_JEIM]]
+
+[[P4_Doctrinal_IJLIT]]
+
+[[fsQCA_Thesis_Chapter]]
+
+## **Linked Domains**
+
+[[AI_Governance]]
+
+[[BFSI_Governance]]
+
+[[Privacy_DataProtection]]
+
+## **Linked Standard Concepts**
+
+[[Accountability]]
+
+## **Linked Frameworks**
+
+[[EU_AI_Act]]
+
+[[NIST_AI_RMF]]
+
+[[IndiaAI_Framework]]
+
+[[SEBI_AI_Circular]]
+
+## **Linked Institutions**
+
+[[SEBI]]
+
+[[MeitY]]
+
+---
+
+_Back to [[_Concepts_MOC]]_

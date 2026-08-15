@@ -35,7 +35,7 @@ A roadmap-specific variant of the standing Decision Journal entry, for logging c
 | Defence-adjacent? (Y/N — if Y, hard stop per standing rule) |  |
 | Conflict with existing engagement? (Y/N + which) |  |
 | Clearance decision + date |  |
-| Logged in `12_Decision Journal`? (Y/N) |  |
+| Logged in `12_Decision_Journal`? (Y/N) |  |
 
 ---
 

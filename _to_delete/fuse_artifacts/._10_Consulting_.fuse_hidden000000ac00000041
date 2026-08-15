@@ -1,0 +1,87 @@
+---
+type: Inbound Opportunity
+tags:
+  - type/consulting
+  - status/assessed
+  - phase/0-now
+  - gate/open
+  - engine/consulting
+  - engine/linkedin
+  - content/carousel-ready
+  - content/thought-leadership
+---
+
+# PrivacyWeave — Inbound Opportunity
+
+---
+
+## What They Do
+
+PrivacyWeave is an early-stage startup building a runtime data usage control plane — a mandatory enforcement layer that sits between any system and its data destination, evaluating every sensitive data access in real time before the data moves. It is positioned not as DLP, not as a data catalogue, and not as IAM — but as the missing primitive between policy documents and actual enforcement.
+
+The core value proposition: governance fails because data usage is never evaluated at the moment it matters. Everything today is either defined in advance (policies) or reconstructed later (logs). PrivacyWeave inserts a mandatory decision point — evaluate who is accessing, why, where it is going, and which fields are sensitive — and returns one authoritative decision (allow / partial mask / deny) in under 100ms, with an automatic audit log written for every decision.
+
+**Go-to-market wedge:** CRM contact exports — high-risk, universal, almost never logged. Target: Series A-C B2B SaaS companies preparing for SOC2 or enterprise deals.
+
+**India relevance:** DPDP Act 2023 makes this product directly relevant to Indian data fiduciaries. The "purpose limitation" requirement (data collected for one purpose cannot be quietly reused to train a model) maps precisely to PrivacyWeave's runtime purpose-check architecture. DPDP breach notification timelines also create urgency for audit-trail infrastructure.
+
+---
+
+## What They Are Asking For
+
+Not stated explicitly in the pitch deck — inferred as: advisory input on governance framing, India market positioning (particularly DPDP angle), and potential introductions to BFSI or enterprise clients.
+
+---
+
+## Conflict / Gate Assessment
+
+🟢 **No conflict.** PrivacyWeave operates in commercial data governance — no defence, no government procurement, no SCOMET exposure. Engagement does not require clearance from a serving-officer standpoint.
+
+**Gate recommendation:** Limited advisory (framing, India positioning, DPDP angle) is possible now. Active consulting engagement or equity/fee arrangement is cleaner post-May 2027 when conflict-of-interest exposure from serving status is eliminated.
+
+---
+
+## Research Leverage — What This Inbound Teaches the Vault
+
+| Insight | Research Connection |
+|---|---|
+| *"You can't govern AI if you don't govern data usage first"* — governance theatre vs genuine enforcement | [[Accountability]] — the distinction between governance artefacts and substantive accountability is exactly this |
+| Runtime enforcement as the missing primitive between policy and reality | [[Privacy_DataProtection]] — the DPDP governance architecture gap: principles-based framework with no runtime enforcement mechanism |
+| Purpose limitation as a runtime control, not a legal declaration | [[DPDP_Playbook]] Chapter 4 — consent and purpose architecture |
+| Audit trail as evidence of enforcement, not just logging | [[Transparency]] — audit trails as regulator-facing transparency vs user-facing transparency |
+| "AI doesn't introduce new risk. It exposes an old one." | [[AI_Governance]] — AI as infrastructure through which pre-existing governance failures become visible |
+| SOC2 / DPDP audit readiness as enterprise pain point | [[BFSI_AI_Governance_Handbook]] Chapter 6 — compliance evidence and board oversight |
+
+**Strongest reuse opportunity:** The PrivacyWeave framing — that the gap between policy and reality equals failed audits and breaches — is a practitioner-facing articulation of the Governance Theatre vs Genuine Accountability debate in the [[Privacy_DataProtection]] domain note. This should be extracted as a LinkedIn hook and a DPDP Playbook opening argument.
+
+---
+
+## Future Engagement Options
+
+| Option | Timing | Gate |
+|---|---|---|
+| Informal advisory on DPDP positioning and India GTM framing | Now — limited | No gate |
+| Guest speaker / webinar on DPDP accountability for their target audience | Q3 2026 | No gate |
+| Formal advisory arrangement (equity or retainer) | Post-May 2027 | Army exit |
+| BFSI client introduction (banks, NBFCs as data fiduciaries) | Post-P3 submission | Publication gate preferred |
+| Reference in DPDP Playbook as practitioner tool example | Post-PhD | Academic independence preserved |
+
+---
+
+## Linked Vault Nodes
+
+**Linked Domains:** [[Privacy_DataProtection]], [[AI_Governance]], [[BFSI_Governance]]
+
+**Linked Knowledge Products:** [[DPDP_Playbook]], [[AI_Governance_Wiki]], [[BFSI_AI_Governance_Handbook]]
+
+**Linked Concepts:** [[Accountability]], [[Transparency]], [[Institutional_Coherence]], [[05_Concepts/05_Concepts_Standard/Agentic_AI_Governance]]
+
+**Linked Frameworks:** [[IndiaAI_Framework]], [[RBI_FREE_AI]], [[SEBI_AI_Circular]]
+
+**Linked Institutions:** [[MeitY]], [[SEBI]]
+
+**Linked Consulting:** [[Inbound_Pipeline_Index]]
+
+---
+
+_Back to [[Inbound_Pipeline_Index]]_

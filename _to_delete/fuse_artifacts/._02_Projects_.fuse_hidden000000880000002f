@@ -1,0 +1,430 @@
+
+---
+type: Project
+tags:
+  - type/project
+  - status/pre-draft
+  - phase/q3-2026
+  - paper/fsqca-primary
+  - paper/p1
+  - gate/open
+  - engine/phd
+---
+
+# fsQCA_Thesis_Chapter_State.md
+## Tier-3 State File — PhD Empirical Chapter (fsQCA Causal Configurations)
+
+---
+
+## 0. Quick Reference Header
+
+| Field | Value |
+|---|---|
+| **Artifact** | PhD thesis empirical chapter — fsQCA causal configurations of AI governance |
+| **NOT** | This is **NOT** P1 (the post-defence *Regulation & Governance* typology paper). See §1 boundary note. |
+| **Owner** | Col Vivek Vaidyanathan |
+| **Programme** | FPM (Executive PhD), IIM Indore, Information Systems |
+| **Supervisor** | Prof Prabin Panigrahi |
+| **Proposal status** | Defended February 2026; all TAC feedback closed April 2026 |
+| **Next TAC** | May Week 1 2026 |
+| **Chapter draft to TAC** | Q2 2027 (target) |
+| **Thesis defence window** | Q3–Q4 2027 |
+| **Source files** | `GIQ_V13.docx` (10,500w), `fsQCA_V2.docx` (952w), `fsqca_SOM_V2.docx` (5,807w), `V12_SOM.docx` (19,452w) — all at `/mnt/user-data/uploads/` |
+| **Research question** | What configurations of governance conditions (EA × SR × RL × SI) are sufficient for producing legitimate AI governance outcomes across different regulatory contexts? |
+| **N** | 10 cases (from a 20-candidate shortlist) |
+| **Method** | Institutional Grammar 2.0 ADICO coding → fuzzy-set calibration → fsQCA (with INUS interpretation pending decision D4) |
+| **Current overall completion** | ~25% (theoretical scaffolding and calibration architecture complete; empirical execution at 0%) |
+| **Highest-impact open item** | 10-case list lock-in (D1) |
+| **Highest-risk collision** | Q3 2026 truth table window vs CISSP exam preparation |
+
+---
+
+## 1. Context Pointer
+
+This state file governs the **PhD empirical chapter** that integrates four pre-existing working documents into one coherent thesis chapter. The chapter sits inside the IIM Indore FPM thesis as the principal empirical contribution. It is methodologically anchored in Institutional Grammar 2.0 (Siddiki, 2012; Frantz, 2021) and fsQCA (Ragin, 2008; Fiss, 2011; Rihoux & Ragin, 2009).
+
+### 1.1 P1 Boundary Note (READ FIRST AT EVERY DECISION POINT)
+
+> **This chapter is NOT P1.** P1 is the post-defence *Regulation & Governance* (R&G) submission of the typology paper currently sitting as `GIQ_V13.docx` (which was desk-rejected at *Government Information Quarterly* on fit grounds, not substance). P1 is a **standalone descriptive-typological paper** with a 49-instrument corpus and a 3×3 archetype matrix.
+>
+> The thesis chapter, by contrast, is **causal-configurational**. It uses GIQ_V13's typology *as scaffolding*, not as the contribution. The contribution of the chapter is the fsQCA-derived sufficient configurations for legitimate AI governance outcomes across 10 cases. GIQ_V13 sections appear inside the chapter in **compressed** form, not verbatim.
+>
+> If at any decision point a question arises whether a particular framing belongs to P1 or to this chapter, the test is: **does it answer "what archetypes exist?" (P1) or "what configurations are sufficient for the outcome?" (chapter)**. The first is descriptive; the second is causal.
+
+### 1.2 Companion artefacts in the portfolio
+
+- **P2** (JSIS submission) — primary writing focus through Sep 2026
+- **P3** — activates Q3 2026
+- **P4** — activates Q4 2026
+- **This chapter** — runs **concurrently** with the publication pipeline; it is the only PhD deliverable on a parallel track rather than sequential
+
+---
+
+## 2. Where I Am Now
+
+### 2.1 State of the four source files
+
+| File | Words | Status | Quality | Role in chapter |
+|---|---|---|---|---|
+| `GIQ_V13.docx` | ~10,500 | Complete near-publication draft (desk-rejected at GIQ on fit) | High — publication-ready prose | Theoretical scaffolding (chapter §§1–4 in compressed form) |
+| `fsQCA_V2.docx` | ~952 | Skeleton: §§1.0–1.4 only; all subsequent section headers empty | Low (structural) | Empirical spine — RQ, fsQCA justification, case selection logic |
+| `fsqca_SOM_V2.docx` | ~5,807 | Calibration architecture complete (Tables S1, S3, S4); 20-case shortlist with maturity scores | Medium-high | Measurement architecture (chapter §6) |
+| `V12_SOM.docx` | ~19,452 | Full ADICO evidence base for 49 instruments (Tables S22, S25, S26); F1–F49 framework list | High (empirical) | Supporting evidence base throughout |
+
+### 2.2 What exists (assets)
+
+**Theoretical and methodological:**
+- IG 2.0 ADICO coding protocol, fully developed in GIQ_V13 + V12_SOM
+- 49-instrument PRISMA-informed corpus (F1–F49), already coded at the rule level (196 rules)
+- 3×3 typology of nine archetypes across three dimensions (RL, SR, SI), with EA as interpretive overlay
+- Conceptual mapping of the four Ethical AI principles (Transparency, Accountability, Fairness, Privacy) to ADICO indicators (Table S3)
+- 4-anchor fuzzy calibration scheme (0.0 / 0.33 / 0.67 / 1.0) for EA principles (Table S4)
+- 20-candidate case shortlist with maturity scores (Legal × Enforcement × Coverage × Time, total 0–8; Emerging 0–3 / Intermediate 4–6 / Advanced 7–8)
+- Correlation matrix for the four dimensions (Table S25) — all positive but non-significant, confirming analytical independence
+- Rule-to-mechanism tracing table (Table S26) — 22 frameworks mapped to governance function
+
+**Infrastructure:**
+- NVivo set up and operational
+- Codebook drafted (inside GIQ_V13 + V12_SOM material)
+- Calibration framework drafted (inside fsqca_SOM_V2)
+
+**Argumentative anchors:**
+- The bridge sentence in GIQ_V13 §5.5 explicitly names fsQCA as the first future research direction
+- The chapter RQ is articulated in fsQCA_V2 §1.3
+- Case selection logic articulated in fsQCA_V2 §1.4
+
+### 2.3 What does not yet exist (gaps)
+
+| Item | Status | Owner | Trigger to start |
+|---|---|---|---|
+| Final 10-case list (named) | 🔴 0% — TBC at May TAC | Vivek + TAC | May Week 1 2026 (informally raise) |
+| IG 2.0 coding of 10 cases | 🔴 0% | Vivek (primary) + second coder | After case list locked (Q2 2026) |
+| Calibration scores for 4 conditions × 10 cases | 🔴 0% | Vivek | After IG coding complete |
+| Outcome variable operationalisation (D3) | 🔴 Open | Vivek + TAC | May TAC |
+| Truth table construction | 🔴 0% | Vivek | Q3 2026 |
+| Boolean minimisation (Quine–McCluskey) | 🔴 0% | Vivek | Q3 2026 |
+| INUS logic interpretation (D4) | 🔴 0% | Vivek | Q3–Q4 2026 |
+| Second coder identified and briefed | 🔴 Not identified | Vivek | Q2–Q3 2026 |
+| Coding guide finalised (separate from V12_SOM material) | 🔴 0% | Vivek | Q2 2026 |
+| Chapter integration draft | 🔴 0% | Vivek | Q4 2026 |
+
+---
+
+## 3. Where I Want To Be
+
+### 3.1 Endpoint description
+
+A single, integrated thesis chapter (estimated 18,000–22,000 words including tables) that:
+
+1. Compresses the GIQ_V13 typology work into a **methodological foundation** (not a separate contribution claim)
+2. Derives the four causal conditions (EA, SR, RL, SI) from the typology axes plus the EA overlay
+3. Selects 10 cases from the 20-candidate pool with explicit defence of variation across jurisdiction, sector, and maturity
+4. Codes the 10 cases at the rule level using IG 2.0 ADICO syntax with second-coder reliability
+5. Calibrates each case on each of the four conditions and on the outcome
+6. Constructs a truth table and runs Boolean minimisation
+7. Reports complex, parsimonious, and intermediate solutions
+8. Interprets sufficient configurations and (if D4 resolved in favour) INUS-derived necessary parts
+9. Defends limited-diversity criteria per Dul (2016)
+10. Lands the contribution: *which combinations of EA × SR × RL × SI are sufficient for trustworthy AI governance outcomes, and what does this imply for regulatory design in emerging vs advanced jurisdictions*
+
+### 3.2 Quality bar
+
+- TAC sign-off received by Q2 2027
+- Chapter integrated into thesis structure as the principal empirical contribution
+- All four causal conditions and the outcome calibrated with documented anchors
+- Inter-coder reliability reported (target Cohen's κ ≥ 0.75 on a 20% double-coded subsample)
+- Solution coverage and consistency thresholds reported (consistency ≥ 0.80; coverage reported but not gatekept per Ragin 2008)
+- INUS interpretation included as a robustness layer if D4 resolved positively
+
+---
+
+## 4. Gap Analysis
+
+| Dimension | Where I am | Where I need to be | Gap | Severity |
+|---|---|---|---|---|
+| **Case selection** | 20 candidates scored, no final 10 | 10 cases TAC-approved | 50% of selection logic complete; final list pending | 🟠 High — gates everything downstream |
+| **Coding protocol** | Drafted in GIQ_V13/V12_SOM | Standalone coding guide for 10 cases with second-coder instructions | Need extraction + restatement as a thesis-chapter codebook | 🟡 Medium |
+| **IG coding execution** | 0% on the 10 cases | 100% with reliability check | Full execution gap | 🔴 Critical (Q2–Q3 2026 window) |
+| **Calibration** | Anchors defined at the principle level (Table S4) | Case-level scores on 4 conditions + outcome | Anchors exist; case-level application 0% | 🟠 High |
+| **Truth table** | Not started | Defensible truth table with documented contradictions resolved | 100% gap | 🔴 Critical (Q3 2026) |
+| **Boolean minimisation** | Not started | Complex/parsimonious/intermediate solutions reported | 100% gap | 🔴 Critical (Q3–Q4 2026) |
+| **INUS interpretation** | Pending D4 decision | Resolved analytical strategy | Decision + execution gap | 🟡 Medium (depends on D4) |
+| **Chapter prose** | Scaffolding in GIQ_V13; spine in fsQCA_V2 | 18,000–22,000 word integrated draft | Most prose pending | 🟠 High (Q4 2026) |
+| **TAC alignment** | Proposal defended; feedback closed | Chapter draft signed off | Multiple intermediate touchpoints needed | 🟡 Medium |
+
+---
+
+## 5. How To Get There (Action Plan)
+
+Sequential dependencies — each step gates the next.
+
+### Phase 1 — Pre-coding (April–May 2026)
+
+| # | Action | Output | Deadline |
+|---|---|---|---|
+| 1.1 | Refresh-read the four source files in full; mark passages destined for direct lift vs compression vs rewrite | Annotated PDFs + lift-list table | 30 April 2026 |
+| 1.2 | Draft a working 10-case shortlist from the 20 with explicit variation defence | Working list (for informal TAC discussion) | Before May TAC |
+| 1.3 | Resolve D3 (outcome variable) — propose to TAC: separate calibration from the 10-case documents, NOT typology Type VIII/IX membership (avoids circularity with conditions) | TAC discussion note | May TAC |
+| 1.4 | Resolve D4 (INUS vs standard sufficient-conditions) — propose dual analysis: standard fsQCA primary, INUS as robustness layer | TAC discussion note | May TAC |
+| 1.5 | Informally raise case list with TAC; request April–May feedback window | Verbal TAC alignment | May Week 1 2026 |
+
+### Phase 2 — Coding setup (May–June 2026)
+
+| # | Action | Output | Deadline |
+|---|---|---|---|
+| 2.1 | Lock 10-case list (post-TAC) | Final case list with rationale | End May 2026 |
+| 2.2 | Source primary regulatory documents for each of the 10 cases (official versions only — no commentary or summaries) | Document dossier in NVivo | June 2026 |
+| 2.3 | Extract a standalone coding guide from GIQ_V13/V12_SOM material — restated for thesis chapter use, with worked examples | Coding guide v1.0 | End June 2026 |
+| 2.4 | Identify second coder (preferably IIM Indore doctoral peer or external IS researcher); brief and dry-run on one non-corpus instrument | Second coder confirmed + dry-run report | June–July 2026 |
+
+### Phase 3 — Coding execution (July–September 2026) ⚠️ **CISSP collision window**
+
+| # | Action | Output | Deadline |
+|---|---|---|---|
+| 3.1 | Primary coding of all 10 cases in NVivo using ADICO syntax | Coded NVivo project, 10 cases | End August 2026 |
+| 3.2 | Second-coder double-coding of 20% subsample (2 cases) | Second-coder NVivo file | End August 2026 |
+| 3.3 | Calculate and document inter-coder reliability (Cohen's κ); resolve disagreements | Reliability report | Early September 2026 |
+| 3.4 | Apply 4-anchor calibration to derive condition scores per case | Calibration table (10 × 4) | Mid-September 2026 |
+| 3.5 | Calibrate outcome variable | Outcome score per case | Mid-September 2026 |
+
+### Phase 4 — fsQCA analysis (October–December 2026)
+
+| # | Action | Output | Deadline |
+|---|---|---|---|
+| 4.1 | Build truth table; document contradiction handling | Truth table v1 | October 2026 |
+| 4.2 | Run Boolean minimisation; report complex/parsimonious/intermediate solutions | Solution tables | October 2026 |
+| 4.3 | Necessity analysis (consistency ≥ 0.90 threshold) | Necessity table | November 2026 |
+| 4.4 | If D4 = positive: INUS interpretation layer | INUS analysis | November–December 2026 |
+| 4.5 | Robustness checks: anchor sensitivity, frequency thresholds | Robustness appendix | December 2026 |
+
+### Phase 5 — Chapter writing (Q4 2026 – Q1 2027)
+
+| # | Action | Output | Deadline |
+|---|---|---|---|
+| 5.1 | Draft chapter §§1–4 by compressing GIQ_V13 §§1–4 (target compression ~50%) | Draft sections 1–4 | November 2026 |
+| 5.2 | Draft §5 case selection (from fsQCA_V2 §1.4 + locked list) | Draft section 5 | November 2026 |
+| 5.3 | Draft §6 measurement and calibration (from fsqca_SOM_V2) | Draft section 6 | December 2026 |
+| 5.4 | Draft §§7–8 results | Draft sections 7–8 | January 2027 |
+| 5.5 | Draft §§9–10 discussion (anchor on the GIQ_V13 §5 scaffolding extended causally) | Draft sections 9–10 | February 2027 |
+| 5.6 | Full chapter integration pass; cross-reference cleanup | Chapter v1.0 | March 2027 |
+
+### Phase 6 — TAC review and thesis integration (Q2 2027)
+
+| # | Action | Output | Deadline |
+|---|---|---|---|
+| 6.1 | Submit chapter v1.0 to TAC | TAC submission | April 2027 |
+| 6.2 | Address TAC feedback | Chapter v2.0 | May 2027 |
+| 6.3 | Integrate into thesis structure | Thesis chapter (final) | June 2027 |
+
+---
+
+## 6. Narrative Spine
+
+### 6.1 The intellectual spine (one paragraph)
+
+Governance instruments for AI are not best understood through net-effects models that ask whether more transparency, or stronger accountability, or wider stakeholder inclusion *individually* produces legitimate AI governance. They are best understood **configurationally**: it is the *combination* of ethical alignment (EA), stakeholder role clarity (SR), regulatory logic (RL), and stakeholder inclusion (SI) — and the absence or presence of each in conjunction with the others — that determines whether a governance regime achieves the trustworthiness outcomes its drafters claim. Building on the 49-instrument PRISMA corpus and the 3×3 archetype typology established in the precursor typology work (which decomposed governance instruments at the rule level using Institutional Grammar 2.0), this chapter selects 10 cases for a small-N fuzzy-set Qualitative Comparative Analysis (fsQCA) and asks: **which configurations of EA × SR × RL × SI are sufficient for legitimate AI governance outcomes, and how do those configurations differ across jurisdictional, sectoral, and maturity contexts?**
+
+### 6.2 Four-condition model
+
+| Condition | Source in typology work | Calibration anchor (high; 1.0) | Calibration anchor (low; 0.0) |
+|---|---|---|---|
+| **EA — Ethical Alignment** | Interpretive overlay in GIQ_V13; promoted to causal condition here | Mandated algorithmic explainability + published documentation (per Table S4) | No disclosure mechanisms |
+| **SR — Stakeholder Role Clarity** | Typology axis in GIQ_V13 | Multi-tier grievance redressal + defined liability across actors | Absent or implicit role assignment |
+| **RL — Regulatory Logic** | Typology axis in GIQ_V13 | Risk-tiered with binding obligations and clear deontics | Voluntary, advisory, or VOID or-else |
+| **SI — Stakeholder Inclusion** | Typology axis in GIQ_V13 | Mandatory consultation, civil society participation, ex post review | No participation mechanism |
+
+### 6.3 The methodological bridge (D2 — must be made explicit in the chapter)
+
+The three typology axes (RL, SR, SI) become three of the four fsQCA conditions directly. EA, which functions in the typology paper as an *interpretive overlay* on the nine archetypes (used to read the politics of each archetype), is **promoted** in this chapter to a fourth causal condition. The justification is methodological: the typology paper's question is descriptive ("what archetypes exist?"); a descriptive answer can hold EA as an overlay because it is asking what shapes the rules take. The chapter's question is causal ("what is sufficient for the outcome?"); a causal answer needs EA *inside* the configuration because EA is part of what produces (or fails to produce) the outcome.
+
+### 6.4 The chapter contribution claim (one sentence)
+
+> *Across 10 jurisdictionally and sectorally varied AI governance regimes, no single condition is necessary for legitimate AI governance outcomes; instead, two equifinal configurational paths are sufficient — one anchored in binding regulatory logic with high stakeholder role clarity (the "enforcement-first" path, characteristic of advanced jurisdictions), and one anchored in high ethical alignment combined with high stakeholder inclusion even where regulatory logic is non-binding (the "legitimacy-first" path, characteristic of emerging jurisdictions exercising soft-law authority) — with implications for how regulatory design choices in differently-resourced jurisdictions can converge on equivalent legitimacy outcomes through non-equivalent configurational routes.*
+
+(This is a **placeholder claim** that the actual analysis must validate, falsify, or refine. It is included here as the working narrative spine so that all chapter sections can be drafted with a clear endpoint in mind. The state file must record that the empirical analysis has not yet been conducted and that this claim may be revised.)
+
+---
+
+## 7. Checklists — Thesis Chapter Completeness Gate
+
+Adapted from the journal DDP checklists used for P2/P3/P4, but reframed for thesis defence rather than journal submission.
+
+### 7.1 Coding completeness
+- [ ] All 10 cases coded at the rule level using ADICO syntax
+- [ ] Every coded rule has all five ADICO components recorded (Attribute, Deontic, aIm, Conditions, Or else) or "VOID" where component is absent
+- [ ] Codebook archived with version history
+- [ ] NVivo project archived
+
+### 7.2 Reliability
+- [ ] 20% subsample (2 cases) double-coded by independent second coder
+- [ ] Cohen's κ ≥ 0.75 reported
+- [ ] Disagreement-resolution log archived
+
+### 7.3 Calibration defensibility
+- [ ] Anchors for all four conditions documented with source justification (per Table S4 schema)
+- [ ] Outcome calibration anchors documented separately (per D3 resolution)
+- [ ] Calibration scores reproducible from coded ADICO rules
+
+### 7.4 Truth table defensibility
+- [ ] Frequency threshold reported and justified (typically 1 for N=10)
+- [ ] Consistency threshold reported (≥ 0.80)
+- [ ] Contradictions identified and resolution documented
+- [ ] Limited-diversity rows handled per Dul (2016) criterion
+
+### 7.5 Solution interpretation
+- [ ] Complex, parsimonious, and intermediate solutions all reported
+- [ ] Coverage and consistency for each path reported
+- [ ] At least one anchor case per sufficient path identified
+- [ ] Necessity analysis reported (consistency ≥ 0.90)
+- [ ] If D4 positive: INUS layer reported as robustness
+
+### 7.6 Chapter integration
+- [ ] §§1–4 compressed from GIQ_V13 to ~50% length
+- [ ] Methodological bridge (D2) explicitly written
+- [ ] P1 boundary acknowledged in footnote at first mention of typology
+- [ ] All four source files cited, with V12_SOM in the supplementary material
+- [ ] Chapter cross-references the surrounding thesis structure
+
+### 7.7 TAC sign-off
+- [ ] Chapter v1.0 reviewed by all TAC members
+- [ ] Feedback addressed in chapter v2.0
+- [ ] Supervisor written sign-off received
+
+---
+
+## 8. Source Files and Artefacts
+
+| Filename | Path | Purpose | Lift policy |
+|---|---|---|---|
+| `GIQ_V13.docx` | `/mnt/user-data/uploads/` | Theoretical scaffolding | Compress §§1–4 to ~50%; redeploy §5 framing causally |
+| `fsQCA_V2.docx` | `/mnt/user-data/uploads/` | Empirical spine (RQ + case selection logic) | Direct lift §§1.0–1.4; expand all subsequent sections |
+| `fsqca_SOM_V2.docx` | `/mnt/user-data/uploads/` | Calibration architecture | Direct lift Tables S1, S3, S4 into chapter §6 |
+| `V12_SOM.docx` | `/mnt/user-data/uploads/` | Empirical evidence base | Lift Tables S22, S25, S26 into chapter supplementary material |
+| `QCA_PhD_Proposal_V6.pdf` | **Not in current session** | Case selection methodology (proposal §8.2) | ⚠️ Re-upload needed before Phase 2 begins |
+
+---
+
+## 9. Theoretical Scaffold
+
+| Theory | Role in chapter | Anchor citations |
+|---|---|---|
+| **Institutional Grammar 2.0** | ADICO syntax for rule-level coding; foundational methodological grammar | Crawford & Ostrom (1995); Siddiki (2012); Frantz & Siddiki (2021) |
+| **Configurational Theory / fsQCA** | Set-theoretic method for identifying sufficient causal configurations | Ragin (2008); Rihoux & Ragin (2009); Fiss (2011) |
+| **Responsive Regulation** | Enforcement-pyramid baseline against which Type I configurations sit outside | Ayres & Braithwaite (1992); Braithwaite (2017); Lepers (2023) |
+| **Stakeholder Theory** | Justification for SR as a causal condition | Freeman (1984); Veale & Zuiderwijk (2021) |
+| **Risk-Based Regulation** | Justification for RL as a causal condition | Baldwin, Cave & Lodge (2012); Black (2010) |
+| **Policy Instrument Non-Additivity** | Theoretical anchor for the configurational claim that instruments do not aggregate linearly | Capano & Howlett (2020) |
+| **Limited Diversity / Necessary Conditions** | Methodological constraint on small-N fsQCA inference | Dul (2016); Schneider & Wagemann (2012) |
+| **INUS Logic (conditional on D4)** | Parsing necessary parts within sufficient conditions | Mackie (1965); Baumgartner & Thiem (2017) |
+
+References to be assembled in APA 7 format at chapter draft stage. ABDC-A and ABDC-B journal sources are prioritised per supervisory preference.
+
+---
+
+## 10. TAC Conversations Log
+
+| Date | Forum | Items raised | Resolution |
+|---|---|---|---|
+| Feb 2026 | Proposal defence | Full proposal including Section 8.2 case selection methodology | Defended; minor revisions requested |
+| Feb–Apr 2026 | Async TAC feedback | Revisions to proposal | All feedback closed by April 2026 |
+| **May Week 1 2026** | **Next TAC meeting** | **See §13 — items to raise** | **Pending** |
+
+---
+
+## 11. Risks and Blockers
+
+| # | Risk | Probability | Impact | Mitigation | Owner |
+|---|---|---|---|---|---|
+| R1 | 10-case list not locked at May TAC; slips to July TAC | Medium | High — gates all downstream coding | Bring a working shortlist to May TAC informally; pre-discuss with supervisor in April | Vivek |
+| R2 | Limited diversity (Dul 2016) — fewer than expected truth-table rows populated, weakening parsimonious solution | Medium-High | High — could force re-selection or weaken contribution | Maximise variation across jurisdictional/sectoral/maturity dimensions; pre-screen with theoretical truth-table mock-up before locking cases | Vivek |
+| R3 | Q3 2026 truth table window collides with CISSP exam preparation | High | High — concurrent cognitive load on the most analytically demanding chapter task | Frontload IG coding into July–August 2026; reserve September for CISSP; push truth table to October 2026 if needed | Vivek |
+| R4 | Second coder not identified; reliability check delayed | Medium | Medium — affects defensibility but not timeline if caught early | Identify candidates (IIM Indore peers; external IS researchers) by end June 2026 | Vivek |
+| R5 | INUS analytical decision (D4) drifts unresolved into Q4 2026 | Medium | Medium — could force scope expansion late in writing | Force resolution at May TAC; default to "standard fsQCA primary, INUS as robustness layer" if no clearer guidance | Vivek + TAC |
+| R6 | Outcome variable circularity (D3) — if outcome is operationalised from same ADICO indicators as conditions, the analysis becomes tautological | Medium | Critical — would invalidate the chapter | Operationalise outcome from a *distinct* indicator set: external assessments, implementation evidence, or post-2024 amendment trajectories | Vivek |
+| R7 | GIQ_V13 prose lifted too verbatim into chapter; thesis examiner reads it as P1 republished | Low-Medium | Medium — examiner concern about double-counting | Compress §§1–4 to ~50%; rewrite in causal voice rather than typological voice; footnote P1 boundary | Vivek |
+| R8 | Concurrent collision with P2 (JSIS, primary focus through Sep 2026), P3 (activates Q3 2026), P4 (activates Q4 2026) | High | Medium-High — chapter is the only parallel-track deliverable | Treat chapter work as time-boxed weekly slot through Q3 2026; protect Q4 2026 onwards as chapter-dominant | Vivek |
+| R9 | Proposal PDF (`QCA_PhD_Proposal_V6.pdf`) not in current session; methodology details (proposal §8.2) inaccessible | Low | Low-Medium — needed for Phase 2 | Re-upload before Phase 2 begins (May 2026) | Vivek |
+
+---
+
+## 12. Session Log
+
+| Date | Session | Output | Hand-off |
+|---|---|---|---|
+| 14 Apr 2026 (prior) | Sonnet read of all four source files | Opus handoff brief (`fsQCA_Opus_Handoff.md`) | This state file |
+| 14 Apr 2026 | Opus build of state file from handoff | `fsQCA_Thesis_Chapter_State.md` (this file) | Awaiting May TAC inputs |
+
+---
+
+## 13. Open Questions for May TAC
+
+To be raised — informally where the agenda is already crowded with P2 extended abstract and DPI rewrite plan, more formally where they gate downstream work.
+
+| # | Question | Why it matters | Priority |
+|---|---|---|---|
+| Q1 | Does the TAC accept the working 10-case shortlist (variation defence: jurisdiction × sector × maturity) as the basis for formal lock-in at the July TAC? | Gates Phase 2 onwards | 🔴 High |
+| Q2 | **D3** — Should the outcome variable be operationalised as (a) typology Type VIII/IX membership from the precursor work, (b) a separately calibrated trustworthiness score derived from external implementation evidence, or (c) a hybrid? Note circularity risk in option (a). | Determines whether the analysis is tautological or independent | 🔴 High |
+| Q3 | **D4** — Is the chapter using standard fsQCA only, or fsQCA + INUS as a robustness layer? Recommendation: dual approach. | Determines analytical complexity and writing scope | 🟠 Medium-High |
+| Q4 | Is the **methodological bridge** acceptable — promoting EA from interpretive overlay (in the typology work) to causal condition (in the chapter)? Or does the TAC see this as a contradiction that needs separate framing? | Foundation of the four-condition model | 🟠 Medium-High |
+| Q5 | Will the supervisor approve a second-coder approach involving an IIM Indore doctoral peer, or does reliability need to come from an external IS researcher? | Determines second-coder identification window | 🟡 Medium |
+| Q6 | **P1 boundary** — Is the TAC comfortable with GIQ_V13 being submitted post-defence to *Regulation & Governance* as a standalone paper while a compressed version of its §§1–4 also appears inside the thesis chapter? Or does the thesis examiner risk see this as double-counting? | Affects how aggressively the chapter compresses GIQ_V13 prose | 🟡 Medium |
+| Q7 | Given the Q3 2026 CISSP collision, is the TAC willing to receive the chapter draft in **Q3 2027** rather than Q2 2027 if needed? | Establishes a buffer before the collision becomes critical | 🟡 Medium |
+
+---
+
+*End of state file. This is a Tier-3 working artefact, refreshed after each TAC meeting, each major coding milestone, and each analytical decision. Next refresh: post-May TAC, target 8 May 2026.*
+
+## Graph Seeds
+*Forward links seeding Obsidian graph view. Unresolved links activate as notes are created.*
+
+### Strategy & Navigation
+- [[Research_MOC]]
+- [[Projects_MOC]]
+- [[Publication_Pipeline]]
+- [[Life_Roadmap]]
+- [[Thesis_Architecture]]
+
+### Sibling Projects
+- [[P2_DPI_JSIS]]
+- [[P3_BFSI_JEIM]]
+- [[P4_Doctrinal_IJLIT]]
+- [[P1_SLR_RG]]
+
+### Domains
+- [[AI_Governance]]
+- [[DPI_Governance]]
+- [[BFSI_Governance]]
+
+### Signature Concepts
+- [[Institutional_Coherence]]
+- [[Regulatory_Parallelism]]
+- [[Governance_Debt]]
+
+### Standard Concepts
+- [[Accountability]]
+- [[Legitimacy]]
+- [[Transparency]]
+- [[Governance_Capacity]]
+
+### Frameworks
+- [[OECD_AI_Principles]]
+- [[UNESCO_Recommendation]]
+- [[NIST_AI_RMF]]
+- [[EU_AI_Act]]
+- [[IndiaAI_Framework]]
+- [[RBI_FREE_AI]]
+- [[SEBI_AI_Circular]]
+
+### Institutions
+- [[MeitY]]
+- [[RBI_Free_AI.md]]
+- [[SEBI]]
+
+### Methods
+- [[fsQCA]]
+- [[Institutional_Grammar_IG2]]
+- [[SLR_Protocol]]
+
+### Knowledge Products
+- [[AI_Governance_Wiki]]
+- [[Regulatory_Complexity_Handbook]]

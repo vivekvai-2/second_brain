@@ -1,0 +1,104 @@
+# RBI_FREE_AI_2025 — Framework for Responsible and Ethical Enablement of Artificial Intelligence (FREE-AI) Committee Report
+
+**Type:** Corpus Node
+**Vault path:** `07_Institutions/Corpus/RBI/RBI_FREE_AI_2025.md`
+**Institution:** [[07_Institutions/RBI]]
+**Issuing body:** Reserve Bank of India (FREE-AI Committee, constituted by RBI)
+**Document date:** 2025
+**Pages:** ~85 (Table of Contents extends to Annexure VI; not fully determinable from extraction)
+**Domain:** [[03_Domains/AI_Governance]] | [[03_Domains/BFSI_Governance]]
+
+---
+
+## Instrument Identity
+
+**Full title:** Framework for Responsible and Ethical Enablement of Artificial Intelligence (FREE-AI) — Committee Report
+**Type:** Committee Report / Advisory Framework (non-binding)
+**Target entities:** Regulated Entities (REs) under RBI supervision — banks, NBFCs, Asset Reconstruction Companies (ARCs), All India Financial Institutions (AIFIs), Urban Co-operative Banks (UCBs)
+**Legal basis:** Constituted by RBI; recommendations are advisory pending formal issuance as binding directions
+**Companion documents:** [[07_Institutions/Corpus/MeitY/MeitY_1]] (DPDP Rules 2025 — incorporated by reference for data lifecycle governance); [[07_Institutions/Corpus/RBI/RBI_1]] (IT Governance Master Direction); RBI Master Directions referenced in Annexure IV (AI-specific enhancements)
+
+---
+
+## Analytical Classification
+
+**Wiki section:** S4 (Agentic AI Governance) — primary; also feeds S2 (India Regulatory Framework, BFSI)
+**Jurisdiction:** India (BFSI sector)
+**Confidence:** Medium (committee report / framework — not yet a binding Master Direction or Circular)
+**AI explicit:** Yes
+**Tier classification:** Tier A — explicit AI regulation/framework, though currently advisory rather than mandatory
+**AI Governance Wiki relevance:** HIGH — first dedicated AI governance framework from an Indian prudential regulator; directly referenced by an existing Wiki Intake stub ([[04_Knowledge_Products/Wiki_Intake/RBI_FREEAI_MasterCircular]]) which previously pointed to this corpus node before it existed.
+
+---
+
+## Substantive Content
+
+### Survey evidence base (Chapter 3.3)
+Two RBI surveys underpin the report's recommendations:
+- **Department of Supervision (DoS) survey**: 612 supervised entities (Feb–May 2025), covering ~90% of sector asset size. Only **20.80% (127 of 612)** entities reported using or developing AI systems.
+- **FinTech Department (FTD) survey**: 76 entities (Jan–May 2025), with follow-up interactions with CTOs/CDOs of 55 of the 76 entities.
+- Adoption skew: no AI usage reported by Tier 1 UCBs (deposits ≤ ₹100 crore); Tier 2/3 UCB adoption below 10%; only 27% of 171 surveyed NBFCs used AI; no adoption among ARCs.
+- Of 583 AI applications in production/development: customer support (15.60%), credit underwriting (13.70%), sales/marketing (11.80%), cybersecurity (10.60%) were the largest categories — predominantly simple rule-based or moderately complex ML models; 35% of respondents used public cloud deployment.
+- 67% of the 76 FTD-surveyed entities were exploring at least one Gen AI use case, mostly experimental (internal chatbots, employee productivity), with reluctance toward customer-facing Gen AI due to data sensitivity and explainability/bias concerns.
+- Cited adoption barriers: AI talent gap, implementation cost, data quality, computing access, legal uncertainty.
+
+### The Seven Sutras (guiding principles, Chapter 4.3)
+The report frames its recommendations around seven principles for "Responsible and Ethical Enablement of AI" in finance (named "Sutras" — consistent with the parallel India AI Governance Guidelines' seven-sutra structure, see [[07_Institutions/Corpus/MeitY/MeitY_2]]). Full enumeration not captured in extraction — ⚠ VERIFY BEFORE PUBLISHING: confirm exact sutra names and wording against primary text before use in any deliverable, and check for overlap/divergence with the India AI Governance Guidelines' sutras (Trust, People First, Innovation over Restraint, Fairness & Equity, Accountability, Understandable by Design, Safety/Resilience/Sustainability).
+
+### Key recommendations (Chapter 4.4, by pillar)
+
+**Governance Pillar (mostly "Medium term" — recommended, not yet mandatory):**
+- **Board-Approved AI Policy**: REs should establish a board-approved AI policy covering governance structure, accountability, risk appetite, operational safeguards, auditability, consumer protection measures, AI disclosures, model life cycle framework, and liability framework. Industry bodies should provide an indicative policy template for smaller entities.
+- **Data Lifecycle Governance**: REs must establish data governance frameworks for collection, access, usage, retention, and deletion of data used in AI systems, ensuring compliance with "applicable legislations, such as the DPDP Act" — direct cross-reference to [[07_Institutions/Corpus/MeitY/MeitY_1]].
+- **AI System Governance Framework**: REs must implement model governance covering the full AI lifecycle (design, development, deployment, decommissioning), including model documentation, validation, and ongoing monitoring for model drift/degradation. For **autonomous AI systems capable of independent financial decision-making**, the report calls for stronger governance with **human oversight, especially for medium- and high-risk use cases** — this is the report's explicit agentic-AI governance provision.
+- **Product Approval Process**: AI-enabled products/solutions must be brought within scope of institutional product approval frameworks, with AI-specific risk evaluations included.
+
+**Protection Pillar:**
+- **Consumer Protection**: REs should establish a board-approved consumer protection framework prioritising transparency and fairness for AI-driven decisions (text truncated at extraction boundary — ⚠ VERIFY remaining detail against primary text).
+
+**Capacity-building / ecosystem recommendations:**
+- RBI may consider establishing a dedicated AI institute for sector-wide capacity development.
+- Industry bodies (IBA, SROs) should establish frameworks for sharing AI use cases, lessons learned, and best practices.
+- Regulators and industry bodies should introduce structured recognition/reward programs for responsible AI innovation with positive social impact.
+
+### Distinguishing mandatory vs. recommended
+The report is explicitly framed as **advisory** — recommendations use "should" throughout (e.g., "REs should establish a board-approved AI policy") rather than "shall." No mandatory disclosure regime, enforcement trigger, or supervisory reporting obligation is established by this document itself. ⚠ VERIFY BEFORE PUBLISHING — confirm whether any RBI Master Direction has since converted any of these "should" recommendations into binding "shall" requirements (Annexure IV references "AI Specific Enhancements in RBI Master Directions" but full text not captured in extraction).
+
+---
+
+## Analytical Significance for PRIS Research
+
+### For P3 (BFSI AI Governance Regulatory Parallelism, JEIM) and fsQCA
+This is a **primary instrument** for P3/fsQCA — per the existing Wiki Intake stub, fsQCA working RL (regulatory leadership/legitimacy?) score = 0.33, characterised as an "advisory-dominant architecture." The report's explicit incorporation of DPDP (MeitY) and its silence on SEBI/IRDAI cross-references is direct evidence of the **Regulatory Parallelism** construct: RBI governs AI in BFSI without coordination mechanisms to SEBI (which separately regulates AI/ML disclosure for market intermediaries — see SEBI_9, SEBI_10, SEBI_11) or IRDAI (insurance AI — currently no corpus node, gap identified in vault structure).
+
+### Coordination / Parallelism Pattern
+Existing nodes: [[07_Institutions/Corpus/MeitY/MeitY_1]] (Convergence — explicit incorporation by reference for data lifecycle); [[07_Institutions/Corpus/SEBI/SEBI_9]], [[07_Institutions/Corpus/SEBI/SEBI_10]], [[07_Institutions/Corpus/SEBI/SEBI_11]] (Parallelism — no cross-reference found in extracted text between RBI FREE-AI and SEBI AI/ML reporting circulars, despite both governing AI use by regulated financial entities).
+
+**Upstream convergence**: [[07_Institutions/Corpus/MeitY/MeitY_2]] (India AI Governance Guidelines) explicitly states its seven cross-sectoral "sutras" were adapted from this report's Seven Sutras — a named instance of sectoral-to-cross-sectoral policy diffusion. This is the strongest Institutional Coherence signal identified in Batch 1.
+
+### Consulting Connection
+**AEGIS_OS**: The report's call for "strong governance before deploying autonomous AI systems... capable of acting independently in financial decision-making," including human oversight for medium/high-risk use cases, is directly relevant to AEGIS_OS's runtime decision enforcement / authority-binding value proposition for agentic AI in regulated financial contexts.
+
+---
+
+## Connections
+
+**Related corpus nodes:** [[07_Institutions/Corpus/MeitY/MeitY_1]], [[07_Institutions/Corpus/RBI/RBI_1]], [[07_Institutions/Corpus/SEBI/SEBI_9]], [[07_Institutions/Corpus/SEBI/SEBI_10]], [[07_Institutions/Corpus/SEBI/SEBI_11]]
+**Related concepts:** [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]], [[05_Concepts/05_Concepts_Signature/Governance_Debt]], [[05_Concepts/05_Concepts_Standard/Agentic_AI_Governance]], [[05_Concepts/05_Concepts_Standard/Accountability]], [[05_Concepts/05_Concepts_Standard/Governance_Capacity]]
+**Related frameworks:** [[07_Institutions/Corpus/MeitY/MeitY_2]] (India AI Governance Guidelines — parallel seven-sutra structure)
+**Related projects:** [[02_Projects/P3_BFSI_JEIM]], [[02_Projects/P4_Doctrinal_IJLIT]], [[02_Projects/fsQCA_Thesis_Chapter]]
+**Related knowledge products:** [[04_Knowledge_Products/AI_Governance_Wiki]]
+**Related consulting:** AEGIS_OS (agentic AI / autonomous decision-making governance provisions)
+
+---
+
+## Coding Status
+
+- **P3 NVivo:** In canonical corpus (per existing Wiki Intake stub: "Instrument node built in Corpus" — this session completes that reference) — confirm RU count in next NVivo pass
+- **Wiki intake status:** Pending — existing stub at [[04_Knowledge_Products/Wiki_Intake/RBI_FREEAI_MasterCircular]] should be updated to reflect this node now exists
+
+---
+
+## Log
+
+- 2026-06-14: Corpus node created. Batch 1. Cowork session. Source: FREE-AI Committee Report.pdf. Note: this fills a previously broken wikilink referenced by [[04_Knowledge_Products/Wiki_Intake/RBI_FREEAI_MasterCircular]].
