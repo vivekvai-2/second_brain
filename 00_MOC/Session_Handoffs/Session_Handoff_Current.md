@@ -64,6 +64,23 @@ A filesystem sweep found **64 nodes on disk with no entry anywhere in `Corpus_In
 | **D3** | `Wiki_Intake_Index.md` is stale | Last updated 2026-06-12 and is a *how-to* document, not an index — 161 Wiki Intake notes exist, none listed. Either repoint it at the Backfill Register or rebuild it. |
 | **D4** | 24 of the 64 backfilled nodes carry **no Wiki section and/or no Tier classification** | They cannot be routed into the AI Governance Wiki until classified. Mostly the 2026-08-02 missing-institutions sourcing pass. Register item **B1**. |
 
+### 🔴 Group 1 sourcing run — 2026-08-15. One finding reversed, one prompt failed.
+
+**⚠#304 closed — and [[06_Frameworks/ISO_IEC_42001]] was the node that was wrong.** ISO/IEC 42006 **was published in July 2025**, thirteen months before this vault recorded it as "not published (confirmed by UKAS)". NABCB **does** operate a dated AIMS accreditation scheme — **NABCB 220, April 2026** — with three accredited certification bodies (AI 001 TUV India, AI 002 TUV SUD South Asia, AI 003 Maverick) and live client certifications since October 2025. `Parliament_2`'s ministerial claim was correct. Probable cause: NABCB's public listing page still captions the entry "ISO/IEC **DIS** 42006" — accurate in Feb 2025, stale since April 2026. **A stale listing page was read as an absence.**
+
+**Three downstream artefacts were built on the false gap, all now corrected:**
+1. An **fsQCA recalibration** recommending SR be scored on scheme existence — would have placed India at **full non-membership on a condition where it is a member**, mis-specifying the Indian case in the thesis chapter (⚠#356).
+2. A **consulting/policy recommendation addressed to NABCB by name**, asking it to build a scheme it had already published.
+3. The framing of India as capacity-lagging.
+
+**The replacement finding is stronger.** India has built the *entire* assurance chain — standard, auditor training, accreditation criteria, accredited bodies, issued certificates — and **no regulator attaches any consequence to its output**. Recorded as a candidate new sequencing variant, **assurance before demand**, and as a fourth cell in [[05_Concepts/05_Concepts_Standard/Assurance_Reuse_Gap]]'s typology. Logged **C-03** at [[11_Content/Content_Correction_Register]] — **circulation check outstanding, Vivek.**
+
+**⚠#310 substantially closed, but P-02 failed.** The Perplexity pass returned the **2024 draft** and a vendor whitepaper rather than the notified 2026 instrument — its term sweep was of the wrong document. The notified PDF was located directly on cea.nic.in in-session and **the AI null holds** across two independent extractions of two different files. Residual is programmatic-sweep rigour only; the finding is now safe for draft use.
+
+**But the same check found CEA_3 contradicting itself.** The node records reg 5(24)'s **deferral** correctly at Commencement, at RU6 and at its own ⚠#312 — then reasons from 5(24) as an operative ISO 27001 mandate in §S5.7, and exported that to ISO_IEC_42001. **Reg 5(24) is not in force and has no commencement date.** Corrected in both nodes (⚠#357). Also unresolved: the node says **40 definitions**, the primary text reads **35** (⚠#358).
+
+**New flags: ⚠#354–#360.** The one needing you: **⚠#354** — Lok Sabha USQ 2988 (5 Aug 2026) could not be located on sansad.in. Non-confirmation, not refutation, and the substance is now independently held from NABCB/ISO sources — but Parliament_2 was built from text pasted as an iCloud-placeholder workaround, so the chain of custody was never closed. Retrieve it by question number on the live portal before quoting that node.
+
 ### 📋 Resolution register — start here next session
 
 **[[04_Knowledge_Products/Wiki_Intake/Open_Flag_Resolution_Register_2026-08-15]]** compiles every open ⚠ flag, decision item and standing task onto three channels: **11 external sourcing prompts (P-01…P-14, ready to paste into Perplexity Deep Research)**, **8 vault-internal briefs (V-01…V-08)**, and **8 Vivek-only actions (X-01…X-08)**, with a sequencing section and a four-condition closure protocol.

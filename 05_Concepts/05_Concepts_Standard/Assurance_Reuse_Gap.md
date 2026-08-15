@@ -202,3 +202,24 @@ The 2026-08-02 revision recorded above replaced the ISO 42001-recognition calibr
 ---
 
 _Back to [[_Concepts_MOC]]_
+
+
+## 🔷 India — the completed assurance chain with no demand (2026-08-15)
+
+Correcting a finding this construct had relied on. India was recorded as lacking a national AIMS accreditation scheme. **It does not lack one** — see [[06_Frameworks/ISO_IEC_42001]] and C-03 at [[11_Content/Content_Correction_Register]].
+
+The corrected picture is a **better instance of this construct than the gap version was**:
+
+| Layer | India | Status |
+|---|---|---|
+| Standard | IS/ISO/IEC 42001 adopted by BIS | ✅ |
+| Auditor competence | BIS/NITS 5-day Lead Auditor course (Dec 2025) | ✅ |
+| Scheme-specific standard | ISO/IEC 42006:2025 | ✅ published Jul 2025 |
+| Accreditation criteria | NABCB 220, April 2026 | ✅ |
+| Accredited certification bodies | AI 001, AI 002, AI 003 | ✅ |
+| Certificates issued to clients | Mphasis via TÜV SÜD, Oct 2025 | ✅ |
+| **Regulatory recognition of the certificate** | **none — no Indian regulator** | ❌ |
+
+Every link in the assurance chain exists except the one that would give it purpose. This is not capacity lag and it is not reuse *refusal* in the RBI_14 para 46(i) sense — RBI expressly refuses to accept third-party assurance, which is a considered position. Here the assurance exists, nobody has refused it, and nobody has asked for it. **Call it *assurance without demand* and treat it as a fourth cell** alongside the Colorado/Texas liability-shield, EU conformity-route and RBI-refusal cells of the four-way typology.
+
+⚠ The typology extension is this session's analytical judgment on corrected facts, not a coded result. ⚠#360.

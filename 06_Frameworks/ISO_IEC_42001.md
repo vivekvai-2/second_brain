@@ -16,7 +16,7 @@ tags:
 
 # ISO/IEC 42001 — AI Management System Standard
 
-**Type:** Framework **Status:** Active **Last Updated:** 2026-08-09 (addendum — unresolved NABCB/ISO 42006 contradiction flagged, see India section; originally created 2026-08-02, 32 referencing notes, no node)
+**Type:** Framework **Status:** Active **Last Updated:** 2026-08-15 (⚠#304 resolved against this node — ISO/IEC 42006 published, NABCB scheme exists; accreditation-gap finding reversed, fsQCA recalibration withdrawn, consulting recommendation inverted. Originally created 2026-08-02)
 
 ---
 
@@ -39,7 +39,7 @@ ISO/IEC 42001:2023 is the first international management-system standard for art
 |---|---|---|---|
 | ISO/IEC 23894:2023 | AI — Guidance on risk management | Feb 2023, 26pp | Stage 60.60, current |
 | ISO/IEC 22989:2022 | AI concepts and terminology | Jul 2022, 60pp | Stage 60.60, current. ⚠ A secondary source claims "2025 updates" adding foundation-model terminology; **unverified against the ISO catalogue** — treat as commentary, not a formal amendment |
-| **ISO/IEC 42006** | Requirements for bodies auditing/certifying AIMS | **Not published** | **Work item in development** (confirmed by UKAS) |
+| **ISO/IEC 42006** | Requirements for bodies auditing/certifying AIMS | **Published 2025-07, Ed. 1, 31pp** | **Stage 60.60, current.** ✅ **CORRECTED 2026-08-15** — the earlier "not published / in development (confirmed by UKAS)" entry was **wrong**. Confirmed against the ISO catalogue, IEC Webstore, ANSI, BSI (BS ISO/IEC 42006:2025, adopted 31 Jul 2025) and a Standards Council of Canada **transition bulletin** — a national accreditation body would not issue a transition bulletin for an unpublished standard |
 
 ## The Core Finding — no presumption of conformity anywhere
 
@@ -75,23 +75,37 @@ Three layers, and only two are built:
 |---|---|
 | **Standard adopted** | ✅ **IS/ISO/IEC 42001** — BIS has adopted the ISO text under Indian Standard numbering |
 | **Auditor training** | ✅ BIS's National Institute of Training for Standardization (NITS, Noida) runs a 5-day Lead Auditor course against it (course held 15–19 Dec 2025) |
-| **Accreditation scheme** | ❌ **No NABCB published accreditation programme, scheme document, or auditor-competence guidance located** — confirmed gap |
-| **Regulatory recognition** | ❌ No Indian regulator recognises **ISO/IEC 42001** certification as compliance evidence — but see the ISO 27001 contrast immediately below, added 2026-08-09 |
+| **Accreditation scheme** | ✅ **EXISTS — finding reversed 2026-08-15.** **NABCB 220, *Accreditation Criteria for Artificial Intelligence Management System (AIMS)*, April 2026** (nabcb.qci.org.in), clause 2.0 requiring compliance with ISO/IEC 17021-1 **and ISO/IEC 42006:2025**; amendment record reads "Apr 2026 — CEO — Criteria aligned with ISO/IEC 42006:2025". **Three accredited certification bodies** on the public register: **AI 001** TUV India (11 Feb 2025–10 Feb 2028), **AI 002** TUV SUD South Asia (5 Aug 2025–4 Aug 2028), **AI 003** Maverick Quality Advisory (31 Mar 2026–30 Mar 2029). Scheme is **operational, not paper**: Mphasis announced NABCB-accredited ISO/IEC 42001 certification from TÜV SÜD South Asia in October 2025 (i.e. under AI 002) |
+| **Regulatory recognition** | ❌ No Indian regulator recognises **ISO/IEC 42001** certification as compliance evidence. **This row survives** — it is the accreditation row that was wrong, not this one. See the corrected ISO 27001 block below |
 
 > ### The ISO 27001 contrast — narrowing this finding, 2026-08-09
 >
 > The claim "no Indian regulator recognises certification as compliance evidence" was stated too broadly and should be read as specific to **ISO/IEC 42001**. [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] reg 5(24) **mandates** that power-sector entities "ensure compliance with and acquire **ISO/IEC 27001 certificate or Technical Criteria Certificate** encompassing all critical systems," with a bar on four consecutive certification audits by the same agency or personnel, and places the certificate in the CISO's mandatory custody under the First Schedule.
 >
-> So India does mandate a management-system certificate as a binding compliance obligation — it is the **information-security** standard, not the **AI** standard.
+>> 🔴 **CORRECTION 2026-08-15 — reg 5(24) is NOT in force.** Verified against the CEA-hosted notified PDF (`cea.nic.in/wp-content/uploads/notification/2026/08/Cyber_Regulations_Notification.pdf`): **reg 1(2) defers 5(9), 5(24), 5(33), 5(39), 6(2) and 6(7)** to dates "as may be specified by the Authority through separate orders with prior approval of the Central Government." **No such order had issued as at 15 August 2026.** CEA_3 recorded this deferral correctly in three places and then reasoned from 5(24) as though it were operative in a fourth — which is precisely what its own ⚠#312 warns against.
 >
-> **This sharpens the "certification without recognition" thesis rather than weakening it.** The contrast is now internal to India and internal to the ISO management-system family, which is a cleaner comparison than the cross-jurisdictional one: the same regulator, in the same instrument, mandates ISO 27001 and says nothing about AI management systems. The unit-of-certification argument explains why — ISO 27001 certifies an organisational security posture that maps directly onto CEA's entity-level obligations, whereas ISO 42001 would have to discharge system-level AI conformity obligations **that do not exist anywhere in Indian law**. There is nothing for a 42001 certificate to be recognised *against*.
+> **Restated:** India has *enacted* a mandate for a management-system certificate as a binding compliance obligation, and has **not brought it into force**, with no commencement date. The correct comparison is therefore enacted-but-dormant ISO 27001 recognition against wholly absent ISO 42001 recognition — a weaker contrast than the one originally drawn, though it points the same way.
+>
+> **This still sharpens the "certification without recognition" thesis, but less sharply than claimed on 2026-08-09** (see correction immediately above). The contrast is now internal to India and internal to the ISO management-system family, which is a cleaner comparison than the cross-jurisdictional one: the same regulator, in the same instrument, mandates ISO 27001 and says nothing about AI management systems. The unit-of-certification argument explains why — ISO 27001 certifies an organisational security posture that maps directly onto CEA's entity-level obligations, whereas ISO 42001 would have to discharge system-level AI conformity obligations **that do not exist anywhere in Indian law**. There is nothing for a 42001 certificate to be recognised *against*.
 >
 > **A second Indian accreditation regime also appears here.** CEA_3 reg 3(1)(jj) defines the **Technical Criteria Certificate** as one "issued to an organisation by a designated certification body **accredited** for ensuring conformance to cyber security standards specified by the Central Government." That sits alongside the unresolved NABCB/AIMS accreditation question at ⚠ #304 (see the India section below) and is worth checking when that flag is resolved — the two may share an accreditation body.
 
-India has adopted an AI management-system standard and is training lead auditors against it, with no confirmed national accreditation scheme for the certification bodies those auditors would work for, and no regulator that treats the resulting certificate as meaning anything. **A fourth instance of the "institution before regulation" sequencing pattern** already recorded for CSIRT-Power, the AA regime, and Sahamati — here in the form *standard before scheme before recognition*.
+> 🔴 **REWRITTEN 2026-08-15 — the original paragraph rested on the accreditation gap, which was false.**
+
+India has adopted an AI management-system standard, trains lead auditors against it, **and operates a national accreditation scheme through NABCB with three accredited certification bodies and certificates already issued to clients** — while **no Indian regulator treats the resulting certificate as evidence of anything.**
+
+**This is a stronger finding than the one it replaces, not a weaker one.** The original read as capacity lag: India had not yet built the scheme. The corrected reading is that India built the full assurance apparatus — standard, auditor training, accreditation criteria, accredited bodies, live certifications — and then attached **no regulatory consequence** to its output. That is not lag; it is a completed institutional investment with a missing final link, and it is a much better instance of [[Assurance_Reuse_Gap]] than the gap version was.
+
+**The sequencing pattern also inverts.** This is *not* a fourth "institution before regulation" instance in the CSIRT-Power / AA / Sahamati sense. Those are institutions built ahead of the rules that would govern them. Here the **entire assurance chain** — standard → scheme → accredited bodies → certificates — was completed ahead of any rule that would *use* it. Propose recording it as a distinct variant: **assurance before demand**.
+
+**Accreditation ran ahead of the standard, too.** NABCB accredited **AI 001 (TUV India) on 11 February 2025** — five months before ISO/IEC 42006 was published in July 2025 — against the **DIS**. NABCB's public scheme-listing webpage still carries the stale "ISO/IEC DIS 42006" caption, which is what the 2 August 2026 pass appears to have read. India accredited AIMS certification bodies against a draft international standard and transitioned to the published text in April 2026. ⚠#355.
 
 ⚠ The IS/ISO/IEC 42001 adoption is confirmed from a BIS-hosted NITS course brochure, not from a gazette or catalogue entry. **The exact adoption date is not pinned.** Verify against Manakonline before citing a date.
 
+> ✅ **RESOLVED 2026-08-15 — Parliament_2 was right on the substance; this node was wrong.** ISO/IEC 42006 **is** published (July 2025) and NABCB **does** operate a dated, named AIMS accreditation scheme (NABCB 220, April 2026) with three accredited bodies. The Framework Identity and India tables above have been corrected. **⚠#304 is closed on the substance but a residual remains: the underlying Lok Sabha document itself could not be located** — see ⚠#354 below. The 2026-08-09 instruction not to silently prefer one source was correct and was followed: both were checked against third sources, and the third sources vindicate Parliament_2.
+>
+> **Original addendum retained below for the audit trail.**
+>
 > ⚠ **ADDENDUM (2026-08-09) — unresolved contradiction, do not silently update the table above.** [[07_Institutions/Corpus/Parliament/Parliament_2_Unstarred_Question_2988_Institutional_Framework_Auditing_AI_2026]] (Lok Sabha answer, 5 August 2026 — three days after this node's "confirmed gap" finding) states as government fact that "National Accreditation Board for Certification Bodies (NABCB)... has developed accreditation framework for Artificial Intelligence Management System (AIMS) certification as per ISO/IEC 42001:2023," accrediting bodies "as per ISO/IEC 17021-1:2015 and ISO/IEC 42006:2025" — which would mean both the NABCB accreditation scheme *and* ISO/IEC 42006 itself are further along than this node's UKAS-sourced finding shows. **This directly contradicts the "❌ confirmed gap" row above and is not yet resolved.** Do not treat either source as settling the question; check NABCB's own website/gazette for a dated, named AIMS accreditation scheme document before revising the table. See VERIFY #304 on the Parliament_2 node for the full reasoning.
 
 ## Assurance Quality Gap
@@ -106,7 +120,11 @@ No dedicated IAF mandatory document specific to ISO/IEC 42001 was located. ANAB 
 
 The [[Assurance_Reuse_Gap]] note proposes cross-recognition (specifically "ISO/IEC 42001 mapped to sectoral audit requirements") as a candidate calibration point for the **SR (Structural Readiness)** condition. **That calibration is not currently viable**: the condition would score at or near full non-membership for every case in the corpus, including the EU, because no jurisdiction grants recognition. A condition with no cross-case variance carries no configurational information.
 
-Recommended: recalibrate SR on *whether a national accreditation scheme exists* rather than on regulatory recognition. That does vary — ANAB and UKAS have operating schemes, NABCB does not — and it is the layer where institutional capacity actually differs.
+> 🔴 **WITHDRAWN 2026-08-15.** The recommendation below rested on the false premise that NABCB has no scheme. **It does** — NABCB 220 (April 2026), three accredited bodies. Recalibrating SR on scheme existence would have scored India at **full non-membership on a condition where it is actually a member**, mis-specifying the fsQCA condition for the Indian case. Flagged as ⚠#356; this would have propagated into the fsQCA chapter had it not been caught.
+>
+> ~~Recommended: recalibrate SR on *whether a national accreditation scheme exists* rather than on regulatory recognition. That does vary — ANAB and UKAS have operating schemes, NABCB does not — and it is the layer where institutional capacity actually differs.~~
+>
+> **Replacement recommendation:** SR does not vary usefully on either recognition *or* scheme existence — India, the EU, the US and the UK all now have operating accreditation schemes and none grants recognition. Recalibrate on a layer that does vary, or drop SR and re-derive the condition set.
 
 ## 🔷 Standards-Setting Participation Asymmetry, Quantified (2026-08-09)
 
@@ -196,7 +214,7 @@ The report is explicit that standards are not neutral instruments: *"Whoever wri
 - **"Certification without recognition"** is a publishable paper on its own — a global market in AI management-system certificates with no regulator anywhere granting them evidentiary status, and a structural (not temporal) reason why. Target: *Regulation & Governance*.
 - The unit-of-certification mismatch (organisation-level standard vs system-level regulation) is a clean theoretical contribution and generalises beyond AI to any management-system standard facing product regulation.
 - Practitioner angle with immediate consulting value: clients pursuing ISO 42001 for EU AI Act readiness are frequently sold it as compliance. It is not, and the EU AI Office said so in May 2024. A short corrective piece would land well with CROs and GCs.
-- India-specific: the NABCB accreditation gap is an actionable policy recommendation with a named recipient, and BIS LITD 30's 5 August 2026 meeting is a live engagement window.
+- ~~India-specific: the NABCB accreditation gap is an actionable policy recommendation with a named recipient~~ 🔴 **WITHDRAWN 2026-08-15 — the gap does not exist.** Recommending that NABCB build a scheme it published in April 2026 would have been a credibility failure in front of the named recipient. **The defensible India recommendation is the opposite one:** NABCB has built the accreditation layer and no Indian regulator uses its output — the ask is *regulatory recognition*, addressed to RBI/SEBI/IRDAI/MeitY, not scheme creation addressed to NABCB. BIS LITD 30's 5 August 2026 meeting remains a live engagement window. Logged as **C-03** at [[11_Content/Content_Correction_Register]].
 
 ---
 

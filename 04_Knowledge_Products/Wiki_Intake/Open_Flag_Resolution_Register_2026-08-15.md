@@ -10,6 +10,15 @@ tags:
 
 # Open-Flag Resolution Register & Sourcing Prompts — 2026-08-15 (fourth pass)
 
+> ## ▶ Group 1 run 2026-08-15 — P-01 and P-02
+>
+> | Prompt | Outcome |
+> |---|---|
+> | **P-01** (NABCB / ISO 42006, ⚠#304) | ✅ **Succeeded.** ISO/IEC 42006 **is** published (Jul 2025); NABCB 220 (Apr 2026) exists; three accredited CBs. **[[06_Frameworks/ISO_IEC_42001]]'s "confirmed gap" was wrong; Parliament_2 was right.** ⚠#304 closed on substance. Logged as **C-03**. New: ⚠#354 (USQ 2988 itself unlocatable), ⚠#355 (accreditation ran ahead of the standard), ⚠#356 (withdrawn fsQCA recalibration), ⚠#360. |
+> | **P-02** (CEA_3 clean text, ⚠#310) | ❌ **Failed as sourcing** — returned the **2024 draft** plus a vendor whitepaper, not the notified 2026 instrument. Its term sweep is of the wrong document and carries no weight. The notified PDF was instead located directly on cea.nic.in in-session; **the AI null holds** and ⚠#310 is substantially closed. New: ⚠#357 (5(24) deferral applied inconsistently), ⚠#358 (35 vs 40 definitions), ⚠#359 (certificate name). |
+>
+> **Lesson for the remaining prompts:** P-02's failure mode was accepting a plausible near-match — a same-titled 2024 draft on the right domain. **Every retrieval prompt below should be checked on one point before its content is used: does the URL correspond to the instrument actually asked for, by date and status?** P-04, P-08, P-09 and P-12 are the ones most exposed to this.
+
 **Parent:** [[Thin_Node_Perplexity_Prompts_2026-08-02]] (pass 1) · [[Sector_Gap_Audit_Perplexity_Prompts_2026-08-02]] (pass 2) · [[Missing_Node_and_Tier_Audit_Perplexity_Prompts_2026-08-02]] (pass 3)
 
 **Why a fourth pass.** Passes 1–3 asked *what is missing from the vault*. This pass asks a different question: **what is already written but not yet safe to publish.** The 2026-08-09 session produced five synthesis artefacts and four corrections in a single day; the 2026-08-15 housekeeping session found 64 nodes invisible to the index. Neither problem is a sourcing problem. The binding constraint has moved from **generation** to **closure**.
@@ -33,8 +42,8 @@ tags:
 | Flag / item | What is open | Sev | Channel | Gates |
 |---|---|---|---|---|
 | **⚠#339** | C-02 circulation check — the false *"WDR 2026 never cites India"* claim may have reached P1 draft text, LinkedIn (since 5 Aug), or supervisor correspondence | 🔴 | **X-01** | External credibility |
-| **⚠#304** | NABCB / ISO/IEC 42006 contradiction — Parliament_2 (ministerial record, 5 Aug 2026) says an operational AIMS accreditation framework exists; [[06_Frameworks/ISO_IEC_42001]] (sourced via UKAS, 2 Aug) says it does not | 🔴 | **P-01** | ISO_IEC_42001, Parliament_2, CEA_3 |
-| **⚠#310** | CEA_3's AI null finding rests on a Devanagari-corrupted bilingual Gazette OCR | 🔴 | **P-02** | CEA_3 headline claim |
+| ~~**⚠#304**~~ ✅ **CLOSED 2026-08-15** — see Group 1 box above. Residual: **⚠#354** | ~~NABCB / ISO/IEC 42006 contradiction~~ — Parliament_2 (ministerial record, 5 Aug 2026) says an operational AIMS accreditation framework exists; [[06_Frameworks/ISO_IEC_42001]] (sourced via UKAS, 2 Aug) says it does not | 🔴 | **P-01** | ISO_IEC_42001, Parliament_2, CEA_3 |
+| ~~**⚠#310**~~ ✅ **SUBSTANTIALLY CLOSED 2026-08-15** — null re-tested against the CEA-hosted notified PDF and holds; residual is programmatic-sweep rigour only | Was: Devanagari-corrupted Gazette OCR | 🟢 | done | — |
 | **⚠#351** | [[04_Knowledge_Products/Wiki_Intake/F143_Bradford_Digital_Empires_2023]] written with **no primary text** | 🔴 | **X-07** + **P-10** | Whole node |
 | **⚠#329** | F142 (Azimi) states *"NOT FOR CITATION WITHOUT PERMISSION"* twice; no affiliation or contact given | 🔴 | **P-11** → **X-08** | P1, P4, proposals, decks |
 | **⚠#320** | Microsoft AI-native security architecture (Signals→Context→Models→Harness→Agents→Actuators) has **no corpus node** — [[05_Concepts/05_Concepts_Standard/Orchestration_Governance]] quotes your own carousel | 🟡 | **P-04** | Orchestration_Governance |

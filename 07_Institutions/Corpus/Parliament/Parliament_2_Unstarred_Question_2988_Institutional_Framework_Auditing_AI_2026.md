@@ -125,3 +125,20 @@ A textbook instance of principles-and-projects substituting for a named audit in
 ## Log
 
 - 2026-08-09: Corpus node created from user-supplied text extraction (source PDF was an undownloaded iCloud placeholder on the local Desktop and could not be read directly by the intake session; content supplied via pasted text). Second node in the Parliament institution folder, following the [[07_Institutions/Corpus/Parliament/Parliament_1_Standing_Committee_48th_Report_2023]] format precedent. Cross-referenced against [[07_Institutions/Corpus/MeitY/MeitY_2]] for the Guidelines date; three VERIFY flags added, one MEDIUM.
+
+
+---
+
+## ✅ ⚠#304 resolved 2026-08-15 — this node was right, and a new flag replaces it
+
+**Substance vindicated.** Independent checking confirms both limbs of the ministerial statement recorded here: **ISO/IEC 42006 was published in July 2025** (ISO catalogue stage 60.60, Ed. 1, 31pp; corroborated by IEC Webstore, ANSI, BSI's BS ISO/IEC 42006:2025 adopted 31 July 2025, and a Standards Council of Canada transition bulletin), and **NABCB does operate a dated, named AIMS accreditation scheme** — NABCB 220, *Accreditation Criteria for Artificial Intelligence Management System (AIMS)*, April 2026, clause 2.0 requiring ISO/IEC 17021-1 and ISO/IEC 42006:2025 — with three accredited certification bodies (AI 001 TUV India, AI 002 TUV SUD South Asia, AI 003 Maverick Quality Advisory) and at least one live client certification (Mphasis, October 2025).
+
+[[06_Frameworks/ISO_IEC_42001]]'s "❌ confirmed gap" finding has been reversed. Its 2 August 2026 pass appears to have read NABCB's **stale scheme-listing webpage**, which still captions the entry "ISO/IEC **DIS** 42006" — accurate when NABCB accredited AI 001 in February 2025 against the draft, stale after the April 2026 transition.
+
+> ### ⚠#354 (MEDIUM) — NEW. The document underlying this node could not be located.
+>
+> A targeted search of the Digital Sansad repository (sansad.in) for **Lok Sabha Unstarred Question No. 2988 dated 5 August 2026** returned **no matching primary document**. Related AI-governance answers by the Minister of State for Electronics and IT were retrieved from the 2025–26 sessions; none carries this number or date, and none contains the NABCB / ISO/IEC 42006 passage recorded here.
+>
+> **This is non-confirmation, not refutation.** Digital Sansad renders question pages dynamically and does not expose historical answers reliably to keyword search; retrieval requires live question-number lookup on the portal. The node's substantive claims have now been independently corroborated from NABCB and ISO sources, which makes fabrication implausible. But the node was created from **text pasted mid-session as a workaround for an undownloaded iCloud placeholder** — so the chain of custody from the Lok Sabha record to this node has never been closed at either end.
+>
+> **Action (Vivek):** retrieve USQ 2988 (5 Aug 2026) directly on sansad.in by question number, confirm the question text, answering minister and date, and attach the URL here. **Do not quote this node verbatim in publication-track output until that is done** — cite NABCB 220 and the ISO catalogue for the substance instead, both of which are now independently held.

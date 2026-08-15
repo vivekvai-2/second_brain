@@ -109,3 +109,20 @@ If the claim has circulated, the correction is easy and reflects well: the sharp
 ---
 
 _Back to [[00_MOC/PRIS_Master_MOC]]_
+
+
+---
+
+## C-03 — "NABCB has no ISO 42001 accreditation scheme" (raised and corrected 2026-08-15)
+
+| | |
+|---|---|
+| **The error** | [[06_Frameworks/ISO_IEC_42001]] recorded as a **"❌ confirmed gap"** (2026-08-02) that no NABCB accreditation programme, scheme document or auditor-competence guidance for ISO/IEC 42001 existed, and that **ISO/IEC 42006 was "not published — work item in development (confirmed by UKAS)."** |
+| **The truth** | **ISO/IEC 42006:2025 was published in July 2025**, thirteen months before the finding was written. **NABCB 220** (*Accreditation Criteria for AIMS*, April 2026) is a dated, named, published scheme document aligned to it. **Three certification bodies are accredited** — AI 001 TUV India (from 11 Feb 2025), AI 002 TUV SUD South Asia, AI 003 Maverick Quality Advisory — and certificates have been issued to real clients (Mphasis, Oct 2025). |
+| **Probable cause** | NABCB's public scheme-listing webpage still captions the entry **"ISO/IEC DIS 42006"** — correct in Feb 2025 when NABCB accredited AI 001 against the draft, stale after the April 2026 transition. A single stale webpage caption was read as an absence. |
+| **Severity** | 🔴 **High.** Three downstream artefacts were built on it: (1) an fsQCA recalibration recommendation that would have scored India at **full non-membership on a condition where it is a member** — mis-specifying the Indian case in the thesis chapter; (2) a **consulting/policy recommendation addressed to NABCB by name** to build a scheme it had already published — a credibility failure in front of the named recipient; (3) the framing of India's position as capacity lag rather than completed-investment-without-recognition. |
+| **Circulation channels to check (Vivek)** | Any LinkedIn post, carousel or comment since 2 August 2026 asserting India lacks an AI-certification accreditation scheme · the "certification without recognition" paper draft · P1/P4 draft text · BIS LITD 30 correspondence or engagement material · any client or inbound-opportunity deck referencing the NABCB gap |
+| **Replacement claim (stronger)** | India has built the **entire assurance chain** — standard adopted, lead auditors trained, accreditation criteria published, certification bodies accredited, certificates issued — and **no Indian regulator attaches any consequence to its output.** Recorded at ISO_IEC_42001 as a candidate new sequencing variant, *assurance before demand*. The policy ask inverts: it is regulatory **recognition**, addressed to RBI/SEBI/IRDAI/MeitY, not scheme creation addressed to NABCB. |
+| **Status** | Vault corrected 2026-08-15 (ISO_IEC_42001 Framework Identity + India tables, fsQCA section, reuse section; Parliament_2 vindicated). **External circulation check outstanding — Vivek.** |
+
+**The general rule this yields, and it is the second of its kind:** *a stale index page, listing page or catalogue caption is not evidence of absence.* C-02 established that partial extraction cannot support an absence claim. C-03 establishes that a secondary listing cannot either — the register and the dated scheme document are the evidence, not the page that links to them.
