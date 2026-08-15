@@ -268,3 +268,16 @@ The sub-patterns recorded above operate at the **regulator layer** (duplicated m
 ⚠ Source caveat: F133 is vendor-authored grey literature with a declared conflict of interest (the lead author's employer sells AI insurance and a certifiable standard). The silent-coverage and survey figures are drawn from broker and market sources cited within it, not independently verified here. Triangulate the Lloyd's Market Association and Deloitte survey figures directly before citing.
 
 **Not yet an Indian finding.** F133 contains no India content. Whether Indian insurers carry equivalent silent AI exposure is undocumented in the corpus and would need to be established, not assumed — see [[Regulation_by_Insurance]].
+
+
+## 🔴 Correction — the infrastructure-layer NPCI claim (2026-08-15)
+
+The infrastructure-layer sub-pattern (2026-08-02) states that **"NPCI runs federated AI fraud scoring across UPI."** **That is not supported by any NPCI primary source** — see [[07_Institutions/Corpus/NPCI/NPCI_1_AI_ML_Payments_Operations_2025_2026]] and ⚠#361. No NPCI document describes federated learning; the AI/ML passage in NPCI's fraud Best Practices document is addressed to **member banks**, not to NPCI's EFRM system; and the only NPCI AI system named as live or piloted is the **UPI Help Assistant**, a grievance-resolution SLM.
+
+**Substitute this, which is primary-sourced and makes the sub-pattern's point better:**
+
+> NPCI's **Enterprise Fraud Risk Management (EFRM)** system issues **ecosystem-level fraud alerts that member banks are directed to act on with priority**. NPCI is an authorised non-bank Payment System Operator, **not a Regulated Entity** — so RBI's AI-adjacent instruments (RBI_9, RBI_14, RBI_FREE_AI) do not reach it, and the RBI (Digital Payment Security Controls) Directions 2021 do not apply to it by their own terms. **One** RBI instrument does reach NPCI as operator: the *Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank PSOs* (`RBI/DPSS/2024-25/123`), binding from 1 April 2025 — **and it contains no AI provision.**
+
+**This upgrades the sub-pattern from an absence to a Deontic-Placement Debt instance.** The original reading was that no instrument reaches the infrastructure operator. The corrected reading is sharper: **RBI reached this operator deliberately in 2024, for cyber resilience, using s.10(2) r/w s.18 of the PSS Act — and its 2026 AI instruments reach past it to the Regulated Entities on either side.** Same regulator, same statutory power, same entity; obligations imposed for cyber, withheld for AI. That is placement, not gap.
+
+⚠ The Grid-India limb of the same sub-pattern is separately sourced at [[07_Institutions/Corpus/Grid_India/Grid_India_1_AI_Grid_Operations_2025]] and is **not** affected by this correction.

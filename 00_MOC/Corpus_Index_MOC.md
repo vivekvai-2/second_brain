@@ -1488,3 +1488,17 @@ F-series → **F143** (next = **F144**); VERIFY → **#353** (next = **#354**). 
 ### Resolution register (same session)
 
 [[04_Knowledge_Products/Wiki_Intake/Open_Flag_Resolution_Register_2026-08-15]] — fourth pass in the Perplexity sourcing-prompt series, after [[04_Knowledge_Products/Wiki_Intake/Thin_Node_Perplexity_Prompts_2026-08-02]], [[04_Knowledge_Products/Wiki_Intake/Sector_Gap_Audit_Perplexity_Prompts_2026-08-02]] and [[04_Knowledge_Products/Wiki_Intake/Missing_Node_and_Tier_Audit_Perplexity_Prompts_2026-08-02]]. Passes 1–3 asked what was missing from the vault; this one asks what is written but not yet safe to publish. Triages every open flag onto P (external sourcing, 11 prompts) / V (vault-internal, 8 briefs) / X (Vivek-only, 8 actions). Raises no new nodes and closes no flags.
+
+### Group 2 sourcing run — 2026-08-15 (P-04, P-05)
+
+| ID | Node | Source | Section | Tier | ⚠ |
+|---|---|---|---|---|---|
+| **NPCI_1** | [[07_Institutions/Corpus/NPCI/NPCI_1_AI_ML_Payments_Operations_2025_2026]] — AI/ML in Retail Payments Operations (2025–26) | Three NPCI primary documents: fraud Best Practices (EFRM); NVIDIA sovereign-AI release 18 Feb 2026; GPU switching EOI 25 Jun 2025 | S2 / S4 | Tier C (operator conduct) | 5 open (#361–#365) |
+
+**⚠#322 closed, instance restated.** Primary sourcing **refuted** the claim carried since 2026-08-02 that *"NPCI runs federated AI fraud scoring across UPI"* — no NPCI document describes federated learning, the AI/ML passage in the Best Practices document addresses **member banks** rather than EFRM, and the only NPCI AI system named live or piloted is the **UPI Help Assistant** (grievance resolution, FiMI SLM). Corrected at [[05_Concepts/05_Concepts_Signature/Governance_Debt]] and [[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]]. **The replacement finding is stronger:** NPCI sits inside a binding cyber-resilience perimeter (`RBI/DPSS/2024-25/123`, Large Non-Bank PSO, from 1 Apr 2025) and outside every AI-governance perimeter, because RBI's AI instruments bind Regulated Entities and NPCI is a PSO — same regulator, same statutory power, same entity, obligations imposed for cyber and withheld for AI. **Deontic-Placement Debt, not gap.**
+
+**⚠#320 partially closed only.** Microsoft **Project Perception** (blog 27 Jul 2026; preview 3 Aug 2026) identified as the taxonomy's primary source — which also establishes the carousel is **downstream of Microsoft**, so the six-layer taxonomy must be cited to Microsoft, not claimed as original. Not fully closed: layer names confirmed partly from third-party blogs against a prompt that supplied the names in advance (⚠#366), and the governance material appears to conflate Project Perception's "Harness" layer with the separate **Microsoft Agent Framework** harness (⚠#367). **No Format B node written** — fetch the Microsoft URLs directly first.
+
+**New candidate node:** `RBI/DPSS/2024-25/123` — *Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank PSOs* (2024), the only instrument reaching NPCI as operator, absent from the vault.
+
+**Numbering:** VERIFY → **#368** (next = **#369**). NPCI series opened at **NPCI_1** (next = NPCI_2).

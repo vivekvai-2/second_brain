@@ -17,6 +17,15 @@ tags:
 > | **P-01** (NABCB / ISO 42006, ⚠#304) | ✅ **Succeeded.** ISO/IEC 42006 **is** published (Jul 2025); NABCB 220 (Apr 2026) exists; three accredited CBs. **[[06_Frameworks/ISO_IEC_42001]]'s "confirmed gap" was wrong; Parliament_2 was right.** ⚠#304 closed on substance. Logged as **C-03**. New: ⚠#354 (USQ 2988 itself unlocatable), ⚠#355 (accreditation ran ahead of the standard), ⚠#356 (withdrawn fsQCA recalibration), ⚠#360. |
 > | **P-02** (CEA_3 clean text, ⚠#310) | ❌ **Failed as sourcing** — returned the **2024 draft** plus a vendor whitepaper, not the notified 2026 instrument. Its term sweep is of the wrong document and carries no weight. The notified PDF was instead located directly on cea.nic.in in-session; **the AI null holds** and ⚠#310 is substantially closed. New: ⚠#357 (5(24) deferral applied inconsistently), ⚠#358 (35 vs 40 definitions), ⚠#359 (certificate name). |
 >
+> ## ▶ Group 2 run 2026-08-15 — P-04 and P-05
+>
+> | Prompt | Outcome |
+> |---|---|
+> | **P-04** (Microsoft, ⚠#320) | 🟡 **Partial.** Project Perception identified (27 Jul 2026) — taxonomy is **Microsoft's**, carousel is downstream. Not closed: names partly from third-party blogs against a prompt that supplied them (⚠#366); governance material likely conflates Project Perception's "Harness" with the separate **Agent Framework** harness (⚠#367). **No node written.** Yielded a strong provisional finding — *supply-side governance surplus* (⚠#368). |
+> | **P-05** (NPCI, ⚠#322) | ✅ **Succeeded, and refuted a vault claim.** Ran in **two rounds that contradicted each other**; round 2 (which quotes rather than characterises) adopted. **"NPCI runs federated AI fraud scoring across UPI" is not supported by any primary source.** `NPCI_1` created; instance restated and **stronger**. New ⚠#361–#365. |
+>
+> **Two-round divergence is the lesson here.** P-05's first round matched the vault's existing claim; its second round refuted it. **Where a pass returns two readings, prefer the one that quotes the source over the one that characterises it** — and treat agreement with what the vault already believes as a warning sign, not corroboration.
+>
 > **Lesson for the remaining prompts:** P-02's failure mode was accepting a plausible near-match — a same-titled 2024 draft on the right domain. **Every retrieval prompt below should be checked on one point before its content is used: does the URL correspond to the instrument actually asked for, by date and status?** P-04, P-08, P-09 and P-12 are the ones most exposed to this.
 
 **Parent:** [[Thin_Node_Perplexity_Prompts_2026-08-02]] (pass 1) · [[Sector_Gap_Audit_Perplexity_Prompts_2026-08-02]] (pass 2) · [[Missing_Node_and_Tier_Audit_Perplexity_Prompts_2026-08-02]] (pass 3)
@@ -46,8 +55,8 @@ tags:
 | ~~**⚠#310**~~ ✅ **SUBSTANTIALLY CLOSED 2026-08-15** — null re-tested against the CEA-hosted notified PDF and holds; residual is programmatic-sweep rigour only | Was: Devanagari-corrupted Gazette OCR | 🟢 | done | — |
 | **⚠#351** | [[04_Knowledge_Products/Wiki_Intake/F143_Bradford_Digital_Empires_2023]] written with **no primary text** | 🔴 | **X-07** + **P-10** | Whole node |
 | **⚠#329** | F142 (Azimi) states *"NOT FOR CITATION WITHOUT PERMISSION"* twice; no affiliation or contact given | 🔴 | **P-11** → **X-08** | P1, P4, proposals, decks |
-| **⚠#320** | Microsoft AI-native security architecture (Signals→Context→Models→Harness→Agents→Actuators) has **no corpus node** — [[05_Concepts/05_Concepts_Standard/Orchestration_Governance]] quotes your own carousel | 🟡 | **P-04** | Orchestration_Governance |
-| **⚠#322** | [[05_Concepts/05_Concepts_Signature/Decision_Infrastructure]]'s NPCI gate instance rests on trade reporting, not a primary instrument | 🟡 | **P-05** | Gate passes without it — drop or source |
+| 🟡 **⚠#320 PARTIAL 2026-08-15** — source found, node not yet written; see ⚠#366/#367 | Microsoft AI-native security architecture (Signals→Context→Models→Harness→Agents→Actuators) has **no corpus node** — [[05_Concepts/05_Concepts_Standard/Orchestration_Governance]] quotes your own carousel | 🟡 | **P-04** | Orchestration_Governance |
+| ~~**⚠#322**~~ ✅ **CLOSED 2026-08-15** — `NPCI_1` created; instance **restated** after primary sourcing refuted the federated-AI-fraud-scoring claim | Was: rests on trade reporting | 🟢 | done | — |
 | **⚠#324** | OQ-DI-02 — *does any jurisdiction govern decision chains as such?* Unchecked and **load-bearing** on the novelty claim | 🟡 | **P-06** | Decision_Infrastructure abstract |
 | **⚠#326** | [[04_Knowledge_Products/Minimum_Evidence_Register_Autonomous_AI]]'s ❌ codings assert corpus-wide absence | 🟡 | **P-07** | Board-facing artefact |
 | **⚠#335 / #344** | *Utkarsh 2029* cited in RBI_14 para 2 as the source of a deferred AI-model commitment; not in vault. Lineage (2022 → 2.0 → 2029) inferred, not confirmed | 🟡 | **P-03** | RBI binding-AI roadmap dating |

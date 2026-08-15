@@ -71,3 +71,8 @@ None. **No NPCI document met the PRIS evidence threshold** — the confirmed abs
 ---
 
 _Back to [[_Institutions_MOC]]_
+
+
+## Corpus Nodes
+
+- [[07_Institutions/Corpus/NPCI/NPCI_1_AI_ML_Payments_Operations_2025_2026]] — AI/ML in retail payments operations (2025–26): EFRM ecosystem-level fraud alerting, the NVIDIA sovereign-AI programme, the UPI Help Assistant pilot, and the regulatory perimeter finding — NPCI is inside `RBI/DPSS/2024-25/123`'s cyber-resilience perimeter and outside every AI-governance perimeter. Created 2026-08-15.
