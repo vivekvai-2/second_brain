@@ -28,7 +28,8 @@ Circular repository (live, continuously updated): https://www.npci.org.in/circul
 
 What exists instead:
 
-- **Operational AI in production.** A federated AI fraud-detection pilot with partner banks generating comparative risk scores across institutions; NPCI's own public communications describe "advanced fraud detection" using "proven AI models" and "continuous monitoring."
+- **Operational AI in production.** 🔴 **CORRECTED 2026-08-15 — see [[07_Institutions/Corpus/NPCI/NPCI_1_AI_ML_Payments_Operations_2025_2026]] and ⚠#361.** "Federated AI fraud detection" is **not supported by any NPCI primary source**; no NPCI document describes federated learning, and the AI/ML passage in NPCI's fraud Best Practices addresses **member banks**, not EFRM. **Restated:** NPCI's EFRM issues ecosystem-level fraud alerts member banks are directed to prioritise. And it is **not** a governance absence — `RBI/DPSS/2024-25/123` binds NPCI as a Large Non-Bank PSO from 1 Apr 2025 and carries **no AI provision**: Deontic-Placement Debt, not gap.
+- *(original, retained)* ~~A federated AI fraud-detection pilot with partner banks generating comparative risk scores across institutions~~; NPCI's own public communications describe "advanced fraud detection" using "proven AI models" and "continuous monitoring." **The only NPCI AI system named as live or piloted in a primary document is the UPI Help Assistant** (grievance resolution, FiMI SLM).
 - **Evidence base is secondary only.** Economic Times BFSI reporting (3 April 2025) and NPCI promotional/social-media material. No circular, policy paper, technical standard, or governance framework.
 - **Adjacent circulars exist but are not AI-scoped.** OC No. 234 (FY 2026-27) "Safeguarding User Information in UPI"; OC 235 (FY 26-27) on turnaround time for fraud and wrong-credit chargebacks. Security- and fraud-adjacent, silent on algorithmic systems.
 

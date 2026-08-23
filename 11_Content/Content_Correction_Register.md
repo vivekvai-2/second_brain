@@ -126,3 +126,19 @@ _Back to [[00_MOC/PRIS_Master_MOC]]_
 | **Status** | Vault corrected 2026-08-15 (ISO_IEC_42001 Framework Identity + India tables, fsQCA section, reuse section; Parliament_2 vindicated). **External circulation check outstanding — Vivek.** |
 
 **The general rule this yields, and it is the second of its kind:** *a stale index page, listing page or catalogue caption is not evidence of absence.* C-02 established that partial extraction cannot support an absence claim. C-03 establishes that a secondary listing cannot either — the register and the dated scheme document are the evidence, not the page that links to them.
+
+
+---
+
+## C-04 — "NPCI runs federated AI fraud scoring across UPI" (raised and corrected 2026-08-15)
+
+| | |
+|---|---|
+| **The error** | [[05_Concepts/05_Concepts_Signature/Governance_Debt]] §Infrastructure-layer (2026-08-02) asserted that NPCI runs **federated AI fraud detection generating cross-institutional customer risk scores** across UPI, with **no published governance instrument of any kind**, sourced to *"secondary reporting (Economic Times BFSI, 3 Apr 2025) and NPCI promotional material."* |
+| **The truth** | **No NPCI primary source describes federated learning.** The AI/ML passage in NPCI's fraud Best Practices document is addressed to **member banks**, not to NPCI's EFRM system, and EFRM is nowhere evidenced as AI/ML-based (⚠#361). The only NPCI AI system named as live or piloted is the **UPI Help Assistant**, a grievance-resolution SLM. And it is **not** a governance absence: `RBI/DPSS/2024-25/123` binds NPCI as a **Large Non-Bank PSO from 1 April 2025** — it simply contains no AI provision. See [[07_Institutions/Corpus/NPCI/NPCI_1_AI_ML_Payments_Operations_2025_2026]]. |
+| **Severity** | 🟡 **Medium externally, 🔴 high internally.** The structural argument survives intact and is stronger restated. But the claim was stated as fact in a **Three-Instance Gate** — the vault's own evidentiary threshold — and the gate passed on it. |
+| **Propagation — the part worth recording** | The claim was written **once**, on 2026-08-02, from secondary reporting. In **thirteen days** it appeared in **nine notes**: `Governance_Debt` (origin), `Decision_Infrastructure` (×3 — prose, gate table, instances), `DPI_Governance`, `DEPA`, `Contestability_Redress`, `_Institutions_MOC`, `NPCI` (institution root), `Power_Grid_Critical_Infrastructure_Governance`, `Grid_India`. **Correcting the origin and the two obvious dependants left seven live copies standing.** All nine are now corrected. |
+| **Detection method — reusable** | Found by scanning `05_Concepts/`, `06_Frameworks/`, `03_Domains/` and `04_Knowledge_Products/` for prose claims about institutional conduct that cite an **institution root file** (`[[NPCI]]`) rather than a **corpus node**. That is the signature of a claim with no primary source behind it. The sweep returned **134 such citations across 34 files**; most are benign "Linked Institutions" navigation lists, but the live NPCI copies were all in this set. |
+| **Status** | Vault fully corrected 2026-08-15. **No external circulation identified** — unlike C-02 and C-03, this claim does not appear in carousel or LinkedIn material reviewed to date. **Vivek: confirm against P2/P3 draft text**, where the infrastructure-layer argument is likeliest to have been used. |
+
+**The rule this yields, and it is the third of the series:** C-02 — partial extraction cannot support an absence claim. C-03 — a stale listing page cannot either. **C-04 — a claim sourced to secondary reporting will propagate at roughly one note every one to two days, and correcting its origin does not correct its copies.** Grep the distinctive phrase, not the concept.

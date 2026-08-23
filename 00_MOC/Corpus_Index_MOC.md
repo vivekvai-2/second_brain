@@ -1604,3 +1604,9 @@ Out of scope: travel itineraries, `Amazon FBA Export Business Plan`, `Aura Lette
 CGPDTM series opened at **CGPDTM_1** (next = CGPDTM_2) · RBI → **RBI_17** (next = **RBI_18**) · F-series → **F144** (next = **F145**) · VERIFY → **#378** (next = **#379**). Standing caveat unchanged: `ls` the folder, do not trust this table.
 
 ---
+
+### Second housekeeping pass — 2026-08-15
+
+Post-edit re-audit: 537 notes, no broken links introduced by the day's work, live orphans 8 → 2, 0 unlogged nodes, ⚠#347–#368 all landed in raising nodes.
+
+**Propagation audit (new method, reusable).** Swept `05_Concepts/`, `06_Frameworks/`, `03_Domains/`, `04_Knowledge_Products/` for prose claims about institutional conduct citing an **institution root file** rather than a corpus node — the signature of a claim with no primary source. **134 citations across 34 files**; mostly benign navigation lists. Found the refuted NPCI claim standing in **nine notes**, of which **seven survived** the morning's correction of the origin and its two obvious dependants. All corrected; logged as **C-04** at [[11_Content/Content_Correction_Register]]. New finding banked at [[05_Concepts/05_Concepts_Standard/Contestability_Redress]] — AI deployed on the redress channel (UPI Help Assistant), ⚠#362.
