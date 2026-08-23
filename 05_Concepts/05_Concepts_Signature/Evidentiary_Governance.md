@@ -239,6 +239,8 @@ The two are independent: an instrument can be perfectly current in its descripti
 
 ---
 
+- **(2026-08-23 — a record contemplated but never mandated, and no retention period)** [[07_Institutions/Corpus/CGPDTM/CGPDTM_1_AI_in_Patent_Examination_Guidelines_2026]] §6(1) — the competent authority **may prescribe** that material AI use be recorded (tool name, nature of use, date of use, anything else needed for supervision, audit or quality review), and such disclosure **may** be made available to stakeholders. Neither the record nor its disclosure is mandatory, and **no retention period is specified**. Relevant to [[05_Concepts/05_Concepts_Standard/Retention_Horizon_Divergence]] as a further Indian instrument contemplating a record without stating how long it is kept — ⚠ confirm the running instance count against that note before citing a number. Note also ⚠#370: **Annexure-II (Checklist and declaration) is absent from the source file** and is plausibly the instrument's actual evidentiary mechanism; this entry makes no claim about it.
+
 ## **Log**
 
 - 2026-08-02: Concept created at candidate class. Three-Instance Gate passed against four verified corpus nodes. NIST attribution error corrected at intake (see Provenance). BSA corpus-node gap flagged as blocking for OQ-EG-01. Naming collision with the existing *evidentiary debt* variant in [[05_Concepts/05_Concepts_Signature/Governance_Debt]] flagged for resolution at next indexing pass.

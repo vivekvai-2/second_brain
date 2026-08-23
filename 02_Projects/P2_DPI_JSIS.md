@@ -398,6 +398,53 @@ Per `VV_Publication_Pipeline_v3.md` Section 3.2 — binding for P2.
 
 ---
 
+## 11A. Alternative Outlet — ISJ Digital Sovereignty Special Issue
+
+> **Added 2026-08-23** during Desktop corpus intake. Source: `Desktop/digital-sovereignty-special-issue-isj-31.03.2026.pdf`. **This is a live option, not a decision.** P2's primary target remains the JSIS special issue per Section 0.
+
+### Why this is on the table
+
+The JSIS deadline in Section 0 (1 May 2026) and the Phase 5 window (25–30 Sep 2026) are inconsistent, and this file was last updated 14 April 2026. Whatever the current JSIS position, a second A-tier outlet with a materially later deadline changes the risk profile of Section 11's Q3 concurrency pinch — it is worth recording before the September decision point rather than after it.
+
+### The call
+
+| Field | Detail |
+|---|---|
+| **Journal** | Information Systems Journal (ISJ) |
+| **ABDC rank** | A* — AIS Senior Scholars' Basket of 8 (same tier as JSIS). ⚠ **VERIFY** against the current ABDC JQL before this figures in a submission decision. ISJ's Basket-of-8 membership is not in doubt; the ABDC letter is stated here from general knowledge, not from the JQL file, and this vault has retired ABDC claims before (flags #178–#198). `~$ABDC-JQL-2022-v2-040423.xlsx` on Desktop is an Office lock file, not the JQL itself |
+| **Special issue** | Digital Sovereignty |
+| **Full paper deadline** | **31 March 2027** — stated as a hard deadline, explicitly *"will not be extended"* |
+| **CFP dated** | 31 March 2026 (file); citation given as Veit, D. (2026), *Call for Papers: Digital Sovereignty*, Information Systems Journal |
+| **Coordinating SE** | Petter Nielsen, University of Oslo (pnielsen@ifi.uio.no) |
+| **Senior Editors** | Petter Nielsen (Oslo) · Laura Brandimarte (Arizona) · Ben Eaton (CBS) · Juliana Sutanto (Monash) · Mary Tate (Victoria Wellington) · Daniel Veit (Augsburg) |
+| **Mailing list / workshops** | digitalsovereignty@ifi.uio.no — paper development workshops planned before the deadline, mixed physical (at IS conferences) and virtual |
+
+### Fit assessment
+
+The CFP defines digital sovereignty as *the practical capacity of an actor to make and enforce choices about how digital systems are sourced, procured, designed, governed and used*, and to avoid, reshape or exit dependencies that create risks to autonomy, rights, resilience or collective values. It states plainly that IS research on the topic is comparatively limited despite the field's socio-technical positioning — an explicit invitation on an under-supplied topic.
+
+Four of the five listed topic clusters map onto work P2 already holds:
+
+- **C. Public sector and regulation in practice** — *"Global, regional and local governance, regulation and policy regarding data, platforms and infrastructures, and governance models"*; *"Public sector digital sovereignty, including procurement, vendor lock-in, interoperability and capability building"*. This is the closest match to the existing empirical base.
+- **D. Rights, justice, and contested sovereignties** — *"Surveillance, digital identity, biometrics, and the sovereignty implications for rights and democratic accountability"*, and *"Digital sovereignty in development and 'post-aid' contexts: shifting dependencies, infrastructures at scale, and long-term sustainability"*. Aadhaar and the India DPI stack sit squarely here.
+- **B. Architecture, governance, and emerging technologies** — sovereignty-by-design: interoperability, standards, modularity, API governance, devolved and open architectures. Reaches DEPA and the Account Aggregator architecture.
+- **A. Foundations and mechanisms** — the sovereignty paradox, path dependencies, shadow sovereignty and exit strategies.
+
+The CFP names China, India and South Africa as digital nation-state building cases, so an India-centred paper needs no jurisdictional justification. Qualitative work is explicitly the expected default; quantitative contributions are welcomed provided research context and implications are foregrounded. A substantial IS contribution foregrounding digital technologies in context is required — the same bar as JSIS.
+
+### What this would cost
+
+A reframe, not a rewrite. The records–rules reframing already under test (Section 2.4) is an institutional-governance framing; digital sovereignty is a different theoretical anchor and would need the front-end rebuilt again, drawing on the sovereignty literature the CFP cites (Pohle and Thiel; Floridi; DeNardis; Koops et al.; Jiang). The empirical base (Section 2.2, locked) transfers unchanged.
+
+### Open questions
+
+- **OQ-P2-ISJ-1.** Is the JSIS special issue still live for P2, and what is the actual current deadline? Section 0 and Phase 5 disagree, and both predate today.
+- **OQ-P2-ISJ-2.** Does the records–rules reframing survive as-is under a digital sovereignty anchor, or does the sovereignty framing require a third front-end? Worth answering before September, since the answer determines whether ISJ is a cheap fallback or a separate paper.
+- **OQ-P2-ISJ-3.** Raise with Prof Panigrahi at the next TAC (add to Section 13): is a 12-month runway to a hard A* deadline a better use of the DPI empirical base than a contested JSIS window?
+- **OQ-P2-ISJ-4.** Sign up to the workshop mailing list now regardless of the outlet decision — the paper development workshops are free optionality and cost one email.
+
+---
+
 ## 12. Session Log
 
 > Format: `YYYY-MM-DD: One-line entry. Hours worked. Outcome.`
@@ -406,6 +453,7 @@ Per `VV_Publication_Pipeline_v3.md` Section 3.2 — binding for P2.
 |---|---|
 | 2026-04-14 | P2_State.md initialised from `VV_Publication_Pipeline_v3.md` Section 5.1, `dpi_jsis_plan.pdf`, `DPI_GIQ_V1.docx`, and handoff brief. GIQ rejection received and diagnosed same day. Rewrite plan (5-phase) adopted as operational action table. Awaiting Phase 0 data test (A-01) to lock reframing decision. 0 hrs drafting. Context-freeze session. |
 | 2026-08-01 | Vivek confirmed: second coder identified, intercoding in progress. G-07, BL-04 closed; A-17 marked done, A-18/A-19 presumed done pending confirmation of subsample/briefing detail. Resolves OQ-10 from the 2026-06-13 (S5) session handoff, which had flagged this as overdue since 15 Jul 2026. |
+| 2026-08-23 | Desktop corpus intake session. **ISJ Digital Sovereignty special issue logged as an alternative outlet — Section 11A.** Full paper deadline 31 March 2027, stated hard. A* / Basket of 8, same tier as JSIS. Four of five CFP topic clusters map onto the existing empirical base; India named in the CFP as a digital nation-state building case. No decision taken. Four open questions raised (OQ-P2-ISJ-1 to -4), one for TAC. Note also that Section 0's 1 May 2026 JSIS deadline and Phase 5's 25–30 Sep 2026 window are inconsistent and both now past-dated — this file needs a state refresh. 0 hrs drafting. |
 
 ---
 

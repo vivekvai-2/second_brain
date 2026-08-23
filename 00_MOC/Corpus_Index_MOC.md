@@ -1502,3 +1502,105 @@ F-series → **F143** (next = **F144**); VERIFY → **#353** (next = **#354**). 
 **New candidate node:** `RBI/DPSS/2024-25/123` — *Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank PSOs* (2024), the only instrument reaching NPCI as operator, absent from the vault.
 
 **Numbering:** VERIFY → **#368** (next = **#369**). NPCI series opened at **NPCI_1** (next = NPCI_2).
+
+---
+
+## Ad Hoc Batch — 2026-08-23 (Cowork Desktop intake, second pass)
+
+**Source:** Cowork session triaging `/Users/vivek/Desktop/` (flat level plus four subfolders: `LI July 26/`, `IDS Team/`, `JSIS/`, `academic-manuscript-review/`). This is the **second** Desktop sweep; the first was 2026-08-09 (see the Ad Hoc Batch entry above and `Desktop_Intake_Triage_20260809.md`). Sixty-nine readable documents assessed; **three** were genuinely new intake material.
+
+**The headline for this pass is how little was left.** The 2026-08-09 triage's entire "next batch" shortlist from `LI July 26/` has since been written — `AI Attack.pdf` → F140, `ISO 42001 Cheat sheet.pdf` → F141, `Boko haram AI.pdf` → F131, `Detecting+Offensive+Cyber+Agents...pdf` → F132, `Insurance.pdf` → F133, `Operationalaising AI Governance.pdf` → F134, `India Digital Soverignity.pdf` → F135, `AI Governance Directors.pdf` → F136, `AI Governanve China.pdf` → F137. That backlog is closed.
+
+### Nodes written (3)
+
+| Node | Title | Institution | Wiki Section | Tier | Key Concepts | Key Projects | ⚠VERIFY |
+|---|---|---|---|---|---|---|---|
+| [[07_Institutions/Corpus/CGPDTM/CGPDTM_1_AI_in_Patent_Examination_Guidelines_2026]] | Guidelines for the Use of Artificial Intelligence in Patent Examination Procedure | **CGPDTM** (new institution) | S2 / S6 | **A** | [[Deontic_Bifurcation]], [[Regulatory_Parallelism]], [[Governance_Debt]], [[Evidentiary_Governance]], [[Human_Oversight]], [[Contestability_Redress]] | P1, P4 | 4 open (1 HIGH) |
+| [[07_Institutions/Corpus/RBI/RBI_17_Utkarsh_2029_Medium_Term_Strategy_2026_29]] | Utkarsh 2029 — RBI Medium-term Strategy Framework 2026–29 (announcement only) | RBI | S1 | **C** | [[Governance_Debt]], [[Decision_Infrastructure]] | P3, P4 | 4 open (2 HIGH) |
+| [[04_Knowledge_Products/Wiki_Intake/F144_Kenney_AI_Governance_Practitioners_Manual_2026]] | The AI Governance Practitioner's Manual (Kenney / Digital 520, 2026) | — (practitioner) | S6 / S2 / S3 | — | [[Regulatory_Parallelism]], [[Governance_Debt]], [[Accountability]] | P1, P4 | 2 open |
+
+### CGPDTM_1 — the session's most consequential intake, and a new institution
+
+**A sixteenth Indian body now has AI-specific governance text in this corpus, and it governs a kind of AI use the corpus has not previously held in operative form: the State as AI *user*.** The Guidelines bind Patent Office Examiners and Controllers in the exercise of quasi-judicial functions. They create no obligation for any applicant or third party.
+
+Four findings:
+
+1. **Intra-ministerial parallelism — a stronger instance than any currently coded.** [[07_Institutions/Corpus/DPIIT/DPIIT_1]] (Dec 2025) is DPIIT's working paper on generative AI and copyright. CGPDTM_1 is issued by DPIIT's *own subordinate office* on generative AI in patent examination. Same ministry, adjacent subject, ~8 months apart, **zero cross-citation either way.** Every parallelism instance coded to date is inter-regulator, where institutional distance and the absence of a statutory coordination mechanism are available explanations. Neither is available here. Recommend coding as a distinct sub-type on [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]].
+2. **Within-instrument deontic bifurcation.** Duties on the individual officer are uniformly SHALL (twelve use-case safeguard sets; six prohibitions). Every institutional measure in §6 — use-logging, the AI Governance Committee, training, independent audit, impact assessment, incident reporting — is **MAY**. §6(1) makes the *recording* of AI use conditional on the competent authority first choosing to prescribe it, so the evidentiary trail that would make the SHALLs auditable is optional at the institution's election. Deontic-Placement Debt has been observed *across* instruments; this is the same inversion *inside one*.
+3. **Unpaired against NCAIC.** The Guidelines anchor to NITI Aayog's *Responsible AI #AIFORALL* ([[07_Institutions/Corpus/NITI_Aayog/NITI_3]]) and make no reference to [[07_Institutions/Corpus/NCAIC/NCAIC_1_AI_Governance_Framework_for_India_2025_26]]. A national AI governance framework exists; this instrument does not reach for it.
+4. **A first-party regulator taxonomy of LLM failure modes** (§3.1, fourteen enumerated risks) written for a document-intensive quasi-judicial function, plus a 34-page Annexure-I of worked examples with erroneous AI outputs **marked in red**. Directly reusable in S6 and in teaching.
+
+**Provenance is the weak point, not content.** The document carries no date, no file number and no issuing authority block on its face — attribution rests on a single internal self-reference in §6 and the Annexure running header. ⚠#369 (HIGH) gates any citation of date, reference number or formal issuing authority.
+
+### RBI_17 — closes ⚠#344, does **not** close ⚠#335
+
+Admitted at **Tier C** with an announcement-only scoping note. The source is a one-page press release (2026-2027/64, 10 April 2026), **not** the Utkarsh 2029 framework.
+
+- **⚠#344 closed.** RBI_15 recorded the lineage Utkarsh 2022 → Utkarsh 2.0 → Utkarsh 2029 as *"a plausible but unconfirmed inference."* The press release states the succession expressly: *"In continuation of the above and building upon the progress made thereunder, the Bank has now prepared its Medium-term Strategy Framework Utkarsh 2029."* Confirmed from RBI's own text.
+- **⚠#335 remains open**, restated as ⚠#373. Paragraph I.10 — the provision [[07_Institutions/Corpus/RBI/RBI_14_Draft_Guidance_Model_Risk_Management_2026]] cites for its deferred AI-model commitment — is not reproduced in a press release that lists only six pillar headings.
+- **The dating sharpens the Deontic-Placement Debt reading.** Utkarsh 2029 was adopted **10 April 2026, two months before** RBI_14 (June 2026) pointed at it. The forward reference is to a document that already existed. RBI was not waiting on an unwritten strategy; it declined to legislate against a strategy already adopted.
+- **⚠#374 (HIGH) is a negative-claim guard**, not a finding: the node's `ai-explicit: false` frontmatter describes *the press release*. It must not be read back as "Utkarsh 2029 contains no AI content." Per the 2026-08-09 standing rule, a one-page announcement cannot support a claim about what the framework omits.
+
+### F144 — a testable practitioner manual that fails its own test
+
+Kenney's 300-page, 46-chapter manual states an unusually explicit verification apparatus (every chapter closes with *Sources and Verification*; every regulatory entry carries a *Primary sources* line "verified against primary sources as of August 2026"). Two findings follow:
+
+- **India coverage is data-protection-only.** §20.6 is a single DPDP Act entry. A word-boundary term sweep of the full 128,544-word extraction returns **zero** occurrences of *RBI*, *Reserve Bank*, *SEBI*, *IRDAI*, *MeitY*, *NITI*, *CERT-In*, *Aadhaar* or *UPI*. The entire object of P3 and P4 is invisible. ⚠#377 gates this pending inspection of Appendix J.
+- **A dated currency failure.** The entry calls the DPDP Rules *"anticipated 2026"* and treats final Rules as "the central 2026 milestone", marked *"Verified: August 2026."* The Rules were notified **13 November 2025** (G.S.R. 846(E)) per [[07_Institutions/Corpus/MeitY/MeitY_4_DPDP_Rules_2025]] — roughly nine months earlier. Clean, citable evidence of practitioner-literature drift against gazetted text.
+
+Its **structured regulatory entry template** (citation → *Jurisdiction / Effective / Regulator / Scope* → Applicability → Core obligations → Penalties and enforcement → Recent developments → Stack lens, plus *Practitioner note* and *Common failure pattern*) is worth a deliberate comparison against Format A. The *Common failure pattern* field has no Format A equivalent.
+
+### Non-corpus write — ISJ Digital Sovereignty special issue
+
+`digital-sovereignty-special-issue-isj-31.03.2026.pdf` is a **call for papers**, not corpus material. Logged instead as **Section 11A of [[02_Projects/P2_DPI_JSIS]]**: ISJ (A*, AIS Basket of 8), full paper deadline **31 March 2027, stated hard and non-extendable**; coordinating SE Petter Nielsen (Oslo). Four of five CFP topic clusters map onto P2's existing empirical base, and the CFP names India among its digital nation-state building cases. Four open questions raised (OQ-P2-ISJ-1 to -4), one for TAC. **No outlet decision taken.** Noted in passing: P2's Section 0 deadline (1 May 2026) and Phase 5 window (25–30 Sep 2026) are mutually inconsistent and both now past-dated — that file needs a state refresh.
+
+### Duplicates confirmed — reported only, zero editing action
+
+Per the standing duplicate protocol (2026-07-16):
+
+| Desktop file | Matches |
+|---|---|
+| `Powergrid Cyber guidelines Aug 26.pdf` | [[07_Institutions/Corpus/CEA/CEA_3_Cyber_Security_Power_Sector_Regulations_2026]] — same Gazette number CG-DL-E-05082026-275218, same No. 484, same 31 July 2026 notification. Filename is misleading: it is the CEA regulations, not a POWERGRID document |
+| `LI July 26/Offensive Cybersecurity AI Agents July 26.pdf` | [[04_Knowledge_Products/Wiki_Intake/F132_Mittelsteadt_et_al_Detecting_Offensive_Cyber_Agents_2026]] — same May 2026 report, image-only copy of `Detecting+Offensive+Cyber+Agents_+A+Detection+in+Depth+Approach.pdf` in the same folder |
+| `pment Report 2026 The Promise of Artificial Intelligence.pdf` | [[07_Institutions/Corpus/International/International_38_World_Bank_WDR2026_AI_Governance]] — already reported as a duplicate on 2026-08-09; still on Desktop |
+| `LI July 26/RBI Cybersecurity Jul 26.pdf` | [[07_Institutions/Corpus/RBI/RBI_8_Cybersecurity_Technology_Risk_Resilience_Assurance_2026]] — re-confirmed |
+| + nine `LI July 26/` files | F131, F133–F137, F140, F141 as listed above |
+
+### Own work product — source, not corpus (13 files)
+
+Fourteen LinkedIn carousels and manuscript working files, including `AI_Governance_Oversight_Carousel.pdf`/`.pptx`, `AI-Governance-RACI-Carousel.pdf`, `IRDAI-AI-Stack-Carousel.pdf`, `ISO-27001-42001-India-Compliance-Carousel.pdf`, `India-AI-Governance-Stack-Carousel.pdf`, `RBI_Data_Governance_AI_Practitioner_Carousel.pdf`, `RBI 7 Control Planes.pdf`, `Meta MeITY Aug 26.pdf`, `BFSI_V17_Amendment_Scaffold_REVISED.md`, `SOM_V20.docx`, `Suggestions IIM K Questionnaire V2.docx`. **`AI Decision Infrastructure V1.pdf` is now readable** (it was an iCloud placeholder on 2026-08-09) and is confirmed by OCR as Vivek's own "hidden layer of institutional control" carousel — consistent with what Vivek stated by paste in that session.
+
+`JSIS/` (11 Journal of Strategic Information Systems papers, incl. a ScienceDirect batch export) is P2 target-journal calibration reading, not corpus. `IDS Team/` is TIDCO/defence-corridor visit material. **`IDS Team/VDUT AI CASE.pdf` was read this session** (OCR; it returned no text on the 2026-08-09 pass): it is a business-development letter from VDUT-AI Private Limited to the incoming CDS. Defence-sector BD correspondence — **out of scope, and adjacent to the 🔴 CyberMesh defence-conflict gate.** Not written up.
+
+### Out of scope (11) and unreadable (6)
+
+Out of scope: travel itineraries, `Amazon FBA Export Business Plan`, `Aura Letter V1`, `Change of Name Guidelines.pdf`, `Vivek Name Vaidyanathan Affidavit.pdf`, `Zakaria Colony Renovation`, `SraVaani.jpeg`, a screenshot, and `academic-manuscript-review/` + `.zip` (a Claude skill package, not a document).
+
+**Six files remain unreadable iCloud placeholders** ("Resource deadlock avoided" — the same signature documented on 2026-08-09): `Thatcher tips.pdf`, `file_62B6B337-F289-4BD3-A853-20294739C5E7.pdf`, `file_83A3B1E5-F239-4D14-A3BB-33A905DC87BB.pdf`, `Srijan Vendor List.pdf`, `Amazon FBA Export Business Plan.docx`, `DEALERS of Srijan.docx`. **Host-side action needed** — open each in Finder to force download, then re-run intake. The two `file_*.pdf` items are unidentified and are the only genuine unknowns left on Desktop.
+
+### New VERIFY flags — #369–#378 (10 total, 3 HIGH)
+
+| # | Node | Severity | Flag |
+|---|---|---|---|
+| #369 | CGPDTM_1 | **HIGH** | No date, file number or issuing authority block on the face of the document. Do not cite date, reference or issuer until located on the CGPDTM/IPO site |
+| #370 | CGPDTM_1 | MEDIUM | Annexure-II (Checklist and declaration) referenced twice but absent from the file — likely the actual accountability mechanism, uncoded |
+| #371 | CGPDTM_1 | MEDIUM | In-force status not determinable; no commencement clause found |
+| #372 | CGPDTM_1 | LOW | "Cites no enabling statutory provision" is an absence claim over this file only; a covering notification may exist |
+| #373 | RBI_17 | **HIGH** | ⚠#335 **not** closed — paragraph I.10 of Utkarsh 2029 remains unsourced. Obtain the framework itself |
+| #374 | RBI_17 | **HIGH** | Negative-claim guard: `ai-explicit: false` describes the press release, not Utkarsh 2029 |
+| #375 | RBI_17 | MEDIUM | Pillar names transcribed from a press release, not the framework's contents page |
+| #376 | RBI_17 | LOW | Source PDF creation metadata corrupt (reads 1610); date taken from document text + press-release number |
+| #377 | F144 | MEDIUM | India absence claim rests on a full-document term sweep; confirm against Appendix J (index of every law and standard covered) before publishing |
+| #378 | F144 | LOW | Author's biography and reach figures are self-supplied and unverified |
+
+**Flags closed this session:** **⚠#344** (Utkarsh lineage — confirmed from RBI primary text at RBI_17).
+
+### Indexing pass completed
+
+"Instances in Corpus" entries added to [[05_Concepts/05_Concepts_Signature/Deontic_Bifurcation]], [[05_Concepts/05_Concepts_Signature/Regulatory_Parallelism]], [[05_Concepts/05_Concepts_Signature/Governance_Debt]], [[05_Concepts/05_Concepts_Signature/Evidentiary_Governance]], [[05_Concepts/05_Concepts_Standard/Human_Oversight]] and [[05_Concepts/05_Concepts_Standard/Contestability_Redress]]. `_Institutions_MOC.md`: **new CGPDTM row** added to the Research Corpus Mapping table; RBI row updated. `_Concepts_MOC.md` Cross-Concept Applications extended with the CGPDTM_1 intra-ministerial parallelism finding. [[04_Knowledge_Products/Wiki_Intake/Wiki_Intake_Index]] **not** updated — on inspection that file is a legacy queue listing eight early stubs and has never tracked the F-series at all (F001–F144 are absent from it). Adding F144 alone would have been misleading. **Housekeeping item raised:** either retire that file's Intake Queue table or rebuild it from the folder listing; it currently reads as authoritative and is not. New institution note [[07_Institutions/CGPDTM]] created.
+
+### Vault numbering after this session
+
+CGPDTM series opened at **CGPDTM_1** (next = CGPDTM_2) · RBI → **RBI_17** (next = **RBI_18**) · F-series → **F144** (next = **F145**) · VERIFY → **#378** (next = **#379**). Standing caveat unchanged: `ls` the folder, do not trust this table.
+
+---
